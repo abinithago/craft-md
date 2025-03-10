@@ -1,0 +1,502 @@
+#!/bin/bash
+cuda
+Thread for case_10.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_10.json.json'
+Thread for case_100.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_100.json.json'
+Thread for case_101.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_101.json.json'
+Thread for case_1017.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1017.json.json'
+Thread for case_1019.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1019.json.json'
+Thread for case_102.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_102.json.json'
+Thread for case_1021.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1021.json.json'
+Thread for case_103.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_103.json.json'
+Thread for case_1035.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1035.json.json'
+Thread for case_104.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_104.json.json'
+Thread for case_1041.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1041.json.json'
+Thread for case_1045.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1045.json.json'
+Thread for case_1052.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1052.json.json'
+Thread for case_1056.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1056.json.json'
+Thread for case_106.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_106.json.json'
+Thread for case_107.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_107.json.json'
+Thread for case_1071.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1071.json.json'
+Thread for case_1086.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1086.json.json'
+Thread for case_1088.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1088.json.json'
+Thread for case_109.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_109.json.json'
+Thread for case_1090.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1090.json.json'
+Thread for case_1095.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1095.json.json'
+Thread for case_11.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_11.json.json'
+Thread for case_1106.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1106.json.json'
+Thread for case_1111.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1111.json.json'
+Thread for case_1117.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1117.json.json'
+Thread for case_112.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_112.json.json'
+Thread for case_1123.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1123.json.json'
+Thread for case_113.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_113.json.json'
+Thread for case_1132.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1132.json.json'
+Thread for case_1137.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1137.json.json'
+Thread for case_1142.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1142.json.json'
+Thread for case_1143.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1143.json.json'
+Thread for case_1145.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1145.json.json'
+Thread for case_1147.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1147.json.json'
+Thread for case_115.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_115.json.json'
+Thread for case_1150.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1150.json.json'
+Thread for case_1156.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1156.json.json'
+Thread for case_1165.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1165.json.json'
+Thread for case_1166.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1166.json.json'
+Thread for case_117.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_117.json.json'
+Thread for case_1175.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1175.json.json'
+Thread for case_1177.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1177.json.json'
+Thread for case_118.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_118.json.json'
+Thread for case_1187.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1187.json.json'
+Thread for case_119.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_119.json.json'
+Thread for case_1190.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1190.json.json'
+Thread for case_1197.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1197.json.json'
+Thread for case_1199.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1199.json.json'
+Thread for case_12.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_12.json.json'
+Thread for case_1202.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1202.json.json'
+Thread for case_121.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_121.json.json'
+Thread for case_1215.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1215.json.json'
+Thread for case_1217.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1217.json.json'
+Thread for case_1219.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1219.json.json'
+Thread for case_123.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_123.json.json'
+Thread for case_1233.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1233.json.json'
+Thread for case_1235.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1235.json.json'
+Thread for case_124.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_124.json.json'
+Thread for case_1250.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1250.json.json'
+Thread for case_1253.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_1253.json.json'
+Thread for case_126.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_126.json.json'
+Thread for case_127.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_127.json.json'
+Thread for case_128.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_128.json.json'
+Thread for case_13.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_13.json.json'
+Thread for case_131.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_131.json.json'
+Thread for case_132.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_132.json.json'
+Thread for case_134.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_134.json.json'
+Thread for case_135.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_135.json.json'
+Thread for case_137.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_137.json.json'
+Thread for case_139.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_139.json.json'
+Thread for case_14.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_14.json.json'
+Thread for case_140.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_140.json.json'
+Thread for case_141.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_141.json.json'
+Thread for case_143.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_143.json.json'
+Thread for case_144.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_144.json.json'
+Thread for case_145.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_145.json.json'
+Thread for case_146.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_146.json.json'
+Thread for case_147.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_147.json.json'
+Thread for case_148.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_148.json.json'
+Thread for case_149.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_149.json.json'
+Thread for case_150.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_150.json.json'
+Thread for case_151.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_151.json.json'
+Thread for case_152.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_152.json.json'
+Thread for case_155.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_155.json.json'
+Thread for case_156.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_156.json.json'
+Thread for case_158.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_158.json.json'
+Thread for case_16.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_16.json.json'
+Thread for case_161.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_161.json.json'
+Thread for case_162.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_162.json.json'
+Thread for case_163.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_163.json.json'
+Thread for case_164.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_164.json.json'
+Thread for case_165.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_165.json.json'
+Thread for case_167.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_167.json.json'
+Thread for case_168.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_168.json.json'
+Thread for case_17.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_17.json.json'
+Thread for case_170.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_170.json.json'
+Thread for case_171.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_171.json.json'
+Thread for case_174.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_174.json.json'
+Thread for case_177.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_177.json.json'
+Thread for case_180.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_180.json.json'
+Thread for case_181.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_181.json.json'
+Thread for case_182.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_182.json.json'
+Thread for case_186.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_186.json.json'
+Thread for case_187.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_187.json.json'
+Thread for case_188.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_188.json.json'
+Thread for case_189.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_189.json.json'
+Thread for case_19.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_19.json.json'
+Thread for case_190.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_190.json.json'
+Thread for case_191.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_191.json.json'
+Thread for case_195.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_195.json.json'
+Thread for case_196.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_196.json.json'
+Thread for case_197.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_197.json.json'
+Thread for case_198.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_198.json.json'
+Thread for case_199.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_199.json.json'
+Thread for case_2.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_2.json.json'
+Thread for case_20.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_20.json.json'
+Thread for case_200.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_200.json.json'
+Thread for case_203.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_203.json.json'
+Thread for case_205.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_205.json.json'
+Thread for case_206.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_206.json.json'
+Thread for case_208.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_208.json.json'
+Thread for case_21.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_21.json.json'
+Thread for case_210.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_210.json.json'
+Thread for case_211.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_211.json.json'
+Thread for case_212.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_212.json.json'
+Thread for case_213.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_213.json.json'
+Thread for case_215.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_215.json.json'
+Thread for case_22.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_22.json.json'
+Thread for case_223.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_223.json.json'
+Thread for case_229.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_229.json.json'
+Thread for case_230.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_230.json.json'
+Thread for case_232.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_232.json.json'
+Thread for case_236.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_236.json.json'
+Thread for case_238.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_238.json.json'
+Thread for case_24.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_24.json.json'
+Thread for case_240.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_240.json.json'
+Thread for case_25.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_25.json.json'
+Thread for case_250.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_250.json.json'
+Thread for case_251.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_251.json.json'
+Thread for case_252.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_252.json.json'
+Thread for case_254.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_254.json.json'
+Thread for case_257.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_257.json.json'
+Thread for case_258.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_258.json.json'
+Thread for case_26.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_26.json.json'
+Thread for case_267.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_267.json.json'
+Thread for case_268.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_268.json.json'
+Thread for case_270.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_270.json.json'
+Thread for case_271.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_271.json.json'
+Thread for case_273.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_273.json.json'
+Thread for case_274.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_274.json.json'
+Thread for case_276.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_276.json.json'
+Thread for case_29.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_29.json.json'
+Thread for case_293.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_293.json.json'
+Thread for case_297.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_297.json.json'
+Thread for case_298.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_298.json.json'
+Thread for case_3.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_3.json.json'
+Thread for case_30.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_30.json.json'
+Thread for case_300.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_300.json.json'
+Thread for case_33.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_33.json.json'
+Thread for case_35.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_35.json.json'
+Thread for case_36.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_36.json.json'
+Thread for case_37.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_37.json.json'
+Thread for case_4.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_4.json.json'
+Thread for case_40.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_40.json.json'
+Thread for case_41.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_41.json.json'
+Thread for case_42.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_42.json.json'
+Thread for case_43.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_43.json.json'
+Thread for case_44.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_44.json.json'
+Thread for case_46.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_46.json.json'
+Thread for case_47.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_47.json.json'
+Thread for case_48.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_48.json.json'
+Thread for case_5.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_5.json.json'
+Thread for case_51.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_51.json.json'
+Thread for case_52.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_52.json.json'
+Thread for case_53.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_53.json.json'
+Thread for case_55.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_55.json.json'
+Thread for case_58.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_58.json.json'
+Thread for case_590.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_590.json.json'
+Thread for case_592.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_592.json.json'
+Thread for case_593.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_593.json.json'
+Thread for case_594.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_594.json.json'
+Thread for case_595.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_595.json.json'
+Thread for case_599.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_599.json.json'
+Thread for case_6.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_6.json.json'
+Thread for case_60.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_60.json.json'
+Thread for case_600.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_600.json.json'
+Thread for case_601.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_601.json.json'
+Thread for case_602.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_602.json.json'
+Thread for case_605.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_605.json.json'
+Thread for case_61.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_61.json.json'
+Thread for case_610.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_610.json.json'
+Thread for case_619.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_619.json.json'
+Thread for case_62.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_62.json.json'
+Thread for case_620.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_620.json.json'
+Thread for case_625.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_625.json.json'
+Thread for case_626.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_626.json.json'
+Thread for case_627.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_627.json.json'
+Thread for case_628.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_628.json.json'
+Thread for case_64.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_64.json.json'
+Thread for case_642.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_642.json.json'
+Thread for case_643.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_643.json.json'
+Thread for case_645.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_645.json.json'
+Thread for case_648.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_648.json.json'
+Thread for case_65.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_65.json.json'
+Thread for case_650.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_650.json.json'
+Thread for case_659.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_659.json.json'
+Thread for case_66.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_66.json.json'
+Thread for case_661.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_661.json.json'
+Thread for case_662.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_662.json.json'
+Thread for case_666.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_666.json.json'
+Thread for case_669.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_669.json.json'
+Thread for case_67.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_67.json.json'
+Thread for case_674.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_674.json.json'
+Thread for case_675.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_675.json.json'
+Thread for case_676.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_676.json.json'
+Thread for case_678.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_678.json.json'
+Thread for case_679.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_679.json.json'
+Thread for case_682.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_682.json.json'
+Thread for case_688.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_688.json.json'
+Thread for case_690.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_690.json.json'
+Thread for case_696.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_696.json.json'
+Thread for case_697.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_697.json.json'
+Thread for case_698.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_698.json.json'
+Thread for case_699.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_699.json.json'
+Thread for case_7.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_7.json.json'
+Thread for case_701.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_701.json.json'
+Thread for case_703.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_703.json.json'
+Thread for case_709.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_709.json.json'
+Thread for case_710.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_710.json.json'
+Thread for case_711.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_711.json.json'
+Thread for case_714.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_714.json.json'
+Thread for case_716.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_716.json.json'
+Thread for case_717.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_717.json.json'
+Thread for case_719.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_719.json.json'
+Thread for case_72.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_72.json.json'
+Thread for case_720.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_720.json.json'
+Thread for case_724.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_724.json.json'
+Thread for case_727.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_727.json.json'
+Thread for case_729.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_729.json.json'
+Thread for case_73.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_73.json.json'
+Thread for case_735.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_735.json.json'
+Thread for case_745.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_745.json.json'
+Thread for case_749.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_749.json.json'
+Thread for case_75.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_75.json.json'
+Thread for case_752.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_752.json.json'
+Thread for case_754.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_754.json.json'
+Thread for case_755.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_755.json.json'
+Thread for case_756.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_756.json.json'
+Thread for case_759.json is dispatched.
+[Errno 2] No such file or directory: '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/results/gpt4_1106/baseline/case_759.json.json'

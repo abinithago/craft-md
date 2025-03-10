@@ -1,0 +1,373 @@
+{
+    "case_vignette": "A 56-year-old woman comes to the emergency department because of a 3-day history of malaise, dysuria, blurred vision, and a painful, itchy rash. The rash began on her chest and face and spread to her limbs, palms, and soles. One week ago, she was diagnosed with trigeminal neuralgia and started on a new medicine. She appears ill. Her temperature is 38\u00b0C (100.4\u00b0F) and pulse is 110/min. Physical examination shows conjunctival injection and ulceration on the tongue and palate. There is no lymphadenopathy. Examination of the skin shows confluent annular, erythematous macules, bullae, and desquamation of the palms and soles. The epidermis separates when the skin is lightly stroked. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Stevens-Johnson syndrome.",
+        "vignette_frq": "Stevens-Johnson Syndrome (SJS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been feeling unwell with pain and itching, experiencing problems with urination, blurred vision, and a painful, itchy rash that has spread from my chest and face to my limbs, palms, and soles."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 3 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent new sexual contacts or a new partner?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent new sexual contacts or a new partner."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a fever or any flu-like symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a fever with a temperature of 38\u00b0C (100.4\u00b0F)."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any new medication or dietary changes recently before the symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started on a new medicine for trigeminal neuralgia about a week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "What medication did you start taking for your trigeminal neuralgia?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I don't know the specific name of the medication I started taking for my trigeminal neuralgia."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any similar symptoms in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any similar symptoms in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Stevens-Johnson syndrome"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Stevens-Johnson syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Stevens-Johnson syndrome",
+        "singleturn_mcq": "Final Diagnosis: Stevens-Johnson syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Secondary Syphilis",
+        "summarized_conversation": "A patient reports feeling unwell with symptoms including pain and itching, problems with urination, blurred vision, and a painful, itchy rash. This rash began on the patient's chest and face and has spread to the limbs, palms, and soles over the past 3 days. The patient affirms they have not had any recent new sexual contacts or a new partner. The patient is experiencing a fever, with a temperature recorded at 38\u00b0C (100.4\u00b0F). The patient recently started a new medication for trigeminal neuralgia about a week ago but is unsure of the specific name of the medicine. The patient denies having experienced any similar symptoms in the past.",
+        "summarized_mcq": "Stevens-Johnson syndrome",
+        "summarized_frq": "Drug eruption (drug-induced hypersensitivity syndrome)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Stevens-Johnson syndrome",
+        "vignette_frq": "Stevens-Johnson Syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling generally unwell and have been experiencing painful urination, blurred vision, and a painful, itchy rash that started on my chest and face and has spread to my limbs, palms, and soles."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 3 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or chronic health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with trigeminal neuralgia one week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started any new medications recently for your trigeminal neuralgia or any other condition?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started on a new medicine for trigeminal neuralgia one week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "What medication were you prescribed for the trigeminal neuralgia?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't recall the specific name of the medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any recent changes in your sexual activity or new sexual partners?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any changes in my sexual activity or new sexual partners."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any new, coin-shaped lesions on your rash?"
+            },
+            {
+                "role": "user",
+                "content": "No, the rash consists of confluent annular, erythematous macules, bullae, and desquamation of the palms and soles."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Stevens-Johnson Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Stevens-Johnson syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Stevens-Johnson Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Stevens-Johnson syndrome",
+        "singleturn_frq": "Final Diagnosis: Secondary Syphilis",
+        "summarized_conversation": "A patient has reported feeling generally unwell, along with symptoms such as painful urination, blurred vision, and a painful, itchy rash. This rash began on the chest and face and has spread to the limbs, palms, and soles over the course of three days. The patient was diagnosed with trigeminal neuralgia one week ago and commenced a new medication at that time, although the specific name of this medication is not recalled by the patient. The patient denies any recent changes in sexual activity or new sexual partners. The presentation of the rash includes confluent annular, erythematous macules, bullae, and desquamation of the palms and soles.",
+        "summarized_mcq": "Stevens-Johnson syndrome",
+        "summarized_frq": "Stevens-Johnson syndrome"
+    },
+    "trial_2": {
+        "vignette_mcq": "Stevens-Johnson syndrome",
+        "vignette_frq": "Stevens-Johnson syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling generally unwell for a few days, experiencing discomfort when urinating, blurred vision, and an itchy, painful rash that started on my chest and face and spread to my limbs, palms, and soles."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently had any new sexual contacts or a history of unprotected sex?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any new sexual contacts or a history of unprotected sex recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or have you started any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started a new medication a week ago for trigeminal neuralgia."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you please specify the name of the medication you started taking for trigeminal neuralgia?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't recall the specific name of the medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any previous episodes like this one, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first occurrence of these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any autoimmune diseases or something similar in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have a history of autoimmune diseases or similar conditions in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Stevens-Johnson syndrome"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Stevens-Johnson syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Stevens-Johnson syndrome",
+        "singleturn_mcq": "**Final Diagnosis:** Stevens-Johnson syndrome",
+        "singleturn_frq": "Final Diagnosis: Secondary Syphilis",
+        "summarized_conversation": "A patient has reported feeling unwell for several days, including symptoms of discomfort during urination, blurred vision, and an itchy, painful rash. The rash began on their chest and face and has spread to the limbs, palms, and soles. They confirm there have been no new sexual contacts or a history of unprotected sex recently. The patient started a new medication a week ago for trigeminal neuralgia but does not recall the specific name of the medication. This is the first time experiencing these symptoms. Furthermore, the patient does not have a history of autoimmune diseases or similar conditions in their family.",
+        "summarized_mcq": "Stevens-Johnson syndrome",
+        "summarized_frq": "Drug eruption (specifically, a possible fixed drug eruption related to the medication for trigeminal neuralgia)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Stevens-Johnson syndrome",
+        "vignette_frq": "Stevens-Johnson syndrome (SJS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing malaise, dysuria, blurred vision, and a painful, itchy rash that started on my chest and face and spread to my limbs, palms, and soles."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any new lesions or changes in the rash over time?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the rash has developed into reddish spots, blisters, and there is peeling of the skin on my palms and soles."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or have you started any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started a new medicine one week ago for trigeminal neuralgia."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you specify the name of the medication you started for trigeminal neuralgia?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't recall the specific name of the medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any fever or flu-like symptoms along with your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a fever with a temperature of 38\u00b0C (100.4\u00b0F)."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar symptoms or serious reactions to medications in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar symptoms or serious reactions to medications in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Stevens-Johnson Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Stevens-Johnson syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Stevens-Johnson Syndrome",
+        "singleturn_mcq": "Final Diagnosis: DRESS syndrome",
+        "singleturn_frq": "Final Diagnosis: Secondary Syphilis",
+        "summarized_conversation": "A patient has been experiencing a range of symptoms including malaise, dysuria, blurred vision, and a painful, itchy rash. This rash initiated on the patient's chest and face, then spread to the limbs, palms, and soles. It developed into reddish spots and blisters, accompanied by peeling skin on the palms and soles. Symptoms started a week after the patient began a new medication for trigeminal neuralgia, though the patient cannot recall the specific name of the medicine. The patient is also experiencing a fever, recorded at a temperature of 38\u00b0C (100.4\u00b0F). There is no history of similar symptoms or serious reactions to medications in the past for this patient.",
+        "summarized_mcq": "Stevens-Johnson syndrome",
+        "summarized_frq": "Stevens-Johnson Syndrome (SJS)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Stevens-Johnson syndrome",
+        "vignette_frq": "Stevens-Johnson syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling unwell with malaise, pain and itching when I urinate, blurred vision, and a painful, itchy rash on my body."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 3 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any chronic diseases, such as diabetes or autoimmune disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with trigeminal neuralgia one week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started any new medications for your trigeminal neuralgia recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started on a new medicine for trigeminal neuralgia one week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you tell me the name of the medication you started for your trigeminal neuralgia?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't remember the name of the medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had similar symptoms in the past before starting this medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar symptoms before starting this medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any allergies to medications that you are aware of?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not aware of any medication allergies."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Drug reaction"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Stevens-Johnson syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Drug eruption",
+        "singleturn_mcq": "Final Diagnosis: DRESS syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Herpes Zoster",
+        "summarized_conversation": "A patient has recently been experiencing malaise, pain and itching when urinating, blurred vision, and a painful, itchy rash on their body, persisting for about 3 days. The patient was diagnosed with trigeminal neuralgia one week ago and subsequently began a new medication for this condition, although the name of the medication is not recalled. The patient has not experienced similar symptoms prior to starting this medication and is not aware of any medication allergies.",
+        "summarized_mcq": "Stevens-Johnson syndrome",
+        "summarized_frq": "Drug reaction or allergy to the new medication."
+    }
+}

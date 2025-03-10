@@ -52,7 +52,7 @@ def convert_to_summarized(pat_dialogues):
 def extract_diagnosis_name(diagnosis_para):
     convo = [{"role":"system","content":get_extract_diagnosis_name_prompt(diagnosis_para)}]
     response = call_gpt4_api(convo)
-    return response
+    return response or ""
 
 # evaluate diagnosis == correct answer
 def helper_eval_responses(res):

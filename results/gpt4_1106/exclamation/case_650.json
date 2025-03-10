@@ -1,0 +1,309 @@
+{
+    "case_vignette": "A 28-year-old woman is brought to the emergency department 30 minutes after being involved in a high-speed motor vehicle collision in which she was the unrestrained driver! On arrival, she is semiconscious and incoherent! She has shortness of breath and is cyanotic! Her pulse is 112/min, respirations are 59/min, and blood pressure is 128/89 mm Hg! Examination shows a 3-cm (1!2-in) laceration on the forehead and multiple abrasions over the thorax and abdomen! There is crepitation on palpation of the thorax on the right! Auscultation of the lung shows decreased breath sounds on the right side! A crunching sound synchronous with the heartbeat is heard best over the precordium! There is dullness on percussion of the right hemithorax! The lips and tongue have a bluish discoloration! There is an open femur fracture on the left! The remainder of the examination shows no abnormalities! Arterial blood gas analysis on room air shows:\npH 7!31\nPCO2 55 mm Hg\nPO2 42 mm Hg\nHCO3- 22 mEq/L\nO2 saturation 76%\nThe patient is intubated and mechanically ventilated! Infusion of 0!9% saline is begun! ",
+    "question": "Which  is the most likely diagnosis?\"",
+    "trial_0": {
+        "vignette_mcq": "Pulmonary embolism",
+        "vignette_frq": "Tension pneumothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "Hello! I am experiencing shortness of breath, a bluish discoloration of my lips and tongue, and I am also feeling less conscious and coherent."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 30 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or health changes leading up to these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was involved in a high-speed motor vehicle collision."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chest pain or discomfort following the accident?"
+            },
+            {
+                "role": "user",
+                "content": "I don't specifically feel chest pain, but I do have multiple abrasions over my chest area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any lung or heart conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with any lung or heart conditions in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic pneumothorax"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pulmonary embolism",
+        "multiturn_frq": "Final Diagnosis: Traumatic pneumothorax",
+        "singleturn_mcq": "Final Diagnosis: Pulmonary embolism",
+        "singleturn_frq": "**Final Diagnosis:** Hypoxemia",
+        "summarized_conversation": "A patient approached with complaints of shortness of breath, a bluish discoloration of their lips and tongue, and decreased levels of consciousness and coherence. These symptoms have been present for approximately 30 minutes. The patient was recently involved in a high-speed motor vehicle collision. The individual does not report any specific chest pain but has sustained multiple abrasions over the chest area. The patient has no past medical history of lung or heart conditions.",
+        "summarized_mcq": "Myocardial rupture",
+        "summarized_frq": "Traumatic pneumothorax"
+    },
+    "trial_1": {
+        "vignette_mcq": "Bronchial rupture",
+        "vignette_frq": "Tension pneumothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am feeling very short of breath and have a bluish color on my lips and tongue."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 30 minutes since my car accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Were there any chest injuries during the accident?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have multiple abrasions over my chest and there is a crunching sound when touching it."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any difficulty in breathing when lying down or any swelling in your legs or feet recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any difficulty breathing specifically when lying down or swelling in my legs or feet recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Flail Chest"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Bronchial rupture",
+        "multiturn_frq": "**Final Diagnosis:** Pneumothorax",
+        "singleturn_mcq": "Pulmonary embolism",
+        "singleturn_frq": "**Final Diagnosis:** Cyanosis",
+        "summarized_conversation": "A patient reports feeling very short of breath, along with a bluish color on their lips and tongue. These symptoms have been present for about 30 minutes and started after a car accident. The patient also mentions multiple abrasions over their chest and a crunching sound when touching it. The patient hasn't noticed any difficulty in breathing specifically when lying down or any recent swelling in the legs or feet.",
+        "summarized_mcq": "Bronchial rupture",
+        "summarized_frq": "Flail chest with associated pulmonary contusion."
+    },
+    "trial_2": {
+        "vignette_mcq": "Pulmonary embolism",
+        "vignette_frq": "Tension pneumothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have shortness of breath, feel bluish around my lips and tongue, and I'm confused and not fully conscious."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I am 28 years old and there's no information about me currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or chronic medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information about any allergies or chronic medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled to a high-altitude area or been in an environment with reduced oxygen?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not recently traveled to a high-altitude area or been in an environment with reduced oxygen."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent exposure to chemicals, fumes, or smoke?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent exposure to chemicals, fumes, or smoke."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a family history of any heart or lung diseases?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided about a family history of heart or lung diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Carbon monoxide poisoning"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pulmonary embolism",
+        "multiturn_frq": "**Final Diagnosis:** Acute respiratory distress syndrome (ARDS)",
+        "singleturn_mcq": "Final Diagnosis: Pulmonary embolism",
+        "singleturn_frq": "**Final Diagnosis:** Hypoxia",
+        "summarized_conversation": "A 28-year-old patient presents with shortness of breath, bluish discoloration around the lips and tongue, and a state of confusion with impaired consciousness. The patient is not currently taking any medications, and there is no information about allergies or chronic medical conditions. The patient has not recently traveled to high-altitude areas or been exposed to environments with reduced oxygen levels. Additionally, there are no recent exposures to chemicals, fumes, or smoke reported. There is no provided information regarding a family history of heart or lung diseases.",
+        "summarized_mcq": "Pulmonary embolism",
+        "summarized_frq": "Hypoxia"
+    },
+    "trial_3": {
+        "vignette_mcq": "Bronchial rupture",
+        "vignette_frq": "Tension pneumothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing shortness of breath, my lips and tongue have turned bluish, and I have a deep cut on my forehead and some scrapes on my chest and abdomen."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms start and what were you doing when they began?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms started about 30 minutes ago after I was in a high-speed car accident where I was the driver."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any pre-existing medical conditions and I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any loss of consciousness since the accident?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am semi-conscious and not fully aware or coherent."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic shock"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Myocardial rupture",
+        "multiturn_frq": "**Final Diagnosis:** Traumatic hypoxia",
+        "singleturn_mcq": "Final Diagnosis: Pulmonary embolism",
+        "singleturn_frq": "**Final Diagnosis:** Hypoxia",
+        "summarized_conversation": "A patient is experiencing shortness of breath, displaying bluish discoloration of their lips and tongue, and presents with a deep cut on their forehead along with some scrapes on their chest and abdomen. These symptoms initiated approximately 30 minutes ago following a high-speed car accident in which the patient was the driver. The patient reports no pre-existing medical conditions and is not on any medications. Currently, the patient is semi-conscious and lacking full awareness and coherence.",
+        "summarized_mcq": "Aortic dissection",
+        "summarized_frq": "Traumatic injury with associated hypoxia and possible head injury."
+    },
+    "trial_4": {
+        "vignette_mcq": "Bronchial rupture",
+        "vignette_frq": "Tension pneumothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing shortness of breath, feeling incoherent, and my lips and tongue have turned bluish."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 30 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing heart or lung conditions, or any other significant medical history?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any existing heart or lung conditions or any other significant medical history to mention."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to any allergens, chemicals, or possibly been in an environment with low oxygen levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been exposed to any allergens, chemicals, or environments with low oxygen levels recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you taken any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications, nor have I taken any new medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any trauma or injury recently, particularly to the head or chest?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was in a high-speed car accident recently where I sustained a laceration on my forehead and multiple abrasions over my chest and abdomen."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic pneumothorax."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pulmonary embolism",
+        "multiturn_frq": "**Final Diagnosis:** Traumatic pneumothorax",
+        "singleturn_mcq": "Pulmonary embolism",
+        "singleturn_frq": "**Final Diagnosis:** Hypoxia",
+        "summarized_conversation": "A patient presents with shortness of breath, incoherence, and cyanosis of the lips and tongue, having experienced these symptoms for approximately 30 minutes. The patient reports no existing heart or lung conditions or any other significant medical history. There has been no recent exposure to allergens, chemicals, or environments with low oxygen levels. The patient is not currently on any medications and has not taken any new medications lately. However, the patient was involved in a high-speed car accident recently, where they sustained a laceration on the forehead and multiple abrasions over the chest and abdomen.",
+        "summarized_mcq": "Pulmonary embolism",
+        "summarized_frq": "Pulmonary contusion"
+    }
+}

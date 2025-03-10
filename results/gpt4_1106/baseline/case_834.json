@@ -1,0 +1,293 @@
+{
+    "case_vignette": "A 33-year-old man comes to the emergency department because of repeated episodes of severe headache for the past 3 days. He is currently having his 2nd episode of the day. He usually has his first episode in the mornings. The pain is severe and localized to his right forehead and right eye. He had similar symptoms last summer. He works as an analyst for a large hedge fund management company and spends the majority of his time at the computer. He has been under a lot of stress because of overdue paperwork. He also has chronic shoulder pain. He has been using indomethacin every 6 hours for the pain but has had no relief. He has smoked one pack of cigarettes daily for 15 years. He appears restless. Vital signs are within normal limits. Physical examination shows drooping of the right eyelid, tearing of the right eye, and rhinorrhea. The right pupil is 2 mm and the left pupil is 4 mm. There is localized tenderness to his right supraspinatus muscle. The remainder of the examination shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing severe headaches, mainly on the right side of my forehead and around my right eye, and this has been happening repeatedly for the past 3 days."
+            },
+            {
+                "role": "assistant",
+                "content": "How long do these headache episodes last, and how often do they occur during the day?"
+            },
+            {
+                "role": "user",
+                "content": "I am currently having my second episode today, and I usually have my first episode in the mornings."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these headaches come with any other symptoms like nausea, sensitivity to light, or visual disturbances?"
+            },
+            {
+                "role": "user",
+                "content": "The headaches come with drooping of my right eyelid, tearing of my right eye, and a runny nose, but I haven't experienced nausea, sensitivity to light, or visual disturbances."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar types of headaches in the past? If yes, how often and over what duration?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had similar symptoms last summer."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of similar headache disorders or any other neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information on a family history of similar headache disorders or any other neurological conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cluster Headaches."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "singleturn_mcq": "Final Diagnosis: Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster headaches",
+        "summarized_conversation": "A patient reports suffering from severe headaches primarily on the right side of the forehead and around the right eye, which have been occurring repeatedly over the past 3 days. Currently, the patient is experiencing the second episode of the day, typically with the first episode occurring in the mornings. Accompanying symptoms include drooping of the right eyelid, tearing of the right eye, and a runny nose. However, the patient has not experienced nausea, sensitivity to light, or visual disturbances. The patient also experienced similar symptoms the previous summer. Information on a family history of similar headache disorders or other neurological conditions is unavailable.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headache"
+    },
+    "trial_1": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing severe headaches that have been occurring repeatedly for the last 3 days, with pain concentrated on my right forehead and right eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any associated nausea, vomiting, or sensitivity to light?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any nausea, vomiting, or sensitivity to light."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you notice any visual disturbances or changes in vision associated with the headaches?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any visual disturbances or changes in vision with the headaches."
+            },
+            {
+                "role": "assistant",
+                "content": "How would you describe the nature of the pain: is it throbbing, stabbing, or constant pressure?"
+            },
+            {
+                "role": "user",
+                "content": "The pain is severe and localized, but I did not specify the exact nature like throbbing, stabbing, or constant pressure in my description."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the pain on one side of your head typically, or does it affect both sides?"
+            },
+            {
+                "role": "user",
+                "content": "The pain is typically on one side of my head, specifically the right side."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar headaches in the past?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had similar symptoms last summer."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of migraines or severe headaches?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any family history of migraines or severe headaches."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cluster headaches."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster headache",
+        "singleturn_mcq": "Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster headaches",
+        "summarized_conversation": "A patient has been suffering from severe headaches, recurring over the past three days. The pain is primarily localized on their right forehead and right eye. The patient denies experiencing any nausea, vomiting, or sensitivity to light and has not observed any visual disturbances or changes in vision associated with the headaches. While the pain is severe and localized, the patient has not specified if it is throbbing, stabbing, or involves constant pressure. The symptoms are typically unilateral, affecting only the right side of the head. The patient recalls having similar symptoms the previous summer but has not reported any family history of migraines or severe headaches.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headaches"
+    },
+    "trial_2": {
+        "vignette_mcq": "Cluster headache.",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing severe headache localized to my right forehead and right eye, and I've noticed drooping of my right eyelid, tearing of my right eye, and a runny nose."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms and how frequently do they occur?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for the past 3 days, and today I'm having my second episode. I usually have the first episode in the mornings."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these headache episodes last a few minutes or do they continue for hours?"
+            },
+            {
+                "role": "user",
+                "content": "You did not provide information about the duration of the headache episodes. Please provide relevant information for an accurate response."
+            },
+            {
+                "role": "assistant",
+                "content": "The episodes typically last for about 45 minutes to an hour."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "Final Diagnosis: Cluster Headache",
+        "singleturn_mcq": "Final Diagnosis: Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster headache",
+        "summarized_conversation": "A patient reports experiencing a severe headache localized to the right forehead and right eye, accompanied by drooping of the right eyelid, tearing of the right eye, and a runny nose. These symptoms have been present for the past 3 days, and today marks the patient's second episode, typically with the first episode occurring in the mornings. The patient did not provide information regarding the duration of the headache episodes, which is necessary for a more accurate response.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headache"
+    },
+    "trial_3": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am currently experiencing severe headaches localized to my right forehead and right eye, drooping of my right eyelid, tearing from my right eye, and a runny nose."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms and how frequently do they occur?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past 3 days, and today I am having my second episode of the day. I usually have my first episode in the mornings."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the episodes last for a specific duration, and do they occur at predictable times?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the episodes usually occur in the mornings, and I am currently having my second episode of the day."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of migraine or cluster headaches, or is there a family history of such conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I had similar symptoms last summer, but I haven't mentioned any specific personal or family history of migraine or cluster headaches."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cluster Headaches"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "singleturn_mcq": "Final Diagnosis: Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "summarized_conversation": "A patient is currently experiencing severe headaches localized to their right forehead and right eye. Additionally, the patient has noted drooping of their right eyelid, tearing from their right eye, and a runny nose. These symptoms have been persistent for the past 3 days. Today, the patient is undergoing their second episode of the day, with previous episodes typically occurring in the mornings. The patient had similar symptoms last summer, but has not mentioned any personal or family history of migraine or cluster headaches.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headache"
+    },
+    "trial_4": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having repeated episodes of severe headaches for the past 3 days, mostly severe pain on my right forehead and right eye, and it's my 2nd episode today. I also have drooping of my right eyelid, tearing from my right eye, and a runny nose."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar episodes in the past, and how long do these attacks usually last?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had similar episodes last summer, and each episode of headache typically lasts for about 1 hour."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies, and are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not taking any medications specifically for allergies, but I've been using indomethacin every 6 hours for pain, which hasn't been providing relief."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of similar symptoms or any neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of similar symptoms or neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cluster Headaches."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "singleturn_mcq": "Final Diagnosis: Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "summarized_conversation": "A patient has been experiencing repeated episodes of severe headaches for the past 3 days. These episodes involve severe pain localized on the right side of the forehead and right eye, occurring twice today alone. Furthermore, the patient reports drooping of the right eyelid, tearing from the right eye, and a runny nose. Similar episodes were noted last summer, each headache episode typically lasting about 1 hour. The patient has been using indomethacin every 6 hours for pain relief, although this treatment has not been effective. The patient has no known family history of similar symptoms or neurological disorders.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headaches"
+    }
+}

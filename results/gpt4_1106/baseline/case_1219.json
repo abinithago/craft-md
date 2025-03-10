@@ -1,0 +1,413 @@
+{
+    "case_vignette": "A 23-year-old man comes to the emergency department for 2 days of severe headaches. The pain is most intense on his left forehead and eye. He had similar symptoms last summer. He has been taking indomethacin every 6 hours for the last 24 hours but has not had any relief. He has smoked 1 pack of cigarettes daily for the past 5 years. He works as an accountant and describes his work as very stressful. Physical examination shows drooping of the left eyelid, tearing of the left eye, and rhinorrhea. The left pupil is 2 mm and the right pupil is 4 mm. There is localized tenderness along the right supraspinatus muscle. The remainder of the examination shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing severe headaches, particularly intense on my left forehead and eye, drooping of my left eyelid, tearing of my left eye, and a runny nose."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have these symptoms been occurring, and how frequently do they happen?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms have been occurring for 2 days this time, but I had similar symptoms last summer as well."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the headache attacks last from 15 minutes to 3 hours when they occur?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about the exact duration, but the headaches have been severe."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you notice any triggers that coincide with the start of these headache episodes?"
+            },
+            {
+                "role": "user",
+                "content": "No specific triggers have been mentioned, but I do work in a very stressful environment."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a similar history of headaches or other neurological issues?"
+            },
+            {
+                "role": "user",
+                "content": "No family history has been mentioned regarding similar headaches or neurological issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cluster Headache"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "singleturn_mcq": "Final Diagnosis: Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "summarized_conversation": "A patient reports experiencing severe headaches, specifically intense pain on the left side of the forehead and eye. The patient also notes a drooping left eyelid, tearing of the left eye, and a runny nose. These symptoms have been present for 2 days currently, and there was a similar episode last summer. The exact duration of the headaches is unclear, but they have been described as severe. No specific triggers have been identified, although the patient works in a high-stress environment. There is no family history of similar headaches or neurological issues reported.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headache"
+    },
+    "trial_1": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having severe headaches for 2 days, most intense on my left forehead and eye, and I also have drooping of my left eyelid, tearing of the left eye, and a runny nose."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had similar episodes in the past, and if so, how often do they occur?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had similar symptoms last summer."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these headache episodes last from 15 minutes to 3 hours when untreated?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't specify the exact duration of each headache episode, just that my current headache has lasted for 2 days."
+            },
+            {
+                "role": "assistant",
+                "content": "How long do the individual attacks of pain last?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't specify the exact duration of the individual attacks of pain in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you clarify how long the individual attacks of pain typically last during these episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I did not mention the specific duration of each attack of pain in my description."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a mistake in your previous response or could you now specify the duration of individual attacks of pain during these headache episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I only mentioned that the current headache has been severe for 2 days; I did not specify the duration of individual attacks during these episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you specify now, how long do individual attacks last during these headache episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I didn't provide specifics on the duration of individual attacks during these headache episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "To clarify, how long do the individual attacks of pain last during these episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I didn't provide specifics on the duration of individual attacks during these headache episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you provide information on the duration of individual pain attacks during these episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention the specific duration of individual pain attacks in these episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you tell me how long each individual attack of pain usually lasts?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't specify the duration of each individual attack of pain in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "What is the duration of each individual pain attack during these headache episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't provide information about the duration of each individual pain attack during these headache episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Since I need this information to proceed, could you please specify the duration of each individual pain attack during these headache episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I did not specify the duration of each individual pain attack in the information I provided earlier."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you specify the duration of the individual pain attacks now? How long do they typically last?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I didn't provide specifics on the duration of individual pain attacks in the information."
+            },
+            {
+                "role": "assistant",
+                "content": "For proper diagnosis, could you specify the duration of each individual pain attack you experience during these episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I apologize, but I did not mention the specific duration of the individual pain attacks in my earlier descriptions."
+            },
+            {
+                "role": "assistant",
+                "content": "Since it is crucial for diagnosis, can you now provide details on how long each pain attack lasts during these headache episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't specify the specific duration of individual pain attacks in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Please provide the duration of each individual pain attack you experience during these headache episodes."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "singleturn_mcq": "Final Diagnosis: Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "summarized_conversation": "A patient has been experiencing severe headaches for 2 days, primarily on the left side of the forehead and near the eye. Additional symptoms include drooping of the left eyelid, tearing of the left eye, and a runny nose. The patient reports having experienced similar symptoms last summer. The patient has only indicated that the current headache has persisted for 2 days but did not clarify the exact duration of each headache episode nor the duration of individual attacks of pain during these episodes. The patient did not provide specific details regarding the duration of the individual pain attacks.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headache"
+    },
+    "trial_2": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing severe headaches for the past 2 days, concentrated on my left forehead and eye, along with drooping of my left eyelid, tearing of the left eye, and a runny nose."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these symptoms come in episodes or are they constant?"
+            },
+            {
+                "role": "user",
+                "content": "The severe headaches are similar to ones I had last summer, suggesting they come in episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these headache episodes last from 15 minutes to 3 hours when untreated?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about the exact duration when untreated, as I have been taking medication to try to alleviate the pain."
+            },
+            {
+                "role": "assistant",
+                "content": "What type of medication have you been taking for these headaches?"
+            },
+            {
+                "role": "user",
+                "content": "I have been taking indomethacin every 6 hours for the last 24 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent head injuries or changes in your vision apart from the drooping eyelid and tearing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent head injuries or other changes in my vision apart from the drooping eyelid and tearing."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cluster Headaches."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster Headaches",
+        "singleturn_mcq": "Final Diagnosis: Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "summarized_conversation": "A patient has been experiencing severe headaches for the past two days, localized on the left side of the forehead and eye, accompanied by drooping of the left eyelid, tearing of the left eye, and a runny nose. The patient notes that these severe headaches are similar to ones experienced last summer, indicating that they occur in episodes. The exact duration of these headaches when untreated remains uncertain, as the patient has been taking medication for pain relief. The patient has been administering indomethacin every 6 hours for the last 24 hours to alleviate the symptoms. The patient has not sustained any recent head injuries nor experienced any other changes in vision, apart from the noted drooping eyelid and tearing.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headache"
+    },
+    "trial_3": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing severe headaches for the past 2 days, particularly intense around my left forehead and eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your vision or seen flashes of light?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my vision or seen flashes of light."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any nausea, vomiting, or sensitivity to light or sound?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have nausea, vomiting, or sensitivity to light or sound."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any similar headaches in the past?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had similar symptoms last summer."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you take any medications that helped relieve the symptoms last time?"
+            },
+            {
+                "role": "user",
+                "content": "I'm currently taking indomethacin, which I started using recently, but it hasn't provided any relief."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling, redness, or tenderness around your jaw or temples when you eat or touch the area?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any swelling, redness, or tenderness around my jaw or temples when I eat or touch the area."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the headache worsen with physical activity or movement?"
+            },
+            {
+                "role": "user",
+                "content": "No, the headache does not worsen with physical activity or movement."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family experienced similar headaches or been diagnosed with a neurological condition?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family members who have experienced similar headaches or been diagnosed with a neurological condition."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cluster Headache"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "singleturn_mcq": "Cluster headache",
+        "singleturn_frq": "**Final Diagnosis:** Cluster headache",
+        "summarized_conversation": "A patient has been experiencing severe headaches for the past two days. The pain is particularly intense around the left forehead and eye. The patient reports no changes in vision nor the presence of flashes of light. Additionally, the patient does not have symptoms of nausea, vomiting, or sensitivity to light or sound. They experienced similar symptoms last summer. Recently, the patient started taking indomethacin, but it has not provided relief. There is no swelling, redness, or tenderness around the jaw or temples when the patient eats or touches the area. The headache does not worsen with physical activity or movement. The patient is not aware of any family members who have experienced similar headaches or been diagnosed with a neurological condition.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headache"
+    },
+    "trial_4": {
+        "vignette_mcq": "Cluster headache",
+        "vignette_frq": "Cluster headache.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having severe headaches for two days now, with the pain most intense on my left forehead and eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any accompanying symptoms like nausea, sensitivity to light, or visual disturbances?"
+            },
+            {
+                "role": "user",
+                "content": "I have drooping of the left eyelid, tearing of the left eye, and a runny nose, but no nausea, sensitivity to light, or visual disturbances mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the headache periodic or constant over the last two days?"
+            },
+            {
+                "role": "user",
+                "content": "The description doesn't specify if it's periodic or constant, just that I've been having severe headaches for two days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar headaches in the past?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had similar symptoms last summer."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of similar headaches or other neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided doesn't mention any family history of similar headaches or other neurological conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cluster Headaches"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cluster headache",
+        "multiturn_frq": "**Final Diagnosis:** Cluster Headache",
+        "singleturn_mcq": "Cluster headache",
+        "singleturn_frq": "Final Diagnosis: Cluster headache",
+        "summarized_conversation": "A patient has been experiencing severe headaches for the past two days, primarily located on the left side of the forehead and affecting the left eye. Accompanying symptoms include drooping of the left eyelid, tearing from the left eye, and a runny nose. However, no nausea, sensitivity to light, or visual disturbances have been reported. The details don't clarify whether these symptoms are periodic or constant, just that the severe headaches have persisted for two days. The patient recalls having similar symptoms last summer. No family history of similar headaches or other neurological conditions is documented in the patient's file.",
+        "summarized_mcq": "Cluster headache",
+        "summarized_frq": "Cluster headache"
+    }
+}

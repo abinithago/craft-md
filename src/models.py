@@ -3,14 +3,14 @@ import time
 from openai import AzureOpenAI
 import openai
 
-client = AzureOpenAI(api_version="2023-05-15",
-                     api_key = openai.api_key,
-                     azure_endpoint=openai.api_base)
+client = AzureOpenAI(api_version="2024-08-01-preview",
+                     api_key = "766aeef6717d4c09b997c943f75ce7d5",
+                     azure_endpoint="https://codesidebias.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview")
 
 def call_gpt4_api(convo, max_tokens=150, depth_limit=0):
     try:
         response = client.chat.completions.create(
-                        model="gpt41106",
+                        model="gpt-4",
                         messages = convo,
                         max_tokens = max_tokens)
 
@@ -69,13 +69,14 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(device)
 
 def get_model_and_tokenizer(model_name:str):
-    allowed_model_names = ["mistral-v1", "mistral-v2", "llama2-7b"]
+    allowed_model_names = ["mistral-v1", "mistral-v2", "llama2-7b", "llama3-8b"]
     if model_name not in allowed_model_names:
         raise ValueError(f"model_name must be one of {allowed_model_names}, got '{model_name}' instead.")
 
     dmap = {"mistral-v1":"mistralai/Mistral-7B-Instruct-v0.1",
             "mistral-v2":"mistralai/Mistral-7B-Instruct-v0.2",
-            "llama2-7b": "meta-llama/Llama-2-7b-chat-hf"}
+            "llama2-7b": "meta-llama/Llama-2-7b-chat-hf", 
+            "llama3-8b": "meta-llama/Meta-Llama-3.1-8B-Instruct"}
 
     model = AutoModelForCausalLM.from_pretrained(dmap[model_name], device_map=device)
     tokenizer = AutoTokenizer.from_pretrained(dmap[model_name])

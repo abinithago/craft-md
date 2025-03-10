@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 72-year-old man is brought to the emergency department after an episode of hemoptysis. He has a chronic cough that is productive of copious sputum. Six years ago, he had a stroke that left him with difficulty swallowing. He smoked one pack of cigarettes daily for 40 years, but quit 2 years ago. His respirations are 25/min and labored. Physical examination shows digital clubbing. An x-ray of the chest shows tram track opacities in the lower lung fields. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Bronchiectasis",
+        "vignette_frq": "Bronchiectasis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing coughing up blood, difficulty swallowing, and labored breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have had a chronic cough producing a lot of mucus for a long time, and the difficulty in swallowing started six years ago. The coughing up of blood started more recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or exposure to hazardous substances?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I smoked one pack of cigarettes daily for 40 years but quit 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent weight loss or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced recent weight loss or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I am not aware of any history of cancer in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had any previous medical imaging done, like a chest X-ray or CT scan? If yes, what were the results?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a chest X-ray done recently which showed tram track opacities in the lower lung fields."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bronchiectasis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Bronchiectasis",
+        "multiturn_frq": "**Final Diagnosis:** Lung cancer",
+        "singleturn_mcq": "Lung cancer",
+        "singleturn_frq": "Final Diagnosis: Esophageal Cancer",
+        "summarized_conversation": "A patient reports symptoms including coughing up blood, difficulty swallowing, and labored breathing. They have a history of chronic coughing associated with significant mucus production. The difficulty swallowing commenced six years ago, while the coughing up blood is a more recent issue. The patient has a 40-year history of smoking one pack of cigarettes daily, although they ceased smoking two years ago. There are no indications of recent weight loss or night sweats. The patient denies any family history of cancer. A recent chest X-ray revealed tram track opacities in the lower lung fields.",
+        "summarized_mcq": "Bronchiectasis",
+        "summarized_frq": "Lung cancer"
+    },
+    "trial_1": {
+        "vignette_mcq": "Bronchiectasis",
+        "vignette_frq": "Bronchiectasis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing coughing up blood, a chronic cough with a lot of mucus, difficulty breathing, and difficulty swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've had a chronic cough for a long time, and I started coughing up blood recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or exposure to substances like asbestos?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I smoked one pack of cigarettes daily for 40 years but quit 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been diagnosed with any lung-related diseases or had any similar symptoms in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned any previous lung-related diseases in my history, only the recent symptoms I'm experiencing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any significant weight loss or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced significant weight loss or night sweats recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lung Cancer"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Lung cancer",
+        "multiturn_frq": "**Final Diagnosis:** Lung Cancer",
+        "singleturn_mcq": "Lung cancer",
+        "singleturn_frq": "**Final Diagnosis:** Lung cancer",
+        "summarized_conversation": "A patient presents with various symptoms including coughing up blood, a chronic cough with a substantial amount of mucus, difficulty breathing, and difficulty swallowing. The patient has had a long history of a chronic cough, which recently has been accompanied by episodes of hemoptysis. The patient has a smoking history of consuming one pack of cigarettes daily for 40 years but quit smoking 2 years ago. There are no lung-related diseases recorded in the patient's past medical history apart from the recent symptoms. Additionally, the patient has not reported significant weight loss or night sweats recently.",
+        "summarized_mcq": "Lung cancer",
+        "summarized_frq": "Lung cancer"
+    },
+    "trial_2": {
+        "vignette_mcq": "Bronchiectasis",
+        "vignette_frq": "Bronchiectasis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I was brought in after coughing up blood, and I have a chronic cough with a lot of mucus, difficulty breathing, and trouble swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've had a chronic cough for years, and difficulty swallowing since my stroke six years ago. The episode of coughing up blood happened recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or exposure to harmful substances?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I smoked one pack of cigarettes daily for 40 years but quit 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been diagnosed with any lung diseases or had any previous chest surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been diagnosed with any lung diseases or had any chest surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease or cancer in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I can't provide any information about my family history of heart disease or cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I can't provide any information about my current medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lung cancer"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Lung cancer",
+        "multiturn_frq": "**Final Diagnosis:** Lung cancer",
+        "singleturn_mcq": "Final Diagnosis: Lung cancer",
+        "singleturn_frq": "Final Diagnosis: Lung Cancer.",
+        "summarized_conversation": "A patient was brought in after an episode of coughing up blood, coupled with a chronic cough with excessive mucus, difficulty in breathing, and trouble swallowing. The patient states that they have been experiencing a chronic cough for several years and the trouble swallowing initiated six years ago following a stroke. The new symptom of coughing up blood only occurred recently. The patient has a significant smoking history, having smoked one pack of cigarettes daily for 40 years, however, they quit smoking two years ago. The patient denies any diagnosis of lung diseases or undergoing any chest surgeries. Unfortunately, the patient cannot disclose any family history related to heart disease or cancer, nor can they provide details about current medications.",
+        "summarized_mcq": "Lung cancer",
+        "summarized_frq": "Lung cancer"
+    },
+    "trial_3": {
+        "vignette_mcq": "Bronchiectasis",
+        "vignette_frq": "Bronchiectasis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've had an episode of coughing up blood and I have a chronic cough that produces a lot of mucus. Additionally, I'm experiencing difficulty breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've had a chronic cough producing a lot of mucus for a long time and recently coughed up blood."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or exposure to substances like asbestos?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I smoked one pack of cigarettes daily for 40 years but quit 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent weight loss or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any recent weight loss or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any other medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a stroke six years ago that left me with difficulty swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any lung diseases, like COPD or asthma, in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific diagnosis of lung diseases like COPD or asthma."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer?"
+            },
+            {
+                "role": "user",
+                "content": "I haven\u2019t mentioned any details about my family medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lung Cancer"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Lung cancer",
+        "multiturn_frq": "**Final Diagnosis:** Lung Cancer",
+        "singleturn_mcq": "Final Diagnosis: Bronchiectasis",
+        "singleturn_frq": "**Final Diagnosis:** Lung cancer",
+        "summarized_conversation": "A patient has reported an episode where they coughed up blood, coupled with a chronic cough that produces a lot of mucus. The patient experiences difficulty in breathing and has a history of a chronic cough that generates substantial mucus. Furthermore, they smoked one pack of cigarettes daily for 40 years but quit two years ago. They have experienced no recent weight loss or night sweats. The patient also had a stroke six years ago, resulting in difficulty swallowing. The patient has not received a specific diagnosis for any chronic lung diseases like COPD or asthma, nor is there any mentioned detail regarding family medical history.",
+        "summarized_mcq": "Lung cancer",
+        "summarized_frq": "Lung cancer"
+    },
+    "trial_4": {
+        "vignette_mcq": "Bronchiectasis",
+        "vignette_frq": "Bronchiectasis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing an episode of coughing up blood, have a chronic cough with a lot of mucus, and my breathing is labored and faster than normal."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any weight loss or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any weight loss or night sweats recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or exposure to substances like asbestos?"
+            },
+            {
+                "role": "user",
+                "content": "I smoked one pack of cigarettes daily for 40 years, but quit 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other medical conditions, or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I had a stroke six years ago that left me with difficulty swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any imaging studies, like a chest X-ray or CT scan, done recently for your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a chest X-ray done recently."
+            },
+            {
+                "role": "assistant",
+                "content": "What were the findings of the chest X-ray?"
+            },
+            {
+                "role": "user",
+                "content": "The chest X-ray showed tram track opacities in the lower lung fields."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bronchiectasis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Bronchiectasis",
+        "multiturn_frq": "**Final Diagnosis:** Bronchiectasis",
+        "singleturn_mcq": "Final Diagnosis: Bronchiectasis",
+        "singleturn_frq": "**Final Diagnosis:** Bronchiectasis",
+        "summarized_conversation": "A patient reports experiencing episodes of coughing up blood, and mentions having a chronic cough with a significant amount of mucus. The individual's breathing has become labored and faster than usual. The patient denies recent weight loss or night sweats. The patient's history includes smoking one pack of cigarettes daily for 40 years, though smoking ceased 2 years ago. Additionally, six years prior, the patient suffered a stroke, which resulted in difficulty swallowing. A recent chest X-ray was performed, revealing tram track opacities in the lower lung fields.",
+        "summarized_mcq": "Bronchiectasis",
+        "summarized_frq": "Bronchiectasis"
+    }
+}

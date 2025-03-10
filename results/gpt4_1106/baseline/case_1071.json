@@ -1,0 +1,333 @@
+{
+    "case_vignette": "A previously healthy 46-year-old man comes to the physician for an 8-month history of headache that is more severe in the mornings. His blood pressure is 151/92 mm Hg. Examination shows enlargement of the nose, forehead, and jaw as well as the hands, fingers, and feet. Ophthalmologic examination shows impaired vision in the outer peripheral fields of both eyes. Laboratory studies show a serum glucose concentration of 225 mg/dL. ",
+    "question": "Which  findings is most likely to confirm the diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "vignette_frq": "Elevated serum insulin-like growth factor 1 (IGF-1) levels and abnormal growth hormone suppression test.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having headaches that are worse in the mornings, and I've noticed some changes in my vision where I can't see well on the outer sides."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For about 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sense of smell or had any unexplained milk production?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my sense of smell or unexplained milk production."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of hormonal imbalances or tumors in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any knowledge of hormonal imbalances or tumors in my family history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent growth in your hands, feet, or facial features, or changes in your body hair distribution?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have noticed enlargement of my nose, forehead, jaw, hands, fingers, and feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acromegaly."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Elevated serum insulin-like growth factor-1 level",
+        "multiturn_frq": "Final Diagnosis: Acromegaly",
+        "singleturn_mcq": "Elevated serum prolactin level",
+        "singleturn_frq": "**Final Diagnosis:** Pituitary adenoma",
+        "summarized_conversation": "The patient has been experiencing worsening headaches in the mornings along with vision changes, specifically decreased peripheral vision, for about 8 months. The patient reports no changes in sense of smell or unexplained milk production. There is no known family history of hormonal imbalances or tumors. The patient has noted enlargement of the nose, forehead, jaw, hands, fingers, and feet. ",
+        "summarized_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "summarized_frq": "Elevated growth hormone (GH) levels and abnormal glucose tolerance test."
+    },
+    "trial_1": {
+        "vignette_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "vignette_frq": "Elevated serum insulin-like growth factor-1 (IGF-1) level or positive findings on MRI of the pituitary gland.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing headaches that are worse in the mornings, and I've also noticed that my vision is not as good as it used to be, especially on the sides."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as nausea, vomiting, or dizziness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have nausea, vomiting, or dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your weight, appetite, or energy levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "The information given doesn't specify changes in my weight, appetite, or energy levels."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your body hair or skin condition?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided doesn't mention any changes in body hair or skin condition."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I was previously healthy and the information given does not specify any current medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of any endocrine or neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided doesn't include details about my family history regarding endocrine or neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pituitary adenoma."
+            }
+        ],
+        "multiturn_mcq": "Elevated serum prolactin level",
+        "multiturn_frq": "Final Diagnosis: Pituitary adenoma",
+        "singleturn_mcq": "Elevated serum prolactin level",
+        "singleturn_frq": "**Final Diagnosis:** Pituitary tumor",
+        "summarized_conversation": "The patient has been suffering from headaches that are worse in the mornings and has noticed a deterioration in their peripheral vision. They have been experiencing these symptoms for approximately 8 months. There are no accompanying symptoms of nausea, vomiting, or dizziness reported. The patient's previous health record shows no illnesses and they are not currently on any medications. There are also no noted changes in weight, appetite, energy levels, body hair, or skin condition. Moreover, there is no known family history of endocrine or neurological disorders mentioned.",
+        "summarized_mcq": "Elevated serum prolactin level",
+        "summarized_frq": "Brain imaging showing a pituitary tumor."
+    },
+    "trial_2": {
+        "vignette_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "vignette_frq": "Elevated serum insulin-like growth factor 1 (IGF-1) levels and MRI of the head showing an enlarged pituitary gland.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having headaches, mostly severe in the mornings, and I've noticed that my nose, forehead, jaw, hands, fingers, and feet have gotten bigger. I'm also having trouble seeing things at the sides of my vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Have these symptoms been gradual or did they start suddenly?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms have been gradual, developing over the past 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of hormone-related issues or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I was previously healthy before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with a hormonal disorder?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know of any family history related to similar symptoms or hormonal disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your voice or gaps between your teeth?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my voice or gaps between my teeth."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acromegaly"
+            }
+        ],
+        "multiturn_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "multiturn_frq": "Final Diagnosis: Acromegaly.",
+        "singleturn_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "singleturn_frq": "Elevated growth hormone levels and abnormal pituitary imaging.",
+        "summarized_conversation": "A patient has been experiencing severe headaches predominantly in the mornings and has noticed an increase in the size of the nose, forehead, jaw, hands, fingers, and feet. These symptoms have developed gradually over the past 8 months. The patient also reports trouble with peripheral vision. Previously, the patient had no significant health issues. There is no known family history of similar symptoms or hormonal disorders. Additionally, the patient has not noted any changes in voice or spacing between the teeth.",
+        "summarized_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "summarized_frq": "Elevated levels of insulin-like growth factor 1 (IGF-1) and magnetic resonance imaging (MRI) showing a pituitary adenoma."
+    },
+    "trial_3": {
+        "vignette_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "vignette_frq": "Elevated serum insulin-like growth factor 1 (IGF-1) levels or abnormal growth hormone suppression test.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having headaches that are worse in the mornings, and I've noticed that my nose, forehead, jaw, hands, fingers, and feet have gotten bigger. I'm also having trouble seeing things out of the corners of my eyes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any hormonal or endocrine disorders, or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I was previously healthy before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your voice or experienced joint pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced changes in my voice or joint pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of endocrine or hormonal disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any family history of endocrine or hormonal disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acromegaly"
+            }
+        ],
+        "multiturn_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "multiturn_frq": "Final Diagnosis: Acromegaly",
+        "singleturn_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "singleturn_frq": "Increased levels of insulin-like growth factor 1 (IGF-1) in the blood.",
+        "summarized_conversation": "A patient reports headaches that are more severe in the mornings, along with enlargement of the nose, forehead, jaw, hands, fingers, and feet. This has been ongoing for approximately 8 months. Additionally, the patient mentions difficulty in seeing from the corners of the eyes. The patient was previously healthy before the onset of these symptoms and denies any changes in voice or joint pain. There is no family history of endocrine or hormonal disorders noted.",
+        "summarized_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "summarized_frq": "Elevated levels of insulin-like growth factor 1 (IGF-1) and magnetic resonance imaging (MRI) showing pituitary adenoma."
+    },
+    "trial_4": {
+        "vignette_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "vignette_frq": "Elevated serum insulin-like growth factor 1 (IGF-1) levels and MRI showing pituitary adenoma.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having headaches, especially severe in the mornings, and have noticed changes in my face and hands getting bigger including my nose, forehead, jaw, fingers, and feet. "
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like vision changes, joint pain, increased sweating, or changes in your menstrual cycle or libido?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have impaired vision in the outer parts of my vision in both eyes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your skin, such as increased thickness or excessive hair growth?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any changes in my skin thickness or excessive hair growth."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of similar symptoms or hormonal disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of similar symptoms or hormonal disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent imaging tests or blood tests performed, particularly related to your hormone levels or pituitary function?"
+            },
+            {
+                "role": "user",
+                "content": "I've had blood tests showing a serum glucose concentration of 225 mg/dL, but I haven't mentioned any specific tests related to hormone levels or pituitary function."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acromegaly."
+            }
+        ],
+        "multiturn_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "multiturn_frq": "Final Diagnosis: Acromegaly",
+        "singleturn_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "singleturn_frq": "Final Diagnosis: Acromegaly",
+        "summarized_conversation": "A patient has been experiencing headaches, particularly severe in the mornings, and has noticed physical changes including an increase in the size of their face and hands, specifically the nose, forehead, jaw, fingers, and feet. These symptoms have persisted for approximately 8 months. The patient also reports impaired vision, specifically in the outer parts of the visual field in both eyes. There has been no mention of changes in skin thickness or excessive hair growth. Additionally, there is no family history of similar symptoms or hormonal disorders mentioned. The patient had blood tests revealing a serum glucose concentration of 225 mg/dL, but no specific tests related to hormone levels or pituitary function have been conducted.",
+        "summarized_mcq": "Elevated serum insulin-like growth factor-1 level",
+        "summarized_frq": "MRI of the pituitary gland."
+    }
+}

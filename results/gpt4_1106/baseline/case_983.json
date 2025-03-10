@@ -1,0 +1,485 @@
+{
+    "case_vignette": "A 14-year-old boy is brought to the physician by his mother because of a 1-month history of pain in his right leg. His mother has been giving him ketorolac at night to improve his sleep, but the pain has not improved. Physical examination shows marked tenderness along the right mid-femur. An x-ray of the right lower extremity shows several lytic lesions in the diaphysis of the femur and a surrounding cortex covered by several layers of new bone. A biopsy of the right femur shows small round blue cells. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing pain in my right leg."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing this pain?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing the pain for 1 month."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the pain constant or does it get worse with movement? Also, have you noticed any swelling or changes in color in the affected leg?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not specify whether the pain is constant or worsens with movement, nor does it mention any swelling or color changes."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent injury or trauma to your leg?"
+            },
+            {
+                "role": "user",
+                "content": "No, there hasn't been any recent injury or trauma to my leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer or unexplained weight loss recently?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not mention any history of cancer or recent unexplained weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of clotting disorders or family history of deep vein thrombosis?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not mention any history of clotting disorders or family history of deep vein thrombosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in sensation in your leg, such as numbness or tingling?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not mention any changes in sensation like numbness or tingling in my leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any fatigue, fever, or unintentional weight loss along with your leg pain?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not mention any symptoms of fatigue, fever, or unintentional weight loss along with the leg pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of autoimmune diseases or arthritis in your family?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not mention any history of autoimmune diseases or arthritis in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any difficulty in walking or performing daily activities due to the leg pain?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not specify if there is any difficulty in walking or performing daily activities due to the leg pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you tried any treatments or medications for your leg pain yet, and if so, what was the result?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been given ketorolac at night to improve my sleep, but the pain has not improved."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any imaging studies, like an X-ray or MRI, done on your leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, an x-ray of my right lower extremity was done."
+            },
+            {
+                "role": "assistant",
+                "content": "Did the x-ray show any abnormalities or specific findings in your right leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the x-ray showed several lytic lesions in the diaphysis of the femur and a surrounding cortex covered by several layers of new bone."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Ewing Sarcoma"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Ewing sarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Ewing Sarcoma",
+        "singleturn_mcq": "Chondroblastoma",
+        "singleturn_frq": "Final Diagnosis: Deep Vein Thrombosis (DVT)",
+        "summarized_conversation": "A patient is experiencing pain in their right leg, which has persisted for a month. The patient reports no specifics regarding whether the pain is constant or worsens with movement, and there is no mention of any swelling or color changes in the leg. The patient denies any recent injury or trauma to the leg. Additionally, there is no history of cancer, recent unexplained weight loss, clotting disorders, or a family history of deep vein thrombosis associated with the patient. Sensory changes such as numbness or tingling in the leg have not been noted. There are also no accompanying symptoms of fatigue, fever, or unintentional weight loss reported. There is no record of autoimmune diseases or arthritis in the family. It is not specified whether the leg pain is affecting the patient's mobility or daily activities. \n\nThe patient has been prescribed ketorolac at night to aid sleep, but reports no improvement in the pain. An x-ray of the right lower extremity was performed, revealing several lytic lesions in the diaphysis of the femur surrounded by a cortex covered by several layers of new bone.",
+        "summarized_mcq": "Ewing sarcoma",
+        "summarized_frq": "Primary bone cancer (osteosarcoma)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my right leg for the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or temperature of your leg?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in color or temperature in my leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the pain constant or does it get worse with movement or at rest?"
+            },
+            {
+                "role": "user",
+                "content": "The pain does not improve even at night, which is why my mother has been giving me medicine to help with my sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age?"
+            },
+            {
+                "role": "user",
+                "content": "I am 14 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of bone diseases or similar symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of bone diseases or similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, lumps, or reduction in mobility in your leg?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling, lumps, or reduction in mobility in my leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as fever, weight loss, or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any other symptoms like fever, weight loss, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you undergone any relevant imaging studies, like an X-ray or MRI, for your leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had an X-ray of my right lower extremity."
+            },
+            {
+                "role": "assistant",
+                "content": "Did the X-ray show any abnormalities or findings?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the X-ray showed several lytic lesions in the middle part of my thigh bone and several layers of new bone around the cortex."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Osteosarcoma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Ewing sarcoma.",
+        "multiturn_frq": "**Final Diagnosis:** Osteosarcoma",
+        "singleturn_mcq": "Ewing sarcoma",
+        "singleturn_frq": "Final Diagnosis: Deep Vein Thrombosis",
+        "summarized_conversation": "A patient has been dealing with pain in their right leg for the past month. The patient, who is 14 years old, reports no changes in color or temperature in the affected leg. The patient experiences persistent pain that does not improve at night, leading their mother to administer sleep aid medications. There have been no recent injuries or infections, and there is no known family history of bone diseases or similar symptoms. Additionally, the patient does not observe any swelling, lumps, or reduced mobility in the leg, nor are there any accompanying symptoms such as fever, weight loss, or night sweats. A recent X-ray of the right lower extremity revealed several lytic lesions in the middle part of the thigh bone and several layers of new bone around the cortex.",
+        "summarized_mcq": "Osteosarcoma",
+        "summarized_frq": "Osteosarcoma."
+    },
+    "trial_2": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my right leg for the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the appearance of your leg, such as swelling or discoloration?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes like swelling or discoloration in my leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms, such as fatigue, night sweats, or unexplained weight loss?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't experienced any other symptoms like fatigue, night sweats, or unexplained weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries, surgeries, or prolonged periods of immobilization?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries, surgeries, or prolonged periods of immobilization."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar issues or other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of similar issues or other medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any medication or treatment for your leg pain?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my mother has been giving me ketorolac at night to help with the pain and improve my sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you, and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am 14 years old and I am a boy."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Juvenile Idiopathic Arthritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Osteosarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Juvenile Idiopathic Arthritis",
+        "singleturn_mcq": "Osteosarcoma",
+        "singleturn_frq": "Final Diagnosis: Sciatica",
+        "summarized_conversation": "A patient has been experiencing pain in his right leg for the past month. He reports no noticeable changes such as swelling or discoloration in his leg, nor has he experienced any additional symptoms like fatigue, night sweats, or unexplained weight loss. The patient confirms that he has not had any recent injuries, surgeries, or prolonged periods of immobilization, nor does he have a history of similar issues or other medical conditions. His mother has been administering ketorolac at night to help with the pain and improve his sleep. The patient is a 14-year-old boy.",
+        "summarized_mcq": "Ewing sarcoma",
+        "summarized_frq": "Growing pains"
+    },
+    "trial_3": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my right leg for about a month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the area where you feel the pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling, redness, or warmth in the area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or changes in physical activity?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries or changes in my physical activity."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms, such as difficulty walking, numbness, or weakness in the leg?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have difficulty walking, numbness, or weakness in the leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I've been taking ketorolac at night to help with the pain and improve my sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the ketorolac been effective in managing your pain, and how long have you been using it?"
+            },
+            {
+                "role": "user",
+                "content": "The ketorolac has not improved the pain, and I've been using it for about a month."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer in your family, particularly bone cancer or other related types?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Given your symptoms and the duration of pain unrelieved by medication, it's prudent to conduct further investigations. However, based on your current information, can you tell me if you've observed any changes in the shape or length of your leg or noticed any unusual growths?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't observed any changes in the shape or length of my leg or noticed any unusual growths."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unintentional weight loss, night sweats, or fever recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any unintentional weight loss, night sweats, or fever recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Osteoid Osteoma"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Osteosarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Chronic pain syndrome",
+        "singleturn_mcq": "Osteosarcoma",
+        "singleturn_frq": "Final Diagnosis: Deep Vein Thrombosis (DVT)",
+        "summarized_conversation": "A patient has been experiencing pain in their right leg for approximately one month. The patient reports no swelling, redness, or warmth in the affected area and no recent injuries or changes in physical activity. They also have no difficulty walking, numbness, or weakness in the leg. To manage the pain and improve sleep, the patient has been taking ketorolac at night, which has been used for about a month without improvement in pain symptoms. Regarding family medical history, the patient is unable to provide any information. Additionally, the patient has observed no changes in the shape or length of their leg, noticed no unusual growths, and has not experienced unintentional weight loss, night sweats, or fever recently.",
+        "summarized_mcq": "Osteochondroma",
+        "summarized_frq": "Chronic pain syndrome or referral pain from another area such as the lower back."
+    },
+    "trial_4": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my right leg for the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the area where you feel pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling, redness, or warmth in the area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or unusual physical activities that might have affected your right leg?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries or unusual physical activities that might have affected my right leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of cancer or a family history of cancer?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any personal history of cancer or a family history of cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any other symptoms like fatigue, weight loss, or changes in appetite?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced symptoms like fatigue, weight loss, or changes in appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous surgeries or medical conditions that might be related to your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any previous surgeries or medical conditions related to my current symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the sensation or strength in your right leg, such as numbness or weakness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in sensation or strength, like numbness or weakness, in my right leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any similar pain in other parts of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have only experienced pain in my right leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Sciatica"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Osteosarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Sciatica",
+        "singleturn_mcq": "Ewing sarcoma",
+        "singleturn_frq": "Final Diagnosis: Sciatica",
+        "summarized_conversation": "A patient has been reporting consistent pain in the right leg for the past month. The patient notes no swelling, redness, or warmth in the affected area. There have been no recent injuries or any unusual physical activities reported that might have affected the right leg. The patient does not have any personal or family history of cancer. Additionally, the patient has not experienced symptoms such as fatigue, weight loss, or changes in appetite. There have been no previous surgeries or medical conditions related to the current symptoms. The patient also reports no changes in sensation or strength, such as numbness or weakness, in the right leg. The pain is isolated only to the right leg.",
+        "summarized_mcq": "Osteochondroma",
+        "summarized_frq": "Musculoskeletal pain (likely non-specific or due to overuse or strain)"
+    }
+}

@@ -1,0 +1,373 @@
+{
+    "case_vignette": "A 22-year-old man comes to the physician because of a 3-week history of abdominal pain, loose, non-bloody stools, and intermittent nausea! He also reports intermittent fever! He has not had vomiting, tenesmus, or rectal pain! He has no history of serious illness and takes no medications! His vital signs are within normal limits! Rectal exam is unremarkable! Laboratory studies show a leukocyte count of 15,200/mm3 and an erythrocyte sedimentation rate of 44 mm/h! Test of the stool for occult blood and stool studies for infection are negative! A CT scan of the abdomen shows mural thickening and surrounding fat stranding of discrete regions of the terminal ileum and transverse colon! A colonoscopy is performed and biopsy specimens of the affected areas of the colon are taken! ",
+    "question": "Which  findings is most specific for this patient's most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Non-caseating granulomas",
+        "vignette_frq": "Noncaseating granulomas",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal pain, loose stools, intermittent nausea, and intermittent fever for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood or mucus in your stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, there has been no blood or mucus in my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any recent travel history, particularly to locations with known outbreaks of gastrointestinal infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any recent travel history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any new medications or have you recently changed your diet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't taken any medications or changed my diet recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar symptoms in the past or any chronic medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of similar symptoms or any chronic medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your family members have a history of gastrointestinal diseases or conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned any family history of gastrointestinal diseases or conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any triggering factors or patterns that seem to worsen your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any specific triggering factors or patterns that worsen my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Infectious gastroenteritis"
+            }
+        ],
+        "multiturn_mcq": "Non-caseating granulomas",
+        "multiturn_frq": "Intermittent fever",
+        "singleturn_mcq": "Non-caseating granulomas",
+        "singleturn_frq": "Abdominal pain",
+        "summarized_conversation": "A patient has been suffering from abdominal pain, loose stools, intermittent nausea, and intermittent fever for the past three weeks. There has been no blood or mucus in the patient's stools. The patient denies any recent travel history. Additionally, the patient has not taken any new medications or altered their diet recently. There is no history of similar symptoms or any chronic medical conditions in the patient's past. The patient does not have any family history of gastrointestinal diseases or conditions. Moreover, the patient has not noted any specific triggering factors or patterns that exacerbate their symptoms.",
+        "summarized_mcq": "Non-caseating granulomas",
+        "summarized_frq": "Positive stool culture for bacteria."
+    },
+    "trial_1": {
+        "vignette_mcq": "Non-caseating granulomas",
+        "vignette_frq": "Granulomas on biopsy.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal pain, loose stools, intermittent nausea, and occasional fevers for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any specific foods or activities that trigger or worsen your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any specific foods or activities that trigger or worsen my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any recent history of travel or eating out before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any recent history of travel or eating out before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood or mucus in your stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, there has been no blood or mucus in my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of gastrointestinal diseases such as Crohn's disease, ulcerative colitis, or celiac disease?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of serious illness and no known family history of gastrointestinal diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications, including over-the-counter or herbal supplements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications or herbal supplements."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Irritable Bowel Syndrome (IBS)"
+            }
+        ],
+        "multiturn_mcq": "Non-caseating granulomas",
+        "multiturn_frq": "Intermittent nausea and fevers",
+        "singleturn_mcq": "Non-caseating granulomas",
+        "singleturn_frq": "Abdominal pain and loose stools.",
+        "summarized_conversation": "A patient reports experiencing abdominal pain, loose stools, intermittent nausea, and occasional fevers for the past three weeks. The patient indicates that no specific foods or activities trigger or worsen the symptoms. Additionally, the patient has no recent history of travel or dining out prior to the onset of these symptoms. There has been no occurrence of blood or mucus in the stools. The patient has no serious illness history and no known family history of gastrointestinal diseases. Furthermore, the patient is not taking any medications or herbal supplements.",
+        "summarized_mcq": "Non-caseating granulomas",
+        "summarized_frq": "Elevated inflammatory markers such as C-reactive protein (CRP) or erythrocyte sedimentation rate (ESR) in the blood tests."
+    },
+    "trial_2": {
+        "vignette_mcq": "Non-caseating granulomas",
+        "vignette_frq": "Non-caseating granulomas",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal pain, loose stools, intermittent nausea, and intermittent fever for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood or mucus in your stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any blood or mucus in my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with a gastrointestinal condition?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of serious illness in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you recently traveled to a new place?"
+            },
+            {
+                "role": "user",
+                "content": "I am not taking any medications and I have not traveled recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if certain foods worsen your symptoms, or do you have lactose intolerance or gluten sensitivity?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't noticed that certain foods worsen my symptoms, and I don't have lactose intolerance or gluten sensitivity."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as joint pain, eye irritation, or skin rash?"
+            },
+            {
+                "role": "user",
+                "content": "I only have abdominal pain, loose stools, intermittent nausea, and intermittent fever; I do not have joint pain, eye irritation, or skin rash."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Infectious Colitis"
+            }
+        ],
+        "multiturn_mcq": "Non-caseating granulomas",
+        "multiturn_frq": "Intermittent fever",
+        "singleturn_mcq": "Non-caseating granulomas",
+        "singleturn_frq": "Abdominal pain and loose stools.",
+        "summarized_conversation": "A patient has been experiencing abdominal pain, loose stools, intermittent nausea, and intermittent fever for the past three weeks. The patient has not observed any blood or mucus in their stools. There is no family history of serious illness. The patient is not on any medications and has not traveled recently. The patient hasn\u2019t noticed that certain foods worsen their symptoms and does not have lactose intolerance or gluten sensitivity. The symptoms are limited to abdominal pain, loose stools, intermittent nausea, and intermittent fever; there are no additional symptoms such as joint pain, eye irritation, or skin rash.",
+        "summarized_mcq": "Non-caseating granulomas",
+        "summarized_frq": "Fecal calprotectin or fecal lactoferrin."
+    },
+    "trial_3": {
+        "vignette_mcq": "Non-caseating granulomas",
+        "vignette_frq": "Non-caseating granulomas",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal pain, loose stools, intermittent nausea, and episodes of fever for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you traveled recently or eaten anything unusual before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not traveled recently nor eaten anything unusual before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood or mucus in your stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, there has been no blood or mucus in my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of serious illness and I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your family members have similar symptoms or a history of gastrointestinal disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family members having similar symptoms or a history of gastrointestinal disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you lost any weight unintentionally since these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned anything about unintentional weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the symptoms like fever and diarrhea get worse after eating certain types of foods, such as dairy or gluten?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any worsening of symptoms like fever or diarrhea after eating specific types of foods."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Infectious Colitis"
+            }
+        ],
+        "multiturn_mcq": "Non-caseating granulomas",
+        "multiturn_frq": "Final Diagnosis: Infectious Enteritis",
+        "singleturn_mcq": "Non-caseating granulomas",
+        "singleturn_frq": "Loose stools",
+        "summarized_conversation": "A patient has been experiencing abdominal pain, loose stools, intermittent nausea, and episodes of fever for the past three weeks. The patient reports no recent travel or consumption of unusual foods prior to the onset of these symptoms. There has been no blood or mucus in the patient's stools. The patient has no history of serious illness and is not currently on any medications. The patient has not mentioned any family members experiencing similar symptoms or having a history of gastrointestinal disorders. There has been no mention of unintentional weight loss or any worsening of symptoms like fever or diarrhea after consuming specific types of foods.",
+        "summarized_mcq": "Non-caseating granulomas",
+        "summarized_frq": "Inflammatory bowel disease (IBD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Non-caseating granulomas",
+        "vignette_frq": "Granulomas",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal pain, loose stools, intermittent nausea, and occasional fever for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood or mucus in your stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any blood or mucus in my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled or eaten something unusual before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not traveled recently or eaten anything unusual before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of serious illness and I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of gastrointestinal diseases like inflammatory bowel disease or celiac disease?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any family history of gastrointestinal diseases in my initial description of my condition."
+            },
+            {
+                "role": "assistant",
+                "content": "How often are you experiencing these symptoms, and do you see any improvement or worsening over time?"
+            },
+            {
+                "role": "user",
+                "content": "The symptoms have been intermittent over the past three weeks, with no specific improvement or worsening noted over time."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any weight loss, joint pain, or skin rashes along with your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any weight loss, joint pain, or skin rashes along with my current symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Irritable Bowel Syndrome (IBS)"
+            }
+        ],
+        "multiturn_mcq": "Non-caseating granulomas",
+        "multiturn_frq": "Final Diagnosis: Irritable Bowel Syndrome (IBS)",
+        "singleturn_mcq": "Non-caseating granulomas",
+        "singleturn_frq": "Loose stools",
+        "summarized_conversation": "A patient reports experiencing abdominal pain, loose stools, intermittent nausea, and occasional fever for the past three weeks. The patient confirms there has been no presence of blood or mucus in the stools. The patient also notes there has been no recent travel or consumption of unusual food prior to the onset of symptoms. There is no known history of serious illness, and the patient is not on any medications. Furthermore, no family history of gastrointestinal diseases was disclosed by the patient upon initial assessment. The symptoms have fluctuated over the past three weeks without noticeable improvement or worsening. The patient also confirms not experiencing any weight loss, joint pain, or skin rashes in conjunction with the current symptoms.",
+        "summarized_mcq": "Non-caseating granulomas",
+        "summarized_frq": "Fecal calprotectin or fecal lactoferrin levels."
+    }
+}

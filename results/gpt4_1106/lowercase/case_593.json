@@ -1,0 +1,357 @@
+{
+    "case_vignette": "a previously healthy 20-year-old woman comes to the physician because of recurrent abdominal cramps, bloating, and diarrhea for 4 months. she describes her stools as greasy, foul-smelling, and difficult to flush. during this time she has had a 6-kg (13.2-lb) weight loss. she has no personal or family history of serious illness. physical examination shows pallor and cheilitis. laboratory studies show a hemoglobin concentration of 11 g/dl. serum concentrations of electrolytes, urea nitrogen, and creatinine are within the reference range. test of the stool for occult blood is negative and stool microscopy reveals no pathogens and no leukocytes. analysis of a 24-hour stool sample shows 12 g of fat. the patient is asked to consume 25 g of d-xylose. five hours later, its concentration is measured in urine at 2 g (n = > 4 g/5 h). the test is repeated after a two-week course of rifaximin, but the urinary concentration of d-xylose remains the same. ",
+    "question": "which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Hypersensitivity to gliadin.",
+        "vignette_frq": "Celiac disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing recurrent abdominal cramps, bloating, and diarrhea for the last 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if certain foods seem to trigger your symptoms more than others?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, foods like dairy and wheat seem to trigger my symptoms more."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar gastrointestinal issues in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any family history of serious illness or similar gastrointestinal issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been tested for food intolerances or allergies?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been tested for food intolerances or allergies."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Irritable Bowel Syndrome (IBS)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Lactose intolerance",
+        "multiturn_frq": "Final Diagnosis: Irritable Bowel Syndrome (IBS)",
+        "singleturn_mcq": "Lactose intolerance",
+        "singleturn_frq": "**Final Diagnosis:** Irritable Bowel Syndrome (IBS)",
+        "summarized_conversation": "A patient has been experiencing recurrent abdominal cramps, bloating, and diarrhea for the last four months. The patient reports that foods such as dairy and wheat appear to trigger the symptoms more significantly. The patient does not have any family history of serious illness or similar gastrointestinal issues. Additionally, the patient has not undergone any testing for food intolerances or allergies and is not currently taking any medications.",
+        "summarized_mcq": "Lactose intolerance",
+        "summarized_frq": "Irritable Bowel Syndrome (IBS)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Hypersensitivity to gliadin",
+        "vignette_frq": "Celiac disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing recurrent abdominal cramps, bloating, and diarrhea for the last 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any specific foods that trigger your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't identified any specific foods that trigger my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of gastrointestinal disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any family history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you lost any weight recently without trying?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have lost 6 kilograms (13.2 pounds) without trying."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I have no personal history of serious illness and have not mentioned taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Irritable Bowel Syndrome (IBS)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Autoimmune-mediated inflammation of the colon",
+        "multiturn_frq": "**Final Diagnosis:** Irritable Bowel Syndrome (IBS)",
+        "singleturn_mcq": "Lactose intolerance",
+        "singleturn_frq": "**Final Diagnosis:** Irritable Bowel Syndrome (IBS)",
+        "summarized_conversation": "A patient has been experiencing recurrent abdominal cramps, bloating, and diarrhea for the last 4 months. The patient has not identified any specific foods that trigger the symptoms. The patient reports no family history of serious illness and has lost 6 kilograms (13.2 pounds) without trying. The patient has no personal history of serious illness and has not mentioned taking any medications.",
+        "summarized_mcq": "Autoimmune-mediated inflammation of the colon",
+        "summarized_frq": "Irritable bowel syndrome (IBS)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Hypersensitivity to gliadin",
+        "vignette_frq": "Celiac disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing recurrent abdominal cramps, bloating, and diarrhea for the past 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any specific triggers or patterns that worsen your symptoms, such as certain foods?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't specifically identified any triggers or patterns related to certain foods that worsen my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any weight loss, blood in stool, or fever accompanying these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have experienced a weight loss of 13.2 pounds, but there has been no blood in my stool or fever."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history or diagnosed conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any personal or family history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you used any new medications or supplements in the past six months?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not used any new medications or supplements in the past six months."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Irritable Bowel Syndrome (IBS)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Hypersensitivity to gliadin",
+        "multiturn_frq": "**Final Diagnosis:** Irritable Bowel Syndrome (IBS)",
+        "singleturn_mcq": "Lactose intolerance",
+        "singleturn_frq": "Final Diagnosis: Irritable Bowel Syndrome",
+        "summarized_conversation": "A patient has been experiencing recurrent abdominal cramps, bloating, and diarrhea for the past four months. The patient has not identified any specific triggers or patterns related to certain foods that worsen these symptoms. The patient reports a weight loss of 13.2 pounds, but there has been no presence of blood in the stool or fever. The patient does not have any personal or family history of serious illness. Additionally, the patient has not used any new medications or supplements in the past six months.",
+        "summarized_mcq": "Autoimmune-mediated inflammation of the colon",
+        "summarized_frq": "Irritable Bowel Syndrome (IBS)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Hypersensitivity to gliadin",
+        "vignette_frq": "Celiac disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing recurrent abdominal cramps, bloating, and diarrhea for the last four months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if certain foods seem to trigger your symptoms more than others?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, it does seem like certain foods make my symptoms worse."
+            },
+            {
+                "role": "assistant",
+                "content": "What specific foods have you noticed as triggers?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't pinpointed specific foods, but my symptoms seem to worsen with certain foods I eat."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like weight loss, fatigue, or blood in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've experienced a weight loss of about 6 kg and my stools are greasy, foul-smelling, and difficult to flush, but there's no blood in them."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known food allergies or intolerances?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any known food allergies or intolerances."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other medical conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with any serious illnesses in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of gastrointestinal diseases such as Crohn's disease, celiac disease, or others?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no family history of serious illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Celiac Disease"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Tropheryma whipplei infection",
+        "multiturn_frq": "**Final Diagnosis:** Exocrine Pancreatic Insufficiency",
+        "singleturn_mcq": "Lactose intolerance",
+        "singleturn_frq": "**Final Diagnosis:** Irritable Bowel Syndrome (IBS)",
+        "summarized_conversation": "The patient has been facing recurrent abdominal cramps, bloating, and diarrhea over the past four months and notes that certain foods seem to exacerbate these symptoms. Though not certain about specific foods that cause these issues, the patient acknowledges a connection between their diet and symptom severity. Additionally, the patient has reported a significant weight loss of about 6 kg during this period and describes their stools as greasy, foul-smelling, and difficult to flush, although no blood has been noted in them. The patient has no known food allergies or intolerances, has not been diagnosed with any serious illnesses previously, and there is no family history of serious illnesses.",
+        "summarized_mcq": "Celiac disease (sensitivity to gliadin)",
+        "summarized_frq": "Celiac disease"
+    },
+    "trial_4": {
+        "vignette_mcq": "Hypersensitivity to gliadin",
+        "vignette_frq": "Celiac disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing recurrent abdominal cramps, bloating, and diarrhea."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if certain foods seem to trigger your symptoms more than others?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, it seems like certain foods do trigger my symptoms more."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any relief when you avoid these trigger foods?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, avoiding trigger foods does seem to provide some relief."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you specify which foods trigger your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not entirely sure which specific foods trigger my symptoms; it's more of a general observation."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent weight changes along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have lost 6 kg (about 13.2 lbs)."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of gastrointestinal diseases or autoimmune disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no personal or family history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had any gastrointestinal investigations or tests done to assess your condition?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had some laboratory tests and stool analysis conducted."
+            },
+            {
+                "role": "assistant",
+                "content": "What were the results of those tests?"
+            },
+            {
+                "role": "user",
+                "content": "The test of the stool for occult blood was negative, stool microscopy revealed no pathogens and no leukocytes, and a 24-hour stool sample showed 12 g of fat. Additionally, a d-xylose absorption test showed low levels of d-xylose in my urine, even after treatment with rifaximin."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Malabsorption syndrome."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Tropheryma whipplei infection",
+        "multiturn_frq": "**Final Diagnosis:** Tropical Sprue.",
+        "singleturn_mcq": "Lactose intolerance",
+        "singleturn_frq": "**Final Diagnosis:** Irritable Bowel Syndrome (IBS)",
+        "summarized_conversation": "A patient has reported experiencing recurrent abdominal cramps, bloating, and diarrhea over the past four months. The patient notes that certain foods appear to exacerbate these symptoms, and avoiding these trigger foods seems to provide some relief. However, the patient is not entirely sure which specific foods are responsible. The patient has lost 6 kg (approximately 13.2 lbs) during this period. There is no personal or family history of serious illnesses. Laboratory tests and stool analysis performed on the patient revealed a negative test for occult blood, no pathogens, and no leukocytes in the stool microscopy. A 24-hour stool sample indicated 12 g of fat, and a d-xylose absorption test showed low levels of d-xylose in the urine, even after treatment with rifaximin.",
+        "summarized_mcq": "Tropheryma whipplei infection",
+        "summarized_frq": "Malabsorption syndrome"
+    }
+}

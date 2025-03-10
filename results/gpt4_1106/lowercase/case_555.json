@@ -1,0 +1,309 @@
+{
+    "case_vignette": "a 71-year-old man is brought to the emergency department because of severe, progressive left leg pain and tingling for 8 hours. the symptoms began while he was watching television. for several months, the patient has noticed calf cramping when going for long walks, as well as occasional foot tingling and numbness, but did not seek medical attention. he has no history of recent injuries. he has poorly-controlled hypertension, hyperlipidemia, type 2 diabetes mellitus, and osteoarthritis. he smoked one pack of cigarettes daily for 35 years but quit 15 years ago. he drinks three beers every night. current medications include lisinopril, metoprolol succinate, atorvastatin, metformin, and ibuprofen. he appears to be in severe pain and is clutching his left leg. his temperature is 37.4\u00b0c (99.3\u00b0f), pulse is 110/min, respirations are 18/min, and blood pressure is 163/94 mm hg. the lungs are clear to auscultation. there is a harsh ii/vi systolic ejection murmur best heard at the right upper sternal border. the abdomen is soft and nontender. the left leg is cool to the touch with decreased popliteal, posterior tibial, and dorsalis pedis pulses. there is 5/5 strength on left hip, knee, and ankle testing. the left hip, knee, and ankle show no gross effusion, erythema, or tenderness to palpation. the remainder of the examination shows no abnormalities. ",
+    "question": "which  is most likely to confirm the diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Digital subtraction angiography",
+        "vignette_frq": "Arterial Doppler ultrasound of the left leg.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing severe, progressive pain and tingling in my left leg for about 8 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or temperature of your left leg compared to your right leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my left leg feels cooler to the touch compared to my right leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing heart conditions or issues with blood circulation?"
+            },
+            {
+                "role": "user",
+                "content": "I have poorly-controlled hypertension, but no specific heart conditions mentioned beyond that."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any trauma or injury to the leg or have you undergone any recent surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of recent injuries or surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Is your left leg swollen or discolored in any areas?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no swelling, discoloration, or tenderness in my left leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions such as diabetes or high cholesterol, or any family history of blood disorders?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus and hyperlipidemia."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute limb ischemia."
+            }
+        ],
+        "multiturn_mcq": "Digital subtraction angiography",
+        "multiturn_frq": "Final Diagnosis: Acute limb ischemia.",
+        "singleturn_mcq": "Compartment pressures",
+        "singleturn_frq": "Final Diagnosis: Acute peripheral arterial occlusion",
+        "summarized_conversation": "A patient has been experiencing severe, progressive pain and tingling in their left leg for about 8 hours. The patient notes that their left leg feels cooler to the touch compared to the right leg. They have poorly-controlled hypertension but have not mentioned any specific heart conditions. The patient denies any recent history of injuries or surgeries. There is no swelling, discoloration, or tenderness in the left leg. Additionally, the patient has type 2 diabetes mellitus and hyperlipidemia.",
+        "summarized_mcq": "Digital subtraction angiography",
+        "summarized_frq": "Arterial Doppler Ultrasound of the leg"
+    },
+    "trial_1": {
+        "vignette_mcq": "Digital subtraction angiography",
+        "vignette_frq": "Arterial Doppler ultrasound of the leg",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have severe and progressive pain and tingling in my left leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent trauma or injury to your leg or lower back?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of recent injuries."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic diseases, such as diabetes or peripheral artery disease?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have poorly-controlled hypertension, hyperlipidemia, and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the pain in your leg constant, or does it increase with walking and decrease with rest?"
+            },
+            {
+                "role": "user",
+                "content": "The pain started while I was watching television, but I have noticed calf cramping when going for long walks for several months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color, temperature, or appearance of your affected leg compared to the other?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my left leg is cool to the touch."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute limb ischemia."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Peripheral artery disease",
+        "multiturn_frq": "Final Diagnosis: Peripheral Arterial Disease",
+        "singleturn_mcq": "Digital subtraction angiography",
+        "singleturn_frq": "Peripheral Artery Disease",
+        "summarized_conversation": "A patient presents with severe and progressive pain and tingling in their left leg. They reported no history of recent injuries. The patient's medical history includes poorly-controlled hypertension, hyperlipidemia, and type 2 diabetes mellitus. The onset of pain occurred while watching television, although the patient has experienced calf cramping during long walks for several months. Upon examination, the left leg is noted to be cool to the touch.",
+        "summarized_mcq": "Digital subtraction angiography",
+        "summarized_frq": "Peripheral artery disease (PAD)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Digital subtraction angiography",
+        "vignette_frq": "Doppler ultrasound of the left leg",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing severe, progressive pain and tingling in my left leg for about 8 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain or discomfort in your chest or any changes in your breathing?"
+            },
+            {
+                "role": "user",
+                "content": "No, my chest is fine and I haven't noticed any changes in my breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced anything similar in the past or do you have any chronic medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, for several months I've experienced occasional calf cramping, foot tingling, and numbness especially when going for long walks. I also have poorly-controlled hypertension, hyperlipidemia, type 2 diabetes mellitus, and osteoarthritis."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any changes in color, temperature, or presence of wounds on the affected leg?"
+            },
+            {
+                "role": "user",
+                "content": "The affected leg is cool to the touch but there are no wounds mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medication for your hypertension, hyperlipidemia, or diabetes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking lisinopril, metoprolol succinate, atorvastatin, and metformin for those conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute Limb Ischemia"
+            }
+        ],
+        "multiturn_mcq": "Digital subtraction angiography",
+        "multiturn_frq": "**Final Diagnosis:** Peripheral artery disease (PAD)",
+        "singleturn_mcq": "Compartment pressures",
+        "singleturn_frq": "Final Diagnosis: Peripheral artery disease",
+        "summarized_conversation": "A patient has been dealing with severe, progressive pain and tingling in their left leg for approximately 8 hours. The patient reports no chest pain or changes in breathing. For several months, the patient has experienced intermittent calf cramping, foot tingling, and numbness particularly during long walks. Additionally, the patient has a medical history of poorly-controlled hypertension, hyperlipidemia, type 2 diabetes mellitus, and osteoarthritis. Upon examination, the affected leg is cool to the touch, and there are no wounds present. The patient is currently on a medication regimen that includes lisinopril, metoprolol succinate, atorvastatin, and metformin for these conditions.",
+        "summarized_mcq": "Digital subtraction angiography",
+        "summarized_frq": "Ankle-brachial index (ABI) and arterial Doppler ultrasound."
+    },
+    "trial_3": {
+        "vignette_mcq": "Digital subtraction angiography",
+        "vignette_frq": "Ankle-brachial index (ABI) and arterial Doppler ultrasound.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing severe, progressive pain and tingling in my left leg for about 8 hours now."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have poorly-controlled hypertension, hyperlipidemia, type 2 diabetes mellitus, and osteoarthritis. I'm currently taking lisinopril, metoprolol succinate, atorvastatin, metformin, and ibuprofen."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or temperature of the affected leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my left leg is cool to the touch."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any swelling or visible changes on the skin of your left leg, such as paleness or blueness?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no gross effusion, erythema, or tenderness to palpation on my left leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the pain in your leg constant or does it worsen with walking or physical activity?"
+            },
+            {
+                "role": "user",
+                "content": "The pain started while I was watching television and has been progressive, but I've also noticed calf cramping during long walks for several months."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute limb ischemia"
+            }
+        ],
+        "multiturn_mcq": "Digital subtraction angiography",
+        "multiturn_frq": "**Final Diagnosis:** Peripheral artery disease",
+        "singleturn_mcq": "Digital subtraction angiography",
+        "singleturn_frq": "Final Diagnosis: Deep Vein Thrombosis (DVT)",
+        "summarized_conversation": "A patient reports having been experiencing severe, progressive pain and tingling in their left leg for the past 8 hours. The patient has poorly-controlled hypertension, hyperlipidemia, type 2 diabetes mellitus, and osteoarthritis. Their current medications include lisinopril, metoprolol succinate, atorvastatin, metformin, and ibuprofen. The patient notes that their left leg is cool to the touch. There is no presence of gross effusion, erythema, or tenderness to palpation on the left leg. The pain initiated while watching television and has progressively worsened, accompanied by calf cramping during long walks for several months.",
+        "summarized_mcq": "Digital subtraction angiography",
+        "summarized_frq": "Peripheral artery disease (PAD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Digital subtraction angiography",
+        "vignette_frq": "Arterial Doppler ultrasound of the left leg.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing severe, progressive pain and tingling in my left leg for about 8 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the pain worsen when you walk or change position?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I noticed calf cramping when going for long walks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or temperature of your leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my left leg is cool to the touch."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease, smoking, or conditions like diabetes or high cholesterol?"
+            },
+            {
+                "role": "user",
+                "content": "I have poorly-controlled hypertension, hyperlipidemia, type 2 diabetes mellitus, and I smoked one pack of cigarettes daily for 35 years but quit 15 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute limb ischemia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Digital subtraction angiography",
+        "multiturn_frq": "Final Diagnosis: Peripheral Arterial Disease (PAD)",
+        "singleturn_mcq": "Compartment pressures",
+        "singleturn_frq": "Final Diagnosis: Peripheral artery disease",
+        "summarized_conversation": "A patient has been experiencing severe, progressive pain and tingling in their left leg for about 8 hours. The patient also reports calf cramping when going for long walks. Upon examination, the patient's left leg is cool to the touch. The patient has a medical history of poorly-controlled hypertension, hyperlipidemia, type 2 diabetes mellitus, and has a smoking history of consuming one pack of cigarettes daily for 35 years, although they quit smoking 15 years ago.",
+        "summarized_mcq": "Digital subtraction angiography",
+        "summarized_frq": "Peripheral artery disease (PAD)"
+    }
+}

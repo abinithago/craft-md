@@ -1,0 +1,389 @@
+{
+    "case_vignette": "A 13-year-old boy is brought to the physician because of progressive left leg pain for 2 months, which has started to interfere with his sleep! His mother has been giving him ibuprofen at night for \u201cgrowing pains,\u201d but his symptoms have not improved! One week before the pain started, the patient was hit in the thigh by a baseball, which caused his leg to become red and swollen for several days! Vital signs are within normal limits! Examination shows marked tenderness along the left mid-femur! His gait is normal! Laboratory studies show a leukocyte count of 21,000/mm3 and an ESR of 68 mm/h! An x-ray of the left lower extremity shows multiple lytic lesions in the middle third of the femur, and the surrounding cortex is covered by several layers of new bone! A biopsy of the left femur shows small round blue cells! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive pain in my left leg for the past 2 months, and it has started to interfere with my sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the affected leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, about a week before the pain started, my leg became red and swollen for several days after being hit by a baseball."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the redness and swelling completely resolved, or do you still experience these symptoms intermittently?"
+            },
+            {
+                "role": "user",
+                "content": "The redness and swelling have resolved since they only lasted for several days after the incident."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you taken any in the past month?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my mother has been giving me ibuprofen at night for the pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or previous injuries to your leg or back?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any other medical conditions or previous injuries to my leg or back."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 13-year-old boy."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Osteosarcoma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Osteoid osteoma",
+        "multiturn_frq": "**Final Diagnosis:** Osteosarcoma",
+        "singleturn_mcq": "Final Diagnosis: Osteoid osteoma",
+        "singleturn_frq": "Final Diagnosis: Bone tumor",
+        "summarized_conversation": "A 13-year-old boy has been experiencing progressive pain in his left leg for the past two months, which has recently begun to interfere with his sleep. About a week before the onset of the pain, the patient's leg became red and swollen for several days following a baseball injury, although the redness and swelling have since resolved. The patient's mother has been administering ibuprofen at night to alleviate the pain. The boy does not have any other medical conditions or previous injuries to his leg or back.",
+        "summarized_mcq": "Ewing sarcoma",
+        "summarized_frq": "Osteosarcoma"
+    },
+    "trial_1": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive pain in my left leg for the past 2 months, and it has started to interfere with my sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the affected leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my leg became red and swollen for several days after being hit by a baseball a week before the pain started."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer or any other medical conditions? "
+            },
+            {
+                "role": "user",
+                "content": "I don't have any history of cancer or other medical conditions that I know of."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections, surgeries, or prolonged periods of immobility?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent infections, surgeries, or prolonged periods of immobility."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar symptoms, or have they been diagnosed with any blood-related or vascular diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, none of my family members have had similar symptoms or been diagnosed with any blood-related or vascular diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Deep Vein Thrombosis (DVT)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Ewing sarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Deep Vein Thrombosis (DVT)",
+        "singleturn_mcq": "Final Diagnosis: Osteoid osteoma",
+        "singleturn_frq": "Final Diagnosis: Bone sarcoma",
+        "summarized_conversation": "A patient has been experiencing progressive pain in their left leg for the past two months, which now affects their sleep. The symptoms began approximately a week after their leg became red and swollen due to being hit by a baseball. The patient reports no known history of cancer or other medical conditions. There have been no recent infections, surgeries, or prolonged periods of immobility. Furthermore, there are no family members who have exhibited similar symptoms or who have been diagnosed with any blood-related or vascular diseases.",
+        "summarized_mcq": "Ewing sarcoma",
+        "summarized_frq": "Deep vein thrombosis (DVT)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "Hello! I've been experiencing progressive pain in my left leg for the past two months, and recently it has been so severe that it's been disturbing my sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the affected leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the leg was red and swollen for several days after getting hit by a baseball."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the pain improved since the initial injury, worsened, or stayed the same?"
+            },
+            {
+                "role": "user",
+                "content": "The pain has not improved; it has progressively gotten worse."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any prior issues with blood clots or has anyone in your family had such issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any issues with blood clots, and there's no family history of such issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any medications or treatments for the pain and swelling?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my mother has been giving me ibuprofen at night for the pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the ibuprofen been effective in reducing your pain or swelling?"
+            },
+            {
+                "role": "user",
+                "content": "No, the ibuprofen has not improved my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Given the severity and progression of your symptoms despite taking ibuprofen, do you have any other medical conditions or are you currently taking other medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any other medical conditions and I am not taking any other medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Deep Vein Thrombosis (DVT)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Ewing sarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Deep Vein Thrombosis (DVT)",
+        "singleturn_mcq": "Ewing sarcoma",
+        "singleturn_frq": "**Final Diagnosis:** Bone tumor (possible osteosarcoma)",
+        "summarized_conversation": "A patient came in reporting progressive pain in their left leg, which has been worsening over the past two months. Recently, the pain has become so severe that it disrupts their sleep. The patient mentioned that the leg became red and swollen for several days following an incident where it was struck by a baseball, and the pain has only intensified since then. According to the patient, they have no prior history of blood clots and there is no family history of such issues either. The patient\u2019s mother has been administrating ibuprofen at night to help manage the pain, yet this has not alleviated the symptoms. The patient asserts having no other medical conditions and is not on any additional medications.",
+        "summarized_mcq": "Ewing sarcoma",
+        "summarized_frq": "Deep Vein Thrombosis (DVT)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive pain in my left leg for the past 2 months, and it's been getting bad enough to interfere with my sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the affected leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my leg did become red and swollen for several days after I was hit by a baseball in the thigh."
+            },
+            {
+                "role": "assistant",
+                "content": "Did the pain improve or worsen after the swelling and redness subsided?"
+            },
+            {
+                "role": "user",
+                "content": "The pain did not improve even after the swelling and redness subsided."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any unexplained weight loss, fever, or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any unexplained weight loss, fever, or night sweats recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer or other serious medical conditions in your family?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about my family medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous injuries or surgeries to your legs before the baseball incident?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about any previous injuries or surgeries to my legs before the baseball incident."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any medication or treatments for your leg pain, and if so, have they been effective?"
+            },
+            {
+                "role": "user",
+                "content": "I have been taking ibuprofen at night for the pain, but it has not improved my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Given your symptoms and the ineffectiveness of over-the-counter pain relief, have you had any imaging studies like X-ray or MRI on your leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had an X-ray of my left lower extremity which showed multiple lytic lesions in the middle third of my femur and several layers of new bone covering the cortex."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Osteosarcoma"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Ewing sarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Ewing Sarcoma",
+        "singleturn_mcq": "Final Diagnosis: Osteoid osteoma",
+        "singleturn_frq": "Final Diagnosis: Bone Cancer",
+        "summarized_conversation": "A patient has been experiencing increasing pain in their left leg over the past two months, which has become severe enough to disrupt their sleep. They reported that their leg became red and swollen for a few days after being struck by a baseball in the thigh. Despite the redness and swelling subsiding, the pain did not improve. The patient reported no recent unexplained weight loss, fever, or night sweats. There's no information provided about their family medical history or any previous injuries or surgeries to the legs prior to this baseball incident. The patient has been taking ibuprofen at night for the pain, but it did not alleviate their symptoms. An X-ray of the left lower extremity revealed multiple lytic lesions in the middle third of the femur and several layers of new bone covering the cortex.",
+        "summarized_mcq": "Ewing sarcoma",
+        "summarized_frq": "Osteosarcoma"
+    },
+    "trial_4": {
+        "vignette_mcq": "Ewing sarcoma",
+        "vignette_frq": "Ewing sarcoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive pain in my left leg for 2 months and it has been disturbing my sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the area of pain?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, after being hit by a baseball, my leg became red and swollen for several days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you still have the redness and swelling now?"
+            },
+            {
+                "role": "user",
+                "content": "No, the redness and swelling have gone away."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any weight loss, fatigue, or changes in your appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any weight loss, fatigue, or changes in appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the appearance of your leg, such as increased size or new lumps?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes like increased size or new lumps on my leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous episodes of similar pain or injury to the same leg or elsewhere?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any previous episodes of similar pain or injury to the same leg or elsewhere."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer or chronic diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of cancer or chronic diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent imaging studies, like X-rays or MRI, done on your leg?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had an X-ray done on my left lower extremity."
+            },
+            {
+                "role": "assistant",
+                "content": "What did the X-ray results indicate?"
+            },
+            {
+                "role": "user",
+                "content": "The X-ray showed multiple lytic lesions in the middle third of my femur, and the surrounding cortex is covered by several layers of new bone."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Ewing Sarcoma"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Ewing sarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Ewing Sarcoma",
+        "singleturn_mcq": "Final Diagnosis: Osteoid osteoma",
+        "singleturn_frq": "**Final Diagnosis:** Peripheral Artery Disease",
+        "summarized_conversation": "A patient reports experiencing progressive pain in their left leg over the past two months, which has been disrupting their sleep. The pain began after the leg was struck by a baseball, resulting in redness and swelling that persisted for several days. Since then, while the redness and swelling have subsided, the pain has not eased. The patient denies any weight loss, fatigue, or changes in appetite, and states there have been no changes in the size of the leg or the appearance of new lumps. Further, there have been no past episodes of similar pain or injury to the same or any other part of the leg. The patient is unaware of any family history of cancer or chronic diseases. An X-ray of the patient's left lower extremity revealed multiple lytic lesions in the middle third of the femur, with the surrounding cortex showing several layers of new bone formation.",
+        "summarized_mcq": "Ewing sarcoma",
+        "summarized_frq": "Osteosarcoma"
+    }
+}

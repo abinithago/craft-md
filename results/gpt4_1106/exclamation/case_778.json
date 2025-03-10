@@ -1,0 +1,285 @@
+{
+    "case_vignette": "A 37-year-old woman is brought to the emergency department 15 minutes after falling down a flight of stairs! On arrival, she has shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain! She is otherwise healthy! She takes no medications! She appears pale! Her temperature is 37\u00b0C (98!6\u00b0F), pulse is 115/min, respirations are 20/min, and blood pressure is 85/45 mm Hg! Examination shows several ecchymoses over the right chest! There is tenderness to palpation over the right chest wall and right upper quadrant of the abdomen! Bowel sounds are normal! Cardiopulmonary examination shows no abnormalities! Neck veins are flat! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Liver hematoma",
+        "vignette_frq": "Hemopneumothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 15 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Did these symptoms start suddenly?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the symptoms started suddenly after I fell down a flight of stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently taking any medication?"
+            },
+            {
+                "role": "user",
+                "content": "I am otherwise healthy and I take no medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had any similar incidents or severe injuries in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar incidents or severe injuries in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic pneumothorax"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Liver hematoma",
+        "multiturn_frq": "**Final Diagnosis:** Ruptured spleen",
+        "singleturn_mcq": "**Final Diagnosis:** Liver hematoma",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary embolism",
+        "summarized_conversation": "A patient presents with symptoms of shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain. These symptoms have been ongoing for about 15 minutes. The symptoms started suddenly after the patient experienced a fall down a flight of stairs. The patient mentions being otherwise healthy and takes no medications. There have been no similar incidents or severe injuries in the past.",
+        "summarized_mcq": "Liver hematoma",
+        "summarized_frq": "Traumatic pneumothorax"
+    },
+    "trial_1": {
+        "vignette_mcq": "Liver hematoma",
+        "vignette_frq": "Hepatic injury with hemorrhagic shock",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 15 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or current medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't take any medications and I have no known allergies."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any trauma or injury recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I fell down a flight of stairs recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of lung or heart issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am otherwise healthy and do not have any history of lung or heart issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic pneumothorax"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Liver hematoma.",
+        "multiturn_frq": "**Final Diagnosis:** Pneumothorax",
+        "singleturn_mcq": "Final Diagnosis: Liver hematoma",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary embolism",
+        "summarized_conversation": "A patient presents with symptoms of shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain, experiencing them for about 15 minutes. The patient does not take any medications and has no known allergies. The patient also mentioned falling down a flight of stairs recently. Apart from the recent injuries, the patient is healthy with no history of lung or heart issues.",
+        "summarized_mcq": "Liver hematoma",
+        "summarized_frq": "Pneumothorax or rib fractures"
+    },
+    "trial_2": {
+        "vignette_mcq": "Liver hematoma",
+        "vignette_frq": "Hemopneumothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 15 minutes since I fell down a flight of stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I am otherwise healthy and take no medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms in the past or is this the first time?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first time I am experiencing these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic injury, likely involving rib fractures and possibly liver injury."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Liver hematoma",
+        "multiturn_frq": "**Final Diagnosis:** Traumatic pneumothorax",
+        "singleturn_mcq": "Liver hematoma",
+        "singleturn_frq": "Final Diagnosis: Pulmonary embolism",
+        "summarized_conversation": "A patient presents with symptoms of shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain, which began about 15 minutes ago following a fall down a flight of stairs. The patient is otherwise healthy, does not take any medications, and reports that this is the first occurrence of these symptoms.",
+        "summarized_mcq": "Liver hematoma",
+        "summarized_frq": "Traumatic pneumothorax"
+    },
+    "trial_3": {
+        "vignette_mcq": "Liver hematoma",
+        "vignette_frq": "Hemothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 15 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently fell down a flight of stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am otherwise healthy and take no medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic pneumothorax"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Liver hematoma",
+        "multiturn_frq": "**Final Diagnosis:** Ruptured spleen",
+        "singleturn_mcq": "Final Diagnosis: Liver hematoma",
+        "singleturn_frq": "Final Diagnosis: Pulmonary embolism",
+        "summarized_conversation": "The patient is experiencing shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain which started approximately 15 minutes ago. The patient recently had an accident where they fell down a flight of stairs. No other health issues are reported, and the patient does not take any medications.",
+        "summarized_mcq": "Liver hematoma",
+        "summarized_frq": "Pneumothorax"
+    },
+    "trial_4": {
+        "vignette_mcq": "Liver hematoma",
+        "vignette_frq": "Hemopneumothorax",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing shortness of breath, right-sided chest pain, right upper quadrant abdominal pain, and right shoulder pain."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 15 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently experienced any trauma to your chest or abdomen?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I fell down a flight of stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am otherwise healthy and take no medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic pneumothorax"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Liver hematoma",
+        "multiturn_frq": "**Final Diagnosis:** Traumatic diaphragmatic rupture",
+        "singleturn_mcq": "Final Diagnosis: Liver hematoma",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary embolism",
+        "summarized_conversation": "A patient reports experiencing shortness of breath, pain on the right side of the chest, right upper quadrant abdominal pain, and right shoulder pain for approximately 15 minutes. The onset of symptoms occurred after the patient fell down a flight of stairs. The patient confirms being otherwise healthy and not taking any medications.",
+        "summarized_mcq": "Liver hematoma",
+        "summarized_frq": "Traumatic pneumothorax or liver injury."
+    }
+}

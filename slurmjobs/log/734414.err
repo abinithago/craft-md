@@ -1,0 +1,14 @@
+cpu-bind=MASK - frappe, task  0  0 [145322]: mask 0xc03f000100c03e set
+  0%|          | 0/249 [00:00<?, ?it/s]  0%|          | 1/249 [05:25<22:26:01, 325.65s/it]  1%|          | 2/249 [12:28<26:15:25, 382.69s/it]  1%|          | 3/249 [17:30<23:38:48, 346.05s/it]  2%|▏         | 4/249 [22:22<22:05:32, 324.62s/it]  2%|▏         | 5/249 [26:31<20:09:56, 297.53s/it]  2%|▏         | 6/249 [29:46<17:43:37, 262.62s/it]  3%|▎         | 7/249 [31:50<14:36:11, 217.24s/it]  3%|▎         | 8/249 [33:52<12:31:02, 186.98s/it]  3%|▎         | 8/249 [34:38<17:23:47, 259.86s/it]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 40, in <module>
+    execute_script(args)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 28, in execute_script
+    graderai_evaluation(case, dataset, path_dir, experiment_names)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/graderai_eval.py", line 31, in graderai_evaluation
+    res[f"trial_{i}"][f"evaluation_{exp}"], res[f"trial_{i}"][f"extracted_ans_{exp}"] = diagnosis_evaluation(correct_ans, clinical_llm_response)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 67, in diagnosis_evaluation
+    clinical_llm_ans = extract_diagnosis_name(clinical_llm_response).lower()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'

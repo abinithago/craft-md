@@ -1,0 +1,293 @@
+{
+    "case_vignette": "A 33-year-old woman comes to the physician because of vision impairment in her right eye for the past 2 weeks. During this period, she was unable to distinguish colors with her right eye. She also reports pain with eye movement. She has no double vision. She occasionally has headaches that are relieved by ibuprofen. One year ago, she had a similar episode that affected her left eye and resolved spontaneously. She has no history of serious illness. She works at a library and enjoys reading, even in poor lighting conditions. Her vital signs are within normal limits. The pupils are equal, round, and reactive to light and accommodation. Without correction, visual acuity is 20/50 in the left eye, and 20/100 in the right eye. With spectacles, the visual acuity is 20/20 in the left eye and 20/100 in the right eye. Slit lamp examination shows no abnormalities. A CT scan of the head shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Optic neuritis",
+        "vignette_frq": "Optic neuritis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing vision impairment in my right eye for the past 2 weeks and it's difficult to distinguish colors with that eye. There's also pain when moving the eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any other neurological symptoms like weakness, numbness, or tingling in your limbs?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any weakness, numbness, or tingling in my limbs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of autoimmune diseases or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of autoimmune diseases or any other serious illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar vision problems or been diagnosed with neurological or autoimmune disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no family history of similar vision problems or neurological or autoimmune disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications or have you started any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not on any medications and haven't started any new medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic Neuritis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Optic neuritis",
+        "multiturn_frq": "Final Diagnosis: Optic Neuritis",
+        "singleturn_mcq": "Final Diagnosis: Optic neuritis",
+        "singleturn_frq": "Final Diagnosis: Optic Neuritis",
+        "summarized_conversation": "A patient has been experiencing vision impairment in their right eye for the past two weeks, finding it difficult to distinguish colors with that eye. They also report pain when moving the eye. The patient denies experiencing any weakness, numbness, or tingling in their limbs. They have no history of autoimmune diseases or any other serious illnesses. Additionally, there is no family history of vision problems or neurological or autoimmune disorders. The patient confirms not being on any medications and has not started any new medications recently.",
+        "summarized_mcq": "Optic neuritis",
+        "summarized_frq": "Optic neuritis"
+    },
+    "trial_1": {
+        "vignette_mcq": "Optic neuritis",
+        "vignette_frq": "Optic neuritis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have vision impairment in my right eye and I can't distinguish colors with that eye. I also experience pain when moving it."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past 2 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like weakness, numbness, or tingling in any part of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any symptoms like weakness, numbness, or tingling in any part of my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms in the past or been diagnosed with any neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I experienced a similar episode affecting my left eye one year ago, but it resolved spontaneously. I have not been diagnosed with any serious illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your family members have similar symptoms or have been diagnosed with neurological or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of serious illness in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic Neuritis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Optic neuritis",
+        "multiturn_frq": "**Final Diagnosis:** Optic Neuritis",
+        "singleturn_mcq": "Final Diagnosis: Optic neuritis",
+        "singleturn_frq": "**Final Diagnosis:** Optic neuritis",
+        "summarized_conversation": "A patient reports a vision impairment in their right eye, with an inability to distinguish colors and pain during eye movement. These symptoms have been present for the past 2 weeks. The patient confirms they do not experience symptoms like weakness, numbness, or tingling in any part of their body. They experienced a similar episode affecting their left eye one year ago, which resolved spontaneously. The patient has not been diagnosed with any serious illnesses and reports no history of serious illness in their family.",
+        "summarized_mcq": "Optic neuritis",
+        "summarized_frq": "Optic neuritis"
+    },
+    "trial_2": {
+        "vignette_mcq": "Optic neuritis",
+        "vignette_frq": "Optic neuritis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing vision impairment in my right eye for the past 2 weeks, where I've also been unable to distinguish colors properly with that eye, and I feel pain when moving it."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any other symptoms like numbness, weakness, or difficulty with coordination?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced numbness, weakness, or difficulty with coordination."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of serious illness and I am not currently on any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic Neuritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Optic neuritis",
+        "multiturn_frq": "**Final Diagnosis:** Optic Neuritis",
+        "singleturn_mcq": "Final Diagnosis: Optic neuritis",
+        "singleturn_frq": "**Final Diagnosis:** Optic Neuritis",
+        "summarized_conversation": "A patient reports experiencing vision impairment in their right eye for the past two weeks, along with an inability to properly distinguish colors through that eye. The patient also experiences pain when moving the affected eye. The patient denies having any numbness, weakness, or difficulty with coordination, and has no history of serious illness or current medication use. No family history of neurological disorders has been reported.",
+        "summarized_mcq": "Optic neuritis",
+        "summarized_frq": "Optic neuritis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Optic neuritis",
+        "vignette_frq": "Optic neuritis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing vision impairment in my right eye for the past 2 weeks, and I'm unable to distinguish colors with that eye. I also feel pain when moving my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any weakness or numbness in your arms or legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any weakness or numbness in my arms or legs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your general health, like weight loss, fatigue, or changes in appetite?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any changes in my general health like weight loss, fatigue, or changes in appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic Neuritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Optic neuritis",
+        "multiturn_frq": "**Final Diagnosis:** Optic Neuritis",
+        "singleturn_mcq": "Final Diagnosis: Optic neuritis",
+        "singleturn_frq": "Final Diagnosis: Optic Neuritis",
+        "summarized_conversation": "A patient has been experiencing vision impairment in their right eye for the past two weeks and is unable to distinguish colors with that eye. The patient also feels pain when moving the eye. The patient has no history of serious illness, no weakness or numbness in their arms or legs, and no family history of neurological disorders. Additionally, the patient has not experienced any changes in their general health such as weight loss, fatigue, or changes in appetite.",
+        "summarized_mcq": "Optic neuritis",
+        "summarized_frq": "Optic neuritis"
+    },
+    "trial_4": {
+        "vignette_mcq": "Optic neuritis",
+        "vignette_frq": "Optic neuritis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing impaired vision and pain with eye movement in my right eye for the past two weeks, and I'm unable to distinguish colors with my right eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you previously experienced similar symptoms, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a similar episode a year ago that affected my left eye and it resolved on its own."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as numbness, weakness, or difficulty with coordination?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any symptoms of numbness, weakness, or difficulty with coordination."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of serious illness, including autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic Neuritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Optic neuritis",
+        "multiturn_frq": "**Final Diagnosis:** Optic Neuritis",
+        "singleturn_mcq": "Final Diagnosis: Optic neuritis",
+        "singleturn_frq": "Final Diagnosis: Optic neuritis",
+        "summarized_conversation": "A patient has been experiencing impaired vision and pain with eye movement in their right eye for the past two weeks, and reports an inability to distinguish colors with the affected eye. They recall having a similar episode a year ago that affected their left eye, which resolved on its own. The patient does not report any symptoms of numbness, weakness, or difficulty with coordination and has no history of serious illness, including autoimmune diseases.",
+        "summarized_mcq": "Optic neuritis",
+        "summarized_frq": "Optic neuritis."
+    }
+}

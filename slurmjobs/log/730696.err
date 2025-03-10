@@ -1,0 +1,22 @@
+cpu-bind=MASK - cortado, task  0  0 [1202001]: mask 0xff00000001fe000000 set
+  0%|          | 0/1333 [00:00<?, ?it/s]  1%|          | 11/1333 [00:00<00:13, 95.08it/s]  2%|▏         | 21/1333 [00:00<00:15, 83.33it/s]  2%|▏         | 30/1333 [00:00<00:15, 81.68it/s]  3%|▎         | 39/1333 [00:00<00:18, 69.24it/s]  4%|▎         | 47/1333 [00:00<00:19, 64.84it/s]  4%|▍         | 56/1333 [00:00<00:18, 69.75it/s]  5%|▍         | 64/1333 [00:00<00:17, 71.74it/s]  6%|▌         | 76/1333 [00:00<00:14, 84.71it/s]  7%|▋         | 87/1333 [00:01<00:13, 89.78it/s]  7%|▋         | 97/1333 [00:01<00:13, 91.38it/s]  8%|▊         | 107/1333 [00:01<00:14, 86.96it/s]  9%|▊         | 116/1333 [00:01<00:13, 87.69it/s]  9%|▉         | 125/1333 [00:01<00:14, 85.82it/s] 10%|█         | 137/1333 [00:01<00:12, 92.66it/s] 11%|█         | 147/1333 [00:01<00:12, 94.40it/s] 12%|█▏        | 157/1333 [00:01<00:13, 89.64it/s] 13%|█▎        | 168/1333 [00:01<00:12, 95.10it/s] 13%|█▎        | 177/1333 [00:02<00:13, 84.02it/s]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 37, in <module>
+    execute_script(dataset, args)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 22, in execute_script
+    craftmd_gpt(case, path_dir, model_name)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/craftmd.py", line 29, in craftmd_gpt
+    stats = json.load(f)
+            ^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

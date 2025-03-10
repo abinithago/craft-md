@@ -1,0 +1,421 @@
+{
+    "case_vignette": "A 28-year-old woman comes to the physician because of a 1-year history of intermittent buzzing in both her ears. She says she sometimes has episodes of mild dizziness which resolve spontaneously. She has a 15-year history of type 1 diabetes mellitus and episodes of low back pain. She does not smoke or drink alcohol. Current medications include insulin and aspirin. She works as a trombonist for a symphony orchestra. Her vital signs are within normal limits. On otoscopic examination, the tympanic membrane appears normal. Bone conduction is greater than air conduction in both ears. Weber test shows no lateralization. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Endolymphatic hydrops",
+        "vignette_frq": "Bilateral sensorineural hearing loss.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a buzzing sound in both my ears and sometimes I have episodes of mild dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about a year."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any hearing loss associated with the buzzing sound?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any hearing loss specifically associated with the buzzing sound."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your vision or balance apart from the episodes of dizziness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have only experienced episodes of mild dizziness, no changes in vision or balance apart from that."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any triggers for the dizziness or does it occur randomly?"
+            },
+            {
+                "role": "user",
+                "content": "The episodes of dizziness seem to occur randomly."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of migraines or headaches?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned any history of migraines or headaches."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of ear infections, surgeries, or other ear-related issues?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any history of ear infections, surgeries, or other ear-related issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of hearing problems, dizziness, or neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of hearing problems, dizziness, or neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bilateral Tinnitus"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Endolymphatic hydrops",
+        "multiturn_frq": "**Final Diagnosis:** Bilateral Tinnitus with possible Vestibular Disorder",
+        "singleturn_mcq": "Endolymphatic hydrops",
+        "singleturn_frq": "**Final Diagnosis:** Meniere's Disease",
+        "summarized_conversation": "A patient has been experiencing a buzzing sound in both ears for about a year, accompanied occasionally by episodes of mild dizziness. They report that these episodes of dizziness seem to occur randomly. The patient does not report any hearing loss specifically associated with the buzzing sound, nor any changes in vision or balance beyond the mild dizziness. Furthermore, the patient does not have a history of migraines, headaches, ear infections, surgeries, or other ear-related issues. There is also no familial history of hearing problems, dizziness, or neurological disorders.",
+        "summarized_mcq": "Endolymphatic hydrops",
+        "summarized_frq": "Tinnitus with possible Meniere's Disease."
+    },
+    "trial_1": {
+        "vignette_mcq": "Endolymphatic hydrops",
+        "vignette_frq": "Bilateral sensorineural hearing loss.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent buzzing in both my ears and sometimes I have episodes of mild dizziness that go away on their own."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about a year."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any hearing loss or changes in hearing associated with the buzzing?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific hearing loss or changes in hearing other than the buzzing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any flu-like symptoms, upper respiratory infections, or allergies recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any flu-like symptoms, upper respiratory infections, or allergies recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological disorders or ear problems in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of neurological disorders or ear problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking insulin and aspirin, and I have a history of type 1 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Meniere's Disease"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Endolymphatic hydrops",
+        "multiturn_frq": "Final Diagnosis: Meniere's Disease",
+        "singleturn_mcq": "Final Diagnosis: Endolymphatic hydrops",
+        "singleturn_frq": "**Final Diagnosis:** Meniere's Disease",
+        "summarized_conversation": "The patient reports experiencing intermittent buzzing in both ears, accompanied by episodes of mild dizziness that resolve spontaneously. These symptoms have been ongoing for approximately a year. The patient notes no significant hearing loss or changes in hearing aside from the buzzing. The patient denies recent flu-like symptoms, upper respiratory infections, or allergies. Additionally, there is no family history of neurological disorders or ear problems. The patient is currently on insulin and aspirin, managing a diagnosis of type 1 diabetes mellitus.",
+        "summarized_mcq": "Endolymphatic hydrops",
+        "summarized_frq": "Tinnitus with possible underlying M\u00e9ni\u00e8re's disease."
+    },
+    "trial_2": {
+        "vignette_mcq": "Otosclerosis",
+        "vignette_frq": "Bilateral sensorineural hearing loss.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing intermittent buzzing in both my ears for the past year and sometimes I also feel mild dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any hearing loss or changes in your hearing capability?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't specifically mentioned any hearing loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of ear infections or ear surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of ear infections or ear surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any headaches or vision changes associated with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not experience any headaches or vision changes with my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent illnesses or injuries, particularly involving your head or neck?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent illnesses or injuries involving my head or neck."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have similar symptoms or a diagnosed neurological condition?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned anything about family history related to similar symptoms or neurological conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there specific situations or times when the buzzing in your ears and dizziness worsens?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't specify any particular situations or times when the buzzing and dizziness worsen; I described them as intermittent."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any medications or supplements regularly?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking insulin and aspirin regularly."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bilateral Tinnitus"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Endolymphatic hydrops",
+        "multiturn_frq": "**Final Diagnosis:** Bilateral Tinnitus",
+        "singleturn_mcq": "Final Diagnosis: Endolymphatic hydrops",
+        "singleturn_frq": "**Final Diagnosis:** Meniere's Disease",
+        "summarized_conversation": "A patient has been experiencing intermittent buzzing in both ears for the past year and sometimes feels mild dizziness. The patient has not reported any hearing loss. There is no history of ear infections or ear surgeries. Additionally, the patient does not experience any headaches or vision changes with the symptoms. There have been no recent illnesses or injuries involving the head or neck. The patient has not discussed any family history related to similar symptoms or neurological conditions. The buzzing and dizziness were described as intermittent, without specifying any particular situations or times when the symptoms worsen. Currently, the patient is taking insulin and aspirin on a regular basis.",
+        "summarized_mcq": "Endolymphatic hydrops",
+        "summarized_frq": "Tinnitus with possible vestibular involvement."
+    },
+    "trial_3": {
+        "vignette_mcq": "Endolymphatic hydrops",
+        "vignette_frq": "Bilateral conductive hearing loss",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent buzzing in both my ears and sometimes have episodes of mild dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about a year."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any associated hearing loss or changes in your hearing capability?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific changes in my hearing capability other than the buzzing sound."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any nausea or vomiting along with your dizziness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any nausea or vomiting with the dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of ear infections or head trauma?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any history of ear infections or head trauma."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of ear problems or balance disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of ear problems or balance disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Do your episodes of dizziness seem to be triggered by changes in the position of your head?"
+            },
+            {
+                "role": "user",
+                "content": "No, the dizziness does not seem to be triggered by changes in the position of my head."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to any loud noises or work in an environment with loud sounds?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I work as a trombonist for a symphony orchestra."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Noise-induced hearing loss"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Noise-induced hearing loss",
+        "multiturn_frq": "**Final Diagnosis:** Tinnitus",
+        "singleturn_mcq": "Endolymphatic hydrops",
+        "singleturn_frq": "**Final Diagnosis:** Meniere's disease",
+        "summarized_conversation": "A patient has been experiencing intermittent buzzing in both ears and occasionally suffers from episodes of mild dizziness for approximately one year. The patient has noted no significant changes in hearing capability, apart from the buzzing sound. Furthermore, there has been no nausea or vomiting accompanying the dizziness. The patient does not have a history of ear infections or head trauma and there is no family history of ear problems or balance disorders. It is also noted that the dizziness is not triggered by changes in the position of the patient's head. The patient works as a trombonist for a symphony orchestra.",
+        "summarized_mcq": "Noise-induced hearing loss",
+        "summarized_frq": "Tinnitus"
+    },
+    "trial_4": {
+        "vignette_mcq": "Endolymphatic hydrops",
+        "vignette_frq": "Bilateral sensorineural hearing loss.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent buzzing in both my ears and sometimes I have episodes of mild dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about a year."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any hearing loss or fullness feeling in your ears?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any hearing loss or a feeling of fullness in my ears."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of ear infections or any neurological diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of ear infections or any neurological diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these symptoms of buzzing and dizziness occur at the same time or independently?"
+            },
+            {
+                "role": "user",
+                "content": "The symptoms of buzzing and dizziness occur independently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any triggers or patterns that seem to cause these symptoms to worsen?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any specific triggers or patterns that worsen the symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of migraines or headaches?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of migraines or headaches."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar symptoms or been diagnosed with neurological or ear-related conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, my family members have not had similar symptoms or been diagnosed with neurological or ear-related conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your symptoms when you shift your head or body position?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my symptoms when I shift my head or body position."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bilateral Tinnitus"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Endolymphatic hydrops.",
+        "multiturn_frq": "**Final Diagnosis:** Bilateral Tinnitus",
+        "singleturn_mcq": "Final Diagnosis: Endolymphatic hydrops",
+        "singleturn_frq": "**Final Diagnosis:** Meniere's disease",
+        "summarized_conversation": "A patient has been experiencing intermittent buzzing in both ears along with episodes of mild dizziness for about a year. The patient reports no hearing loss or a feeling of fullness in the ears, nor any history of ear infections or neurological diseases. The symptoms of buzzing and dizziness occur independently and no specific triggers or patterns that worsen the symptoms have been noted. Additionally, the patient does not have a history of migraines or headaches and there is no known similarity in symptoms or diagnosis of neurological or ear-related conditions among family members. There have also been no noticed changes in symptoms associated with shifts in head or body position.",
+        "summarized_mcq": "Endolymphatic hydrops",
+        "summarized_frq": "Bilateral tinnitus and episodic vertigo with no other associated symptoms most likely suggest Meniere's disease."
+    }
+}

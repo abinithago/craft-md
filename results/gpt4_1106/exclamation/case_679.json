@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 54-year-old man comes to the physician for the evaluation of difficulty swallowing of both solids and liquids for 1 month! During the past 5 months, he has also had increased weakness of his hands and legs! He sails regularly and is unable to hold the ropes as tightly as before! Ten years ago, he was involved in a motor vehicle collision! Examination shows atrophy of the tongue! Muscle strength is decreased in the right upper and lower extremities! There is muscle stiffness in the left lower extremity! Deep tendon reflexes are 1+ in the right upper and lower extremities, 3+ in the left upper extremity, and 4+ in the left lower extremity! Plantar reflex shows an extensor response on the left foot! Sensation to light touch, pinprick, and vibration is intact! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Amyotrophic lateral sclerosis",
+        "vignette_frq": "Amyotrophic lateral sclerosis (ALS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty swallowing both solids and liquids for about a month, and I've also noticed increased weakness in my hands and legs over the past five months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced changes in your voice or any problems with your speech recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my voice or problems with my speech."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you lost any weight recently without trying?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not lost any weight recently without trying."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms, such as double vision, drooping eyelids, or difficulty breathing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have double vision, drooping eyelids, or difficulty breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you seen a doctor, and if so, have you undergone any tests or received any preliminary diagnoses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have seen a physician for an evaluation recently."
+            },
+            {
+                "role": "assistant",
+                "content": "What were the results of the evaluation or any tests you might have had?"
+            },
+            {
+                "role": "user",
+                "content": "The evaluation showed that I have muscle weakness and stiffness in my limbs, and my tongue has atrophied."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Amyotrophic lateral sclerosis (ALS)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Amyotrophic lateral sclerosis",
+        "multiturn_frq": "**Final Diagnosis:** Amyotrophic Lateral Sclerosis (ALS)",
+        "singleturn_mcq": "Final Diagnosis: Amyotrophic lateral sclerosis",
+        "singleturn_frq": "**Final Diagnosis:** Amyotrophic Lateral Sclerosis (ALS)",
+        "summarized_conversation": "The patient reports difficulty swallowing both solids and liquids for about a month and has observed increased weakness in the hands and legs over the past five months. The patient denies any family history of neurological disorders. Additionally, there have been no changes in the patient's voice or speech problems. The patient has not experienced any unintentional weight loss, nor does the patient have symptoms of double vision, drooping eyelids, or difficulty breathing. Recently, the patient underwent a physician's evaluation which indicated muscle weakness and stiffness in the limbs, and atrophy of the tongue.",
+        "summarized_mcq": "Amyotrophic lateral sclerosis",
+        "summarized_frq": "Amyotrophic lateral sclerosis (ALS)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Amyotrophic lateral sclerosis",
+        "vignette_frq": "Amyotrophic lateral sclerosis (ALS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty swallowing both solids and liquids for about a month and I've also noticed increased weakness in my hands and legs over the past 5 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your speech or breathing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my speech or breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological disorders or muscle diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of neurological disorders or muscle diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you started any new treatments recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications or have started any new treatments recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent weight loss, choking episodes, or changes in your voice or facial expressions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any recent weight loss, choking episodes, or changes in my voice or facial expressions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you previously been diagnosed with any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, ten years ago I was involved in a motor vehicle collision."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Amyotrophic lateral sclerosis (ALS)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Amyotrophic lateral sclerosis",
+        "multiturn_frq": "**Final Diagnosis:** Amyotrophic lateral sclerosis (ALS)",
+        "singleturn_mcq": "Final Diagnosis: Amyotrophic lateral sclerosis",
+        "singleturn_frq": "Final Diagnosis: Amyotrophic lateral sclerosis (ALS)",
+        "summarized_conversation": "A patient has reported having difficulty swallowing both solids and liquids for about a month and has also noticed increased weakness in their hands and legs over the past 5 months. The patient has not observed any changes in their speech or breathing. They are not aware of any family history of neurological disorders or muscle diseases. The patient is not currently on any medications, nor have they started any new treatments recently. The patient has not experienced any recent weight loss, choking episodes, or changes in voice or facial expressions. Ten years ago, the patient was involved in a motor vehicle collision.",
+        "summarized_mcq": "Amyotrophic lateral sclerosis",
+        "summarized_frq": "Amyotrophic lateral sclerosis (ALS)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Amyotrophic lateral sclerosis",
+        "vignette_frq": "Amyotrophic lateral sclerosis (ALS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty swallowing both solids and liquids for about a month, and over the past five months, I've noticed increased weakness in my hands and legs."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your speech or breathing recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any changes in my speech or breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous medical conditions or are you currently using any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I was involved in a motor vehicle collision ten years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I did not provide any information about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you feel any muscle pain, stiffness, or notice any muscle twitching?"
+            },
+            {
+                "role": "user",
+                "content": "I have muscle stiffness in my left lower extremity."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Amyotrophic lateral sclerosis (ALS)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Amyotrophic lateral sclerosis",
+        "multiturn_frq": "**Final Diagnosis:** Amyotrophic lateral sclerosis (ALS)",
+        "singleturn_mcq": "Final Diagnosis: Amyotrophic lateral sclerosis",
+        "singleturn_frq": "**Final Diagnosis:** Amyotrophic lateral sclerosis (ALS)",
+        "summarized_conversation": "The patient reports experiencing difficulty in swallowing both solids and liquids for about a month and has observed increased weakness in their hands and legs over the past five months. The patient denies any changes in speech or breathing. The patient was involved in a motor vehicle collision ten years ago. The patient didn\u2019t provide any details regarding their family's medical history. Furthermore, the patient mentions having muscle stiffness in the left lower extremity.",
+        "summarized_mcq": "Amyotrophic lateral sclerosis",
+        "summarized_frq": "Amyotrophic lateral sclerosis (ALS)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Amyotrophic lateral sclerosis",
+        "vignette_frq": "Amyotrophic lateral sclerosis (ALS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty swallowing both solids and liquids for 1 month, and I've noticed increased weakness in my hands and legs over the past 5 months.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your speech or facial muscles?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there is atrophy of my tongue."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of similar symptoms or neurological diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family history regarding similar symptoms or neurological diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any twitching or cramping in your muscles?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned experiencing any twitching or cramping in my muscles."
+            },
+            {
+                "role": "assistant",
+                "content": "When did you first notice the weakness in your hands and legs?"
+            },
+            {
+                "role": "user",
+                "content": "I first noticed the weakness in my hands and legs about 5 months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other medical conditions, or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't provided any information about other medical conditions or medications that I might be taking."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Amyotrophic lateral sclerosis (ALS)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Amyotrophic lateral sclerosis",
+        "multiturn_frq": "**Final Diagnosis:** Amyotrophic Lateral Sclerosis (ALS)",
+        "singleturn_mcq": "Final Diagnosis: Amyotrophic lateral sclerosis",
+        "singleturn_frq": "**Final Diagnosis:** Amyotrophic lateral sclerosis (ALS)",
+        "summarized_conversation": "A patient reports having difficulty swallowing both solids and liquids for the past month and has observed increased weakness in their hands and legs for the past five months. The patient also notes atrophy of the tongue. They state that they do not have any information about their family history regarding similar symptoms or neurological diseases. Furthermore, the patient confirms that they haven't experienced any twitching or cramping in their muscles. The initial observation of weakness in their hands and legs was around five months ago. The patient has not provided any details regarding other medical conditions or medications.",
+        "summarized_mcq": "Amyotrophic lateral sclerosis",
+        "summarized_frq": "Amyotrophic lateral sclerosis (ALS)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Amyotrophic lateral sclerosis",
+        "vignette_frq": "Amyotrophic lateral sclerosis (ALS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty swallowing both solids and liquids for about a month now, and I've also noticed increased weakness in my hands and legs over the past five months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your voice or difficulties in speaking?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my voice or difficulties in speaking."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no history of neurological disorders in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any breathing difficulties or shortness of breath?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any breathing difficulties or shortness of breath."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been tested or treated for any neurological conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been tested or treated for any neurological conditions in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as double vision, drooping eyelids, or changes in facial expressions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have symptoms like double vision, drooping eyelids, or changes in facial expressions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Amyotrophic Lateral Sclerosis (ALS)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Amyotrophic lateral sclerosis",
+        "multiturn_frq": "**Final Diagnosis:** Amyotrophic Lateral Sclerosis (ALS)",
+        "singleturn_mcq": "Final Diagnosis: Amyotrophic lateral sclerosis",
+        "singleturn_frq": "Final Diagnosis: Amyotrophic lateral sclerosis (ALS)",
+        "summarized_conversation": "A patient has been experiencing difficulty swallowing both solids and liquids for approximately one month and has also observed increased weakness in their hands and legs over the last five months. The patient has not experienced any changes in voice or difficulties in speaking. Additionally, there is no familial history of neurological disorders. The patient has not observed any symptoms of breathing difficulties or shortness of breath. They have not undergone any tests or received treatment for any neurological conditions previously. Also, the patient does not exhibit symptoms such as double vision, drooping eyelids, or altered facial expressions.",
+        "summarized_mcq": "Amyotrophic lateral sclerosis",
+        "summarized_frq": "Amyotrophic lateral sclerosis (ALS)"
+    }
+}

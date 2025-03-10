@@ -1,0 +1,397 @@
+{
+    "case_vignette": "Three days after undergoing open surgery to repair a bilateral inguinal hernia, a 66-year-old man has new, intermittent upper abdominal discomfort that worsens when he walks around! He also has new shortness of breath that resolves with rest! There were no complications during surgery or during the immediate postsurgical period! Ambulation was restarted on the first postoperative day! He has type 2 diabetes mellitus, hypercholesterolemia, and hypertension! He has smoked one pack of cigarettes daily for 25 years! Prior to admission, his medications included metformin, simvastatin, and lisinopril! His temperature is 37\u00b0C (98!6\u00b0F), pulse is 80/min, respirations are 16/min, and blood pressure is 129/80 mm Hg! Pulse oximetry on room air shows an oxygen saturation of 98%! The abdomen is soft and shows two healing surgical scars with moderate serous discharge! Cardiopulmonary examination shows no abnormalities! An ECG at rest shows no abnormalities! Cardiac enzyme levels are within the reference range! An x-ray of the chest and abdominal ultrasonography show no abnormalities! ",
+    "question": "Which  is the most appropriate next step in diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Cardiac pharmacological stress test",
+        "vignette_frq": "Perform a ventilation-perfusion scan.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing upper abdominal discomfort that gets worse when I walk and shortness of breath that goes away when I rest."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for three days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions like hypertension, diabetes, or high cholesterol?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes, high cholesterol, and hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications for your conditions? If so, what are they?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking metformin for diabetes, simvastatin for high cholesterol, and lisinopril for hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of heart disease?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family history of heart disease."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any pain in your chest, particularly during physical activity or stress?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not experience any chest pain during physical activity or stress."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any nausea, vomiting, or sweating along with your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any nausea, vomiting, or sweating with my current symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Angina Pectoris"
+            }
+        ],
+        "multiturn_mcq": "Cardiac pharmacological stress test",
+        "multiturn_frq": "**Final Diagnosis:** Angina Pectoris",
+        "singleturn_mcq": "Coronary angiography",
+        "singleturn_frq": "Final Diagnosis: Angina Pectoris",
+        "summarized_conversation": "A patient reports experiencing upper abdominal discomfort that worsens with walking and shortness of breath that alleviates upon resting. These symptoms have been present for three days. The patient has type 2 diabetes, high cholesterol, and hypertension, and has been treating these conditions with metformin, simvastatin, and lisinopril respectively. The patient has not observed any swelling in the legs or feet, and does not have information about a family history of heart disease. Furthermore, the patient does not endure chest pain during physical activity or stress, nor has the patient reported experiencing any nausea, vomiting, or sweating in conjunction with the current symptoms.",
+        "summarized_mcq": "Cardiac pharmacological stress test",
+        "summarized_frq": "The most appropriate next step in diagnosis is an exercise stress test."
+    },
+    "trial_1": {
+        "vignette_mcq": "Cardiac pharmacological stress test",
+        "vignette_frq": "Stress test",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have new, intermittent upper abdominal discomfort that gets worse when I walk, and I also experience shortness of breath that gets better when I rest."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for three days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease or other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have a history of heart disease or other cardiovascular conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus, hypercholesterolemia, and hypertension, and I am currently taking metformin, simvastatin, and lisinopril."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any pain or discomfort in your chest, jaw, back, or arms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not experience any pain or discomfort in my chest, jaw, back, or arms."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of heart disease or other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information on my family's medical history to share."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you notice any relationship between eating a meal and the onset of your abdominal discomfort?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no relationship between eating a meal and the onset of my abdominal discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you feel nauseous or have you vomited at any time since these symptoms began?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not feel nauseous, and I have not vomited since these symptoms began."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Angina Pectoris"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Coronary angiography",
+        "multiturn_frq": "**Final Diagnosis:** Abdominal angina",
+        "singleturn_mcq": "Coronary angiography",
+        "singleturn_frq": "Final Diagnosis: Angina Pectoris.",
+        "summarized_conversation": "A patient reports experiencing new, intermittent upper abdominal discomfort for the past three days, which worsens with walking and is accompanied by shortness of breath that improves with rest. The patient doesn't have a history of heart disease or other cardiovascular conditions but does suffer from type 2 diabetes mellitus, hypercholesterolemia, and hypertension. The current medications being taken are metformin, simvastatin, and lisinopril. No pain or discomfort is reported in the chest, jaw, back, or arms. Additionally, the patient notes that there is no significant family medical history available, and no correlation between eating and the onset of abdominal discomfort. The patient also denies any feelings of nausea or incidents of vomiting since the onset of symptoms.",
+        "summarized_mcq": "Coronary angiography",
+        "summarized_frq": "Perform an electrocardiogram (ECG) and consider further cardiac evaluation."
+    },
+    "trial_2": {
+        "vignette_mcq": "Cardiac pharmacological stress test",
+        "vignette_frq": "Perform a lower extremity Doppler ultrasound.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent upper abdominal discomfort that worsens when I walk around and shortness of breath that resolves with rest."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 66-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing heart conditions or have you been diagnosed with cardiovascular diseases in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with any heart conditions or cardiovascular diseases in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications, and do you have any other chronic conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking metformin, simvastatin, and lisinopril for my type 2 diabetes, high cholesterol, and high blood pressure."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of heart disease or other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there is no information provided about my family's medical history in my case details."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any patterns in the occurrence of your discomfort, like after eating or during physical activities?"
+            },
+            {
+                "role": "user",
+                "content": "The discomfort in my upper abdomen worsens when I walk around."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Angina Pectoris"
+            }
+        ],
+        "multiturn_mcq": "Cardiac pharmacological stress test.",
+        "multiturn_frq": "Final Diagnosis: Angina Pectoris",
+        "singleturn_mcq": "Coronary angiography",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A 66-year-old man reports experiencing intermittent upper abdominal discomfort that worsens with physical activity, specifically walking, and shortness of breath which subsides upon resting. He has no history of heart conditions or cardiovascular diseases. He is currently being treated for type 2 diabetes, high cholesterol, and high blood pressure with medications including metformin, simvastatin, and lisinopril. There is no available information regarding his family's medical history. The patient emphasizes that the discomfort in his upper abdomen notably worsens when he engages in walking.",
+        "summarized_mcq": "Coronary angiography",
+        "summarized_frq": "Stress test and/or coronary angiography."
+    },
+    "trial_3": {
+        "vignette_mcq": "Cardiac pharmacological stress test",
+        "vignette_frq": "Perform exercise stress testing.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have intermittent upper abdominal discomfort that worsens when I walk around, and I also experience shortness of breath that resolves with rest."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 66-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any heart or lung diseases, or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "I have type 2 diabetes, high cholesterol, and high blood pressure."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any similar episodes in the past or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first occurrence of these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of heart disease or other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about my family history of heart disease or other cardiovascular conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications for your diabetes, high cholesterol, or high blood pressure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking metformin for diabetes, simvastatin for high cholesterol, and lisinopril for high blood pressure."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet, or have you gained any unexpected weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs or feet, nor have I gained any unexpected weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Angina Pectoris"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Coronary angiography",
+        "multiturn_frq": "Final Diagnosis: Angina Pectoris",
+        "singleturn_mcq": "Coronary angiography",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A 66-year-old man reports experiencing intermittent upper abdominal discomfort that worsens with activity, accompanied by shortness of breath that resolves with rest. This is the first occurrence of these symptoms. He has type 2 diabetes, high cholesterol, and high blood pressure. He does not have information about his family history of heart disease or other cardiovascular conditions. He is currently taking metformin for diabetes, simvastatin for high cholesterol, and lisinopril for high blood pressure. Additionally, he reports no swelling in his legs or feet and no recent unexplained weight gain.",
+        "summarized_mcq": "Cardiac pharmacological stress test",
+        "summarized_frq": "Refer for a stress test and cardiology evaluation."
+    },
+    "trial_4": {
+        "vignette_mcq": "Cardiac pharmacological stress test",
+        "vignette_frq": "Perform a stress test.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing intermittent upper abdominal discomfort that gets worse when I walk around and I also have shortness of breath that resolves when I rest."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 66-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any heart-related illnesses or surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of any heart-related illnesses or surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking metformin, simvastatin, and lisinopril."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of diabetes, high cholesterol, or high blood pressure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus, hypercholesterolemia, and hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever experienced symptoms like this before, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first occurrence of these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of heart disease or sudden death?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information on family history of heart disease or sudden death."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Angina Pectoris"
+            }
+        ],
+        "multiturn_mcq": "Coronary angiography",
+        "multiturn_frq": "Final Diagnosis: Angina Pectoris",
+        "singleturn_mcq": "Coronary angiography",
+        "singleturn_frq": "Please specify your age and sex.",
+        "summarized_conversation": "A 66-year-old man is experiencing intermittent upper abdominal discomfort that worsens while walking and is accompanied by episodes of shortness of breath, which subside when he rests. He reports no history of heart-related illnesses or surgeries. The patient has type 2 diabetes mellitus, hypercholesterolemia, and hypertension for which he is on metformin, simvastatin, and lisinopril. This is the first occurrence of these symptoms. He has no available information regarding a family history of heart disease or sudden death.",
+        "summarized_mcq": "Cardiac pharmacological stress test",
+        "summarized_frq": "Exercise stress test"
+    }
+}

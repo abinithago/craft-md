@@ -1,0 +1,333 @@
+{
+    "case_vignette": "A 38-year-old woman comes to the physician for a 3-month history of bloody discharge from the right nipple. Her mother died of breast cancer at the age of 69 years. Mammography 6 months ago did not show any abnormalities. Examination of the breast shows expression of a small amount of serosanguinous fluid from the right nipple; there are no palpable breast masses or axillary lymphadenopathy. Ultrasonography of the right breast shows a single dilated duct. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Intraductal papilloma",
+        "vignette_frq": "Intraductal papilloma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing bloody discharge from my right nipple for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any lumps or changes in the breast tissue?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't felt any lumps or noticed any changes in the breast tissue."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of breast cancer or any other cancers?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my mother died of breast cancer at the age of 69."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or undergoing any treatments?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications or undergoing any treatments."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 38 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Intraductal Papilloma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Paget disease of the breast",
+        "multiturn_frq": "**Final Diagnosis:** Breast Cancer",
+        "singleturn_mcq": "Intraductal papilloma",
+        "singleturn_frq": "Final Diagnosis: Intraductal papilloma",
+        "summarized_conversation": "A patient has been experiencing bloody discharge from her right nipple for the past three months. She has not felt any lumps or noticed any changes in the breast tissue. The patient\u2019s mother died of breast cancer at the age of 69. The patient is not currently taking any medications or undergoing any treatments, and she is 38 years old.",
+        "summarized_mcq": "Intraductal papilloma",
+        "summarized_frq": "Intraductal papilloma"
+    },
+    "trial_1": {
+        "vignette_mcq": "Intraductal papilloma",
+        "vignette_frq": "Intraductal papilloma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing bloody discharge from my right nipple for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any lumps or pain in the breast?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any lumps or pain in my breast."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the shape or size of your breast?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in the shape or size of my breast."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unintentional weight loss or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any unintentional weight loss or night sweats recently."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 38 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of breast cancer or any other cancers?"
+            },
+            {
+                "role": "user",
+                "content": "My mother died of breast cancer at the age of 69."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have been on medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications nor have I been on medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Intraductal papilloma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Intraductal papilloma",
+        "multiturn_frq": "**Final Diagnosis:** Intraductal Papilloma",
+        "singleturn_mcq": "Paget disease of the breast",
+        "singleturn_frq": "**Final Diagnosis:** Intraductal papilloma",
+        "summarized_conversation": "A 38-year-old patient reports experiencing bloody discharge from their right nipple for the past three months. The patient notes no presence of lumps or pain in the breast, and there have been no changes in the shape or size of the breast. Additionally, the patient has not experienced any unintentional weight loss or night sweats recently. The patient's mother passed away from breast cancer at the age of 69. The patient is not currently taking any medications and has not been on medications recently.",
+        "summarized_mcq": "Intraductal papilloma",
+        "summarized_frq": "Intraductal papilloma"
+    },
+    "trial_2": {
+        "vignette_mcq": "Intraductal papilloma",
+        "vignette_frq": "Intraductal papilloma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing bloody discharge from my right nipple for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 38-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any lumps or changes in the shape or size of your breast?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no palpable breast masses or changes in the shape or size of my breast."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of breast cancer or any other cancers?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my mother died of breast cancer at the age of 69."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or undergoing any treatments?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications or undergoing any treatments."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Intraductal Papilloma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Intraductal papilloma",
+        "multiturn_frq": "**Final Diagnosis:** Intraductal papilloma",
+        "singleturn_mcq": "Paget disease of the breast",
+        "singleturn_frq": "**Final Diagnosis:** Mammary Duct Ectasia",
+        "summarized_conversation": "A patient, a 38-year-old woman, has reported experiencing bloody discharge from her right nipple for the past three months. She has observed no palpable breast masses nor any changes in the shape or size of her breast. The patient's mother died of breast cancer at the age of 69. The patient is not currently taking any medications or undergoing any treatments.",
+        "summarized_mcq": "Intraductal papilloma",
+        "summarized_frq": "Intraductal papilloma"
+    },
+    "trial_3": {
+        "vignette_mcq": "Intraductal papilloma",
+        "vignette_frq": "Intraductal papilloma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having bloody discharge from my right nipple for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes or lumps in your breast tissue?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no palpable breast masses or any noticeable changes in the breast tissue."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms such as pain, swelling, or redness in the breast or nipple area?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no pain, swelling, or redness in the breast or nipple area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unexplained weight loss, fever, or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced unexplained weight loss, fever, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of breast cancer or other cancers?"
+            },
+            {
+                "role": "user",
+                "content": "My mother died of breast cancer at the age of 69 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been using any medications recently, especially hormonal treatments or psychiatric medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been using any medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Intraductal Papilloma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Intraductal papilloma",
+        "multiturn_frq": "**Final Diagnosis:** Intraductal Papilloma",
+        "singleturn_mcq": "Final Diagnosis: Paget disease of the breast",
+        "singleturn_frq": "**Final Diagnosis:** Intraductal Papilloma",
+        "summarized_conversation": "A patient has been experiencing bloody discharge from the right nipple for the past three months. The patient reports no palpable breast masses or noticeable changes in the breast tissue. There is no associated pain, swelling, or redness in the breast or nipple area. Additionally, the patient has not experienced unexplained weight loss, fever, or night sweats. The patient's mother died of breast cancer at the age of 69 years. The patient has not been using any medications recently.",
+        "summarized_mcq": "Intraductal papilloma",
+        "summarized_frq": "The most likely diagnosis is intraductal papilloma."
+    },
+    "trial_4": {
+        "vignette_mcq": "Intraductal papilloma",
+        "vignette_frq": "Intraductal papilloma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing bloody discharge from my right nipple for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any lumps or changes in the shape of your breast or nipple?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any lumps or changes in the shape of my breast or nipple."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 38-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of breast cancer?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my mother died of breast cancer at the age of 69."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently using any medications, including hormonal treatments or contraceptives?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any specific medications or treatments that I am using."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Intraductal Papilloma"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Intraductal papilloma",
+        "multiturn_frq": "**Final Diagnosis:** Intraductal Papilloma",
+        "singleturn_mcq": "Final Diagnosis: Paget disease of the breast",
+        "singleturn_frq": "Final Diagnosis: Intraductal papilloma",
+        "summarized_conversation": "A patient, a 38-year-old woman, has been experiencing bloody discharge from her right nipple for the past three months. She has not noticed any lumps or changes in the shape of her breast or nipple. The woman's mother died of breast cancer at the age of 69. There is no information regarding any specific medications or treatments that the patient is currently using.",
+        "summarized_mcq": "Intraductal papilloma",
+        "summarized_frq": "Intraductal papilloma"
+    }
+}

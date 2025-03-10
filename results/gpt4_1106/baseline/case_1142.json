@@ -1,0 +1,317 @@
+{
+    "case_vignette": "A previously healthy 64-year-old woman comes to the physician because of a dry cough and progressively worsening shortness of breath for the past 2 months. She has not had fever, chills, or night sweats. She has smoked one pack of cigarettes daily for the past 45 years. She appears thin. Examination of the lung shows a prolonged expiratory phase and end-expiratory wheezing. Spirometry shows decreased FEV1:FVC ratio (< 70% predicted), decreased FEV1, and a total lung capacity of 125% of predicted. The diffusion capacity of the lung (DLCO) is decreased. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Chronic obstructive pulmonary disease",
+        "vignette_frq": "Chronic obstructive pulmonary disease (COPD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a dry cough and progressively worsening shortness of breath for the past 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any fever or weight loss during this period?"
+            },
+            {
+                "role": "user",
+                "content": "I have not had a fever, but I appear thin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or unintentional weight loss recently?"
+            },
+            {
+                "role": "user",
+                "content": "The information given doesn't mention changes in appetite or unintentional weight loss specifically."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or exposure to harmful substances such as asbestos?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have smoked one pack of cigarettes daily for the past 45 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been diagnosed with any lung diseases or had any similar symptoms in the past?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided states that I was previously healthy and doesn't mention any past diagnoses of lung diseases or similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with any chronic lung diseases?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not include any details about my family's medical history or if they have had similar symptoms or chronic lung diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic obstructive pulmonary disease (COPD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Chronic obstructive pulmonary disease",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Obstructive Pulmonary Disease (COPD)",
+        "singleturn_mcq": "Chronic obstructive pulmonary disease",
+        "singleturn_frq": "**Final Diagnosis:** Chronic obstructive pulmonary disease (COPD)",
+        "summarized_conversation": "A patient reports experiencing a dry cough and progressively worsening shortness of breath over the past 2 months. There has been no fever noted, but the patient appears thin. The details provided do not include information on changes in appetite or unintentional weight loss. The patient has a history of smoking one pack of cigarettes daily for 45 years. According to the provided information, the patient was previously healthy with no past diagnoses of lung diseases or similar symptoms. There are no details about the patient's family medical history or whether they have had similar symptoms or chronic lung diseases.",
+        "summarized_mcq": "Chronic obstructive pulmonary disease",
+        "summarized_frq": "Chronic obstructive pulmonary disease (COPD)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Chronic obstructive pulmonary disease",
+        "vignette_frq": "Chronic obstructive pulmonary disease (COPD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've had a dry cough and increasingly worse shortness of breath for the past 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any particular trigger or pattern to when these symptoms worsen?"
+            },
+            {
+                "role": "user",
+                "content": "No specific triggers, the symptoms have just progressively worsened over time."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking? If yes, for how long and how frequently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have smoked one pack of cigarettes daily for the past 45 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any weight loss, fever, or night sweats during this period?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had fever, chills, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I was previously healthy and have not mentioned any medications or other medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Chronic obstructive pulmonary disease",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Obstructive Pulmonary Disease (COPD)",
+        "singleturn_mcq": "Final Diagnosis: Interstitial lung disease",
+        "singleturn_frq": "**Final Diagnosis:** Chronic Obstructive Pulmonary Disease (COPD)",
+        "summarized_conversation": "A patient reports having a dry cough and worsening shortness of breath over the past two months, with no specific triggers identified. The symptoms have progressively worsened over time. The patient has a history of smoking one pack of cigarettes daily for 45 years. The patient has not experienced fever, chills, or night sweats, and was previously healthy. The patient does not report taking any medications or having other medical conditions.",
+        "summarized_mcq": "Chronic obstructive pulmonary disease",
+        "summarized_frq": "Chronic obstructive pulmonary disease (COPD)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Chronic obstructive pulmonary disease",
+        "vignette_frq": "Chronic obstructive pulmonary disease (COPD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a dry cough and progressively worsening shortness of breath for the past 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any fever, weight loss, or night sweats during this period?"
+            },
+            {
+                "role": "user",
+                "content": "I have not had fever, chills, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of smoking or exposure to airborne irritants in your work or home environments?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have smoked one pack of cigarettes daily for the past 45 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic illnesses, or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I was previously healthy and didn't mention any chronic illnesses or medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Chronic obstructive pulmonary disease",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Obstructive Pulmonary Disease (COPD)",
+        "singleturn_mcq": "Chronic obstructive pulmonary disease",
+        "singleturn_frq": "Final Diagnosis: Chronic obstructive pulmonary disease (COPD)",
+        "summarized_conversation": "A patient reports experiencing a dry cough and progressively worsening shortness of breath over the past 2 months. The patient denies having fever, chills, or night sweats. The patient has a smoking history of one pack of cigarettes daily for the past 45 years. The patient describes prior health as generally good, with no chronic illnesses or medications reported.",
+        "summarized_mcq": "Chronic obstructive pulmonary disease",
+        "summarized_frq": "Chronic obstructive pulmonary disease (COPD)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Chronic obstructive pulmonary disease",
+        "vignette_frq": "Chronic obstructive pulmonary disease (COPD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a dry cough and increasingly worse shortness of breath for the past two months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have smoked one pack of cigarettes daily for the past 45 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any weight loss or night sweats during this period?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had night sweats, but I appear thin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to any hazardous materials or chemicals in your environment or at work?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any exposure to hazardous materials or chemicals."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any wheezing or chest tightness associated with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have end-expiratory wheezing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of chronic illnesses like heart disease, diabetes, or lung diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of chronic illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Chronic obstructive pulmonary disease",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Obstructive Pulmonary Disease (COPD)",
+        "singleturn_mcq": "Final Diagnosis: Interstitial lung disease",
+        "singleturn_frq": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)",
+        "summarized_conversation": "A patient has been experiencing a dry cough and progressively worsening shortness of breath over the past two months. The patient admits to smoking one pack of cigarettes daily for the past 45 years. The patient reports no night sweats but appears thin and has not mentioned any exposure to hazardous materials or chemicals. There is end-expiratory wheezing noted, and the patient has not mentioned any family history of chronic illnesses.",
+        "summarized_mcq": "Chronic obstructive pulmonary disease",
+        "summarized_frq": "Chronic obstructive pulmonary disease (COPD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Chronic obstructive pulmonary disease",
+        "vignette_frq": "Chronic obstructive pulmonary disease (COPD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a dry cough and progressively worsening shortness of breath for the past 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unintentional weight loss or fevers during this time?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any fever, chills, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of smoking or exposure to airborne irritants such as dust or chemicals in your workplace?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have smoked one pack of cigarettes daily for the past 45 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any wheezing or chest tightness along with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there is end-expiratory wheezing when I breathe out."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease, lung conditions, or other significant health issues in yourself or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I was previously healthy and have no mentioned family history of significant health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Chronic obstructive pulmonary disease",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Obstructive Pulmonary Disease (COPD)",
+        "singleturn_mcq": "Interstitial lung disease",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary fibrosis",
+        "summarized_conversation": "A patient presents with symptoms of a dry cough and progressively worsening shortness of breath for the past 2 months. The patient denies any occurrences of fever, chills, or night sweats. The patient has a smoking history of one pack of cigarettes daily for the past 45 years. Additionally, the patient exhibits end-expiratory wheezing upon exhalation. Previously, the patient was healthy and there is no reported family history of significant health issues.",
+        "summarized_mcq": "Chronic obstructive pulmonary disease",
+        "summarized_frq": "Chronic obstructive pulmonary disease (COPD)"
+    }
+}

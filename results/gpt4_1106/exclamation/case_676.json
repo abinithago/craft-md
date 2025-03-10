@@ -1,0 +1,333 @@
+{
+    "case_vignette": "A 14-year-old boy is brought to the physician for the evaluation of back pain for the past six months! The pain is worse with exercise and when reclining! He attends high school and is on the swim team! He also states that he lifts weights on a regular basis! He has not had any trauma to the back or any previous problems with his joints! He has no history of serious illness! His father has a disc herniation! Palpation of the spinous processes at the lumbosacral area shows that two adjacent vertebrae are displaced and are at different levels! Muscle strength is normal! Sensation to pinprick and light touch is intact throughout! When the patient is asked to walk, a waddling gait is noted! Passive raising of either the right or left leg causes pain radiating down the ipsilateral leg! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Spondylolisthesis",
+        "vignette_frq": "Spondylolisthesis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing back pain for the past six months, which worsens with exercise and when I am reclining."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other accompanying symptoms like numbness, tingling, or weakness in your legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, my muscle strength is normal and sensation to pinprick and light touch is intact throughout."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or trauma to your back or spine?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any trauma to my back or any previous problems with my joints."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of serious illness and I am not currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of cancer in your family?"
+            },
+            {
+                "role": "user",
+                "content": "There's no mention of a history of cancer in my family; my father has a disc herniation."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Spondylolisthesis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Facet joint syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Ankylosing Spondylitis",
+        "singleturn_mcq": "Final Diagnosis: Ankylosing spondylitis",
+        "singleturn_frq": "**Final Diagnosis:** Ankylosing Spondylitis",
+        "summarized_conversation": "A patient has been suffering from back pain for the past six months, which worsens during exercise and while reclining. Their muscle strength remains normal, and sensation to pinprick and light touch is intact throughout their body. There are no instances of trauma to the patient's back or any previous joint issues. Furthermore, the patient does not have any history of serious illness and is not currently on any medications. There is no family history of cancer; however, the patient's father has a history of disc herniation.",
+        "summarized_mcq": "Facet joint syndrome",
+        "summarized_frq": "Disc herniation"
+    },
+    "trial_1": {
+        "vignette_mcq": "Spondylolisthesis",
+        "vignette_frq": "Spondylolisthesis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing back pain for the past six months, and it gets worse with exercise and when I recline. I also feel pain radiating down my leg when my leg is lifted."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or accidents that might have caused the back pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any trauma to the back or any recent injuries."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as numbness, tingling, or weakness in your legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, my muscle strength is normal and sensation to touch is intact throughout."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you previously been diagnosed with any spine or disc problems?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any previous problems with my joints or spine, but my father has a disc herniation."
+            },
+            {
+                "role": "assistant",
+                "content": "Are your symptoms improved, worsened, or unaffected by changes in position or activities?"
+            },
+            {
+                "role": "user",
+                "content": "My symptoms worsen with exercise and when I recline."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Sciatica"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Spondylolisthesis",
+        "multiturn_frq": "**Final Diagnosis:** Lumbar disc herniation",
+        "singleturn_mcq": "Final Diagnosis: Spondylolisthesis",
+        "singleturn_frq": "**Final Diagnosis:** Sciatica",
+        "summarized_conversation": "A patient has been experiencing back pain for the past six months, which worsens with exercise and during reclining. Additionally, the patient reports pain radiating down the leg when the leg is lifted. The patient denies any recent trauma to the back or recent injuries. The patient's muscle strength is normal and sensation to touch is intact throughout. There are no prior issues with the patient's joints or spine, although the patient's father has a disc herniation history. The symptoms notably intensify with exercise and upon reclining.",
+        "summarized_mcq": "Facet joint syndrome",
+        "summarized_frq": "Lumbar disc herniation"
+    },
+    "trial_2": {
+        "vignette_mcq": "Spondylolisthesis",
+        "vignette_frq": "Spondylolisthesis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing back pain for the past six months that gets worse with exercise and when I lay back."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the pain radiate anywhere else, such as your legs or arms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the pain radiates down my leg when I raise either my right or left leg."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any numbness, tingling, or weakness in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't experience any numbness, tingling, or weakness in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or accidents involving your back?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any trauma to the back or any previous problems with my joints."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you tried any treatments or medications for your back pain, and if so, have they provided any relief?"
+            },
+            {
+                "role": "user",
+                "content": "You didn't ask me about treatments or medications before, so I haven't mentioned trying any yet."
+            },
+            {
+                "role": "assistant",
+                "content": "I apologize for any confusion. Could you specify if you have tried any treatments or medications for your back pain, and if so, have they provided any relief?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned trying any treatments or medications for my back pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bladder or bowel control since the onset of your back pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any changes in my bladder or bowel control."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any history of arthritis or spinal issues in your family?"
+            },
+            {
+                "role": "user",
+                "content": "My father has a disc herniation."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lumbar disc herniation"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Spondylolisthesis",
+        "multiturn_frq": "**Final Diagnosis:** Lumbar disc herniation",
+        "singleturn_mcq": "Ankylosing spondylitis",
+        "singleturn_frq": "**Final Diagnosis:** Mechanical back pain",
+        "summarized_conversation": "A patient has been experiencing back pain for the past six months, which worsens with exercise and when lying back. The pain also radiates down the leg when the patient raises either the right or left leg. There is no numbness, tingling, or weakness in the legs or feet reported. The patient has not had any trauma to the back or any previous joint problems. The patient has not tried any treatments or medications for the back pain as they were not previously discussed. There have been no changes in bladder or bowel control. The patient's father has a history of disc herniation.",
+        "summarized_mcq": "Spondylolisthesis",
+        "summarized_frq": "Lumbar disc herniation"
+    },
+    "trial_3": {
+        "vignette_mcq": "Spondylolisthesis",
+        "vignette_frq": "Spondylolisthesis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing back pain for the past six months, which gets worse with exercise and when reclining."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling or changes in appearance in your back or spine?"
+            },
+            {
+                "role": "user",
+                "content": "Two adjacent vertebrae in my lumbosacral area are displaced and at different levels."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous injuries or accidents that might have affected your spine?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any trauma to the back or any previous problems with my joints."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of arthritis or spinal disorders?"
+            },
+            {
+                "role": "user",
+                "content": "My father has a disc herniation."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any numbness, tingling, or weakness in your legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, my muscle strength is normal and sensation to pinprick and light touch is intact throughout."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Spondylolisthesis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Spondylolisthesis",
+        "multiturn_frq": "**Final Diagnosis:** Spondylolisthesis",
+        "singleturn_mcq": "Final Diagnosis: Ankylosing spondylitis",
+        "singleturn_frq": "**Final Diagnosis:** Ankylosing Spondylitis",
+        "summarized_conversation": "A patient has been suffering from back pain for the past six months, which worsens with exercise and while reclining. The patient describes that two adjacent vertebrae in the lumbosacral area are misaligned and at different levels. The patient denies any trauma to the back or previous joint issues. The patient\u2019s father has a history of disc herniation. Muscle strength in the patient is reportedly normal, and sensation to pinprick and light touch remains intact throughout.",
+        "summarized_mcq": "Spondylolisthesis",
+        "summarized_frq": "Spondylolisthesis"
+    },
+    "trial_4": {
+        "vignette_mcq": "Spondylolisthesis",
+        "vignette_frq": "Spondylolisthesis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing back pain for the past six months, which gets worse with exercise and when I recline."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 14-year-old boy."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your walking pattern or leg weakness?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed a waddling gait when I walk."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of muscular diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "My father has a disc herniation, but no other muscular diseases in the family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any muscle cramps or fatigue recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any muscle cramps or fatigue recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Duchenne Muscular Dystrophy."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Spondylolisthesis",
+        "multiturn_frq": "Final Diagnosis: Scheuermann's Disease",
+        "singleturn_mcq": "Final Diagnosis: Ankylosing spondylitis",
+        "singleturn_frq": "Final Diagnosis: Mechanical Back Pain",
+        "summarized_conversation": "A patient, who is a 14-year-old boy, has been experiencing back pain for the past six months. The pain worsens with exercise and when the patient reclines. Additionally, the patient has observed a waddling gait when walking. The patient's father has a history of disc herniation; however, there are no other muscular diseases reported in the family. The patient has not experienced any muscle cramps or fatigue recently.",
+        "summarized_mcq": "Spondylolisthesis",
+        "summarized_frq": "Spondylolisthesis"
+    }
+}

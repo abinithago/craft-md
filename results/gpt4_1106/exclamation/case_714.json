@@ -1,0 +1,365 @@
+{
+    "case_vignette": "A 23-year-old man is brought to the emergency department by his girlfriend because of acute agitation and bizarre behavior! The girlfriend reports that, over the past 3 months, the patient has become withdrawn and stopped pursuing hobbies that he used to enjoy! One month ago, he lost his job because he stopped going to work! During this time, he has barely left his apartment because he believes that the FBI is spying on him and controlling his mind! He used to smoke marijuana occasionally in high school but quit 5 years ago! Physical and neurologic examinations show no abnormalities! On mental status examination, he is confused and suspicious with marked psychomotor agitation! His speech is disorganized and his affect is labile! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Schizophreniform disorder",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very agitated and confused, and I've been experiencing bizarre behaviors recently."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or fevers?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent infections or fevers."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you recently changed any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications nor have I changed any medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of any neurological or psychiatric conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a personal or family history of any neurological or psychiatric conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any other symptoms like memory loss, difficulty speaking, or changes in your vision or hearing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been experiencing memory loss, difficulty speaking, or changes in my vision or hearing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent head injuries or trauma?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent head injuries or trauma."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been using any substances like alcohol, recreational drugs, or have you been exposed to any toxins?"
+            },
+            {
+                "role": "user",
+                "content": "I used to smoke marijuana occasionally in high school but quit 5 years ago, and I have not been using any other substances or been exposed to toxins recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Delirium"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Schizophreniform disorder",
+        "multiturn_frq": "**Final Diagnosis:** Delusional disorder",
+        "singleturn_mcq": "Substance-induced psychotic disorder",
+        "singleturn_frq": "Final Diagnosis: Delirium.",
+        "summarized_conversation": "A patient has been exhibiting signs of agitation and confusion, along with bizarre behaviors for the past three months. The patient reports no recent infections or fevers. The patient is also not on any medications and has not altered any existing medication regimens recently. Additionally, there is no personal or family history of neurological or psychiatric conditions. The patient has not been experiencing any memory loss, difficulty speaking, or changes in vision or hearing. Furthermore, there have been no recent head injuries or trauma experienced by the patient. The patient disclosed having used marijuana occasionally during high school but ceased this practice five years ago, and has not used any other substances or been exposed to toxins recently.",
+        "summarized_mcq": "Schizophreniform disorder",
+        "summarized_frq": "Schizophrenia"
+    },
+    "trial_1": {
+        "vignette_mcq": "Schizophreniform disorder",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling really confused and agitated, and I've noticed that my moods are changing unpredictably."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any psychiatric disorders, or have you taken any medications for mental health?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of psychiatric disorders and I haven't taken any medications for mental health."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any patterns or triggers that correlate with these mood changes and confusion?"
+            },
+            {
+                "role": "user",
+                "content": "No specific patterns or triggers, but I've been feeling increasingly paranoid, believing that the FBI is spying on me and controlling my mind."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of mental illness or psychiatric disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The provided information does not mention any family history of mental illness or psychiatric disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Schizophrenia."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Schizophreniform disorder",
+        "multiturn_frq": "**Final Diagnosis:** Schizophrenia",
+        "singleturn_mcq": "Substance-induced psychotic disorder",
+        "singleturn_frq": "Final Diagnosis: Bipolar Disorder",
+        "summarized_conversation": "A patient has been experiencing confusion and agitation with unpredictable mood changes for approximately three months. The individual does not have a personal history of psychiatric disorders and has not taken any medications for mental health. The patient reports feeling increasingly paranoid, with beliefs that the FBI is spying on them and controlling their mind. There is no mention of a family history of mental illness or psychiatric disorders in this case.",
+        "summarized_mcq": "Schizophreniform disorder",
+        "summarized_frq": "Schizophrenia"
+    },
+    "trial_2": {
+        "vignette_mcq": "Schizophreniform disorder",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very confused and suspicious recently, and I have also been experiencing uncontrollable restlessness."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms have been noticeable for about 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any neurological or psychiatric conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with any neurological or psychiatric conditions in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or substances, prescribed or otherwise?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications or substances."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of psychiatric conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of psychiatric conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleeping patterns or appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "The information about changes in my sleeping patterns or appetite is not specified."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Schizophrenia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Schizophreniform disorder",
+        "multiturn_frq": "Final Diagnosis: Schizophrenia.",
+        "singleturn_mcq": "Final Diagnosis: Schizophreniform disorder",
+        "singleturn_frq": "**Final Diagnosis:** Schizophrenia",
+        "summarized_conversation": "A patient has been experiencing confusion, suspicion, and uncontrollable restlessness noticeable over the past 3 months. There is no prior diagnosis of neurological or psychiatric conditions. The patient is not currently taking any medications or substances and is not aware of any family history of psychiatric conditions. Details about changes in the patient\u2019s sleeping patterns or appetite are not specified.",
+        "summarized_mcq": "Schizophreniform disorder",
+        "summarized_frq": "Paranoid schizophrenia"
+    },
+    "trial_3": {
+        "vignette_mcq": "Schizophreniform disorder",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very agitated, and I'm acting strangely. I'm also confused, suspicious, and I've been experiencing some disorganized speech."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for the past 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health issues, or is there any family history of mental illness?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of a personal or family history of mental health issues in my case."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medication or substances that could affect your mood or cognitive function?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medication or substances that could affect my mood or cognitive function."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant changes or stress in your life recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I lost my job one month ago because I stopped going to work."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of these symptoms fluctuate throughout the day, or are they consistent?"
+            },
+            {
+                "role": "user",
+                "content": "My symptoms are consistent throughout the day."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Schizophrenia."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Schizophreniform disorder",
+        "multiturn_frq": "**Final Diagnosis:** Schizophrenia",
+        "singleturn_mcq": "Schizophreniform disorder",
+        "singleturn_frq": "Final Diagnosis: Schizophrenia",
+        "summarized_conversation": "A patient has been experiencing heightened agitation and exhibiting strange behavior. This includes confusion, suspicion, and disorganized speech persisting for the last three months. The patient reports no personal or family history of mental health issues. Additionally, the patient is not on any medications or substances that could influence mood or cognitive function. One month ago, the patient lost their job due to absenteeism. The symptoms present consistently throughout the day.",
+        "summarized_mcq": "Schizophreniform disorder",
+        "summarized_frq": "Schizophrenia"
+    },
+    "trial_4": {
+        "vignette_mcq": "Schizophreniform disorder",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very agitated and confused recently, and I've been having trouble organizing my thoughts when I speak."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 23-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent head injuries or infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any recent head injuries or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of mental health issues, either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications, supplements, or recreational drugs?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications, supplements, or recreational drugs."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your memory, or have others pointed out memory lapses to you?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my memory nor have others pointed out any memory lapses to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms, such as visual or auditory hallucinations, changes in sleep, or mood swings?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been experiencing mood swings, and my affect is labile."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bipolar Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Schizophreniform disorder",
+        "multiturn_frq": "**Final Diagnosis:** Bipolar Disorder",
+        "singleturn_mcq": "Substance-induced psychotic disorder",
+        "singleturn_frq": "Final Diagnosis: Delirium",
+        "summarized_conversation": "A patient presents to the clinic feeling very agitated and confused, experiencing difficulty organizing thoughts while speaking. The patient is a 23-year-old man who has not experienced any recent head injuries or infections. There is no personal or family history of mental health issues mentioned. The patient is not taking any medications, supplements, or recreational drugs. No changes in memory or memory lapses have been noticed, either by the patient himself or by others. The patient has been experiencing mood swings and has a labile affect.",
+        "summarized_mcq": "Schizophreniform disorder",
+        "summarized_frq": "Bipolar disorder"
+    }
+}

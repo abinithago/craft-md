@@ -1,0 +1,333 @@
+{
+    "case_vignette": "A 29-year-old woman is brought to the physician by her father because of a change in her behavior over the past 8 months. The father says that his daughter has become increasingly withdrawn; she has not answered any phone calls or visited her family and friends. The patient says that she has to stay at home because a foreign intelligence service is monitoring her. She thinks that they are using a magnetic field to read her mind. Mental status exam shows disjointed and perseverative thinking. She is anxious and has a flat affect. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Schizophrenia",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel like I have to stay at home because I am being monitored by a foreign intelligence service and I believe they are using a magnetic field to read my mind."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these thoughts?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these thoughts for the past 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been diagnosed with any psychiatric disorders or mental health issues in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned any previous diagnoses of psychiatric disorders or mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of mental health issues like schizophrenia, bipolar disorder, or other psychiatric conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned any family history of mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or substances, prescribed or otherwise?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned taking any medications or substances."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Delusional Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Schizophrenia",
+        "multiturn_frq": "Final Diagnosis: Delusional Disorder",
+        "singleturn_mcq": "Schizophrenia",
+        "singleturn_frq": "**Final Diagnosis:** Paranoid Schizophrenia",
+        "summarized_conversation": "A patient feels compelled to stay at home due to suspicions of being monitored by a foreign intelligence service via a magnetic field that they believe is reading their mind. This perception has been continuous for the past 8 months. The patient has not reported any previous diagnoses of psychiatric disorders or mental health issues. Additionally, there is no disclosed family history of mental health issues. The patient is not currently taking any medications or substances.",
+        "summarized_mcq": "Schizophrenia",
+        "summarized_frq": "Paranoid schizophrenia"
+    },
+    "trial_1": {
+        "vignette_mcq": "Schizophrenia",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel anxious and have been staying at home because I believe a foreign intelligence service is monitoring me and using a magnetic field to read my mind."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of mental illness or is there any family history of mental illness?"
+            },
+            {
+                "role": "user",
+                "content": "I cannot provide details about my medical history or my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in sleep, appetite, or energy levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any changes in my sleep, appetite, or energy levels."
+            },
+            {
+                "role": "assistant",
+                "content": "Are your thoughts about being monitored causing distress or making it difficult for you to do daily activities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my thoughts about being monitored are causing distress and making me stay at home."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these thoughts?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these thoughts for the past 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Paranoid Schizophrenia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Schizophrenia",
+        "multiturn_frq": "**Final Diagnosis:** Paranoid Schizophrenia",
+        "singleturn_mcq": "Schizophrenia",
+        "singleturn_frq": "**Final Diagnosis:** Paranoid Schizophrenia",
+        "summarized_conversation": "A patient feels anxious and has been staying at home due to a belief that a foreign intelligence service is monitoring them and using a magnetic field to read their mind. The patient cannot provide details about their medical history or their family's medical history. No changes in sleep, appetite, or energy levels have been mentioned. The thoughts about being monitored are causing distress and making the patient stay at home. These thoughts have been experienced for the past 8 months.",
+        "summarized_mcq": "Schizophrenia",
+        "summarized_frq": "Paranoid schizophrenia."
+    },
+    "trial_2": {
+        "vignette_mcq": "Schizophrenia",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been feeling anxious and withdrawn, and I think that a foreign intelligence service is monitoring me using a magnetic field to read my mind."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these thoughts and feelings?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these thoughts and feelings for the past 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any psychiatric conditions, or has anyone in your family been diagnosed with such conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have any information about my history of psychiatric conditions or family history in this regard."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleep pattern, appetite, or energy levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned any changes in my sleep pattern, appetite, or energy levels."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any medication or substances that could influence your thoughts or feelings?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned taking any medication or substances."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Delusional Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Schizophrenia",
+        "multiturn_frq": "**Final Diagnosis:** Paranoid Schizophrenia",
+        "singleturn_mcq": "Schizophrenia",
+        "singleturn_frq": "**Final Diagnosis:** Paranoid Schizophrenia",
+        "summarized_conversation": "A patient reports feelings of anxiety and withdrawal, accompanied by persistent thoughts of being monitored by a foreign intelligence service via a magnetic field to read their mind. These symptoms have been occurring for the past 8 months. The patient has not provided any information regarding a history of psychiatric conditions or family history in this regard. Additionally, there are no reported changes in the patient's sleep patterns, appetite, or energy levels, and no mention of taking any medications or substances.",
+        "summarized_mcq": "Schizophrenia",
+        "summarized_frq": "Paranoid Schizophrenia"
+    },
+    "trial_3": {
+        "vignette_mcq": "Schizophrenia",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very anxious and withdrawn, and I haven't been interacting much with my family or friends."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these feelings?"
+            },
+            {
+                "role": "user",
+                "content": "For about the past 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleep patterns or appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "The information about changes in my sleep patterns or appetite isn't provided, so I cannot say."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any thoughts of harming yourself or others?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had thoughts of harming myself or others."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any mental health issues, or has anyone in your family had similar experiences?"
+            },
+            {
+                "role": "user",
+                "content": "The information about my personal or family history of mental health issues isn't provided, so I cannot say."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any significant changes or stress in your life around the time these feelings began?"
+            },
+            {
+                "role": "user",
+                "content": "The information about any significant life changes or stress around the time these feelings began isn't provided, so I cannot say."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you felt persistent sadness or hopelessness along with your anxiety and withdrawal?"
+            },
+            {
+                "role": "user",
+                "content": "The information about feelings of persistent sadness or hopelessness isn't provided, so I cannot say."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been a decrease in your ability to concentrate or make decisions lately?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing disjointed and perseverative thinking, which might affect my ability to concentrate and make decisions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Schizoaffective Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Schizophreniform disorder",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Schizoid personality disorder",
+        "singleturn_frq": "Final Diagnosis: Major Depressive Disorder",
+        "summarized_conversation": "A person has been feeling anxious and withdrawn, and they have not been interacting much with family or friends for about the past 8 months. No information about changes in their sleep patterns or appetite is available. They have not had thoughts of harming themselves or others. Details about their personal or family history of mental health issues are not available. Additionally, information about any significant life changes or stress around the time these feelings began is not provided. They do not know if they have feelings of persistent sadness or hopelessness. They have been experiencing disjointed and perseverative thinking, which might be affecting their ability to concentrate and make decisions.",
+        "summarized_mcq": "Schizoid personality disorder",
+        "summarized_frq": "Schizophrenia"
+    },
+    "trial_4": {
+        "vignette_mcq": "Schizophrenia",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very anxious and I believe that a foreign intelligence service is monitoring me, which has led me to stay withdrawn at home."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these feelings?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these feelings for about 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of mental illness or have you been diagnosed with any psychiatric condition previously?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned any previous mental illness or diagnoses."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members been diagnosed with a mental health disorder?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of mental health disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your sleep or appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any changes in my sleep or appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Paranoid Schizophrenia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Paranoid personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Delusional Disorder",
+        "singleturn_mcq": "Final Diagnosis: Paranoid personality disorder",
+        "singleturn_frq": "**Final Diagnosis:** Paranoid Schizophrenia",
+        "summarized_conversation": "A patient has been feeling increasingly anxious for the past 8 months and believes a foreign intelligence service is monitoring them, leading to self-isolation at home. The patient has not disclosed any prior mental health illnesses or diagnoses. Additionally, there is no mention of a family history of mental health disorders, nor any changes in sleep or appetite patterns.",
+        "summarized_mcq": "Paranoid personality disorder",
+        "summarized_frq": "Paranoid schizophrenia"
+    }
+}

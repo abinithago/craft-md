@@ -1,0 +1,27 @@
+cpu-bind=MASK - espresso, task  0  0 [2957032]: mask 0xff00000000000000000ff00000000000000000 set
+  0%|          | 0/250 [00:00<?, ?it/s]  3%|▎         | 7/250 [00:00<00:03, 69.33it/s]  3%|▎         | 8/250 [00:01<00:46,  5.24it/s]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 40, in <module>
+    execute_script(args)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 28, in execute_script
+    graderai_evaluation(case, dataset, path_dir, experiment_names)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/graderai_eval.py", line 31, in graderai_evaluation
+    res[f"trial_{i}"][f"evaluation_{exp}"], res[f"trial_{i}"][f"extracted_ans_{exp}"] = diagnosis_evaluation(correct_ans, clinical_llm_response)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 67, in diagnosis_evaluation
+    clinical_llm_ans = extract_diagnosis_name(clinical_llm_response).lower()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+  0%|          | 0/250 [00:00<?, ?it/s]  3%|▎         | 7/250 [00:00<00:04, 60.51it/s]  6%|▌         | 14/250 [00:00<00:03, 63.75it/s]  8%|▊         | 21/250 [00:00<00:05, 45.55it/s] 10%|█         | 25/250 [00:12<01:51,  2.02it/s]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 40, in <module>
+    execute_script(args)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 28, in execute_script
+    graderai_evaluation(case, dataset, path_dir, experiment_names)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/graderai_eval.py", line 31, in graderai_evaluation
+    res[f"trial_{i}"][f"evaluation_{exp}"], res[f"trial_{i}"][f"extracted_ans_{exp}"] = diagnosis_evaluation(correct_ans, clinical_llm_response)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 67, in diagnosis_evaluation
+    clinical_llm_ans = extract_diagnosis_name(clinical_llm_response).lower()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'

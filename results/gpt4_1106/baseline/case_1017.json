@@ -1,0 +1,461 @@
+{
+    "case_vignette": "A previously healthy 75-year-old man comes to the physician with a 6-month history of fatigue, weight loss, and abdominal pain. He drinks 2 oz of alcohol on the weekends and does not smoke. He is retired but previously worked in a factory that produces plastic pipes. Abdominal examination shows right upper quadrant tenderness; the liver edge is palpable 2 cm below the ribs. A liver biopsy specimen shows pleomorphic spindle cells that express PECAM-1 on their surface. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Hepatic angiosarcoma.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, weight loss, and abdominal pain for the last six months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bowel movements or blood in the stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in my bowel movements or blood in the stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling or lumps in your neck, armpits, or groin?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any swelling or lumps in my neck, armpits, or groin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any fevers or night sweats along with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any fevers or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any liver, kidney, or gastrointestinal diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of liver, kidney, or gastrointestinal diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you lost your appetite or experienced nausea along with your other symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not lost my appetite or experienced nausea."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar symptoms, or have been diagnosed with cancer or other genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, none of my family members have had similar symptoms or been diagnosed with cancer or other genetic disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you undergone any imaging studies like CT scan or MRI for your abdominal pain?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention undergoing any imaging studies like a CT scan or MRI for my abdominal pain in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you had any recent infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications and I have not had any recent infections."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 75-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pancreatic cancer"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cholangiocarcinoma",
+        "multiturn_frq": "**Final Diagnosis:** Pancreatic cancer",
+        "singleturn_mcq": "Cholangiocarcinoma",
+        "singleturn_frq": "Final Diagnosis: Lymphoma",
+        "summarized_conversation": "A 75-year-old man has been experiencing fatigue, weight loss, and abdominal pain for the last six months. He reports no changes in his bowel movements or presence of blood in the stool. Additionally, he does not have any swelling or lumps in his neck, armpits, or groin. He has not experienced any fevers or night sweats. The man does not have a history of liver, kidney, or gastrointestinal diseases, nor has he lost his appetite or experienced nausea. There are no family members with similar symptoms or diagnosed with cancer or other genetic disorders. He has not undergone any imaging studies like a CT scan or MRI for his abdominal pain. Also, he is not currently taking any medications and has not had any recent infections.",
+        "summarized_mcq": "Cholangiocarcinoma",
+        "summarized_frq": "Pancreatic cancer"
+    },
+    "trial_1": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma of the liver.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, weight loss, and abdominal pain for the past 6 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bowel habits or blood in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in my bowel habits or blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any medical conditions or have you been diagnosed with anything in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have been previously healthy and don't have a history of any medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any night sweats or fevers recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any night sweats or fevers recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or gastrointestinal diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about my family history of cancer or gastrointestinal diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any enlargement or discomfort in your lymph nodes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any enlargement or discomfort in my lymph nodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you undergone any imaging tests or blood work recently related to your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not undergone any imaging tests or blood work recently related to my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your appetite changed recently, or have you experienced any nausea or vomiting?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have experienced a loss of appetite, but no nausea or vomiting."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cancer of unknown primary with abdominal involvement."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Cholangiocarcinoma",
+        "multiturn_frq": "**Final Diagnosis:** Pancreatic cancer.",
+        "singleturn_mcq": "Cholangiocarcinoma",
+        "singleturn_frq": "**Final Diagnosis:** Chronic lymphocytic leukemia (CLL)",
+        "summarized_conversation": "A patient reports having experienced fatigue, weight loss, and abdominal pain over the past six months. The patient denies any changes in bowel habits or presence of blood in the stool. The patient has no prior history of medical conditions and has not observed any recent night sweats or fevers. The patient is unaware of any family history regarding cancer or gastrointestinal diseases and hasn\u2019t noted any enlargement or discomfort in the lymph nodes. The patient confirms a loss of appetite but denies experiencing nausea or vomiting. No imaging tests or blood work related to these symptoms have been conducted recently.",
+        "summarized_mcq": "Cholangiocarcinoma",
+        "summarized_frq": "Colon cancer"
+    },
+    "trial_2": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma of the liver.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, weight loss, and abdominal pain for the past 6 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bowel habits or seen any blood in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my bowel habits or seen any blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling or lumps in your neck, underarms, or groin?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any swelling or lumps in my neck, underarms, or groin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any fever or night sweats along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any fever or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or hematological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of cancer or hematological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 75-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent weight changes or loss of appetite?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have experienced weight loss over the past 6 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you undergone any imaging studies or blood tests recently? If so, what were the results?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned undergoing any imaging studies or blood tests recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pancreatic cancer"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cholangiocarcinoma",
+        "multiturn_frq": "**Final Diagnosis:** Pancreatic cancer",
+        "singleturn_mcq": "Cholangiocarcinoma",
+        "singleturn_frq": "Final Diagnosis: Chronic Myeloid Leukemia",
+        "summarized_conversation": "A patient has been suffering from fatigue, weight loss, and abdominal pain for the past 6 months. The 75-year-old man has not noticed any changes in his bowel habits or seen any blood in his stool. He does not have any swelling or lumps in his neck, underarms, or groin, and he has not experienced any fever or night sweats. There is no mention of a family history of cancer or hematological disorders. The patient confirms experiencing weight loss over the past 6 months. He has not undergone any recent imaging studies or blood tests.",
+        "summarized_mcq": "Cholangiocarcinoma",
+        "summarized_frq": "Colorectal cancer"
+    },
+    "trial_3": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma of the liver",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, weight loss, and abdominal pain for about 6 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bowel habits or blood in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in my bowel habits or blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like night sweats, fevers, or enlarged lymph nodes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have night sweats, fevers, or enlarged lymph nodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or any significant diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have any information about my family history of cancer or any significant diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any yellowing of your skin or eyes, or changes in the color of your urine or stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any yellowing of my skin or eyes, nor changes in the color of my urine or stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you undergone any imaging tests like an ultrasound or CT scan for your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I haven't mentioned undergoing any imaging tests like an ultrasound or CT scan."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a history of chronic use of medications or exposure to toxic substances?"
+            },
+            {
+                "role": "user",
+                "content": "I previously worked in a factory that produces plastic pipes, but I do not have a history of chronic use of medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Mesothelioma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Angiosarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Mesothelioma",
+        "singleturn_mcq": "Cholangiocarcinoma",
+        "singleturn_frq": "Final Diagnosis: Pancreatic Cancer",
+        "summarized_conversation": "A patient reports experiencing fatigue, weight loss, and abdominal pain over the past 6 months. The patient has not observed any changes in bowel habits or presence of blood in the stool. Additionally, the patient denies experiencing night sweats, fevers, or enlarged lymph nodes. The patient is unaware of any family history of cancer or other significant diseases. There is no reported yellowing of the skin or eyes, nor changes in the color of the urine or stool. The patient confirms not having undergone any imaging tests such as an ultrasound or CT scan. Previously, the patient worked in a factory that produces plastic pipes but does not have a history of chronic use of medications.",
+        "summarized_mcq": "Angiosarcoma",
+        "summarized_frq": "Pancreatic cancer"
+    },
+    "trial_4": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma of the liver.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, weight loss, and abdominal pain for the past 6 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bowel habits or blood in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my bowel habits or blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling or lumps in your body, particularly in the neck, armpits, or groin?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any swelling or lumps in my neck, armpits, or groin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any night sweats or fevers recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any night sweats or fevers recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or gastrointestinal diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I haven't mentioned anything about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you please share if there is any family history of cancer or gastrointestinal diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm unable to provide that information as I don't have details about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 75-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent unintentional weight gain or loss?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have experienced unintentional weight loss recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any imaging studies, like an ultrasound or CT scan, done recently for your abdominal pain?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned undergoing any imaging studies like ultrasound or CT scan."
+            },
+            {
+                "role": "assistant",
+                "content": "Would you please let me know if you have undergone any imaging studies like an ultrasound or CT scan for your abdominal pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not undergone any imaging studies like an ultrasound or CT scan for my abdominal pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any jaundice or changes in the color of your urine or stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any jaundice or changes in the color of my urine or stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pancreatic cancer"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Cholangiocarcinoma",
+        "multiturn_frq": "**Final Diagnosis:** Pancreatic cancer.",
+        "singleturn_mcq": "Cholangiocarcinoma",
+        "singleturn_frq": "Final Diagnosis: Lymphoma",
+        "summarized_conversation": "A 75-year-old man has been experiencing fatigue, unintentional weight loss, and abdominal pain for the past six months. He has not noticed any changes in bowel habits or observed any blood in his stool, and denies having any swelling or lumps in his neck, armpits, or groin. Additionally, he reports no recent night sweats or fevers. The patient is unable to provide details about his family's medical history. He has not undergone any imaging studies such as ultrasound or CT scan for his abdominal complaints and does not report any jaundice or changes in the color of his urine or stool.",
+        "summarized_mcq": "Cholangiocarcinoma",
+        "summarized_frq": "Pancreatic cancer"
+    }
+}

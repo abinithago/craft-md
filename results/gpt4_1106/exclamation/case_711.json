@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 29-year-old man comes to the physician because of a 3-day history of a swollen right knee! Over the past several weeks, he has had similar episodes affecting the right knee and sometimes also the left elbow, in which the swelling lasted an average of 5 days! He has a history of a rash that subsided 2 months ago! He lives in Connecticut with his wife and works as a landscaper! His temperature is 37!8\u00b0C (100\u00b0F), pulse is 90/min, respirations are 12/min, and blood pressure is 110/75 mm Hg! Physical examination shows a tender and warm right knee; range of motion is limited by pain! The remainder of the examination shows no abnormalities! His hematocrit is 44%, leukocyte count is 10,300/mm3, and platelet count is 145,000/mm3! Serum electrolyte concentrations are within normal limits! Arthrocentesis is performed and the synovial fluid is cloudy! Gram stain is negative! Analysis of the synovial fluid shows a leukocyte count of 70,000/mm3 and 80% neutrophils! Serologic testing confirms the diagnosis! ",
+    "question": "Which  is the most likely cause?",
+    "trial_0": {
+        "vignette_mcq": "Borrelia burgdorferi",
+        "vignette_frq": "Lyme disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing swelling in my right knee, which is tender and warm to the touch; it's also painful when I try to move it."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for 3 days now."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other joints affected or showing similar symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, similar episodes have affected my right knee and sometimes my left elbow over the past several weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently experienced any illness, such as an infection?"
+            },
+            {
+                "role": "user",
+                "content": "I had a rash that went away 2 months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any chronic illnesses or have you been diagnosed with any other medical conditions previously?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of any chronic illnesses or other medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of arthritis or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any knowledge or information about a family history of arthritis or autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any medication or therapy for your symptoms? If yes, what kind?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not taken any medication or therapy for my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Reactive Arthritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Neisseria gonorrhoeae",
+        "multiturn_frq": "**Final Diagnosis:** Reactive Arthritis",
+        "singleturn_mcq": "Staphylococcus aureus",
+        "singleturn_frq": "Final Diagnosis: Septic Arthritis",
+        "summarized_conversation": "A patient presents with swelling in the right knee, describing it as tender and warm to the touch, and reports pain during movement. These symptoms have been present for 3 days. Additionally, the patient has had similar episodes affecting the right knee and occasionally the left elbow over recent weeks. The patient also mentions a rash that resolved 2 months prior. The patient has no known history of chronic illnesses or medical conditions, and there is no awareness of any family history of arthritis or autoimmune diseases. The patient has not taken any medication or undergone therapy for these symptoms.",
+        "summarized_mcq": "Neisseria gonorrhoeae",
+        "summarized_frq": "Reactive arthritis"
+    },
+    "trial_1": {
+        "vignette_mcq": "Borrelia burgdorferi",
+        "vignette_frq": "Lyme disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a swollen right knee that's also tender and warm, and I'm having difficulty moving it because of the pain."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for 3 days now."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had similar episodes in the past?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, over the past several weeks I've had similar episodes affecting my right knee and sometimes my left elbow."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of psoriasis, or does anyone in your family have psoriasis?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of a rash that subsided 2 months ago, but no mention of psoriasis specifically or any family history of psoriasis."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not currently on any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Psoriatic Arthritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Neisseria gonorrhoeae",
+        "multiturn_frq": "**Final Diagnosis:** Psoriatic arthritis",
+        "singleturn_mcq": "Staphylococcus aureus",
+        "singleturn_frq": "Final Diagnosis: Septic Arthritis",
+        "summarized_conversation": "A patient presents with a swollen, tender, and warm right knee that has been causing difficulty in movement due to pain. These symptoms have persisted for 3 days. The patient reports experiencing similar episodes affecting the right knee and occasionally the left elbow over the past several weeks. The patient mentions having had a rash that subsided 2 months ago but no specific diagnosis of psoriasis or any family history of psoriasis is reported. The patient is not currently taking any medications.",
+        "summarized_mcq": "Neisseria gonorrhoeae",
+        "summarized_frq": "Reactive arthritis"
+    },
+    "trial_2": {
+        "vignette_mcq": "Borrelia burgdorferi",
+        "vignette_frq": "Lyme disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been dealing with a swollen right knee for the past three days. It's tender, warm, and painful to move."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms in other joints before or is this the first time?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had similar episodes affecting my right knee and sometimes my left elbow over the past several weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of psoriasis or anyone in your family with psoriasis or similar joint issues?"
+            },
+            {
+                "role": "user",
+                "content": "I had a rash that went away about 2 months ago, but I didn't mention any family history of psoriasis or similar joint issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes such as nail pitting or discoloration?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes like nail pitting or discoloration."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other medical conditions or are you currently taking any medication?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any other medical conditions or medications that I'm currently taking."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Psoriatic arthritis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Neisseria gonorrhoeae",
+        "multiturn_frq": "**Final Diagnosis:** Psoriatic arthritis",
+        "singleturn_mcq": "Staphylococcus aureus",
+        "singleturn_frq": "Final Diagnosis: Septic arthritis",
+        "summarized_conversation": "A patient has been experiencing a swollen right knee for the past three days, which is tender, warm, and painful to move. The patient reports similar episodes affecting the right knee and occasionally the left elbow over the past several weeks. Approximately two months ago, the patient had a rash that has since resolved. The patient has not reported any family history of psoriasis or similar joint issues. Additionally, the patient has not observed changes such as nail pitting or discoloration. There is no mention of any other medical conditions or medications that the patient is currently taking.",
+        "summarized_mcq": "Neisseria gonorrhoeae",
+        "summarized_frq": "Reactive arthritis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Borrelia burgdorferi",
+        "vignette_frq": "Lyme disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a swollen right knee for the past 3 days, and it's painful and warm to the touch."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or trauma to your knee?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries or trauma to my knee."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of joint pain or swelling in other joints before this incident?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, over the past several weeks, I've had similar episodes of swelling in my right knee and sometimes also my left elbow."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any skin changes like rashes, particularly around the affected joints?"
+            },
+            {
+                "role": "user",
+                "content": "I had a rash that subsided 2 months ago, but not specifically around the affected joints."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of autoimmune diseases or arthritis?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about a family history of autoimmune diseases or arthritis."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications for this or any other condition?"
+            },
+            {
+                "role": "user",
+                "content": "I am not currently taking any medications for this or any other condition."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any patterns or triggers that exacerbate the swelling and pain in the joints, such as specific activities or foods?"
+            },
+            {
+                "role": "user",
+                "content": "No specific activities or foods have been identified that exacerbate the swelling and pain in my joints."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Rheumatoid Arthritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Neisseria gonorrhoeae",
+        "multiturn_frq": "**Final Diagnosis:** Reactive arthritis",
+        "singleturn_mcq": "Staphylococcus aureus",
+        "singleturn_frq": "**Final Diagnosis:** Septic arthritis",
+        "summarized_conversation": "A patient presents with a swollen right knee that has been persistent for the past 3 days. The knee is described as painful and warm to the touch. The patient denies any recent injuries or trauma to the knee. Over the last several weeks, the patient reports experiencing similar episodes of swelling in the right knee and occasionally in the left elbow as well. A rash was mentioned that had appeared and subsided 2 months prior, but it was not localized around the affected joints. The patient has no known family history of autoimmune diseases or arthritis and is not on any medications for this or any other condition. Additionally, no specific activities or foods have been identified that worsen the swelling and pain in the joints.",
+        "summarized_mcq": "Neisseria gonorrhoeae",
+        "summarized_frq": "Seronegative arthritis"
+    },
+    "trial_4": {
+        "vignette_mcq": "Borrelia burgdorferi",
+        "vignette_frq": "Lyme disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a swollen and painful right knee for the past 3 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms in other joints before?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, over the past several weeks, I've had similar episodes affecting my right knee and sometimes my left elbow."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the episodes of pain and swelling come with any redness or warmth over the affected joints?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the affected joint, specifically my right knee currently, is tender and warm."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any recent history of injuries or infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of skin issues like psoriasis, or has any family member been diagnosed with psoriasis or related joint issues?"
+            },
+            {
+                "role": "user",
+                "content": "I had a rash that subsided about 2 months ago, but no mention of psoriasis specifically or any family history of such conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Reactive Arthritis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Neisseria gonorrhoeae",
+        "multiturn_frq": "**Final Diagnosis:** Reactive Arthritis.",
+        "singleturn_mcq": "Staphylococcus aureus",
+        "singleturn_frq": "Final Diagnosis: Knee effusion or possible acute gout",
+        "summarized_conversation": "A patient has been suffering from a swollen and painful right knee for the past three days. Prior to this, over the past several weeks, the patient has experienced similar episodes of discomfort, primarily in the right knee and occasionally in the left elbow. Currently, the patient\u2019s right knee is not only swollen but also tender and warm to the touch. The patient confirms that there have been no recent injuries or infections. About two months ago, a rash occurred but subsided; there was no identification of psoriasis nor any familial history of such conditions. The patient is not taking any medications.",
+        "summarized_mcq": "Neisseria gonorrhoeae",
+        "summarized_frq": "Reactive arthritis"
+    }
+}

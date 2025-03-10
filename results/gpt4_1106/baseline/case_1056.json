@@ -1,0 +1,549 @@
+{
+    "case_vignette": "A 4-year-old girl is brought to the physician by her mother because of fatigue and generalized weakness for 4 months. Examination shows decreased muscle tone. Her fasting serum glucose concentration is 41 mg/dL. The physician suspects a defect in one of the enzymes involved in the carnitine shuttle. ",
+    "question": "Increased serum concentration of which  should most raise suspicion of a different diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Ammonia",
+        "vignette_frq": "Cortisol",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very tired and generally weak for the past few months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently, either gain or loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, there hasn't been any change in my weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as increased thirst, frequent urination, or changes in your skin or hair?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any issues with feeling cold, constipation, or a slow heart rate recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had those issues either."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of thyroid or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you started new ones in the time symptoms began?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any joint pain or muscle aches?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven\u2019t had joint pain or muscle aches."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or been diagnosed with any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven\u2019t had any recent infections or been diagnosed with other medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any problems related to concentration or memory?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any problems with concentration or memory."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any mood changes or feelings of sadness lately?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any mood changes or feelings of sadness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you feel breathless or experience chest pain during activities or while at rest?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't felt breathless or had chest pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Based on the information provided, do you experience any fluctuations in your menstrual cycle or any changes in sexual function?"
+            },
+            {
+                "role": "user",
+                "content": "I'm too young to experience those things."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 4 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Juvenile Hypothyroidism"
+            }
+        ],
+        "multiturn_mcq": "Creatine kinase",
+        "multiturn_frq": "Serum ferritin",
+        "singleturn_mcq": "Ammonia",
+        "singleturn_frq": "Calcium",
+        "summarized_conversation": "A four-year-old patient has been experiencing general weakness and tiredness for the past few months. The patient reports no weight change and denies having any specific symptoms mentioned in further questioning. The patient is unsure of their family's medical history and confirms not taking any medications. Additionally, there are no complaints of joint pain, muscle aches, recent infections, other medical diagnoses, concentration or memory problems, mood changes, feelings of sadness, breathlessness, or chest pain. The patient asserts that they are too young to be experiencing such issues.",
+        "summarized_mcq": "Ammonia",
+        "summarized_frq": "Creatine kinase (CK)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Ammonia",
+        "vignette_frq": "Acylcarnitine",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very tired and weak for the past few months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight or appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no changes in my weight or appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any other symptoms like increased thirst, frequent urination, or blurred vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of thyroid issues or other endocrine disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I am not aware of any family history of thyroid issues or other endocrine disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent changes in your mood, skin, or hair?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any changes in my mood, skin, or hair."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or supplements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications or supplements."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any pain, particularly joint or muscle pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any joint or muscle pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any disturbances in your sleep patterns or any issues with feeling excessively sleepy during the day?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any disturbances in my sleep patterns or issues with feeling excessively sleepy during the day."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any issues with your menstrual cycle or sexual function?"
+            },
+            {
+                "role": "user",
+                "content": "I'm only 4 years old, so I haven't experienced anything related to menstrual cycle or sexual function."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hypothyroidism"
+            }
+        ],
+        "multiturn_mcq": "Creatine kinase",
+        "multiturn_frq": "Final Diagnosis: Juvenile Hypothyroidism",
+        "singleturn_mcq": "Creatine kinase",
+        "singleturn_frq": "Creatinine",
+        "summarized_conversation": "A patient has reported feeling very tired and weak for the past few months. Despite the ongoing symptoms, the patient notes no changes in weight or appetite. Further inquiry revealed that the patient has not experienced any additional symptoms typically related to thyroid or endocrine disorders. There is no known family history of thyroid issues or other endocrine disorders. Additionally, the patient reports no changes in mood, skin, or hair, and is not taking any medications or supplements. No joint or muscle pain has been reported, and there are no disturbances in the patient's sleep patterns or issues with excessive sleepiness during the day. The patient is only 4 years old and has not experienced issues related to menstrual cycle or sexual function.",
+        "summarized_mcq": "Ammonia",
+        "summarized_frq": "Creatine kinase (CK)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Ammonia",
+        "vignette_frq": "Acylcarnitine",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue and generalized weakness for the past 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight or appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, there haven't been any changes in my weight or appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as increased thirst, frequent urination, or blurred vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have increased thirst, frequent urination, or blurred vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your skin or hair, such as dryness or hair loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my skin or hair."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any chronic medical conditions and I'm not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a history of any endocrine or autoimmune disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any endocrine or autoimmune disorders in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any issues with concentration or memory recently, in addition to your fatigue and weakness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any issues with concentration or memory recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have your sleeping patterns changed or have you been experiencing unusual levels of stress?"
+            },
+            {
+                "role": "user",
+                "content": "No, my sleeping patterns haven't changed and I haven't been experiencing unusual levels of stress."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or been ill before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent infections or been ill before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bowel habits or abdominal discomfort?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my bowel habits or abdominal discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any muscle pain or joint pain along with your weakness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any muscle or joint pain along with my weakness."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Fatigue Syndrome"
+            }
+        ],
+        "multiturn_mcq": "Creatine kinase",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Fatigue Syndrome",
+        "singleturn_mcq": "Ammonia",
+        "singleturn_frq": "Calcium",
+        "summarized_conversation": "A patient has been facing fatigue and generalized weakness for the past four months. The patient's weight and appetite have not changed, nor have they experienced increased thirst, frequent urination, or blurred vision. There are no changes in skin or hair. The patient does not suffer from chronic medical conditions and is not taking any medications. They are not aware of any endocrine or autoimmune disorders in their family. The patient has not noticed any issues with concentration or memory. Sleeping patterns have remained constant and there has been no unusual stress. The patient has not had any recent infections, nor were they sick before these symptoms started. Additionally, there have been no changes in bowel habits or abdominal discomfort. There is no accompanying muscle or joint pain with the weakness.",
+        "summarized_mcq": "Creatine kinase",
+        "summarized_frq": "Creatine kinase"
+    },
+    "trial_3": {
+        "vignette_mcq": "Ammonia",
+        "vignette_frq": "Insulin",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling really tired and weak for the past few months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience increased thirst and frequent urination?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced increased thirst or frequent urination."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been feeling cold, or is there any change in your body temperature lately?"
+            },
+            {
+                "role": "user",
+                "content": "No, there haven't been any changes in my body temperature or feeling unusually cold."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as constipation, dry skin, or hair loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have symptoms like constipation, dry skin, or hair loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of thyroid or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any muscle cramps or muscle aches?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any muscle cramps or muscle aches."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your heart rate or any palpitations?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my heart rate or experienced any palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any medications you are currently taking or have recently started taking?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent blood work done, and if so, was there anything abnormal noted?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had blood work done, and it showed that my blood sugar level was low at 41 mg/dL."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Hypoglycemia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Hypoglycemia",
+        "multiturn_frq": "Final Diagnosis: Hypoglycemia",
+        "singleturn_mcq": "Creatine kinase",
+        "singleturn_frq": "Please tell me, have you noticed any changes in your weight?",
+        "summarized_conversation": "A patient has been experiencing significant fatigue and weakness for several months. This patient reports no changes in weight, no increased thirst or frequent urination, and no changes in body temperature or feeling unusually cold. Additionally, symptoms such as constipation, dry skin, or hair loss have not been observed. The patient lacks information about their family's medical history and denies having muscle cramps, muscle aches, changes in heart rate, or palpitations. The patient is not on any medications currently. Recent blood work revealed a low blood sugar level of 41 mg/dL.",
+        "summarized_mcq": "Ammonia",
+        "summarized_frq": "Cortisol"
+    },
+    "trial_4": {
+        "vignette_mcq": "Ammonia",
+        "vignette_frq": "Insulin",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling really tired and weak for the past few months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as increased thirst, frequent urination, or blurred vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your skin, like dryness or increased pigmentation?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my skin."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any thyroid issues or other hormonal disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any thyroid issues or hormonal disorders in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 4-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulties breathing or have you had any issues with frequent infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any difficulties breathing or frequent infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started or stopped any new medications or supplements recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't started or stopped any new medications or supplements recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent pain or swelling in the joints, muscles, or bones?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any pain or swelling in my joints, muscles, or bones."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any noticeable change in your appetite or bowel habits?"
+            },
+            {
+                "role": "user",
+                "content": "No, there hasn't been any noticeable change in my appetite or bowel habits."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your growth and development been on track according to regular pediatric check-ups?"
+            },
+            {
+                "role": "user",
+                "content": "I\u2019m sorry, but the information about my growth and development status wasn't specified in the details provided to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Based on the symptoms and age, it's important to evaluate further. Has a blood test been done recently to check for anemia or other abnormalities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, a blood test was done which showed that my fasting serum glucose concentration is 41 mg/dL."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Hypoglycemia"
+            }
+        ],
+        "multiturn_mcq": "\u03b2-hydroxybutyrate",
+        "multiturn_frq": "Final Diagnosis: Hypoglycemia",
+        "singleturn_mcq": "Creatine kinase",
+        "singleturn_frq": "Cortisol",
+        "summarized_conversation": "The patient, a 4-year-old girl, has been experiencing fatigue and weakness for several months. She hasn't noticed any changes in her weight or skin and does not have symptoms indicative of thyroid issues or hormonal disorders. There is no family history of such conditions either. She has not experienced difficulties breathing or had frequent infections, and there have been no recent changes in medications or supplements. Additionally, she does not have any pain or swelling in her joints, muscles, or bones, and her appetite or bowel habits have not changed noticeably. The patient mentioned that a blood test was conducted, revealing that her fasting serum glucose concentration is 41 mg/dL, but specific details about her growth and development status were not available.",
+        "summarized_mcq": "\u03b2-hydroxybutyrate",
+        "summarized_frq": "Cortisol"
+    }
+}

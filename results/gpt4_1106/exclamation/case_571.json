@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 58-year-old woman comes to the physician because of intermittent painful retrosternal dullness for 4 weeks! The pain is recurrent and occurs when she exerts herself or when she is outside during cold weather! She also experiences shortness of breath and palpitations during these episodes! The symptoms resolve spontaneously when she stops or sits down for a while! Over the past few days, the episodes have increased in frequency! She has hypertension, type 2 diabetes mellitus, and osteoarthritis! Her left leg was amputated below the knee after a motorcycle accident 25 years ago! She is currently waiting for a new prosthesis and walks with crutches! Current medications include captopril, glyburide, and ibuprofen! She does not smoke or drink alcohol! Her pulse is 88/min, respirations are 20/min, and blood pressure is 144/90 mm Hg! Cardiac examination shows no abnormalities! An x-ray of the chest shows no abnormalities! An ECG shows a normal sinus rhythm without any signs of ischemia! Serum cardiac markers are within the reference range! ",
+    "question": "Which  is the most appropriate next step in diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Myocardial perfusion scan under pharmacological stress",
+        "vignette_frq": "Stress test",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent painful dullness behind my breastbone, shortness of breath, and palpitations for the past 4 weeks, especially when I exert myself or am in cold weather."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 58-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal history of heart disease, high blood pressure, diabetes, or high cholesterol?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or does lying flat increase your symptoms like breathlessness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs, and lying flat doesn't increase my breathlessness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of heart disease or any other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family history of heart disease or other cardiovascular conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications for your hypertension and diabetes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I'm currently taking captopril for my hypertension and glyburide for my diabetes."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Stable Angina"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Repeat ECG under treadmill stress",
+        "multiturn_frq": "**Final Diagnosis:** Stable Angina",
+        "singleturn_mcq": "Repeat ECG under treadmill stress",
+        "singleturn_frq": "Final Diagnosis: Angina Pectoris",
+        "summarized_conversation": "A 58-year-old woman has been experiencing intermittent painful dullness behind her breastbone, shortness of breath, and palpitations for the past 4 weeks, particularly when exerting herself or in cold weather. She has a medical history of hypertension and type 2 diabetes mellitus. No swelling in the legs has been noticed, and lying flat does not increase her breathlessness. Unfortunately, she does not have information about her family history regarding heart disease or other cardiovascular conditions. She is currently prescribed captopril for hypertension and glyburide for her diabetes.",
+        "summarized_mcq": "Repeat ECG under treadmill stress",
+        "summarized_frq": "Perform a stress test and an echocardiogram."
+    },
+    "trial_1": {
+        "vignette_mcq": "Myocardial perfusion scan under pharmacological stress",
+        "vignette_frq": "Exercise stress test",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent painful chest discomfort and shortness of breath, especially during physical exertion or cold weather, along with palpitations during the episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 4 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease, high blood pressure, diabetes or high cholesterol?"
+            },
+            {
+                "role": "user",
+                "content": "I have hypertension and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications? If so, which ones?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking captopril, glyburide, and ibuprofen."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family experienced similar symptoms or been diagnosed with heart disease?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have any information about my family's medical history to share."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if the chest discomfort improves with rest or after taking nitroglycerin, if prescribed?"
+            },
+            {
+                "role": "user",
+                "content": "The chest discomfort resolves spontaneously when I stop or sit down for a while."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Stable angina"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Coronary artery disease.",
+        "multiturn_frq": "Final Diagnosis: Stable Angina",
+        "singleturn_mcq": "Repeat ECG under treadmill stress",
+        "singleturn_frq": "How old are you and what is your gender?",
+        "summarized_conversation": "A patient has been experiencing intermittent painful chest discomfort and shortness of breath, which worsen during physical activity or in cold weather, accompanied by palpitations. These symptoms have been ongoing for 4 weeks. This patient also has a medical history of hypertension and type 2 diabetes mellitus. The patient is currently on a regimen including captopril, glyburide, and ibuprofen. The patient reports no available family medical history. The chest discomfort typically resolves spontaneously when the patient stops the activity or rests for a while.",
+        "summarized_mcq": "Repeat ECG under treadmill stress",
+        "summarized_frq": "Stress test"
+    },
+    "trial_2": {
+        "vignette_mcq": "Myocardial perfusion scan under pharmacological stress",
+        "vignette_frq": "Stress test",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent painful discomfort behind my breastbone, shortness of breath, and heart palpitations, especially when I exert myself or in cold weather."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 4 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous episodes similar to this before the last 4 weeks?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar episodes before the last 4 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease, or high blood pressure, or cholesterol issues?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of high blood pressure, but no heart disease or cholesterol issues mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications for your high blood pressure or any other conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking captopril for my high blood pressure."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of heart disease or any other cardiovascular issues?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of heart disease or cardiovascular issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Coronary artery disease"
+            }
+        ],
+        "multiturn_mcq": "Repeat ECG under treadmill stress",
+        "multiturn_frq": "Final Diagnosis: Angina Pectoris",
+        "singleturn_mcq": "Repeat ECG under treadmill stress",
+        "singleturn_frq": "Final Diagnosis: Angina Pectoris",
+        "summarized_conversation": "A patient reports intermittent painful discomfort behind the breastbone, shortness of breath, and heart palpitations, particularly during exertion or exposure to cold weather. These symptoms have been ongoing for 4 weeks. The patient has not experienced similar episodes prior to the last 4 weeks. They have a history of high blood pressure but no documented heart disease or cholesterol issues. The patient is currently taking captopril for their high blood pressure. There is no family history of heart disease or cardiovascular issues mentioned.",
+        "summarized_mcq": "Repeat ECG under treadmill stress",
+        "summarized_frq": "Perform a stress test and consider ordering a coronary angiography based on the results."
+    },
+    "trial_3": {
+        "vignette_mcq": "Myocardial perfusion scan under pharmacological stress",
+        "vignette_frq": "Exercise stress test",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent painful discomfort behind my breastbone, shortness of breath, and palpitations, especially when I exert myself or am out in the cold."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 4 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing heart conditions or have you had any cardiovascular issues in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any cardiovascular issues in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your immediate family members had heart disease or any cardiovascular problems?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have the information about my family's medical history regarding heart disease or cardiovascular problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you undergone any treatments recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking captopril, glyburide, and ibuprofen."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if your symptoms get worse or flare up after taking any of these medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, my symptoms do not get worse after taking these medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you describe if the discomfort you feel behind your breastbone feels like pressure or tightness, and does it spread to other areas like your arms, neck, jaw, or back?"
+            },
+            {
+                "role": "user",
+                "content": "The discomfort behind my breastbone feels like a dull pain, and it does not spread to other areas."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Stable Angina"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Myocardial perfusion scan under pharmacological stress",
+        "multiturn_frq": "**Final Diagnosis:** Stable Angina",
+        "singleturn_mcq": "Repeat ECG under treadmill stress.",
+        "singleturn_frq": "Final Diagnosis: Angina Pectoris",
+        "summarized_conversation": "A patient has been experiencing intermittent painful discomfort behind their breastbone, along with shortness of breath and palpitations. These symptoms have been noted particularly during exertion or exposure to cold and have persisted for the past 4 weeks. The patient has no prior history of cardiovascular issues and lacks information regarding their family's medical history on heart disease or cardiovascular problems. They are currently on captopril, glyburide, and ibuprofen, and report that their symptoms do not worsen after medication intake. The discomfort described is a dull pain localizing behind the breastbone, with no radiation to other areas.",
+        "summarized_mcq": "Repeat ECG under treadmill stress",
+        "summarized_frq": "Stress test"
+    },
+    "trial_4": {
+        "vignette_mcq": "Myocardial perfusion scan under pharmacological stress",
+        "vignette_frq": "Exercise stress test",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having intermittent painful feelings in the center of my chest, especially when I exert myself or it's cold outside. Additionally, I experience shortness of breath and heart palpitations during these episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for 4 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of high blood pressure, high cholesterol, diabetes, or smoking?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a history of high blood pressure and type 2 diabetes mellitus, but I don't smoke."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your immediate family members had heart disease or strokes at a younger age?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about the medical history of my immediate family members in relation to heart disease or strokes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do your symptoms improve with rest or after taking any medication?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my symptoms resolve spontaneously when I stop or sit down for a while."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Angina Pectoris"
+            }
+        ],
+        "multiturn_mcq": "Repeat ECG under treadmill stress",
+        "multiturn_frq": "Final Diagnosis: Angina Pectoris",
+        "singleturn_mcq": "Repeat ECG under treadmill stress",
+        "singleturn_frq": "How long have you been experiencing these symptoms?",
+        "summarized_conversation": "A patient reports experiencing intermittent painful sensations in the center of the chest, particularly during exertion or in cold environments. These episodes, which have been occurring for the past four weeks, are also accompanied by shortness of breath and heart palpitations. The patient has a history of high blood pressure and type 2 diabetes mellitus, but does not smoke. There is no available information regarding the medical history of the patient's immediate family concerning heart disease or strokes. The patient notes that the symptoms resolve spontaneously after stopping activity or sitting down for a period.",
+        "summarized_mcq": "Repeat ECG under treadmill stress",
+        "summarized_frq": "Stress test and referral to a cardiologist"
+    }
+}

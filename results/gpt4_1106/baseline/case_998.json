@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 30-year-old woman comes to the physician because of increasing weakness in both legs for 7 days. She also reports a tingling sensation in her legs that is exacerbated by taking a hot shower. She is sexually active with one male partner and does not use condoms. Her temperature is 37.8\u00b0C (100.1\u00b0F). Physical examination shows decreased muscle strength and clonus in both lower extremities. Patellar reflex is 4+ bilaterally and plantar reflex shows an extensor response on both sides. Abdominal reflex is absent. An MRI of the brain is shown. ",
+    "question": "Which  findings is most likely to further support the diagnosis in this patient?",
+    "trial_0": {
+        "vignette_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "vignette_frq": "Multiple sclerosis plaques in the brain or spinal cord on MRI.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing weakness in both of my legs for the past week and a tingling sensation in my legs that gets worse when I take a hot shower."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like vision issues or difficulty with balance?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any vision issues or difficulty with balance."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections, vaccinations, or illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any recent infections, vaccinations, or illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any neurological disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any bladder or bowel control issues?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned experiencing any bladder or bowel control issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Sclerosis"
+            }
+        ],
+        "multiturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "multiturn_frq": "Final Diagnosis: Multiple Sclerosis",
+        "singleturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "singleturn_frq": "Decreased reflexes in the legs.",
+        "summarized_conversation": "A patient reports increasing weakness in both legs over the past week accompanied by a tingling sensation, which intensifies during a hot shower. The patient does not report any vision problems or difficulties with balance. There is no mention of recent infections, vaccinations, or illnesses. Furthermore, there is no family history of neurological disorders reported nor any issues with bladder or bowel control mentioned.",
+        "summarized_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "summarized_frq": "An MRI of the spine showing lesions."
+    },
+    "trial_1": {
+        "vignette_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "vignette_frq": "MRI of the cervical spine revealing demyelinating lesions.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing increasing weakness in both of my legs for the past week and a tingling sensation in my legs that gets worse when I take a hot shower."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your vision or eye pain recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my vision or eye pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any bladder control issues or changes in bowel movements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any bladder control issues or changes in bowel movements."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain or stiffness in your back or neck?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any pain or stiffness in my back or neck."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any autoimmune diseases, or does anyone in your family have such a history?"
+            },
+            {
+                "role": "user",
+                "content": "The information about any personal or family history of autoimmune diseases is not provided in the details I have."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent infections or vaccinations?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any recent infections or vaccinations."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Sclerosis (MS)"
+            }
+        ],
+        "multiturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "multiturn_frq": "Final Diagnosis: Multiple Sclerosis",
+        "singleturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "singleturn_frq": "Increased protein level in cerebrospinal fluid (CSF) analysis.",
+        "summarized_conversation": "A patient reports experiencing an increase in weakness in both legs over the past week, accompanied by a tingling sensation that exacerbates during hot showers. The patient has not noticed any changes in vision or experienced any eye pain. Additionally, the patient does not have issues with bladder control or alterations in bowel movements. There are no reports of pain or stiffness in the patient's back or neck. The patient does not provide any personal or family history of autoimmune diseases. There have been no recent infections or vaccinations reported by the patient.",
+        "summarized_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "summarized_frq": "MRI of the brain and spinal cord showing lesions consistent with demyelination."
+    },
+    "trial_2": {
+        "vignette_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "vignette_frq": "MRI of the cervical spine showing lesions",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing weakness in both legs for the past week and a tingling sensation in my legs that gets worse when I take a hot shower."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your vision or had any recent infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my vision or had any recent infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like difficulty with bladder control or bowel movements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any difficulty with bladder control or bowel movements."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any autoimmune diseases or any family history of neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have a history of autoimmune diseases or any family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you started any new treatments recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not currently taking any medications or have started any new treatments recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any back pain or trauma to your spine recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any back pain or trauma to my spine recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transverse Myelitis"
+            }
+        ],
+        "multiturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "multiturn_frq": "Final Diagnosis: Multiple Sclerosis",
+        "singleturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "singleturn_frq": "Increased weakness after exertion or an increased body temperature",
+        "summarized_conversation": "A patient reports increasing weakness in both legs for the past week, accompanied by a tingling sensation that worsens when exposed to hot water during a shower. The patient has not observed any changes in vision or experienced any recent infections. Furthermore, the patient does not have difficulty with bladder control or bowel movements and has no history of autoimmune diseases or any family history of neurological disorders. Additionally, the patient is not currently on any medications nor has started any new treatments recently. Lastly, the patient denies experiencing any back pain or trauma to the spine recently.",
+        "summarized_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "summarized_frq": "A finding of increased reflexes and Babinski sign on physical examination."
+    },
+    "trial_3": {
+        "vignette_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "vignette_frq": "Multiple sclerosis plaques in the brain on MRI.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing weakness in both my legs for the last week and a tingling sensation in my legs that gets worse when I take a hot shower."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as visual disturbances, difficulty with balance, or problems controlling your bladder or bowels?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had similar symptoms before, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first occurrence of these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any other medical conditions and I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have a family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Sclerosis"
+            }
+        ],
+        "multiturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "multiturn_frq": "Final Diagnosis: Multiple Sclerosis",
+        "singleturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "singleturn_frq": "Abnormal MRI of the brain and spinal cord.",
+        "summarized_conversation": "A patient has been experiencing increasing weakness in both legs for the past week, accompanied by a tingling sensation in the legs that intensifies during a hot shower. This is the first occurrence of such symptoms for the patient. The patient reports no other medical conditions and is not on any medications. There is no family history of neurological disorders reported.",
+        "summarized_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "summarized_frq": "Presence of white matter lesions on MRI of the brain and spinal cord."
+    },
+    "trial_4": {
+        "vignette_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "vignette_frq": "MRI of the cervical spine showing demyelinating lesions.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing weakness in both of my legs for the past week, and I also feel a tingling sensation in my legs, especially when I take a hot shower."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or vaccinations?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent infections or vaccinations."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty with coordination or did you notice any changes in your vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any difficulty with coordination or changes in my vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any bladder or bowel dysfunction?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any bladder or bowel dysfunction."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of autoimmune diseases, either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any personal or family history of autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any back pain or stiffness along with the leg symptoms?\n"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any back pain or stiffness along with the leg symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sensation, such as numbness or decreased ability to feel pain or temperature changes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any numbness or decreased ability to feel pain or temperature changes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had similar symptoms before, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first occurrence; I've never had similar symptoms before."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Sclerosis (MS)"
+            }
+        ],
+        "multiturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "multiturn_frq": "**Final Diagnosis:** Multiple Sclerosis",
+        "singleturn_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "singleturn_frq": "Increased protein levels in cerebrospinal fluid (CSF) during a lumbar puncture.",
+        "summarized_conversation": "A patient reports experiencing increasing weakness in both legs over the past week, accompanied by a tingling sensation in the legs, particularly noticeable during hot showers. There have been no recent infections or vaccinations. The patient has not observed any issues with coordination or changes in vision and reports no bladder or bowel dysfunction. Additionally, there's no personal or family history of autoimmune diseases. The patient also confirms having no back pain or stiffness concurrent with the leg symptoms, nor has there been any numbness or decreased ability to sense pain or temperature changes. This occurrence of symptoms is the patient's first.",
+        "summarized_mcq": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+        "summarized_frq": "Evidence of demyelination on MRI."
+    }
+}

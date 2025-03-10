@@ -1,0 +1,373 @@
+{
+    "case_vignette": "A 36-year-old woman comes to the physician because of a painless lump on her neck for 3 months that has increased in size! She appears healthy! Examination shows a 2!5-cm (1-in) firm, irregular swelling on the left side of the neck that moves with swallowing! There is painless cervical lymphadenopathy! Ultrasound of the neck shows a solitary left lobe thyroid mass with increased vascularity and hyperechogenic punctate regions! A fine needle aspiration biopsy is scheduled for the following week! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Papillary carcinoma of the thyroid",
+        "vignette_frq": "Papillary thyroid carcinoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless lump on my neck that has been growing over the last three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your voice or difficulty swallowing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my voice or difficulty swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any symptoms like excessive sweating, weight loss, or an increase in appetite?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have symptoms like excessive sweating, weight loss, or an increase in appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any fatigue, constipation, or feeling colder than usual?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced fatigue, constipation, or felt colder than usual."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of thyroid problems or other endocrine disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family history of thyroid problems or other endocrine disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about any medications I am taking or other medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the lump changed in size or consistency since you first noticed it?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the lump on my neck has increased in size since I first noticed it."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Thyroid Nodule."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Papillary carcinoma of the thyroid",
+        "multiturn_frq": "**Final Diagnosis:** Thyroid nodule",
+        "singleturn_mcq": "Papillary carcinoma of the thyroid",
+        "singleturn_frq": "**Final Diagnosis:** Thyroid nodule",
+        "summarized_conversation": "A patient reports a painless lump on their neck that has been growing over the last three months. The patient has not noticed any changes in their voice or difficulty swallowing. Additionally, they have not experienced symptoms such as excessive sweating, weight loss, or increased appetite. The patient also denies experiencing fatigue, constipation, or feeling colder than usual. They do not have information about their family history of thyroid problems or other endocrine disorders, nor do they have details about any medications they are taking or other medical conditions. The patient confirms that the size of the neck lump has increased since first noticed.",
+        "summarized_mcq": "Papillary carcinoma of the thyroid",
+        "summarized_frq": "Thyroid nodule"
+    },
+    "trial_1": {
+        "vignette_mcq": "Papillary carcinoma of the thyroid",
+        "vignette_frq": "Thyroid cancer",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless lump on my neck that has been growing for 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulties swallowing or changes in your voice?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any difficulties swallowing or changes in my voice."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any weight changes recently, either gain or loss, without trying?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any recent weight changes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of radiation exposure or radiation treatments to the head, neck, or chest area?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any history of radiation exposure or treatments."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a history of thyroid problems or any other endocrine disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any family history of thyroid problems or other endocrine disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your energy levels or mood recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my energy levels or mood."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent infections or illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Thyroid nodule"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Papillary carcinoma of the thyroid",
+        "multiturn_frq": "**Final Diagnosis:** Thyroid nodule",
+        "singleturn_mcq": "Papillary carcinoma of the thyroid",
+        "singleturn_frq": "Final Diagnosis: Thyroid Nodule",
+        "summarized_conversation": "A patient presents with a painless lump on their neck that has been growing for 3 months. They report no difficulties swallowing or changes in their voice. The patient has not experienced any recent weight changes and does not have a history of radiation exposure or treatments. Additionally, they do not have any family history of thyroid problems or other endocrine disorders. The patient has not noticed any changes in their energy levels or mood and has not had any recent infections or illnesses.",
+        "summarized_mcq": "Papillary carcinoma of the thyroid",
+        "summarized_frq": "Thyroid nodule."
+    },
+    "trial_2": {
+        "vignette_mcq": "Papillary carcinoma of the thyroid",
+        "vignette_frq": "Papillary thyroid carcinoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless lump on my neck that has been growing larger over the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your voice or difficulty swallowing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my voice or difficulty swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of radiation exposure to your head or neck?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any history of radiation exposure to my head or neck."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your weight, mood, or energy levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my weight, mood, or energy levels."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with a thyroid or other endocrine disorder?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of similar symptoms or endocrine disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms or significant medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any other symptoms or significant medical conditions mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Thyroid nodule"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Papillary carcinoma of the thyroid",
+        "multiturn_frq": "**Final Diagnosis:** Thyroid nodule",
+        "singleturn_mcq": "Papillary carcinoma of the thyroid",
+        "singleturn_frq": "**Final Diagnosis:** Thyroid nodule",
+        "summarized_conversation": "A patient reports a painless lump on their neck that has been growing larger over the past three months. The patient hasn't noticed any changes in voice or difficulty swallowing. Additionally, there's no history of radiation exposure to the head or neck reported. The patient has not experienced any changes in weight, mood, or energy levels. There's no family history of similar symptoms or endocrine disorders mentioned. The patient does not report any other symptoms or significant medical conditions.",
+        "summarized_mcq": "Papillary carcinoma of the thyroid",
+        "summarized_frq": "Thyroid nodule"
+    },
+    "trial_3": {
+        "vignette_mcq": "Papillary carcinoma of the thyroid",
+        "vignette_frq": "Papillary thyroid carcinoma.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've noticed a painless lump on my neck that has been growing for the last 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you observed any change in your voice or difficulty swallowing recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any change in my voice or difficulty swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you feel fatigued or have you noticed changes in your body weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't felt fatigued or noticed any changes in my body weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your heart rate or body temperature sensitivity?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my heart rate or sensitivity to body temperature."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of radiation exposure to your head or neck area?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any history of radiation exposure to my head or neck area."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a family history of thyroid or other endocrine disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of thyroid or other endocrine disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Thyroid nodule."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Papillary carcinoma of the thyroid",
+        "multiturn_frq": "**Final Diagnosis:** Thyroid nodule",
+        "singleturn_mcq": "Papillary carcinoma of the thyroid",
+        "singleturn_frq": "Final Diagnosis: Thyroid nodule",
+        "summarized_conversation": "A patient reports observing a painless lump on their neck that has been growing over the past three months. They have not experienced any changes in their voice or difficulties with swallowing. Additionally, the patient has not felt fatigued nor observed any changes in their body weight recently. There are no changes in their heart rate or sensitivity to body temperature noted. The patient does not have any history of radiation exposure to their head or neck area, nor is there any family history of thyroid or other endocrine disorders reported.",
+        "summarized_mcq": "Papillary carcinoma of the thyroid",
+        "summarized_frq": "Thyroid nodule"
+    },
+    "trial_4": {
+        "vignette_mcq": "Papillary carcinoma of the thyroid",
+        "vignette_frq": "Papillary thyroid carcinoma.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless lump on my neck that has been growing for 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your voice or difficulty swallowing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my voice or difficulty swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unexpected weight loss, increased sweating, or changes in heart rate recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of thyroid or other endocrine diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about my family history of thyroid or other endocrine diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been treated for any thyroid problems before?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have never been treated for any thyroid problems before."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any numbness or tingling in your hands or feet, or any muscle weakness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any numbness, tingling, or muscle weakness."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the lump changed in size or consistency over the past three months?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the lump on my neck has increased in size over the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Thyroid nodule"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Papillary carcinoma of the thyroid",
+        "multiturn_frq": "**Final Diagnosis:** Thyroid goiter",
+        "singleturn_mcq": "Papillary carcinoma of the thyroid",
+        "singleturn_frq": "**Final Diagnosis:** Thyroid nodule",
+        "summarized_conversation": "A patient reports having a painless lump on their neck that has been growing for three months. They have not observed any changes in their voice or experienced difficulty in swallowing. Additionally, the patient hasn't detected any symptoms such as numbness, tingling, or muscle weakness. They are also unsure about any family history of thyroid or other endocrine diseases and have never been treated for thyroid problems in the past. Lastly, the patient confirms that the size of the lump on their neck has indeed increased over the past three months.",
+        "summarized_mcq": "Papillary carcinoma of the thyroid",
+        "summarized_frq": "Thyroid nodule"
+    }
+}

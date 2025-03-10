@@ -1,0 +1,357 @@
+{
+    "case_vignette": "A 60-year-old woman is brought to the emergency department because of altered mental status for 2 hours! She and her husband were at the grocery store when she suddenly could not remember why she was there or how she got there! She has not had any head trauma! She has a history of depression and migraines! She does not smoke and drinks a glass of wine each night with dinner! She takes fluoxetine daily! She appears distressed and anxious! Her vital signs are within normal limits! She is fully alert and oriented to self and place but not to time! Every few minutes she asks how she got to the emergency department! She is able to follow commands and sustain attention! She recalls 3/3 objects immediately and recalls 0/3 objects at 5 minutes! The remainder of the neurological exam shows no abnormalities! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Transient global amnesia",
+        "vignette_frq": "Transient global amnesia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly couldn't remember why I was at the grocery store or how I got there, and now I keep asking how I got to the emergency department."
+            },
+            {
+                "role": "assistant",
+                "content": "How long did this confusion last, and has it resolved now?"
+            },
+            {
+                "role": "user",
+                "content": "The confusion started 2 hours ago, and I am still experiencing it."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any similar episodes in the past, or is this the first time?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first time I've experienced something like this."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently have any other symptoms such as headache, numbness, or weakness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any other symptoms like headache, numbness, or weakness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of depression and migraines, and I take fluoxetine daily."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of epilepsy, strokes, or other neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about my family's medical history regarding epilepsy, strokes, or other neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transient Global Amnesia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Transient global amnesia",
+        "multiturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "singleturn_mcq": "Transient global amnesia",
+        "singleturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "summarized_conversation": "A patient suddenly found themselves unable to recall the reason for their presence at the grocery store or how they arrived there, and now continually asks how they reached the emergency department. This confusion began 2 hours prior and persists. This occurrence is the first of its kind for the patient. No other symptoms such as headache, numbness, or weakness accompany the confusion. The patient has a medical history of depression and migraines and takes fluoxetine daily. There is no known family history of epilepsy, strokes, or other neurological disorders.",
+        "summarized_mcq": "Transient global amnesia",
+        "summarized_frq": "Transient global amnesia"
+    },
+    "trial_1": {
+        "vignette_mcq": "Transient global amnesia",
+        "vignette_frq": "Transient global amnesia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly could not remember why I was at the grocery store or how I got there, and I've been feeling distressed and anxious. Every few minutes I\u2019ve been asking how I got to the emergency department."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have these symptoms been happening, and do they resolve by themselves after some time?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms have been happening for 2 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological conditions or similar episodes in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of migraines."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of neurological disorders such as epilepsy, Alzheimer's, or other related conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transient Global Amnesia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Transient global amnesia",
+        "multiturn_frq": "Final Diagnosis: Transient Global Amnesia",
+        "singleturn_mcq": "Final Diagnosis: Transient global amnesia",
+        "singleturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "summarized_conversation": "A patient suddenly found themselves unable to recall why they were at the grocery store or how they got there, and they've been experiencing distress and anxiety. The patient repeatedly asked how they arrived at the emergency department, with these symptoms persisting for 2 hours. The patient has a medical history of migraines but no family history of neurological disorders has been mentioned.",
+        "summarized_mcq": "Transient global amnesia",
+        "summarized_frq": "Transient global amnesia."
+    },
+    "trial_2": {
+        "vignette_mcq": "Transient global amnesia",
+        "vignette_frq": "Transient global amnesia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly couldn't remember why I was at the grocery store or how I got there, and now I keep asking how I got to the emergency department every few minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these memory issues?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these memory issues for about 2 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent head injury or trauma?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any head trauma."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological disorders or similar episodes in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of migraines and depression, but no similar episodes like this before."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you consumed any alcohol or drugs recently that might affect your memory?"
+            },
+            {
+                "role": "user",
+                "content": "I drink a glass of wine each night with dinner, but no other drugs."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications, including those for migraines or depression?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I take fluoxetine daily."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of any neurological or psychiatric conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transient Global Amnesia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Transient global amnesia",
+        "multiturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "singleturn_mcq": "Final Diagnosis: Transient global amnesia",
+        "singleturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "summarized_conversation": "A patient found themselves suddenly unable to recall why they were at the grocery store or how they arrived there. Now, the patient repeatedly asks how they were brought to the emergency department and has been experiencing these memory issues for approximately two hours. The patient denies any recent head trauma and reports a medical history of migraines and depression, though they have not experienced similar episodes in the past. They consume a glass of wine daily with dinner and do not use any drugs other than their daily fluoxetine. The patient apologizes for not having further information available.",
+        "summarized_mcq": "Transient global amnesia",
+        "summarized_frq": "Transient global amnesia"
+    },
+    "trial_3": {
+        "vignette_mcq": "Transient global amnesia",
+        "vignette_frq": "Transient global amnesia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly couldn't remember why I was at the grocery store or how I got there, and now I keep asking how I got to the emergency department."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have these memory lapses been occurring?"
+            },
+            {
+                "role": "user",
+                "content": "For about 2 hours."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent head injuries or trauma?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any head trauma."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I take fluoxetine daily."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of epilepsy or seizures?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of epilepsy or seizures."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent episodes of high stress, anxiety, or any significant changes in your life?"
+            },
+            {
+                "role": "user",
+                "content": "No significant changes or episodes of high stress, but I appear distressed and anxious right now."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of neurological disorders or cognitive issues?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure; I can't provide information on that."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any other symptoms such as headache, dizziness, or confusion?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing confusion and altered mental status."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transient Global Amnesia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Transient global amnesia",
+        "multiturn_frq": "**Final Diagnosis:** Transient Global Amnesia.",
+        "singleturn_mcq": "Transient global amnesia",
+        "singleturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "summarized_conversation": "The patient found themselves suddenly unable to recall why they were at the grocery store or how they arrived there, and now keeps inquiring about how they arrived at the emergency department, where this confusion has persisted for about 2 hours. The patient denies any head trauma. The patient confirms taking fluoxetine daily and denies any history of epilepsy or seizures. Additionally, the patient notes no significant changes or episodes of high stress recently, although currently appears distressed and anxious. The patient is unable to provide further information, experiencing confusion and altered mental status.",
+        "summarized_mcq": "Transient global amnesia",
+        "summarized_frq": "Transient Global Amnesia"
+    },
+    "trial_4": {
+        "vignette_mcq": "Transient global amnesia",
+        "vignette_frq": "Transient global amnesia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly couldn't remember why I was at the grocery store or how I got there, and now I'm frequently asking how I got to the emergency department."
+            },
+            {
+                "role": "assistant",
+                "content": "How long did the confusion at the grocery store last, and has this type of memory lapse happened before?"
+            },
+            {
+                "role": "user",
+                "content": "The confusion lasted for a couple of hours, and no, this type of memory lapse has never happened before."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a history of depression and migraines, and I take fluoxetine daily."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you suffered any head trauma recently or experienced similar episodes of confusion or memory loss in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any head trauma, and I have not experienced similar episodes of confusion or memory loss in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of neurological disorders, such as epilepsy, Alzheimer\u2019s, or dementia?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms like headache, visual disturbances, or difficulty speaking during these episodes of confusion?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any headache, visual disturbances, or difficulty speaking during these episodes of confusion."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transient Global Amnesia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Transient global amnesia",
+        "multiturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "singleturn_mcq": "Transient global amnesia",
+        "singleturn_frq": "Final Diagnosis: Transient Global Amnesia",
+        "summarized_conversation": "A patient suddenly found themselves at a grocery store without remembering the reason for their visit or how they got there. Later, the patient frequently asked how they arrived at the emergency department. The confusion lasted for a couple of hours. This type of memory lapse had never occurred before in the patient's history. The patient has a medical history of depression and migraines for which they take fluoxetine daily. There is no history of head trauma, nor has the patient experienced similar episodes of confusion or memory loss previously. The patient is unable to provide information about their family history concerning neurological disorders. During these episodes of confusion, the patient did not notice any headaches, visual disturbances, or difficulty speaking.",
+        "summarized_mcq": "Transient global amnesia",
+        "summarized_frq": "Transient Global Amnesia"
+    }
+}

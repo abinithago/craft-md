@@ -1,0 +1,17 @@
+cpu-bind=MASK - frappe, task  0  0 [2934569]: mask 0xfe00000001fe100000 set
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 2, in <module>
+    from src.utils import get_choices
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 2, in <module>
+    from .models import call_gpt3_api, call_gpt4_api
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/models.py", line 3, in <module>
+    from openai import AzureOpenAI
+ModuleNotFoundError: No module named 'openai'
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 2, in <module>
+    from src.utils import get_choices
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 2, in <module>
+    from .models import call_gpt3_api, call_gpt4_api
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/models.py", line 3, in <module>
+    from openai import AzureOpenAI
+ModuleNotFoundError: No module named 'openai'

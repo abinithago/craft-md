@@ -1,0 +1,429 @@
+{
+    "case_vignette": "A 63-year-old man comes to the physician because of increasing generalized fatigue for 3 months! He is having more difficulty with keeping up with his activities of daily living and has lost 2!5 kg (5!5 lb) over the past month! He has hypertension and hyperlipidemia! He does not smoke and drinks two to three beers on weekends! His medications include lisinopril, hydrochlorothiazide, and atorvastatin! His temperature is 37!1\u00b0C (98!8\u00b0F), pulse is 85/min, respirations are 15/min, and blood pressure is 125/73 mm Hg! Examination shows pale conjunctivae! The remainder of the examination shows no abnormalities! His hematocrit is 27!3%, leukocyte count is 4500/mm3, and platelet count is 102,000/mm3! A peripheral blood smear shows numerous blast cells that stain positive for myeloperoxidase, CD33, and CD34! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Acute myeloid leukemia",
+        "vignette_frq": "Acute myelogenous leukemia (AML)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing increasing generalized fatigue for the past 3 months and have lost about 5.5 pounds over the last month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms such as fever, night sweats or easy bruising?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing chronic health conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and hyperlipidemia, and I am currently taking lisinopril, hydrochlorothiazide, and atorvastatin."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of cancer or blood disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there's no information provided about my family history in this context."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or digestive issues recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my appetite or digestive issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any enlargement of lymph nodes, or noticed any unusual lumps on your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any enlargement of lymph nodes or noticed any unusual lumps."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent infections or illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any laboratory work or imaging done recently regarding your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had some laboratory work done which showed a low hematocrit, low white blood cell count, and low platelet count. A peripheral blood smear was also performed showing numerous blast cells."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute Myeloid Leukemia (AML)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Acute myeloid leukemia",
+        "multiturn_frq": "**Final Diagnosis:** Acute Leukemia",
+        "singleturn_mcq": "Final Diagnosis: Acute myeloid leukemia",
+        "singleturn_frq": "Final Diagnosis: Leukemia",
+        "summarized_conversation": "A patient has been experiencing generalized fatigue for the past three months and reports a weight loss of approximately 5.5 pounds over the last month. The patient denies any symptoms such as changes in appetite or digestive issues, enlargement of lymph nodes, unusual lumps, or recent infections or illnesses. The patient has hypertension and hyperlipidemia and is currently on lisinopril, hydrochlorothiazide, and atorvastatin. There is no family history provided in this context. Recent laboratory tests indicated a low hematocrit, low white blood cell count, and low platelet count, and a peripheral blood smear showed numerous blast cells.",
+        "summarized_mcq": "Acute myeloid leukemia",
+        "summarized_frq": "Acute leukemia"
+    },
+    "trial_1": {
+        "vignette_mcq": "Acute myeloid leukemia",
+        "vignette_frq": "Acute myeloid leukemia (AML)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing generalized fatigue for the last 3 months and have had difficulty keeping up with my daily activities. I've also lost about 5.5 pounds over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like fever, night sweats, or enlarged lymph nodes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your skin color, like paleness, or experienced breathlessness?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed that the inside of my eyelids are pale."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any bleeding, such as from the gums, nosebleeds, or noticed any unusual bruising?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any bleeding or unusual bruising."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any underlying chronic diseases or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and hyperlipidemia, and I am currently taking lisinopril, hydrochlorothiazide, and atorvastatin."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of blood disorders or cancer?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any complete blood count or other laboratory tests recently? If yes, what were the results?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a complete blood count which showed a hematocrit of 27.3%, leukocyte count of 4500/mm3, and platelet count of 102,000/mm3."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Anemia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acute myeloid leukemia",
+        "multiturn_frq": "**Final Diagnosis:** Anemia",
+        "singleturn_mcq": "Non-Hodgkin lymphoma",
+        "singleturn_frq": "Final Diagnosis: Anemia",
+        "summarized_conversation": "A patient has been suffering from increasing generalized fatigue for the last three months, impacting their ability to keep up with daily activities. The patient has also reported a weight loss of about 5.5 pounds over the past month. The patient notes that the inside of their eyelids are pale, but denies experiencing any bleeding or unusual bruising. Currently, the patient is managing hypertension and hyperlipidemia, and takes lisinopril, hydrochlorothiazide, and atorvastatin. However, the patient does not have further information available at this time. A recent complete blood count revealed a hematocrit of 27.3%, a leukocyte count of 4500/mm3, and a platelet count of 102,000/mm3.",
+        "summarized_mcq": "Hairy cell leukemia",
+        "summarized_frq": "Anemia"
+    },
+    "trial_2": {
+        "vignette_mcq": "Acute myeloid leukemia",
+        "vignette_frq": "Acute myeloid leukemia (AML)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing generalized fatigue for 3 months and have lost about 5.5 pounds over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or had any issues like fever or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my appetite or had issues like fever or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling or lumps in your neck, underarms, or groin?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any swelling or lumps in my neck, underarms, or groin."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pains in your bones, joints, or any unusual bruising or bleeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any pains in my bones, joints, or any unusual bruising or bleeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any paleness or changes in skin color?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed that the inside of my eyelids look pale."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of anemia or other blood-related disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of anemia or other blood-related disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had any problems with your digestive system, like blood in your stools or unusually dark stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any problems with my digestive system, like blood in my stools or unusually dark stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any new medications or supplements recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been taking any new medications or supplements recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Iron Deficiency Anemia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acute myeloid leukemia",
+        "multiturn_frq": "**Final Diagnosis:** Iron deficiency anemia",
+        "singleturn_mcq": "Acute myeloid leukemia",
+        "singleturn_frq": "Final Diagnosis: Chronic Myeloid Leukemia (CML)",
+        "summarized_conversation": "The patient reports increasing generalized fatigue for the past three months and has experienced a weight loss of approximately 5.5 pounds over the last month. The patient denies any changes in appetite and has not had symptoms such as fever or night sweats. Additionally, there is no presence of swelling or lumps in the neck, underarms, or groin. The patient also denies any bone or joint pains, unusual bruising, or bleeding. However, the patient has noticed that the insides of the eyelids appear pale. There is no known family history of anemia or other blood-related disorders in the patient's family. The patient has not observed any abnormalities with the digestive system, such as blood in the stools or unusually dark stools, and has not started any new medications or supplements recently.",
+        "summarized_mcq": "Acute myeloid leukemia",
+        "summarized_frq": "Anemia"
+    },
+    "trial_3": {
+        "vignette_mcq": "Acute myeloid leukemia",
+        "vignette_frq": "Acute myeloid leukemia (AML)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing generalized fatigue for the past 3 months and have had more difficulty keeping up with daily activities. Also, I've lost about 5.5 pounds over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your skin, like bruising or unusual rashes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes like bruising or unusual rashes on my skin."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swollen lymph nodes, or have you noticed an increase in the size of your abdomen?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swollen lymph nodes or an increase in the size of my abdomen."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any night sweats, fever, or unexplained bleeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any night sweats, fever, or unexplained bleeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history or chronic conditions that you are being treated for?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and hyperlipidemia."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications for your hypertension and hyperlipidemia, or any other medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I'm currently taking lisinopril and hydrochlorothiazide for hypertension, and atorvastatin for hyperlipidemia."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of any cancers or hematological diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about my family history regarding cancers or hematological diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or bowel habits recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my appetite or bowel habits recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent blood tests, and if so, were there any abnormalities noted?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had recent blood tests which showed that my hematocrit was low at 27.3%, my white blood cell count was low at 4500/mm3, and my platelet count was also low at 102,000/mm3."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bone Marrow Suppression"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Acute myeloid leukemia",
+        "multiturn_frq": "**Final Diagnosis:** Myelodysplastic Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Non-Hodgkin lymphoma",
+        "singleturn_frq": "Final Diagnosis: Acute Leukemia",
+        "summarized_conversation": "A patient has been experiencing increasing generalized fatigue for the past three months and has found it more difficult to keep up with daily activities. Additionally, the patient has lost about 5.5 pounds over the past month. The patient reports no bruising or unusual rashes on their skin, no swollen lymph nodes or an increase in the size of the abdomen, and no night sweats, fever, or unexplained bleeding. The patient has hypertension and hyperlipidemia and is currently taking lisinopril and hydrochlorothiazide for hypertension, and atorvastatin for hyperlipidemia. There is no known family history of cancers or hematological diseases. The patient hasn't noticed any changes in appetite or bowel habits recently. Recent blood tests have revealed that the patient's hematocrit is low at 27.3%, the white blood cell count is low at 4500/mm3, and the platelet count is also low at 102,000/mm3.",
+        "summarized_mcq": "Acute myeloid leukemia",
+        "summarized_frq": "The most likely diagnosis is aplastic anemia."
+    },
+    "trial_4": {
+        "vignette_mcq": "Acute myeloid leukemia",
+        "vignette_frq": "Acute myeloid leukemia (AML)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing generalized fatigue for 3 months and have difficulty keeping up with my daily activities. I've also lost about 5.5 pounds over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your skin or unusual bruising?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in my skin or unusual bruising."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms you're experiencing such as night sweats, fevers, or swollen lymph nodes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced night sweats, fevers, or swollen lymph nodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any prior medical history or chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and hyperlipidemia."
+            },
+            {
+                "role": "assistant",
+                "content": "What medications are you currently taking for your medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I am currently taking lisinopril, hydrochlorothiazide, and atorvastatin."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of cancer or blood disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have any information about my family's medical history regarding cancer or blood disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or bowel habits recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in my appetite or bowel habits recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent blood work or tests done that showed abnormal results?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my recent blood tests showed a low hematocrit, low leukocyte count, and low platelet count."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Aplastic Anemia."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Acute myeloid leukemia",
+        "multiturn_frq": "**Final Diagnosis:** Aplastic Anemia",
+        "singleturn_mcq": "Final Diagnosis: Acute myeloid leukemia",
+        "singleturn_frq": "**Final Diagnosis:** Chronic Myeloid Leukemia",
+        "summarized_conversation": "A patient has reported increasing generalized fatigue over the last three months, causing difficulty in keeping up with daily activities. The patient has also experienced a weight loss of approximately 5.5 pounds over the past month. There have been no observed changes in skin or any unusual bruising. Additionally, the patient has not experienced night sweats, fevers, or swollen lymph nodes. The patient has a medical history of hypertension and hyperlipidemia and is currently on lisinopril, hydrochlorothiazide, and atorvastatin. The patient reported no known family history of cancer or blood disorders. Changes in appetite or bowel habits have not been noted recently. Recent blood tests indicated a low hematocrit, low leukocyte count, and low platelet count.",
+        "summarized_mcq": "Acute myeloid leukemia",
+        "summarized_frq": "Myelodysplastic syndrome"
+    }
+}

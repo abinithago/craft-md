@@ -1,0 +1,2 @@
+cpu-bind=MASK - latte, task  0  0 [1691674]: mask 0xf000f00000f001e set
+  0%|          | 0/250 [00:00<?, ?it/s]  0%|          | 1/250 [06:06<25:20:17, 366.33s/it]slurmstepd: error: *** JOB 734539 ON latte CANCELLED AT 2025-02-11T15:33:43 ***

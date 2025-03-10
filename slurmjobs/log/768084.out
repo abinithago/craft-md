@@ -1,0 +1,38 @@
+#!/bin/bash
+cuda
+Thread for case_1 is dispatched.
+Thread for case_2 is dispatched.
+Thread for case_3 is dispatched.
+Thread for case_4 is dispatched.
+Thread for case_5 is dispatched.
+Thread for case_6 is dispatched.
+Thread for case_7 is dispatched.
+Thread for case_8 is dispatched.
+Thread for case_10 is dispatched.
+cuda
+Thread for case_1 is dispatched.
+Thread for case_2 is dispatched.
+Thread for case_3 is dispatched.
+Thread for case_4 is dispatched.
+Thread for case_5 is dispatched.
+Thread for case_6 is dispatched.
+Thread for case_7 is dispatched.
+Thread for case_8 is dispatched.
+Thread for case_10 is dispatched.
+Thread for case_11 is dispatched.
+Thread for case_12 is dispatched.
+Thread for case_13 is dispatched.
+Thread for case_14 is dispatched.
+Thread for case_16 is dispatched.
+Thread for case_17 is dispatched.
+Thread for case_19 is dispatched.
+Thread for case_20 is dispatched.
+Thread for case_21 is dispatched.
+Thread for case_22 is dispatched.
+Thread for case_24 is dispatched.
+Thread for case_25 is dispatched.
+Thread for case_26 is dispatched.
+Thread for case_29 is dispatched.
+Thread for case_30 is dispatched.
+Thread for case_33 is dispatched.
+Thread for case_35 is dispatched.

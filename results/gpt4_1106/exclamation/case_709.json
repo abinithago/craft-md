@@ -1,0 +1,277 @@
+{
+    "case_vignette": "Thirty minutes after delivery, a 3400-g (7!5-lb) female newborn develops cyanosis of her lips and oral mucosa! She was born at 36 weeks of gestation to a 30-year-old woman, gravida 1, para 0! Apgar scores are 7 and 8 at 1 and 5 minutes, respectively! Pregnancy was complicated by polyhydramnios! The patient's temperature is 37\u00b0C (98!6\u00b0F), pulse is 144/min, respirations are 52/min, and blood pressure is 70/40 mm Hg! Examination shows foaming and drooling at the mouth! Bilateral crackles are heard at the lung bases! There is a harsh 3/6 systolic murmur along the left sternal border! The abdomen is soft and mildly distended! There is an anterior ectopic anus! Insertion of a nasogastric tube is attempted! An x-ray of the chest and abdomen is shown! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment",
+        "vignette_frq": "Esophageal atresia with tracheoesophageal fistula.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have developed blue coloring of my lips and inside my mouth, and I'm also experiencing foaming and drooling at the mouth."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 30 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ingested or been exposed to any chemicals or substances recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not ingested or been exposed to any chemicals or substances recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or chronic medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any known allergies or chronic medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any difficulty breathing or chest pain?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing crackling sounds in my lungs, but there's no mention of difficulty breathing or chest pain specifically."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pulmonary Edema"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment.",
+        "multiturn_frq": "**Final Diagnosis:** Pulmonary Edema",
+        "singleturn_mcq": "Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment",
+        "singleturn_frq": "Final Diagnosis: Cyanide poisoning",
+        "summarized_conversation": "A patient has developed blue coloring of their lips and inside of their mouth. They are also experiencing foaming and drooling at the mouth which has been ongoing for about 30 minutes. The patient denies ingesting or being exposed to any chemicals or substances recently. They also do not have any known allergies or chronic medical conditions. The patient reports hearing crackling sounds in their lungs, but there are no signs of difficulty breathing or chest pain.",
+        "summarized_mcq": "Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment",
+        "summarized_frq": "Pulmonary edema"
+    },
+    "trial_1": {
+        "vignette_mcq": "Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment",
+        "vignette_frq": "Esophageal atresia with tracheoesophageal fistula",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "Hello! I'm experiencing blue coloring on my lips and inside my mouth, and I'm also having foaming and drooling at the mouth."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I was just born; I'm a newborn."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any breathing difficulties or unusual crying sounds?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am breathing faster than normal."
+            },
+            {
+                "role": "assistant",
+                "content": "Were there any complications or health issues noted during the pregnancy or at delivery?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the pregnancy was complicated by polyhydramnios."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Choanal Atresia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment.",
+        "multiturn_frq": "**Final Diagnosis:** Congenital diaphragmatic hernia.",
+        "singleturn_mcq": "Esophageal atresia with tracheoesophageal fistula to the proximal and distal esophageal segments",
+        "singleturn_frq": "Final Diagnosis: Cyanosis",
+        "summarized_conversation": "A newborn patient presents with blue coloring on the lips and inside the mouth, accompanied by foaming and drooling. The patient was just born and is experiencing faster than normal breathing. The pregnancy leading to the birth was complicated by polyhydramnios.",
+        "summarized_mcq": "Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment",
+        "summarized_frq": "Esophageal atresia with tracheoesophageal fistula."
+    },
+    "trial_2": {
+        "vignette_mcq": "Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment",
+        "vignette_frq": "Esophageal atresia with tracheoesophageal fistula",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have blue-colored lips and mouth, I've been foaming and drooling, and I have been experiencing rapid breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am a newborn, just born 30 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of genetic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Were there any complications or infections during pregnancy or delivery?"
+            },
+            {
+                "role": "user",
+                "content": "The pregnancy was complicated by polyhydramnios."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Congenital diaphragmatic hernia."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment.",
+        "multiturn_frq": "Final Diagnosis: Congenital Diaphragmatic Hernia",
+        "singleturn_mcq": "Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment",
+        "singleturn_frq": "Final Diagnosis: Cyanotic Congenital Heart Disease",
+        "summarized_conversation": "A newborn, born just 30 minutes ago, presents with blue-colored lips and mouth, foaming and drooling, and rapid breathing. The newborn has no information regarding the family's medical history. The pregnancy was complicated by polyhydramnios.",
+        "summarized_mcq": "Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment",
+        "summarized_frq": "Esophageal atresia with tracheoesophageal fistula."
+    },
+    "trial_3": {
+        "vignette_mcq": "Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment.",
+        "vignette_frq": "Esophageal atresia with tracheoesophageal fistula.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have developed bluish discoloration of my lips and mouth, and I am foaming and drooling at the mouth."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I'm a newborn, just born 30 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Were there any complications or unusual observations reported during the pregnancy or delivery?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the pregnancy was complicated by too much amniotic fluid."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the baby having any difficulty breathing or making grunting noises?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am breathing fast and there are crackling sounds at the base of my lungs."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transient Tachypnea of the Newborn (TTN)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment.",
+        "multiturn_frq": "**Final Diagnosis:** Meconium Aspiration Syndrome",
+        "singleturn_mcq": "Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment",
+        "singleturn_frq": "**Final Diagnosis:** Cyanide poisoning",
+        "summarized_conversation": "A newborn, who was born 30 minutes ago, has developed bluish discoloration of his lips and mouth, and is experiencing foaming and drooling. The pregnancy was complicated by excessive amniotic fluid. The newborn is breathing rapidly and exhibiting crackling sounds at the base of his lungs.",
+        "summarized_mcq": "Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment",
+        "summarized_frq": "Transient Tachypnea of the Newborn (TTN)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment",
+        "vignette_frq": "Esophageal atresia with tracheoesophageal fistula",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have blue coloring of my lips and oral mucosa, and I'm foaming and drooling at the mouth."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am a newborn, just born today."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty breathing or any unusual sounds when you breathe?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have crackling sounds at the bases of my lungs when I breathe."
+            },
+            {
+                "role": "assistant",
+                "content": "Was there any issue or complication reported during pregnancy or delivery?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the pregnancy was complicated by polyhydramnios."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Congenital Choanal Atresia."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Esophageal atresia with tracheoesophageal fistula to the distal esophageal segment.",
+        "multiturn_frq": "**Final Diagnosis:** Choanal Atresia",
+        "singleturn_mcq": "Final Diagnosis: Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment",
+        "singleturn_frq": "**Final Diagnosis:** Cyanide poisoning",
+        "summarized_conversation": "A newborn, born just today, presents with the blue coloring of the lips and oral mucosa, accompanied by foaming and drooling at the mouth. The newborn exhibits crackling sounds at the bases of the lungs while breathing. It is noted that the pregnancy was complicated by polyhydramnios.",
+        "summarized_mcq": "Esophageal atresia with tracheoesophageal fistula to the proximal esophageal segment",
+        "summarized_frq": "Esophageal atresia with tracheoesophageal fistula."
+    }
+}

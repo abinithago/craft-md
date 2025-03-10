@@ -1,0 +1,373 @@
+{
+    "case_vignette": "A 28-year-old woman is brought to the emergency department after being found in a confused state on an interstate rest area in Florida! She is unable to recall her name, address, or any other information regarding her person! She denies being the woman on a Connecticut driver's license found in her wallet! A telephone call with the police department of her hometown reveals that she had been reported missing three days ago by her husband! When the husband arrives, he reports that his wife has had a great deal of stress at work lately and before she went missing, was anxious to tell her boss that she will not meet the deadline for her current project! She has had two major depressive episodes within the past 4 years that were treated with citalopram! She drinks one to two beers daily and sometimes more on weekends! She does not use illicit drugs! Her vital signs are within normal limits! Physical and neurological examinations show no abnormalities! On mental status exam, she is oriented only to time and place but not to person! Short-term memory is intact; she does not recognize her husband or recall important events of her life! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Dissociative amnesia with dissociative fugue",
+        "vignette_frq": "Dissociative amnesia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm feeling very confused and I can't remember my name, address, or any personal information about myself."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms start?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure exactly when it started as I can't recall recent events clearly."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent head injuries or trauma?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any recent head injuries or trauma."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any other symptoms like headaches, dizziness, or changes in vision or hearing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not experiencing headaches, dizziness, or changes in vision or hearing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological conditions or have you been diagnosed with any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I have had two major depressive episodes in the past that were treated medically, but no other neurological conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications, including those for depression or any other conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I have been treated with citalopram for my depressive episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of neurological disorders or dementia?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of neurological disorders or dementia."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dissociative Amnesia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dissociative amnesia with dissociative fugue",
+        "multiturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "singleturn_mcq": "Final Diagnosis: Dissociative amnesia with dissociative fugue",
+        "singleturn_frq": "Final Diagnosis: Transient Global Amnesia",
+        "summarized_conversation": "A patient is experiencing severe confusion and an inability to remember personal details such as their name and address. The onset of these symptoms is unclear to the patient, who also cannot recall recent events accurately. They report no recent head injuries, trauma, headaches, dizziness, or changes in vision or hearing. The patient has a history of two major depressive episodes that were medically treated but does not have any other neurological conditions. Currently, they are treated with citalopram for their depression. There is no known family history of neurological disorders or dementia in the patient's family.",
+        "summarized_mcq": "Dissociative amnesia with dissociative fugue",
+        "summarized_frq": "Dissociative amnesia"
+    },
+    "trial_1": {
+        "vignette_mcq": "Dissociative amnesia with dissociative fugue",
+        "vignette_frq": "Dissociative fugue.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm feeling confused and unable to remember my own name, address, or any personal information. Additionally, I don't recognize my husband or recall important life events."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these memory issues?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these memory issues since I was found three days ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you describe the circumstances under which you were found?"
+            },
+            {
+                "role": "user",
+                "content": "I was found in a confused state at an interstate rest area in Florida."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological conditions or significant head injuries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of neurological conditions or significant head injuries."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to any unusual substances or environments recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been exposed to any unusual substances or environments recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been treated with citalopram for my major depressive episodes in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you describe any other symptoms or changes in behavior that have occurred along with your memory issues?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have any other specific symptoms or changes in behavior mentioned, other than my confusion and memory issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dissociative Amnesia."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dissociative amnesia with dissociative fugue",
+        "multiturn_frq": "**Final Diagnosis:** Dissociative Amnesia",
+        "singleturn_mcq": "Final Diagnosis: Dissociative amnesia with dissociative fugue",
+        "singleturn_frq": "Final Diagnosis: Dissociative Amnesia",
+        "summarized_conversation": "A patient has reported feeling confused and unable to recall personal details such as their name, address, or any personal information. The patient also does not recognize their spouse or remember significant life events. These memory issues have been ongoing since the patient was found in a confused state at an interstate rest area in Florida three days ago. The patient has no history of neurological conditions or significant head injuries and has not been exposed to unusual substances or environments recently. The patient has been treated with citalopram for major depressive episodes in the past, but apart from confusion and memory problems, no other specific symptoms or changes in behavior have been mentioned.",
+        "summarized_mcq": "Dissociative amnesia with dissociative fugue",
+        "summarized_frq": "Dissociative amnesia"
+    },
+    "trial_2": {
+        "vignette_mcq": "Dissociative amnesia with dissociative fugue",
+        "vignette_frq": "Dissociative amnesia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm feeling very confused and I can't remember my name, address, or any personal information."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms start?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms started three days ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological conditions or head injuries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of neurological conditions or head injuries."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms like headache, dizziness, or changes in your vision or speech?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any symptoms like headache, dizziness, or changes in my vision or speech."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent illnesses or infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent illnesses or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of psychiatric conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have had two major depressive episodes in the past and I am currently taking citalopram."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any history of similar symptoms of confusion or memory loss in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no history of similar symptoms of confusion or memory loss in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transient Global Amnesia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Dissociative amnesia with dissociative fugue",
+        "multiturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "singleturn_mcq": "Dissociative amnesia with dissociative fugue",
+        "singleturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "summarized_conversation": "A patient reports feeling extremely confused and unable to recall their name, address, or any personal information. The onset of these symptoms began three days ago. The patient has no history of neurological conditions or head injuries and has not experienced symptoms such as headaches, dizziness, or changes in vision or speech. Additionally, the patient has not suffered from any recent illnesses or infections. The patient has had two major depressive episodes in the past and is currently taking citalopram. There is no known family history of similar symptoms of confusion or memory loss.",
+        "summarized_mcq": "Dissociative amnesia with dissociative fugue",
+        "summarized_frq": "Transient Global Amnesia"
+    },
+    "trial_3": {
+        "vignette_mcq": "Dissociative amnesia with dissociative fugue",
+        "vignette_frq": "Dissociative amnesia.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm feeling very confused and I can't remember my name, address, or any personal information. I also don't recognize my husband or recall important events of my life."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past three days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently experienced any head injuries, falls, or trauma?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any head injuries, falls, or trauma."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I have had two major depressive episodes in the past and I have been treated with citalopram."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of neurological disorders in your family, such as Alzheimer's disease, stroke, or epilepsy?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of neurological disorders in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent changes in medications, or have you experienced significant stress or changes in your life recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been under a great deal of stress at work lately and was anxious about not meeting a project deadline."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Transient Global Amnesia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dissociative amnesia with dissociative fugue",
+        "multiturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "singleturn_mcq": "Final Diagnosis: Dissociative amnesia with dissociative fugue",
+        "singleturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "summarized_conversation": "A patient presents with severe confusion, reporting an inability to recall her name, address, or any personal details. She also states that she cannot recognize her husband or remember significant life events. These symptoms have been ongoing for three days. The patient denies any recent head trauma, injuries, or neurological disorders in her family history. She has a history of two major depressive episodes and has been treated with citalopram. Recently, the patient has been under significant stress at work and anxious about failing to meet a project deadline.",
+        "summarized_mcq": "Dissociative amnesia with dissociative fugue",
+        "summarized_frq": "Transient global amnesia"
+    },
+    "trial_4": {
+        "vignette_mcq": "Dissociative amnesia with dissociative fugue",
+        "vignette_frq": "Dissociative amnesia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm feeling confused and I can't remember my name, address, or any personal information. I also don't recognize my husband or recall important life events."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these memory issues?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these memory issues since being found three days ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Were you involved in any incident or accident before being found?"
+            },
+            {
+                "role": "user",
+                "content": "No, I was not involved in any incident or accident before being found."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any medical conditions or are you taking any medication currently?"
+            },
+            {
+                "role": "user",
+                "content": "I have had two major depressive episodes in the past and I was treated with a medication called citalopram."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar memory issues or confusion in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of similar memory issues or confusion in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I am unable to recall any information regarding my family's medical history or if they had similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dissociative Amnesia."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dissociative amnesia with dissociative fugue",
+        "multiturn_frq": "**Final Diagnosis:** Transient Global Amnesia",
+        "singleturn_mcq": "Final Diagnosis: Dissociative amnesia with dissociative fugue",
+        "singleturn_frq": "**Final Diagnosis:** Dissociative Amnesia",
+        "summarized_conversation": "A patient expresses confusion and an inability to recall personal information, including their name, address, or any significant life events. The patient does not recognize their husband and has been experiencing memory issues since being found three days ago. The patient confirms no involvement in any incident or accident prior to being found. In the past, the patient has had two major depressive episodes treated with citalopram. There is no history of similar memory issues or confusion in the past, and the patient is unable to provide any information regarding their family's medical history or if there were similar symptoms within the family.",
+        "summarized_mcq": "Dissociative amnesia with dissociative fugue",
+        "summarized_frq": "Transient Global Amnesia"
+    }
+}

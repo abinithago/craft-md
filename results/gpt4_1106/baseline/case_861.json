@@ -1,0 +1,309 @@
+{
+    "case_vignette": "A 6-year-old girl is brought to the physician for a well-child examination. She has no history of serious illness. Her temperature is 37\u00b0C (98.6\u00b0F), pulse is 95/min, and blood pressure is 96/52 mm Hg. Examination shows a 2/6 continuous, low-pitched murmur over the left upper sternal border that radiates towards the neck. The murmur disappears when she flexes her neck. The remainder of the examination shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Venous hum",
+        "vignette_frq": "Venous hum.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I hear a soft heart murmur near the upper left side of my chest that spreads up towards my neck."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any dizziness, fainting, or shortness of breath along with the murmur?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing heart conditions or have you had any heart-related surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any history of serious illness or heart-related surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had heart issues such as murmurs, heart attacks, or congenital heart diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have any information about my family history of heart issues."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 6-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Aortic Stenosis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Venous hum",
+        "multiturn_frq": "**Final Diagnosis:** Innocent heart murmur",
+        "singleturn_mcq": "Patent ductus arteriosus",
+        "singleturn_frq": "Final Diagnosis: Aortic Stenosis",
+        "summarized_conversation": "The patient, a 6-year-old girl, reports hearing a soft heart murmur near the upper left side of her chest that radiates up towards her neck. She has not experienced any related symptoms and does not have a history of serious illness or heart-related surgeries. Additionally, there is no known family history of heart issues.",
+        "summarized_mcq": "Venous hum",
+        "summarized_frq": "Innocent heart murmur"
+    },
+    "trial_1": {
+        "vignette_mcq": "Venous hum.",
+        "vignette_frq": "Venous hum.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a heart murmur that's heard over the left upper side of my chest, and it goes towards my neck."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any other symptoms like shortness of breath, chest pain, or dizziness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any other symptoms like shortness of breath, chest pain, or dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any specific heart conditions in the past, or do you take any medications for heart issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of serious illness or any diagnosed heart conditions, and I'm not on any medications for heart issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of heart disease or genetic conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there isn't any information provided about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any changes in your symptoms with changes in body position, such as lying down versus standing or sitting?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the murmur disappears when I flex my neck."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hemic murmur"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Venous hum",
+        "multiturn_frq": "**Final Diagnosis:** Cervical Venous Hum",
+        "singleturn_mcq": "Final Diagnosis: Venous hum",
+        "singleturn_frq": "**Final Diagnosis:** Aortic Stenosis.",
+        "summarized_conversation": "A patient reports having a heart murmur that is audible over the left upper side of their chest, extending towards the neck. The patient does not experience any other symptoms such as shortness of breath, chest pain, or dizziness. Additionally, the patient has no history of serious illness or known heart conditions and is not undergoing any treatment for heart issues. There is no available information about the family's medical history. It's noted that the murmur ceases when the patient flexes their neck.",
+        "summarized_mcq": "Venous hum",
+        "summarized_frq": "Innocent heart murmur"
+    },
+    "trial_2": {
+        "vignette_mcq": "Venous hum",
+        "vignette_frq": "Venous hum",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any specific symptoms; I'm here for a routine check-up."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history of heart disease or diabetes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of cardiovascular disease or any other chronic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about my family's medical history regarding cardiovascular disease or other chronic conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently take any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 6-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: No cardiovascular disease diagnosis at this time."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Venous hum",
+        "multiturn_frq": "**Final Diagnosis:** No cardiovascular condition detected; follow-up as normal for age and continue routine check-ups.",
+        "singleturn_mcq": "Final Diagnosis: Atrial septal defect",
+        "singleturn_frq": "Final Diagnosis: No Diagnosis, Healthy (Routine Check-up)",
+        "summarized_conversation": "A patient presents to the clinic for a routine check-up. The patient is a 6-year-old girl with no specific symptoms and no history of serious illness. The patient does not have any information about her family's medical history concerning cardiovascular disease or other chronic conditions. Additionally, she is not taking any medications.",
+        "summarized_mcq": "Venous hum",
+        "summarized_frq": "Normal cardiovascular health"
+    },
+    "trial_3": {
+        "vignette_mcq": "Venous hum",
+        "vignette_frq": "Venous hum",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am not experiencing any symptoms today."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent or past cardiovascular-related symptoms or issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent or past cardiovascular-related symptoms or issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic illnesses or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any chronic illnesses and I'm not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cardiovascular diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any family history of cardiovascular diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: No cardiovascular disease diagnosis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Venous hum",
+        "multiturn_frq": "**Final Diagnosis:** No cardiovascular disease.",
+        "singleturn_mcq": "Final Diagnosis: Atrial septal defect",
+        "singleturn_frq": "Final Diagnosis: No cardiovascular disease.",
+        "summarized_conversation": "The patient reports not experiencing any symptoms currently. The patient denies having any recent or past cardiovascular-related symptoms or issues. The patient does not have any chronic illnesses and is not on any medication. Additionally, the patient does not have any family history of cardiovascular diseases.",
+        "summarized_mcq": "Atrial septal defect",
+        "summarized_frq": "No cardiovascular disease."
+    },
+    "trial_4": {
+        "vignette_mcq": "Venous hum",
+        "vignette_frq": "Venous hum",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any specific symptoms today; I'm here for a routine check-up."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any chest pain, shortness of breath, or palpitations recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any chest pain, shortness of breath, or palpitations recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic conditions or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any chronic conditions and I'm not currently on any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of heart disease or any other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm here as a patient and don't have detailed information about family medical history in this scenario."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 6-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Since you are here for a routine check-up with no symptoms or family history provided, and at your young age, do you engage in any physical activities like running or playing sports?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I engage in physical activities like playing and running."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: No cardiovascular disease detected; normal health status for age."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Venous hum",
+        "multiturn_frq": "Final Diagnosis: No diagnosis; normal health for routine check-up.",
+        "singleturn_mcq": "Final Diagnosis: Venous hum",
+        "singleturn_frq": "Final Diagnosis: No diagnosis needed.",
+        "summarized_conversation": "A patient, a 6-year-old girl, visited the clinic for a routine check-up with no specific symptoms to report. She confirmed that she has not experienced any chest pains, shortness of breath, or palpitations recently. There were no chronic conditions or medications reported. The patient is not privy to detailed information about her family's medical history. She mentioned that she participates in physical activities like playing and running.",
+        "summarized_mcq": "Venous hum",
+        "summarized_frq": "No cardiovascular diagnosis; patient appears healthy based on the description provided."
+    }
+}

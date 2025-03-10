@@ -1,0 +1,317 @@
+{
+    "case_vignette": "A 62-year-old woman is brought to the emergency department because of sudden loss of vision in her right eye that occurred 50 minutes ago! She does not have eye pain! She had several episodes of loss of vision in the past, but her vision improved following treatment with glucocorticoids! She has coronary artery disease, hypertension, type 2 diabetes mellitus, and multiple sclerosis! She underwent a left carotid endarterectomy 3 years ago! She had a myocardial infarction 5 years ago! Current medications include aspirin, metoprolol, lisinopril, atorvastatin, metformin, glipizide, and weekly intramuscular beta-interferon injections! Her temperature is 36!8\u00b0C (98!2\u00b0F), pulse is 80/min, and blood pressure is 155/88 mm Hg! Examination shows 20/50 vision in the left eye and no perception of light in the right eye! The direct pupillary reflex is brisk in the left eye and absent in the right eye! The indirect pupillary reflex is brisk in the right eye but absent in the left eye! Intraocular pressure is 18 mm Hg in the right eye and 16 mm Hg in the left eye! A white, 1-mm ring is seen around the circumference of the cornea in both eyes! Fundoscopic examination of the right eye shows a pale, white retina with a bright red area within the macula! The optic disc appears normal! Fundoscopic examination of the left eye shows a few soft and hard exudates in the superior and nasal retinal quadrants! The optic disc and macula appear normal! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Central retinal artery occlusion",
+        "vignette_frq": "Central retinal artery occlusion",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly lost vision in my right eye about 50 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any eye pain or headache associated with this vision loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any eye pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any cardiovascular diseases like high blood pressure or diabetes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have coronary artery disease, hypertension, and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of stroke or any other neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I have multiple sclerosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic neuritis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Central retinal artery occlusion",
+        "multiturn_frq": "**Final Diagnosis:** Retinal artery occlusion",
+        "singleturn_mcq": "Central retinal artery occlusion",
+        "singleturn_frq": "**Final Diagnosis:** Central retinal artery occlusion",
+        "summarized_conversation": "A patient experienced sudden vision loss in the right eye approximately 50 minutes ago. The patient reports no eye pain associated with the vision loss. The patient has a medical history of coronary artery disease, hypertension, type 2 diabetes mellitus, and multiple sclerosis.",
+        "summarized_mcq": "Central retinal artery occlusion",
+        "summarized_frq": "Transient ischemic attack (TIA)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Central retinal artery occlusion",
+        "vignette_frq": "Central retinal artery occlusion",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing sudden loss of vision in my right eye, which occurred about an hour ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain associated with the vision loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any eye pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any other symptoms like weakness, numbness, or difficulty in speaking along with the vision loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any other symptoms like weakness, numbness, or difficulty in speaking along with the vision loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history of diabetes, hypertension, or cardiovascular diseases?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have coronary artery disease, hypertension, and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of stroke or other neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I don't have information about my family's medical history to share."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any similar episodes of vision loss in the past, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have had several episodes of vision loss in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Amaurosis Fugax"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Central retinal artery occlusion",
+        "multiturn_frq": "Final Diagnosis: Amaurosis Fugax",
+        "singleturn_mcq": "Central retinal artery occlusion",
+        "singleturn_frq": "Final Diagnosis: Retinal artery occlusion.",
+        "summarized_conversation": "A patient reports experiencing sudden vision loss in their right eye, which occurred approximately one hour prior. The patient states that there is no associated eye pain. Additionally, the patient denies experiencing other symptoms such as weakness, numbness, or difficulty in speaking concurrent with the vision loss. The patient has a medical history of coronary artery disease, hypertension, and type 2 diabetes mellitus. No family medical history is available as the patient does not have that information. The patient confirms having experienced several episodes of vision loss in the past.",
+        "summarized_mcq": "Central retinal artery occlusion",
+        "summarized_frq": "Amaurosis fugax"
+    },
+    "trial_2": {
+        "vignette_mcq": "Central retinal artery occlusion",
+        "vignette_frq": "Central retinal artery occlusion",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly lost vision in my right eye about 50 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the vision loss total or partial, and have you experienced any pain associated with this symptom?"
+            },
+            {
+                "role": "user",
+                "content": "The vision loss in my right eye is total, and I am not experiencing any pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any similar episodes in the past, or is this the first time this has happened?"
+            },
+            {
+                "role": "user",
+                "content": "I have had several episodes of vision loss in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these previous episodes of vision loss usually resolve on their own, and if so, how long do they typically last?"
+            },
+            {
+                "role": "user",
+                "content": "My previous episodes of vision loss improved following treatment with glucocorticoids."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any neurological conditions or do you have any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been diagnosed with multiple sclerosis, along with coronary artery disease, hypertension, and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic neuritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Optic neuritis",
+        "multiturn_frq": "**Final Diagnosis:** Optic neuritis",
+        "singleturn_mcq": "Central retinal artery occlusion",
+        "singleturn_frq": "**Final Diagnosis:** Retinal artery occlusion",
+        "summarized_conversation": "A patient experienced sudden vision loss in their right eye approximately 50 minutes prior to consultation. The vision loss is total, and there is no associated pain. This patient has a history of multiple episodes of vision loss, which previously improved with glucocorticoid treatment. The patient has been diagnosed with multiple sclerosis, coronary artery disease, hypertension, and type 2 diabetes mellitus.",
+        "summarized_mcq": "Optic neuritis",
+        "summarized_frq": "Optic neuritis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Central retinal artery occlusion",
+        "vignette_frq": "Central retinal artery occlusion",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly lost vision in my right eye about 50 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the vision loss complete or partial in your right eye?"
+            },
+            {
+                "role": "user",
+                "content": "The vision loss is complete in my right eye; I cannot perceive any light."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain associated with the vision loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any eye pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever experienced similar symptoms in the past?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have had several episodes of vision loss in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Did the previous episodes of vision loss resolve on their own or require treatment?"
+            },
+            {
+                "role": "user",
+                "content": "The previous episodes of vision loss improved following treatment with glucocorticoids."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known autoimmune disorders or neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have multiple sclerosis."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Optic neuritis associated with multiple sclerosis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Optic neuritis",
+        "multiturn_frq": "**Final Diagnosis:** Optic Neuritis",
+        "singleturn_mcq": "Central retinal artery occlusion",
+        "singleturn_frq": "**Final Diagnosis:** Retinal artery occlusion",
+        "summarized_conversation": "The patient experienced sudden vision loss in the right eye approximately 50 minutes prior to consultation. The loss of vision is complete, with the patient unable to perceive any light from the affected eye. The patient reports no associated eye pain. There is a history of several similar episodes of vision loss, which previously improved with glucocorticoid treatment. Additionally, the patient has a diagnosis of multiple sclerosis.",
+        "summarized_mcq": "Optic neuritis",
+        "summarized_frq": "Optic neuritis"
+    },
+    "trial_4": {
+        "vignette_mcq": "Central retinal artery occlusion",
+        "vignette_frq": "Central retinal artery occlusion",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly lost vision in my right eye about 50 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the vision loss complete or partial in your right eye?"
+            },
+            {
+                "role": "user",
+                "content": "The vision loss in my right eye is complete; I cannot perceive any light with it."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain associated with the vision loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any eye pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any headaches, speech difficulties, or weakness in any part of your body today?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any headaches, speech difficulties, or weakness today."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cardiovascular diseases, or has any close family member had a stroke or heart disease?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have coronary artery disease and I had a myocardial infarction 5 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Central retinal artery occlusion."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Central retinal artery occlusion.",
+        "multiturn_frq": "Final Diagnosis: Central Retinal Artery Occlusion",
+        "singleturn_mcq": "Central retinal artery occlusion",
+        "singleturn_frq": "Final Diagnosis: Retinal artery occlusion",
+        "summarized_conversation": "A patient reports a sudden loss of vision in the right eye approximately 50 minutes ago. The loss of vision in the right eye is complete, with an inability to perceive any light. The patient denies experiencing any eye pain. Further, the patient has not had any headaches, speech difficulties, or weakness today. The patient has a history of coronary artery disease and suffered a myocardial infarction 5 years ago.",
+        "summarized_mcq": "Central retinal artery occlusion",
+        "summarized_frq": "Central retinal artery occlusion"
+    }
+}

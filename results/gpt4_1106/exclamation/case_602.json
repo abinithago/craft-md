@@ -1,0 +1,325 @@
+{
+    "case_vignette": "A 1-month-old infant is brought to the physician for a well-child examination! His mother reports that she had previously breastfed her son every 2 hours for 15 minutes but is now feeding him every 4 hours for 40 minutes! She says that the infant sweats a lot and is uncomfortable during feeds! He has 6 wet diapers and 2 stools daily! He was born at 36 weeks' gestation! He currently weighs 3500 g (7!7 lb) and is 52 cm (20!4 in) in length! He is awake and alert! His temperature is 37!1\u00b0C (98!8\u00b0F), pulse is 170/min, respirations are 55/min, and blood pressure is 80/60 mm Hg! Pulse oximetry on room air shows an oxygen saturation of 99%! Cardiopulmonary examination shows a 4/6 continuous murmur along the upper left sternal border! ",
+    "question": "After confirming the diagnosis via echocardiography, which  is the most appropriate next step in the management of this patient?",
+    "trial_0": {
+        "vignette_mcq": "Prostaglandin E1 infusion",
+        "vignette_frq": "Initiation of prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I sweat a lot and feel uncomfortable during feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 1 month old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any difficulties in breathing or is there a bluish tint to your lips or skin after feeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no bluish tint to my lips or skin, and my oxygen saturation is 99%."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any unusual weight gain or a lack of expected weight gain since birth?"
+            },
+            {
+                "role": "user",
+                "content": "My weight is currently 3500 grams (7.7 lb), but I cannot provide specifics on weight gain since birth."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of congenital heart disease?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed frequent coughing or wheezing, especially during or after feeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced coughing or wheezing."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Heart Failure"
+            }
+        ],
+        "multiturn_mcq": "Prostaglandin E1 infusion",
+        "multiturn_frq": "Final Diagnosis: Congenital Heart Disease",
+        "singleturn_mcq": "Prostaglandin E1 infusion",
+        "singleturn_frq": "I need more information to proceed. How old are you?",
+        "summarized_conversation": "A patient, who is 1 month old, reports excessive sweating and discomfort during feeding. The infant exhibits no bluish tint to the lips or skin, and the oxygen saturation is 99%. The current weight of the infant is 3500 grams (7.7 lb). However, specifics concerning weight gain since birth aren't available. The infant has not experienced symptoms like coughing or wheezing.",
+        "summarized_mcq": "Reassurance and follow-up",
+        "summarized_frq": "Refer to a pediatric cardiologist for further management."
+    },
+    "trial_1": {
+        "vignette_mcq": "Prostaglandin E1 infusion",
+        "vignette_frq": "Initiate prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I sweat a lot and feel uncomfortable during feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms besides sweating, such as rapid breathing or irritability?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have rapid breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 1 month old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known congenital anomalies or conditions diagnosed at birth?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any diagnosed congenital anomalies."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with cardiac problems?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of similar symptoms or cardiac problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Congenital Heart Disease"
+            }
+        ],
+        "multiturn_mcq": "Prostaglandin E1 infusion",
+        "multiturn_frq": "Final Diagnosis: Congenital Heart Disease",
+        "singleturn_mcq": "Prostaglandin E1 infusion",
+        "singleturn_frq": "Please clarify your age and if you are currently breastfeeding.",
+        "summarized_conversation": "A 1-month-old infant presents symptoms of excessive sweating and discomfort during feeding, along with rapid breathing. The infant does not have any diagnosed congenital anomalies. There is no known family history of similar symptoms or cardiac problems.",
+        "summarized_mcq": "Reassurance and follow-up",
+        "summarized_frq": "Initiate treatment with diuretics and arrange for follow-up with a pediatric cardiologist."
+    },
+    "trial_2": {
+        "vignette_mcq": "Prostaglandin E1 infusion",
+        "vignette_frq": "Initiate prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been sweating a lot and feeling uncomfortable during feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 1-month-old male infant."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any rapid breathing or poor weight gain recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been experiencing rapid breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart problems in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms such as vomiting, lethargy, or irritability?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any vomiting, lethargy, or irritability."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Congenital heart disease."
+            }
+        ],
+        "multiturn_mcq": "Prostaglandin E1 infusion",
+        "multiturn_frq": "Final Diagnosis: Congenital Heart Disease",
+        "singleturn_mcq": "Prostaglandin E1 infusion",
+        "singleturn_frq": "Please clarify, how old are you and do you have any associated symptoms like difficulty breathing or unusual crying during these episodes?",
+        "summarized_conversation": "A 1-month-old male infant has been reporting excessive sweating and discomfort during feedings. Additionally, the infant is experiencing rapid breathing. The infant or the caregiver does not have any information regarding certain questions asked. The infant has not experienced any vomiting, lethargy, or irritability.",
+        "summarized_mcq": "Prostaglandin E1 infusion",
+        "summarized_frq": "Initiate treatment with diuretics and arrange for surgical consultation."
+    },
+    "trial_3": {
+        "vignette_mcq": "Prostaglandin E1 infusion",
+        "vignette_frq": "Initiate prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I sweat a lot and feel uncomfortable during feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you tell me your age and sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 1-month-old infant."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any other symptoms like rapid breathing or blue coloration of skin especially around lips and tongue?"
+            },
+            {
+                "role": "user",
+                "content": "I experience rapid breathing, but I do not have a blue coloration of the skin around my lips and tongue."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any history of heart problems in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any difficulties gaining weight or frequent respiratory infections?"
+            },
+            {
+                "role": "user",
+                "content": "I am not experiencing difficulties gaining weight or frequent respiratory infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Congenital Heart Disease"
+            }
+        ],
+        "multiturn_mcq": "Prostaglandin E1 infusion",
+        "multiturn_frq": "Final Diagnosis: Congenital Heart Disease",
+        "singleturn_mcq": "Prostaglandin E1 infusion",
+        "singleturn_frq": "What is your age?",
+        "summarized_conversation": "A one-month-old infant presents with significant sweating and discomfort during feeding sessions. The infant experiences rapid breathing but shows no cyanosis, specifically no blue coloration around the lips and tongue. The infant does not have trouble gaining weight and has not been suffering from frequent respiratory infections.",
+        "summarized_mcq": "Reassurance and follow-up",
+        "summarized_frq": "Refer the infant to a pediatric cardiologist for evaluation and management of potential congenital heart disease."
+    },
+    "trial_4": {
+        "vignette_mcq": "Prostaglandin E1 infusion",
+        "vignette_frq": "Initiate prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I sweat a lot and feel uncomfortable during feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 1 month old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty in breathing or a persistent cough?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have difficulty breathing or a persistent cough."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any episodes of turning blue, especially around the lips or fingertips?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any episodes of turning blue around the lips or fingertips."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your baby have difficulties feeding such as sweating or tiring easily during feeds?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I sweat a lot and am uncomfortable during feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the patient's pediatrician noticed any heart murmurs during examination?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the pediatrician noticed a continuous murmur along the upper left sternal border."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Patent Ductus Arteriosus"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Patent Ductus Arteriosus (PDA)",
+        "multiturn_frq": "Final Diagnosis: Patent Ductus Arteriosus (PDA)",
+        "singleturn_mcq": "Prostaglandin E1 infusion",
+        "singleturn_frq": "Final Diagnosis: Hypertrophic Cardiomyopathy",
+        "summarized_conversation": "A 1-month-old infant exhibits significant discomfort and perspires heavily during feeding. The infant does not have difficulty breathing nor a persistent cough, and there have been no episodes of turning blue around the lips or fingertips. However, the excessive sweating and discomfort during feeding are notable. Upon examination, the pediatrician detected a continuous murmur along the upper left sternal border of the infant's chest.",
+        "summarized_mcq": "Reassurance and follow-up",
+        "summarized_frq": "Refer the infant to a pediatric cardiologist for further evaluation and management."
+    }
+}

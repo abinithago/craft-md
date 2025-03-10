@@ -1,0 +1,453 @@
+{
+    "case_vignette": "A 32-year-old man comes to the physician because of a 3-month history of progressively worsening shortness of breath on exertion. He is concerned that he has asthma and would like to be started on albuterol. ",
+    "question": "Which  findings is most likely to indicate a different diagnosis in this patient?",
+    "trial_0": {
+        "vignette_mcq": "Visibility of 11 posterior ribs in the midclavicular line above the diaphragm on chest x-ray",
+        "vignette_frq": "Evidence of heart failure such as jugular venous distention, lower extremity edema, or a third heart sound during physical examination.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasingly worse shortness of breath when I exert myself over the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chest pain or discomfort along with your shortness of breath?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any chest pain or discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease or other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any history of heart disease or other cardiovascular conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been diagnosed with asthma or any other respiratory conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with asthma or any other respiratory conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of heart disease or pulmonary disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any family history of heart disease or pulmonary disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any symptoms like cough or wheezing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any cough or wheezing."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 32-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Exertional Dyspnea"
+            }
+        ],
+        "multiturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine",
+        "multiturn_frq": "Final Diagnosis: Exercise-induced bronchoconstriction (EIB)",
+        "singleturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine",
+        "singleturn_frq": "Sorry, I can't provide the response as requested. Would you like to continue diagnosing the patient's condition?",
+        "summarized_conversation": "A patient, a 32-year-old man, has been experiencing progressively worsening shortness of breath with exertion over the past three months. He reports no swelling in his legs or feet, no chest pain or discomfort. He does not have a history of heart disease, cardiovascular conditions, asthma, or other respiratory conditions. Additionally, he is not on any medications and does not have a family history of heart disease or pulmonary disorders. He has also not experienced any cough or wheezing.",
+        "summarized_mcq": "Visibility of 11 posterior ribs in the midclavicular line above the diaphragm on chest x-ray",
+        "summarized_frq": "Anemia or a pulmonary condition such as pulmonary hypertension."
+    },
+    "trial_1": {
+        "vignette_mcq": "Visibility of 11 posterior ribs in the midclavicular line above the diaphragm on chest x-ray",
+        "vignette_frq": "History of progressive symptoms or additional findings such as chest pain, palpitations, or leg swelling.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing shortness of breath when I exert myself over the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any chest pain, tightness, or dizziness along with the shortness of breath?"
+            },
+            {
+                "role": "user",
+                "content": "No, I just have shortness of breath on exertion."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 32-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any preexisting health conditions or have you been diagnosed with any heart or lung diseases in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any preexisting health conditions or diagnosed heart or lung diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you smoke, or are you exposed to any harmful substances at work or home?"
+            },
+            {
+                "role": "user",
+                "content": "The information about smoking or exposure to harmful substances is not provided in my case details."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any instances of heart diseases, respiratory conditions, or other significant health issues in your family's medical history?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information provided about my family's medical history in my case details."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if your shortness of breath improves with rest?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my shortness of breath improves with rest."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Exercise-induced bronchoconstriction."
+            }
+        ],
+        "multiturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine",
+        "multiturn_frq": "Final Diagnosis: Exercise-induced asthma",
+        "singleturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine.",
+        "singleturn_frq": "Palpitations",
+        "summarized_conversation": "A patient, a 32-year-old man, has been experiencing increasing shortness of breath when exerting himself over the past three months. He reports that the shortness of breath occurs only on exertion and improves with rest. The patient mentions that there is no swelling in his legs or feet and confirms that he does not suffer from any preexisting health conditions or diagnosed heart or lung diseases. Additionally, there is no information provided about any smoking habits or exposure to harmful substances, nor is there any information about his family\u2019s medical history in his case details.",
+        "summarized_mcq": "Bipyramidal crystals measuring 50 \u03bcm on sputum analysis",
+        "summarized_frq": "Abnormal heart sounds or murmurs."
+    },
+    "trial_2": {
+        "vignette_mcq": "Visibility of 11 posterior ribs in the midclavicular line above the diaphragm on chest x-ray",
+        "vignette_frq": "Findings of a heart murmur or signs of heart failure.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressively worsening shortness of breath when I exert myself."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chest pain, dizziness, or swelling in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any chest pain, dizziness, or swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any similar issues in the past or any chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any similar issues in the past or any chronic illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of heart disease, high blood pressure, or other cardiovascular problems?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about my family history of heart disease, high blood pressure, or other cardiovascular problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience shortness of breath at rest or only during physical activity?"
+            },
+            {
+                "role": "user",
+                "content": "I experience shortness of breath only during physical activity."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Exercise-induced asthma."
+            }
+        ],
+        "multiturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine",
+        "multiturn_frq": "Final Diagnosis: Exercise-induced asthma",
+        "singleturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine",
+        "singleturn_frq": "Painful swelling in one leg.",
+        "summarized_conversation": "A patient reports progressively worsening shortness of breath during physical exertion, which has persisted for the past 3 months. The patient does not report any associated chest pain, dizziness, or swelling in the legs or feet. There is no past history of similar issues or chronic illnesses detailed in the case vignette. Additionally, there is no information about a family history of heart disease, high blood pressure, or other cardiovascular problems. The patient is not currently taking any medications and experiences shortness of breath solely during physical activity.",
+        "summarized_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine.",
+        "summarized_frq": "Chest pain."
+    },
+    "trial_3": {
+        "vignette_mcq": "Visibility of 11 posterior ribs in the midclavicular line above the diaphragm on chest x-ray",
+        "vignette_frq": "Presence of a heart murmur or signs of heart failure.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing shortness of breath when I exert myself over the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chest pain or discomfort along with the shortness of breath?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any chest pain or discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you notice any swelling in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any bouts of coughing, or coughing up any fluids?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any coughing or coughing up fluids."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 32-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart or lung diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about my family history of heart or lung diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about any previous medical conditions or current medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience the shortness of breath even when you are at rest, or only during physical activities?"
+            },
+            {
+                "role": "user",
+                "content": "I experience shortness of breath only during physical activities."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Exercise-induced asthma."
+            }
+        ],
+        "multiturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine.",
+        "multiturn_frq": "Final Diagnosis: Exercise-induced asthma",
+        "singleturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A 32-year-old man reports that he has been experiencing increasing shortness of breath upon exertion over the past three months. He denies having chest pain, discomfort, or swelling in his legs or feet. Furthermore, he reports no instances of coughing or coughing up fluids. This patient's history does not include any information about family history of heart or lung diseases, nor does it mention any previous medical conditions or current medications. The shortness of breath that he experiences is specifically triggered during physical activities.",
+        "summarized_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine.",
+        "summarized_frq": "Abnormal heart sounds or murmurs on physical examination."
+    },
+    "trial_4": {
+        "vignette_mcq": "Visibility of 11 posterior ribs in the midclavicular line above the diaphragm on chest x-ray",
+        "vignette_frq": "History of progressively worsening symptoms rather than episodic symptoms with triggers.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressively worsening shortness of breath when I exert myself."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chest pain or discomfort, especially during exertion?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have chest pain or discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any cardiovascular diseases, or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of any cardiovascular diseases or other chronic illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any dizziness, fainting spells, or palpitations along with your shortness of breath?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't experience any dizziness, fainting spells, or palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of smoking or exposure to lung irritants in your environment?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of smoking or exposure to lung irritants in my environment."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 32-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of heart disease, lung disease, or any genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, my family does not have a history of heart disease, lung disease, or any genetic disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if your symptoms worsen in certain positions, like lying down or bending over?"
+            },
+            {
+                "role": "user",
+                "content": "No, my symptoms do not worsen in certain positions like lying down or bending over."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unexplained weight loss or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any unexplained weight loss or night sweats recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Exercise-induced bronchoconstriction."
+            }
+        ],
+        "multiturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine",
+        "multiturn_frq": "Final Diagnosis: Exercise-induced asthma",
+        "singleturn_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine.",
+        "singleturn_frq": "Palpitations",
+        "summarized_conversation": "A 32-year-old man reports progressively worsening shortness of breath with exertion over the past three months. He denies experiencing chest pain or discomfort and does not have a history of any cardiovascular diseases or other chronic illnesses. He has not noticed any swelling in his legs or feet and does not experience dizziness, fainting spells, or palpitations. The patient does not have a history of smoking or exposure to lung irritants in his environment. Additionally, there is no family history of heart disease, lung disease, or genetic disorders. He reports that his symptoms do not worsen in certain positions such as lying down or bending over, and he has not experienced any unexplained weight loss or night sweats recently.",
+        "summarized_mcq": "Decrease in FEV1 by 6% after administration of high-dose methacholine",
+        "summarized_frq": "Normal heart and lung exam findings."
+    }
+}

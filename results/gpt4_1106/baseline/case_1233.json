@@ -1,0 +1,437 @@
+{
+    "case_vignette": "A 32-year-old man comes to the physician for a 1-month history of fever, chest pain with deep breathing, and a 4-kg (9 lb) weight loss. His temperature is 38\u00b0C (100.4\u00b0F). An x-ray of the chest shows a subpleural nodule in the right lower lobe with right hilar lymphadenopathy. Histological examination of a right hilar lymph node biopsy specimen shows several granulomas with acellular cores. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Pulmonary sarcoidosis",
+        "vignette_frq": "Sarcoidosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever, chest pain when I take deep breaths, and I've lost about 9 pounds over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your cough, such as it becoming persistent or producing blood?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned anything about changes in my cough or coughing up blood."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have shortness of breath or difficulty breathing?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention experiencing shortness of breath or difficulty breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of smoking or exposure to environmental toxins?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any history of smoking or exposure to environmental toxins."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous illnesses or surgeries that might be related to your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any previous illnesses or surgeries that could be related to my current symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar symptoms or been diagnosed with any genetic or chronic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of similar symptoms or diagnoses of genetic or chronic diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to places with high risks of infections, like hospitals or areas with known outbreaks recently?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any recent exposures to high-risk infection areas like hospitals or places with known outbreaks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any new lumps, swelling, or masses in your body, particularly around the neck, armpits, or groin?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned noticing any new lumps, swelling, or masses on my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent infections or fevers before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any recent infections or fevers before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your work or daily activities involve exposure to radiation or pollutants?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any details about my work or daily activities involving exposure to radiation or pollutants."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms, such as night sweats or chills, accompanying your fever and weight loss?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned experiencing night sweats or chills along with my fever and weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of blood disorders or cancers in your personal medical history?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal medical history of blood disorders or cancers."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pleurisy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Primary tuberculosis",
+        "multiturn_frq": "**Final Diagnosis:** Lung cancer",
+        "singleturn_mcq": "Hodgkin lymphoma",
+        "singleturn_frq": "**Final Diagnosis:** Tuberculosis",
+        "summarized_conversation": "A patient has been experiencing several concerning symptoms: fever, chest pain upon taking deep breaths, and a weight loss of approximately 9 pounds over the past month. The patient has not reported any changes in cough, nor any instances of coughing up blood. They have not experienced shortness of breath or difficulty breathing. The patient does not have a history of smoking or exposure to environmental toxins. There is no mention of any previous illnesses or surgeries that could be related to the current symptoms. Additionally, there is no family history of similar symptoms or diagnoses of genetic or chronic diseases. The patient has not had recent exposures to high-risk infection areas such as hospitals or places with known outbreaks. No new lumps, swelling, or masses have been noticed on the patient's body. There's no mention of recent infections or fevers prior to the onset of these symptoms. The patient has not detailed any aspects of their work or daily activities that involve exposure to radiation or pollutants. The patient has not reported experiencing night sweats or chills along with the fever and weight loss. Finally, the patient does not have a personal medical history of blood disorders or cancers.",
+        "summarized_mcq": "Pulmonary sarcoidosis",
+        "summarized_frq": "Pleurisy or another pleural condition."
+    },
+    "trial_1": {
+        "vignette_mcq": "Pulmonary sarcoidosis",
+        "vignette_frq": "Sarcoidosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever, chest pain when I breathe deeply, and I've also lost about 9 pounds in the last month."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any respiratory issues or infections recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any recent history of respiratory issues or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your neck, armpits, or groin areas?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in those areas."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of cancer or any genetic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know of any family history of cancer or genetic diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recurrent infections or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had recurrent infections or night sweats recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled or been exposed to any unusual environments or substances?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't traveled recently or been exposed to unusual environments or substances."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently take any medications or have any other underlying health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not currently taking any medications and I don't have any other underlying health conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your appetite or noticed any new lumps or masses on your body?"
+            },
+            {
+                "role": "user",
+                "content": "I've lost weight recently, but I haven't noticed any new lumps or masses on my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lung Cancer."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Hodgkin lymphoma",
+        "multiturn_frq": "**Final Diagnosis:** Lung cancer",
+        "singleturn_mcq": "Primary tuberculosis",
+        "singleturn_frq": "Final Diagnosis: Tuberculosis",
+        "summarized_conversation": "A patient reports experiencing fever and chest pain during deep breaths, alongside a weight loss of approximately 9 pounds over the last month. The patient denies any recent history of respiratory issues or infections. There are no observed swellings in any areas. The patient is not aware of any family history of cancer or genetic diseases. Additionally, the patient reports no recurrent infections or night sweats recently and confirms no recent travels or exposures to unusual environments or substances. The patient is not currently on any medications and does not suffer from any other underlying health conditions. Despite recent weight loss, the patient hasn't noticed any new lumps or masses on their body.",
+        "summarized_mcq": "Hodgkin lymphoma",
+        "summarized_frq": "Pericarditis"
+    },
+    "trial_2": {
+        "vignette_mcq": "Pulmonary sarcoidosis",
+        "vignette_frq": "Sarcoidosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever, chest pain when I take deep breaths, and I've lost about 9 pounds in the last month."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing the symptoms for about a month."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like cough, night sweats, or fatigue?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any symptoms like cough, night sweats, or fatigue."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or exposure to substances like asbestos?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any history of smoking or exposure to substances like asbestos."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any recent infections or surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any family history of cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease or lung conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any history of heart disease or lung conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pleurisy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Hodgkin lymphoma",
+        "multiturn_frq": "**Final Diagnosis:** Pleural effusion",
+        "singleturn_mcq": "Primary tuberculosis",
+        "singleturn_frq": "Final Diagnosis: Tuberculosis",
+        "summarized_conversation": "A patient has been experiencing fever and chest pain when taking deep breaths, and has reported a weight loss of about 9 pounds over the last month. These symptoms have been ongoing for approximately a month. The patient did not mention any symptoms such as cough, night sweats, or fatigue. Furthermore, there is no reported history of smoking or exposure to hazardous substances like asbestos. The patient did not mention any recent infections or surgeries. There is no family history of cancer, nor is there a history of heart disease or lung conditions noted.",
+        "summarized_mcq": "Pulmonary sarcoidosis",
+        "summarized_frq": "Pleurisy"
+    },
+    "trial_3": {
+        "vignette_mcq": "Pulmonary sarcoidosis",
+        "vignette_frq": "Sarcoidosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever, chest pain when I breathe deeply, and I've also lost about 9 pounds over the last month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any night sweats or persistent cough along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any night sweats or persistent cough."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swollen lymph nodes, particularly in areas such as your neck, armpits, or groin?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swollen lymph nodes in my neck, armpits, or groin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been diagnosed with any chronic illnesses or diseases in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been diagnosed with any chronic illnesses or diseases in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or undergoing any other treatments?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications or undergoing any other treatments."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any family history of cancer or autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to any environmental hazards such as asbestos or prolonged radiation?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been exposed to any environmental hazards such as asbestos or prolonged radiation."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pleurisy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pulmonary sarcoidosis",
+        "multiturn_frq": "**Final Diagnosis:** Pleurisy",
+        "singleturn_mcq": "Primary tuberculosis",
+        "singleturn_frq": "**Final Diagnosis:** Tuberculosis",
+        "summarized_conversation": "A patient is suffering from fever and chest pain that intensifies upon deep breathing. Over the past month, the patient also reports a weight loss of approximately 9 pounds. The patient denies experiencing night sweats or a persistent cough. Additionally, there is no evidence of swollen lymph nodes in the neck, armpits, or groin according to the patient. The patient has no known chronic illnesses or diseases and is not currently undergoing any treatment or medication. There is no family history of cancer or autoimmune diseases, and the patient has not been exposed to environmental hazards such as asbestos or prolonged radiation.",
+        "summarized_mcq": "Pulmonary sarcoidosis",
+        "summarized_frq": "Pleuritis or pleurisy"
+    },
+    "trial_4": {
+        "vignette_mcq": "Pulmonary sarcoidosis",
+        "vignette_frq": "Sarcoidosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever, chest pain when I breathe deeply, and I've lost about 9 pounds in the last month."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about a month."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of lung diseases, or has anyone in your family had similar issues?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I don't have any information about any history of lung diseases or family-related issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms, such as coughing, night sweats, or difficulty in breathing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any other symptoms besides the ones I already mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I haven't provided any information about my past medical history or current medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to any pollutants, chemicals, or had any recent travels where you could have contracted an infection?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I don't have any information about exposure to pollutants, chemicals, or recent travels."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any joint pain or skin rashes recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any joint pain or skin rashes."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pleurisy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Hodgkin lymphoma",
+        "multiturn_frq": "**Final Diagnosis:** Pleurisy",
+        "singleturn_mcq": "Primary tuberculosis",
+        "singleturn_frq": "**Final Diagnosis:** Tuberculosis",
+        "summarized_conversation": "A patient has been facing a myriad of symptoms including fever, chest pain during deep breathing and significant weight loss of about 9 pounds over the past month. The duration of the symptoms is approximately a month. The patient does not have any information on personal or family history of lung-related diseases. Additionally, the patient mentioned no other symptoms besides those already listed, and has not provided any details about past medical history or current medications. Furthermore, the patient does not have any information on exposure to pollutants, chemicals, or recent travels, and has not experienced any joint pain or skin rashes.",
+        "summarized_mcq": "Hodgkin lymphoma",
+        "summarized_frq": "Pleurisy"
+    }
+}

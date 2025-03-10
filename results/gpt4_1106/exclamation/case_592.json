@@ -1,0 +1,445 @@
+{
+    "case_vignette": "A 60-year-old man is brought to the emergency department after a fall! He has been seen by the triage nurse but has not been evaluated by a physician! He is heard yelling down the hallway, requesting to speak to \u201cwhoever is in charge!\u201d He refuses to talk to the emergency resident and insists on talking to the attending physician despite being informed that the attending is currently resuscitating a patient who was in a car accident! He says that he deserves better treatment because he has made numerous contributions to the field of medicine! When asked about his work, he mentions that he was a medical device salesman! He is accompanied by his wife, who appears embarrassed! She claims that her husband frequently makes a scene and apologizes for her husband's behavior! On mental status examination, the patient is oriented to person, place, and time! He appears agitated and speaks in short, pressured sentences! There is no disorder of thought process or content! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Narcissistic personality disorder",
+        "vignette_frq": "Narcissistic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I fell and I'm feeling agitated."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you describe the location and nature of any pain you are experiencing?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention experiencing any pain in my description."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you have any loss of consciousness after the fall?"
+            },
+            {
+                "role": "user",
+                "content": "No, I did not lose consciousness after the fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history of falls or neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any past medical history of falls or neurological conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any memory issues or confusion after the fall?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am oriented to person, place, and time, indicating no memory issues or confusion."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you taking any medications that could contribute to feeling agitated?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent changes in your mood or behavior prior to the fall?"
+            },
+            {
+                "role": "user",
+                "content": "No recent changes in mood or behavior prior to the fall were mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing mental health diagnoses?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention having any existing mental health diagnoses."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you feel dizzy or have you noticed any issues with your balance recently?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention feeling dizzy or having any issues with my balance."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any visible injury or bruising from the fall?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any visible injuries or bruising from the fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced agitation like this in the past without an apparent cause?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention experiencing agitation like this in the past without an apparent cause."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing increased thirst, urination, or episodes of confusion recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned experiencing increased thirst, urination, or episodes of confusion recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any changes in my appetite or weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-traumatic stress disorder (PTSD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Borderline personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Post-traumatic stress disorder (PTSD)",
+        "singleturn_mcq": "Final Diagnosis: Borderline personality disorder",
+        "singleturn_frq": "**Final Diagnosis:** Concussion",
+        "summarized_conversation": "A patient reports falling and currently feels agitated. The patient did not describe experiencing any pain associated with the fall. The patient did not lose consciousness following the fall and does not have any past medical history of falls or neurological conditions. The patient is oriented to person, place, and time, indicating no memory issues or confusion are present. The patient has not mentioned taking any medications. There were no recent changes in mood or behavior noted before the incident occurred. The patient does not have any existing mental health diagnosis and did not report feeling dizzy or experiencing balance issues. No visible injuries or bruising from the fall were reported. The patient does not have a history of experiencing similar agitation without an apparent cause. The patient has not reported increased thirst, urination, or episodes of confusion recently. Additionally, no changes in appetite or weight were mentioned.",
+        "summarized_mcq": "Borderline personality disorder",
+        "summarized_frq": "Acute stress reaction or anxiety"
+    },
+    "trial_1": {
+        "vignette_mcq": "Narcissistic personality disorder",
+        "vignette_frq": "Narcissistic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel very agitated and am speaking in short, pressured sentences."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I just started experiencing these symptoms today after my fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you hit your head when you fell?"
+            },
+            {
+                "role": "user",
+                "content": "The information about whether I hit my head when I fell isn't provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any headache, confusion, or loss of consciousness after the fall?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a headache, confusion, or loss of consciousness."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications, or have you taken any substances recently?"
+            },
+            {
+                "role": "user",
+                "content": "The information about medications or substance use is not provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history of psychiatric conditions or neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The information about past medical history of psychiatric conditions or neurological disorders isn't provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other physical injuries or pain you noticed since the fall?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no other physical injuries or pain mentioned since the fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in mood, thoughts of harming yourself or others, or extreme shifts in energy levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced changes in mood, thoughts of harming myself or others, or extreme shifts in energy levels."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute stress reaction."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Borderline personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Acute stress reaction",
+        "singleturn_mcq": "Borderline personality disorder",
+        "singleturn_frq": "**Final Diagnosis:** Mania",
+        "summarized_conversation": "The patient expresses feelings of agitation and is speaking in short, pressured sentences. These symptoms started today following a fall. There is no information about whether the patient hit their head during the fall. The patient denies having a headache, confusion, or loss of consciousness. Information regarding medications or substance use, past medical history of psychiatric conditions, or neurological disorders is not provided. There are no other physical injuries or pain reported since the fall. The patient also denies any changes in mood, thoughts of harming themselves or others, or extreme shifts in energy levels.",
+        "summarized_mcq": "Borderline personality disorder",
+        "summarized_frq": "Post-traumatic stress response or acute stress reaction."
+    },
+    "trial_2": {
+        "vignette_mcq": "Narcissistic personality disorder",
+        "vignette_frq": "Narcissistic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm feeling quite agitated."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been feeling this way?"
+            },
+            {
+                "role": "user",
+                "content": "I just started feeling this way today after the fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you hit your head during the fall?"
+            },
+            {
+                "role": "user",
+                "content": "The information about whether I hit my head or not isn't specified."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any other symptoms along with agitation, such as confusion, headache, or vision changes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not experiencing confusion, headache, or vision changes. I am oriented to person, place, and time."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "The information about previous medical conditions or current medications isn't specified."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain, bruising, or swelling in specific areas of your body from the fall?"
+            },
+            {
+                "role": "user",
+                "content": "It's not specified whether I have pain, bruising, or swelling from the fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar feelings of agitation in the past without any physical injuries?"
+            },
+            {
+                "role": "user",
+                "content": "The information about past experiences of similar agitation without physical injuries isn't specified."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a family history of neurological disorders or mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "The information about family history of neurological disorders or mental health issues isn't specified."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute stress reaction."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Borderline personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Post-traumatic stress disorder (PTSD)",
+        "singleturn_mcq": "Obsessive compulsive personality disorder",
+        "singleturn_frq": "Final Diagnosis: Agitation",
+        "summarized_conversation": "A patient is feeling quite agitated and reports that this feeling began today, following a fall. It is not specified whether the patient hit their head or not. The patient is not experiencing confusion, headache, or vision changes and is oriented to person, place, and time. There is no specified information on the patient's previous medical conditions or current medications. Details about pain, bruising, or swelling resulting from the fall are not provided. Also, it is not specified whether the patient has had past experiences of similar agitation without physical injuries, nor is there any information regarding a family history of neurological disorders or mental health issues.",
+        "summarized_mcq": "Borderline personality disorder",
+        "summarized_frq": "Acute stress reaction"
+    },
+    "trial_3": {
+        "vignette_mcq": "Narcissistic personality disorder",
+        "vignette_frq": "Narcissistic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I fell and now I'm feeling quite agitated."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you sustain any injuries or experience loss of consciousness when you fell?"
+            },
+            {
+                "role": "user",
+                "content": "No, I did not experience any loss of consciousness when I fell."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 60 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned any existing medical conditions or medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your memory or cognitive functions recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in my memory or cognitive functions recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you describe the nature of your agitation? Is it accompanied by any other symptoms like confusion, sweating, heart palpitations, or changes in your vision or speech?"
+            },
+            {
+                "role": "user",
+                "content": "My agitation is not accompanied by confusion, sweating, heart palpitations, or changes in vision or speech; I am just feeling agitated and speaking in short, pressured sentences."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar episodes of agitation in the past, and have they been triggered by specific events?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any past episodes of agitation or specific triggers for my current feelings."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any history of neurological disorders like epilepsy, stroke, or mood disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of neurological disorders or mood disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-traumatic stress disorder (PTSD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Borderline personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Acute stress reaction",
+        "singleturn_mcq": "Borderline personality disorder",
+        "singleturn_frq": "Final Diagnosis: Head injury",
+        "summarized_conversation": "A patient reports feeling agitated following a fall. The patient confirms there was no loss of consciousness during the incident. The patient is 60 years old and has not disclosed any existing medical conditions or medications being taken. There have been no recent changes in memory or cognitive functions, according to the patient. The agitation is noted without accompanying confusion, sweating, heart palpitations, or changes in vision or speech; the patient describes the agitation with symptoms of speaking in short, pressured sentences. There is no mention of previous episodes of agitation or specific triggers for the current feelings. Additionally, the patient has not indicated any family history of neurological or mood disorders.",
+        "summarized_mcq": "Obsessive compulsive personality disorder",
+        "summarized_frq": "Anxiety"
+    },
+    "trial_4": {
+        "vignette_mcq": "Narcissistic personality disorder",
+        "vignette_frq": "Narcissistic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am feeling agitated and I tend to speak in short, rushed sentences."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I just started experiencing these symptoms after my fall today."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you hit your head during the fall?"
+            },
+            {
+                "role": "user",
+                "content": "The information about whether I hit my head during the fall isn't mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms like confusion, slurring of speech, weakness, or changes in vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any symptoms like confusion, slurring of speech, weakness, or changes in vision.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological or psychiatric disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of any history of neurological or psychiatric disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Concussion"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Borderline personality disorder",
+        "multiturn_frq": "Final Diagnosis: Agitation due to head trauma",
+        "singleturn_mcq": "Borderline personality disorder",
+        "singleturn_frq": "Final Diagnosis: Anxiety",
+        "summarized_conversation": "A patient presents feeling agitated and tends to speak in short, rushed sentences. These symptoms began after a fall earlier today. It is not specified whether the patient hit their head during the fall. The patient has not noticed any symptoms such as confusion, slurring of speech, weakness, or changes in vision. Additionally, there is no mention of any history of neurological or psychiatric disorders in this case.",
+        "summarized_mcq": "Obsessive compulsive personality disorder",
+        "summarized_frq": "Possible concussion or anxiety due to the fall."
+    }
+}

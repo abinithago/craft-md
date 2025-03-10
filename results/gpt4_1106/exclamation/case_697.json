@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 63-year-old woman comes to the emergency department because of a 1-day history of progressive blurring and darkening of her vision in the right eye! Upon waking up in the morning, she suddenly started seeing multiple dark streaks! She has migraines and type 2 diabetes mellitus diagnosed at her last health maintenance examination 20 years ago! She has smoked one pack of cigarettes daily for 40 years! Her only medication is sumatriptan! Her vitals are within normal limits! Ophthalmologic examination shows visual acuity of 20/40 in the left eye and 20/100 in the right eye! The fundus is obscured and difficult to visualize on fundoscopic examination of the right eye! The red reflex is diminished on the right! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": null,
+        "vignette_frq": "Vitreous hemorrhage.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing progressive blurring and darkening of my vision in my right eye, and I also started seeing multiple dark streaks."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 1 day."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of injury or trauma to your eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of injury or trauma to my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history of diabetes or hypertension?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced similar symptoms in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of eye diseases or disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I did not mention any family history of eye diseases or disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic retinopathy."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Vitreous hemorrhage",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic Retinopathy",
+        "singleturn_mcq": "Final Diagnosis: Vitreous hemorrhage",
+        "singleturn_frq": "Final Diagnosis: Retinal detachment",
+        "summarized_conversation": "A patient is reporting progressive blurring and darkening of vision in the right eye, accompanied by the appearance of multiple dark streaks. These symptoms have been present for 1 day. The patient confirms no history of injury or trauma to the affected eye. Additionally, the patient has type 2 diabetes but has not experienced similar symptoms in the past. There is no mention of a family history of eye diseases or disorders.",
+        "summarized_mcq": null,
+        "summarized_frq": "Diabetic retinopathy."
+    },
+    "trial_1": {
+        "vignette_mcq": null,
+        "vignette_frq": null,
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive blurring and darkening of my vision in my right eye since yesterday."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent trauma or injury to your eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent trauma or injury to my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any pain in the affected eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not experiencing any pain in the affected eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of diabetes or high blood pressure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a history of type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any flashes of light or new floaters in your vision?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, upon waking up yesterday, I suddenly started seeing multiple dark streaks in my vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic retinopathy."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Vitreous hemorrhage",
+        "multiturn_frq": "Final Diagnosis: Diabetic retinopathy.",
+        "singleturn_mcq": "Retinal detachment",
+        "singleturn_frq": "Final Diagnosis: Retinal detachment",
+        "summarized_conversation": "A patient has been experiencing a progressive blurring and darkening of vision in the right eye since yesterday. The patient notes no recent trauma or injury to the eye and no pain associated with this eye issue. However, the patient has a history of type 2 diabetes mellitus. The symptoms began when, upon waking up yesterday, the patient suddenly started observing multiple dark streaks in their vision.",
+        "summarized_mcq": null,
+        "summarized_frq": "Diabetic retinopathy"
+    },
+    "trial_2": {
+        "vignette_mcq": null,
+        "vignette_frq": null,
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing progressive blurring and darkening of my vision in the right eye, and I started seeing multiple dark streaks after waking up yesterday morning."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 63-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known medical conditions like diabetes or hypertension?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any floaters, flashes of light, or a curtain-like shadow over your field of vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced floaters, flashes of light, or a curtain-like shadow, but I do see multiple dark streaks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent trauma to the eye or undergone any eye surgery?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent trauma to the eye or undergone any eye surgery."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of glaucoma or macular degeneration?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I do not have information about my family history of glaucoma or macular degeneration."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic retinopathy."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Vitreous hemorrhage",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic retinopathy.",
+        "singleturn_mcq": "Retinal detachment",
+        "singleturn_frq": "**Final Diagnosis:** Retinal detachment",
+        "summarized_conversation": "A 63-year-old woman reports experiencing a progressive blurring and darkening of vision in her right eye, along with noticing multiple dark streaks after waking up yesterday morning. She has type 2 diabetes mellitus. She denies having experienced floaters, flashes of light, or a curtain-like shadow, but does confirm seeing multiple dark streaks. There has been no recent trauma to the eye or any prior eye surgeries. She is unable to provide information on her family history regarding glaucoma or macular degeneration.",
+        "summarized_mcq": null,
+        "summarized_frq": "Diabetic retinopathy"
+    },
+    "trial_3": {
+        "vignette_mcq": null,
+        "vignette_frq": null,
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing progressive blurring and darkening of my vision in the right eye, and I started seeing multiple dark streaks this morning."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 1 day."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of eye trauma or recent eye surgery?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of eye trauma or recent eye surgery."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing conditions like diabetes or hypertension?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any flashes of light or a sensation of a curtain coming down over your field of vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any flashes of light or a sensation of a curtain coming down over my field of vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of any eye diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but the information about my family history of eye diseases isn't available."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any pain or redness in the affected eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any pain or redness in the affected eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic Retinopathy."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Vitreous hemorrhage",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic retinopathy.",
+        "singleturn_mcq": "Final Diagnosis: Retinal detachment",
+        "singleturn_frq": "**Final Diagnosis:** Retinal detachment.",
+        "summarized_conversation": "A patient reports progressive blurring and darkening of vision in the right eye, accompanied by the appearance of multiple dark streaks since this morning. The symptoms have been present for 1 day. The patient denies any history of eye trauma or recent eye surgery and reports having type 2 diabetes mellitus. There have been no observed flashes of light or sensations of a curtain falling over the field of vision. The patient is unable to provide information regarding family history of eye diseases. Additionally, the patient mentions there has been no pain or redness in the affected eye.",
+        "summarized_mcq": null,
+        "summarized_frq": "Diabetic retinopathy"
+    },
+    "trial_4": {
+        "vignette_mcq": null,
+        "vignette_frq": null,
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing progressive blurring and darkening of my vision in my right eye, and I started seeing multiple dark streaks since I woke up yesterday."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent trauma or injury to your eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent trauma or injury to my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions such as diabetes or hypertension?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any flashes of light or a curtain-like shadow over your field of vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any flashes of light or a curtain-like shadow over my field of vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any eye pain or redness along with the vision changes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any eye pain or redness along with the vision changes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any eye diseases in your family, such as glaucoma or macular degeneration?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of eye diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic retinopathy."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Vitreous hemorrhage",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic retinopathy",
+        "singleturn_mcq": "Final Diagnosis: Vitreous hemorrhage",
+        "singleturn_frq": "Final Diagnosis: Retinal detachment",
+        "summarized_conversation": "A patient reports progressive blurring and darkening of vision in their right eye, along with the appearance of multiple dark streaks starting from yesterday morning. The patient denies any recent trauma or injury to the eye. The patient confirms having type 2 diabetes mellitus. There have been no observations of flashes of light or a curtain-like shadow over their field of vision, and no eye pain or redness accompanying the vision changes. There is no family history of eye diseases mentioned.",
+        "summarized_mcq": null,
+        "summarized_frq": "Diabetic retinopathy"
+    }
+}

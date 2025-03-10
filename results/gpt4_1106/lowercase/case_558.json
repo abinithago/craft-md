@@ -1,0 +1,373 @@
+{
+    "case_vignette": "a 38-year-old woman comes to the physician because of a 1-month history of a painless, nonpruritic skin lesion on her right thigh. she initially thought it was an insect bite, but it has slowly increased in size over the past weeks. her temperature is 36.7\u00b0c (98\u00b0f), pulse is 75/min, and blood pressure is 128/76 mm hg. physical examination shows a 0.8-cm hyperpigmented papule. when the skin lesion is squeezed, the surface retracts inwards. a photograph of the lesion is shown. ",
+    "question": "which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Dermatofibroma",
+        "vignette_frq": "Dermatofibroma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless skin lesion on my right thigh that has slowly grown larger over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the lesion changed in color or bled at any point?"
+            },
+            {
+                "role": "user",
+                "content": "No, it has not changed in color or bled."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of skin cancer?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any personal or family history of skin cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any changes in sensation over the lesion, like numbness or tingling?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no changes in sensation like numbness or tingling over the lesion."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent exposure to chemicals, persistent irritation, or trauma to that area of skin?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent exposure to chemicals, persistent irritation, or trauma to that area of skin."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 38-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the lesion raised or flush with the skin, and does it have a smooth or rough texture?"
+            },
+            {
+                "role": "user",
+                "content": "The lesion is raised and has a smooth texture."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dermatofibroma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Seborrheic keratosis",
+        "multiturn_frq": "Final Diagnosis: Dermatofibroma",
+        "singleturn_mcq": "Seborrheic keratosis",
+        "singleturn_frq": "Final Diagnosis: Basal cell carcinoma",
+        "summarized_conversation": "A 38-year-old woman presents with a painless skin lesion on her right thigh, which has been slowly enlarging over the past month. The lesion has not changed in color or bled, nor has it presented with any changes in sensation such as numbness or tingling. She denies recent exposure to chemicals, persistent irritation, or trauma to the affected area. She has no personal or family history of skin cancer. The described lesion is raised and has a smooth texture.",
+        "summarized_mcq": "Dermatofibroma",
+        "summarized_frq": "Dermatofibroma"
+    },
+    "trial_1": {
+        "vignette_mcq": "Dermatofibroma",
+        "vignette_frq": "Dermatofibroma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless skin lesion on my right thigh that has been slowly increasing in size over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the lesion have any particular color, and is it flat or raised?"
+            },
+            {
+                "role": "user",
+                "content": "The lesion is hyperpigmented, meaning it's darker than the surrounding skin, and it is raised (a papule)."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other similar lesions on other parts of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any similar lesions on other parts of my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of excessive sun exposure or frequent use of tanning beds?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide any information about my history of sun exposure or use of tanning beds."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of skin cancer?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide any information about my personal or family history of skin cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in sensation, such as itchiness or tenderness around the lesion?"
+            },
+            {
+                "role": "user",
+                "content": "The lesion is painless and not itchy."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any bleeding or ulceration on the lesion?"
+            },
+            {
+                "role": "user",
+                "content": "No, there has been no bleeding or ulceration on the lesion."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dermatofibroma."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dermatofibroma",
+        "multiturn_frq": "**Final Diagnosis:** Dermatofibroma",
+        "singleturn_mcq": "Seborrheic keratosis",
+        "singleturn_frq": "**Final Diagnosis:** Basal cell carcinoma",
+        "summarized_conversation": "A patient reports having a painless skin lesion on their right thigh that has been growing slowly over the past month. The lesion is hyperpigmented and raised, appearing darker than the surrounding skin without presenting other similar lesions elsewhere on the body. There is no information provided about the patient's history of sun exposure or tanning bed use. Additionally, there is no information available regarding the patient's personal or family history of skin cancer. The lesion itself is described as painless and not itchy, with no bleeding or ulceration noted.",
+        "summarized_mcq": "Seborrheic keratosis",
+        "summarized_frq": "Dermatofibroma"
+    },
+    "trial_2": {
+        "vignette_mcq": "Dermatofibroma",
+        "vignette_frq": "Dermatofibroma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless skin lesion on my right thigh that has been slowly increasing in size over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or texture of the lesion?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the lesion has become hyperpigmented."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like fever, weight loss, or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had similar skin lesions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had similar skin lesions in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of skin diseases or cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of skin diseases or cancers."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have any existing medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications or have any existing medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the border of the lesion irregular and are there multiple colors present within the lesion?"
+            },
+            {
+                "role": "user",
+                "content": "The description provided doesn't mention irregular borders or multiple colors; it is just described as a hyperpigmented papule."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dermatofibroma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dermatofibroma",
+        "multiturn_frq": "**Final Diagnosis:** Dermatofibroma",
+        "singleturn_mcq": "Final Diagnosis: Dermatofibroma",
+        "singleturn_frq": "Final Diagnosis: Basal cell carcinoma",
+        "summarized_conversation": "A patient reports a painless skin lesion on their right thigh that has been gradually enlarging over the past month. The lesion has become hyperpigmented. The patient denies experiencing any other symptoms and has no prior history of similar skin lesions. Additionally, they are not aware of any familial history of skin diseases or cancers. The patient is not currently taking any medication nor do they have any existing medical conditions. The lesion is described as a hyperpigmented papule without irregular borders or multiple colors.",
+        "summarized_mcq": "Dermatofibroma",
+        "summarized_frq": "Benign melanocytic nevus."
+    },
+    "trial_3": {
+        "vignette_mcq": "Dermatofibroma",
+        "vignette_frq": "Dermatofibroma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless skin lesion on my right thigh that has been slowly increasing in size over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the lesion changed in color or developed any irregular borders?"
+            },
+            {
+                "role": "user",
+                "content": "No, the lesion has not changed in color or developed any irregular borders."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as fever, weight loss, or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any other symptoms like fever, weight loss, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of skin cancer or other skin diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have any personal or family history of skin cancer or other skin diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or bug bites in the area where the lesion is located?"
+            },
+            {
+                "role": "user",
+                "content": "I initially thought it was an insect bite, but it has slowly increased in size over the past weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications that can affect the immune system, such as steroids or chemotherapy drugs?"
+            },
+            {
+                "role": "user",
+                "content": "I am not currently taking any medications that can affect the immune system, such as steroids or chemotherapy drugs."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dermatofibroma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dermatofibroma",
+        "multiturn_frq": "**Final Diagnosis:** Dermatofibroma",
+        "singleturn_mcq": "Final Diagnosis: Dermatofibroma",
+        "singleturn_frq": "Final Diagnosis: Dermatofibroma.",
+        "summarized_conversation": "A patient presents with a painless skin lesion on their right thigh, which has been progressively enlarging over the past month. The lesion has not changed in color or developed any irregular borders. The patient does not exhibit any other symptoms such as fever, weight loss, or night sweats, and has no personal or family history of skin cancer or other skin diseases. Originally, the patient suspected it to be an insect bite due to the gradual increase in size over the weeks. The patient is not currently on any medication that could affect the immune system, including steroids or chemotherapy drugs.",
+        "summarized_mcq": "Dermatofibroma",
+        "summarized_frq": "Benign skin lesion or dermatofibroma"
+    },
+    "trial_4": {
+        "vignette_mcq": "Dermatofibroma",
+        "vignette_frq": "Dermatofibroma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless skin lesion on my right thigh that has been slowly getting bigger over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the lesion changing color or does it bleed?"
+            },
+            {
+                "role": "user",
+                "content": "No, the lesion does not bleed, and it is hyperpigmented."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had similar skin issues in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar skin issues in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of skin cancer or genetic skin conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 38-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to much sun or radiation, or had any recent injuries on the area where the lesion appeared?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been exposed to much sun or radiation, nor have I had any injuries on the area where the lesion appeared."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dermatofibroma."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dermatofibroma",
+        "multiturn_frq": "**Final Diagnosis:** Dermatofibroma",
+        "singleturn_mcq": "Seborrheic keratosis",
+        "singleturn_frq": "Final Diagnosis: Basal cell carcinoma.",
+        "summarized_conversation": "A patient presents reporting a painless skin lesion on her right thigh, which has been gradually enlarging over the past month. The lesion is hyperpigmented and does not bleed. She is a 38-year-old woman with no past occurrences of similar skin issues. She mentions no significant exposures to sun, radiation, or injuries in the area of the lesion. Additionally, she does not have further information available regarding other potential contributing factors.",
+        "summarized_mcq": "Dermatofibroma",
+        "summarized_frq": "Dermatofibroma"
+    }
+}

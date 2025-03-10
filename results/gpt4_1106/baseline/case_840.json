@@ -1,0 +1,357 @@
+{
+    "case_vignette": "A 19-year-old man is brought to the physician by his mother because she is worried about his strange behavior. Over the past 3 years, he has been dressing all in black and wears a long black coat, even in the summer. The mother reports that her son has always had difficulties fitting in. He does not have any friends and spends most of his time in his room playing online games. He is anxious at college because he is uncomfortable around other people, and his academic performance is poor. Rather than doing his coursework, he spends most of his time reading up on paranormal phenomena, especially demons. He says that he has never seen any demons, but sometimes there are signs of their presence. For example, a breeze in an enclosed room is likely the \u201cbreath of a demon\u201d. Mental status examination shows laborious speech. The patient avoids eye contact. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Schizotypal personality disorder",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I often feel anxious and uncomfortable around other people, and I've been having trouble with my academic performance."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these feelings of anxiety and discomfort around others?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these feelings of anxiety and discomfort around others for about 3 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any physical symptoms like trembling, sweating, or rapid heartbeat when you feel anxious?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not experience trembling, sweating, or rapid heartbeat when I feel anxious."
+            },
+            {
+                "role": "assistant",
+                "content": "Has this anxiety and discomfort impacted your daily life or relationships significantly?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my anxiety and discomfort have impacted my daily life significantly; I spend most of my time alone in my room and I do not have any friends."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have any information about a personal or family history of mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you used any medications or received any treatment for anxiety or related symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not used any medications or received any treatment for my anxiety or related symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Social Anxiety Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Social anxiety disorder",
+        "multiturn_frq": "**Final Diagnosis:** Social Anxiety Disorder",
+        "singleturn_mcq": "Social anxiety disorder",
+        "singleturn_frq": "Final Diagnosis: Social Anxiety Disorder",
+        "summarized_conversation": "A person reports feeling frequently anxious and uncomfortable around others, which has been an ongoing issue for about three years. These anxiety issues are significantly impacting their daily life; they spend most time alone in their room and have no friends. The person does not report experiencing trembling, sweating, or rapid heartbeat when feeling anxious. There is no personal or family history of mental health issues available. Furthermore, the person has not used any medications or received any treatment for their anxiety or related symptoms.",
+        "summarized_mcq": "Avoidant personality disorder",
+        "summarized_frq": "Social anxiety disorder (social phobia)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Schizotypal personality disorder",
+        "vignette_frq": "Schizotypal personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling really anxious, especially around other people, and I have trouble fitting in."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these feelings of anxiety?"
+            },
+            {
+                "role": "user",
+                "content": "For the past 3 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any physical symptoms when you feel anxious, like sweating, trembling, or heart palpitations?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not experience any physical symptoms like sweating, trembling, or heart palpitations when I feel anxious."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these feelings of anxiety impact your daily functions, such as work or school?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I feel uncomfortable around other people and my academic performance is poor because I spend most of my time on other interests instead of my coursework."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been treated for or diagnosed with any mental health conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been treated for or diagnosed with any mental health conditions in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of mental health issues, such as anxiety, depression, or other psychiatric conditions?"
+            },
+            {
+                "role": "user",
+                "content": "The information about family history of mental health issues is not provided in my background."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a particular interest or subject that you focus intensely on, often to the exclusion of other activities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I spend most of my time reading up on paranormal phenomena, especially demons, often to the exclusion of my coursework."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Asperger's Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Schizotypal personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Social Anxiety Disorder",
+        "singleturn_mcq": "Social anxiety disorder",
+        "singleturn_frq": "**Final Diagnosis:** Social Anxiety Disorder",
+        "summarized_conversation": "A person has been experiencing significant anxiety, particularly in social situations, for the past three years. They report feeling out of place among peers and have no physical symptoms such as sweating, trembling, or heart palpitations associated with their anxiety. Despite this, they do feel uncomfortable around others and acknowledge that their academic performance has suffered as they often prioritize their interest in paranormal phenomena, specifically demons, over their coursework. They have never received treatment or been diagnosed with any mental health conditions previously. There is no available information regarding a family history of mental health issues.",
+        "summarized_mcq": "Schizotypal personality disorder",
+        "summarized_frq": "Social anxiety disorder"
+    },
+    "trial_2": {
+        "vignette_mcq": "Schizotypal personality disorder",
+        "vignette_frq": "Schizophrenia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel anxious at college, especially around other people, and I have been avoiding coursework to focus on reading about paranormal phenomena."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these feelings of anxiety and the behavior of avoiding coursework?"
+            },
+            {
+                "role": "user",
+                "content": "I have been feeling anxious and avoiding coursework for the past 3 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these feelings of anxiety occur only in social situations, or do you also feel anxious when you are alone?"
+            },
+            {
+                "role": "user",
+                "content": "I feel anxious at college because I am uncomfortable around other people."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your mood, or do you feel sad or hopeless frequently?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned feeling sad or hopeless; my concerns have been more about anxiety and discomfort around others."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there specific thoughts or beliefs contributing to your discomfort around others at college?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I believe that there are signs of demon presence, like a breeze in an enclosed room which I think could be the \u201cbreath of a demon.\u201d"
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of mental illness or similar experiences?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned anything about my family's medical or mental health history."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Schizophrenia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Schizotypal personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Schizophrenia",
+        "singleturn_mcq": "Schizotypal personality disorder",
+        "singleturn_frq": "Final Diagnosis: Social Anxiety Disorder",
+        "summarized_conversation": "A student expresses experiencing anxiety at college, particularly when around other people, which has led to a pattern of avoiding coursework for the past three years. Instead, the student has been engaging in extensive reading about paranormal phenomena. The student specifically associates this anxiety with discomfort around others and hasn't discussed feelings of sadness or hopelessness. The student believes in supernatural signs such as sensing a breeze in enclosed rooms, which is interpreted as the \u201cbreath of a demon.\u201d There has been no mention of the student's family medical or mental health history related to these issues.",
+        "summarized_mcq": "Schizotypal personality disorder",
+        "summarized_frq": "Social Anxiety Disorder with possible comorbid Delusional Disorder."
+    },
+    "trial_3": {
+        "vignette_mcq": "Schizotypal personality disorder",
+        "vignette_frq": "Schizotypal personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling anxious at college and uncomfortable around other people."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these feelings of anxiety and discomfort?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these feelings for the past 3 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these feelings of anxiety and discomfort improve when you are alone or in familiar settings?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I feel more comfortable when I'm alone in my room."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any panic attacks or intense fear episodes associated with this anxiety?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any panic attacks or intense fear episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of mental health issues, particularly anxiety or mood disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information on my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if your anxiety and discomfort significantly affect your daily activities, such as studying or socializing?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my anxiety and discomfort have led to poor academic performance and I tend to avoid socializing."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Social Anxiety Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Social anxiety disorder",
+        "multiturn_frq": "**Final Diagnosis:** Social Anxiety Disorder",
+        "singleturn_mcq": "Social anxiety disorder",
+        "singleturn_frq": "**Final Diagnosis:** Social Anxiety Disorder",
+        "summarized_conversation": "A patient reports feeling anxious and uncomfortable around others while at college, a situation that has been ongoing for the past 3 years. The patient feels more at ease when alone in their room. The patient denies experiencing any panic attacks or intense fear episodes. The patient is unaware of their family's medical history. The patient's anxiety and discomfort have negatively impacted their academic performance and social interactions, leading to avoidance of social activities.",
+        "summarized_mcq": "Social anxiety disorder",
+        "summarized_frq": "Social anxiety disorder"
+    },
+    "trial_4": {
+        "vignette_mcq": "Schizotypal personality disorder",
+        "vignette_frq": "Schizotypal personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I often feel anxious, especially at college, because I am uncomfortable around other people."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past 3 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Do your symptoms include avoidance of social situations due to fear of being judged or embarrassed?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am uncomfortable around other people and therefore feel anxious in social situations like at college."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience physical symptoms like sweating, trembling, or rapid heartbeat when you are in social situations?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention experiencing sweating, trembling, or rapid heartbeat in social situations."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your daily routine or personal life due to these feelings of anxiety in social situations?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I spend most of my time in my room playing online games and avoid social interactions."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of anxiety disorders or other mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any family history of anxiety disorders or other mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Social Anxiety Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Social anxiety disorder",
+        "multiturn_frq": "**Final Diagnosis:** Social Anxiety Disorder",
+        "singleturn_mcq": "Final Diagnosis: Social anxiety disorder",
+        "singleturn_frq": "**Final Diagnosis:** Social Anxiety Disorder",
+        "summarized_conversation": "The individual reports feeling anxious often, particularly in a college setting due to discomfort in social scenarios. These anxiety symptoms have been persistent for the past three years. This discomfort in social situations has led to a preference for spending most of their time in their room playing online games, as a way to avoid social interactions. The individual did not report experiencing physical symptoms such as sweating, trembling, or rapid heartbeat in social situations. There is no family history of anxiety disorders or other mental health issues mentioned.",
+        "summarized_mcq": "Avoidant personality disorder",
+        "summarized_frq": "Social anxiety disorder (social phobia)"
+    }
+}

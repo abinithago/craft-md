@@ -1,0 +1,8 @@
+cpu-bind=MASK - frappe, task  0  0 [287636]: mask 0xc03f000100c03e set
+  0%|          | 0/1333 [00:00<?, ?it/s]  0%|          | 0/1333 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/model.py", line 37, in <module>
+    execute_script(dataset)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/model.py", line 22, in execute_script
+    craftmd_opensource(case, path_dir, model_name)
+TypeError: craftmd_opensource() missing 1 required positional argument: 'doctor_tokenizer'

@@ -1,0 +1,389 @@
+{
+    "case_vignette": "A 19-year-old woman comes to the physician because of a 2-day history of difficulty sleeping. She worries that the lack of sleep will ruin her career prospects as a model. She has been coming to the physician multiple times over the past year for minor problems. She is dressed very extravagantly and flirts with the receptionist. When she is asked to sit down in the waiting room, she begins to cry and says that no one listens to her. When she is called to the examination room, she moves close to the physician, repeatedly intends to touch his cheek, and makes inappropriate comments. She does not have a history of self-harm or suicidal ideation. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Histrionic personality disorder",
+        "vignette_frq": "Histrionic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having a hard time sleeping for the past 2 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your mood or energy levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been feeling upset and started crying when I felt that no one listens to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of feeling this way, or is this a new experience?"
+            },
+            {
+                "role": "user",
+                "content": "I have been coming to the physician multiple times over the past year for minor problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently experienced any significant life changes or stressors?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I'm worried that my lack of sleep will ruin my career prospects as a model."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of mental health issues, such as depression or anxiety?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know of any family history of mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my appetite or weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Adjustment Disorder with Mixed Anxiety and Depressed Mood."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Histrionic personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Adjustment Disorder with Anxiety",
+        "singleturn_mcq": "None of the above.",
+        "singleturn_frq": "Final Diagnosis: Insomnia",
+        "summarized_conversation": "A patient has been struggling with sleep disturbances for the past 2 days. The patient has felt upset and reported crying due to a perception that no one listens. They have frequently visited the physician over the past year for minor issues. The patient is concerned that the sleep issues might negatively impact their career prospects as a model. There is no known family history of mental health issues. The patient has not noticed any changes in appetite or weight.",
+        "summarized_mcq": "Histrionic personality disorder",
+        "summarized_frq": "Adjustment disorder with anxiety."
+    },
+    "trial_1": {
+        "vignette_mcq": "Histrionic personality disorder",
+        "vignette_frq": "Histrionic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty sleeping for the past 2 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any recent stressors or changes in your life that may be affecting your sleep?"
+            },
+            {
+                "role": "user",
+                "content": "I'm worried that my lack of sleep will ruin my career prospects as a model."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any existing medical conditions and I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your mood, appetite, or energy levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "I've recently experienced changes in my mood, as I began to cry in the waiting room feeling that no one listens to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had previous episodes of mood changes or diagnosed mental health conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with any mental health conditions in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a family history of mental health conditions such as depression, anxiety, or bipolar disorder?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I cannot provide details about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you find your worries and sadness interfering with your daily activities and responsibilities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my worries about my sleep affecting my career are interfering with my daily activities."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Adjustment Disorder with Anxiety"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Histrionic personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Adjustment Disorder with Anxiety",
+        "singleturn_mcq": "Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Insomnia",
+        "summarized_conversation": "A patient has been experiencing difficulty sleeping for the past two days and expresses concern that this might negatively impact their career as a model. The patient reports no existing medical conditions and is not taking any medications. Recently, the patient has noticed changes in their mood, including episodes of crying in the waiting room due to feelings of being unheard. The patient denies any past diagnosis of mental health conditions and apologizes for being unable to provide details about their family's medical history. Additionally, the patient confirms that worries about the impact of sleep issues on their career are interfering with their daily activities.",
+        "summarized_mcq": "Histrionic personality disorder",
+        "summarized_frq": "Adjustment disorder with anxiety."
+    },
+    "trial_2": {
+        "vignette_mcq": "Histrionic personality disorder",
+        "vignette_frq": "Histrionic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty sleeping for the past 2 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent changes in your daily routine or stress levels?"
+            },
+            {
+                "role": "user",
+                "content": "I worry that my lack of sleep will negatively impact my career prospects as a model."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any other symptoms like racing thoughts, feeling on edge, or increased irritability?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health issues such as anxiety or depression?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific history of mental health issues like anxiety or depression."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you consume caffeine or stimulants, especially close to bedtime?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned consuming caffeine or stimulants, especially close to bedtime."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been using electronic devices like smartphones or laptops late at night before trying to sleep?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned using electronic devices late at night before trying to sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any past medical history or current medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of sleep disorders or related health issues?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of sleep disorders or related health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Given your anxiety about career impacts and lack of other symptoms, could this sleep difficulty be linked to worrying about your job?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am worried that my lack of sleep will ruin my career prospects as a model."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Acute Insomnia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Histrionic personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Acute Insomnia",
+        "singleturn_mcq": "Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Insomnia",
+        "summarized_conversation": "A patient has been experiencing difficulty sleeping for the past two days. The patient is concerned that this lack of sleep might negatively affect their career prospects as a model. The patient has not mentioned experiencing any specific symptoms of mental health issues like anxiety or depression. Furthermore, the patient has not disclosed any consumption of caffeine or stimulants close to bedtime, nor the use of electronic devices late at night before trying to sleep. There is no mention of any past medical history or current medications, nor any family history of sleep disorders or related health issues. The patient is concerned that the lack of sleep might potentially ruin their career prospects as a model.",
+        "summarized_mcq": "Histrionic personality disorder",
+        "summarized_frq": "Acute insomnia"
+    },
+    "trial_3": {
+        "vignette_mcq": "Histrionic personality disorder",
+        "vignette_frq": "Histrionic personality disorder.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty sleeping for the past 2 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms accompanying the difficulty in sleeping?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been feeling very emotional and have cried in the waiting room, feeling like no one listens to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar episodes of emotional distress or mood changes before?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been coming to the physician for multiple minor problems over the past year."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any family members have a history of mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about my family's mental health history."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 19-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Histrionic personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Insomnia",
+        "summarized_conversation": "A patient has been experiencing difficulty sleeping for the past 2 days. During her visit, she appeared very emotional and reported crying in the waiting room due to feeling unlistened to. The patient has made several visits to the physician for multiple minor problems over the past year. She is unsure about her family's mental health history. The patient, a 19-year-old woman, is not currently taking any medication.",
+        "summarized_mcq": "Histrionic personality disorder",
+        "summarized_frq": "Generalized anxiety disorder (GAD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Histrionic personality disorder",
+        "vignette_frq": "Histrionic personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty sleeping for the past 2 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any stress or major changes in your life recently?"
+            },
+            {
+                "role": "user",
+                "content": "I worry that the lack of sleep will ruin my career prospects as a model."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms, like feeling sad, hopeless, or losing interest in activities you usually enjoy?"
+            },
+            {
+                "role": "user",
+                "content": "I began to cry in the waiting room and expressed feeling that no one listens to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any changes in your appetite or weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any changes in my appetite or weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you felt this way for more than two weeks?"
+            },
+            {
+                "role": "user",
+                "content": "No, I've been having difficulty sleeping for just 2 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of mental health issues, such as depression or anxiety?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I haven't mentioned any information about my family's mental health history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any recurring thoughts or worries that you find difficult to control?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been worrying about how the lack of sleep could ruin my career prospects."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Adjustment Disorder with Anxiety"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Histrionic personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Acute stress reaction",
+        "singleturn_mcq": "Final Diagnosis: Dependent personality disorder",
+        "singleturn_frq": "**Final Diagnosis:** Insomnia",
+        "summarized_conversation": "A patient expressed concerns about experiencing difficulties sleeping for the past two days. This issue caused significant distress to the patient, as they began to cry in the waiting room due to a feeling that no one listens to them, and additionally expressed worries about the potential impact of sleep deprivation on their career prospects as a model. The patient confirmed that there have been no recent changes in their appetite or weight and also noted that they have not mentioned any information about their family's mental health history. The sleep difficulties, according to the patient, had indeed begun only two days prior and the anxiety regarding the effect on their career was explicitly acknowledged.",
+        "summarized_mcq": "Histrionic personality disorder",
+        "summarized_frq": "Acute stress reaction or adjustment disorder with anxiety."
+    }
+}

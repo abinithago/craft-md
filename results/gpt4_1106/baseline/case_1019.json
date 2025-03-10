@@ -1,0 +1,325 @@
+{
+    "case_vignette": "A 7-year-old boy is brought to the physician for recurrent 3\u20134 minutes episodes of facial grimacing and staring over the past month. He is nonresponsive during these episodes and does not remember them afterward. He recalls a muddy taste in his mouth before the onset of symptoms. One week ago, his brother witnessed an episode where he woke up, stared, and made hand gestures. After the incident, he felt lethargic and confused. Examination shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Complex partial seizure",
+        "vignette_frq": "Temporal lobe epilepsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having episodes where I stare and make facial expressions without responding to anything around me, and I don't remember them afterwards. I also taste something muddy before these episodes start."
+            },
+            {
+                "role": "assistant",
+                "content": "How long do these episodes last and how often do they occur?"
+            },
+            {
+                "role": "user",
+                "content": "The episodes last about 3 to 4 minutes and have been happening for the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever experienced a head injury or neurological illness before this started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced a head injury or neurological illness before this started."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of epilepsy or seizures?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Temporal Lobe Epilepsy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Complex partial seizure",
+        "multiturn_frq": "**Final Diagnosis:** Temporal Lobe Epilepsy",
+        "singleturn_mcq": "Complex partial seizure",
+        "singleturn_frq": "Final Diagnosis: Temporal Lobe Epilepsy",
+        "summarized_conversation": "A patient has been experiencing episodes where they stare and make facial expressions without responding to their surroundings, and they do not recall these episodes afterwards. Additionally, the patient perceives a muddy taste before the onset of these episodes. Each episode lasts approximately 3 to 4 minutes and the occurrences have been ongoing for the past month. The patient has no prior history of head injuries or neurological illnesses. Furthermore, the patient is not currently using any medications.",
+        "summarized_mcq": "Complex partial seizure",
+        "summarized_frq": "Temporal lobe epilepsy"
+    },
+    "trial_1": {
+        "vignette_mcq": "Complex partial seizure",
+        "vignette_frq": "Temporal lobe epilepsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having episodes where I stare and make facial expressions without responding, and I don't remember them afterward. I also taste something muddy before these episodes start."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have these episodes been occurring and how frequently do they occur?"
+            },
+            {
+                "role": "user",
+                "content": "They have been occurring for the past month and happen a few times."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of head injuries or infections affecting the brain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any history of head injuries or infections affecting the brain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of seizures or epilepsy?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any family history of seizures or epilepsy."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any confusion, sleep disturbances, or other neurological symptoms after these episodes?"
+            },
+            {
+                "role": "user",
+                "content": "After an episode, I feel lethargic and confused."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Temporal Lobe Epilepsy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Complex partial seizure",
+        "multiturn_frq": "**Final Diagnosis:** Temporal Lobe Epilepsy.",
+        "singleturn_mcq": "Final Diagnosis: Complex partial seizure",
+        "singleturn_frq": "Final Diagnosis: Temporal Lobe Epilepsy",
+        "summarized_conversation": "A patient reports experiencing episodes characterized by staring and making facial expressions without the ability to respond, and also does not retain any memory of these occurrences. These episodes, which have been happening for the past month, are often preceded by a sensation of tasting something muddy. The patient has experienced this several times but states there are no prior head injuries or infections affecting the brain. There is no family history of seizures or epilepsy mentioned in the patient's record. Following each episode, the patient experiences lethargy and confusion.",
+        "summarized_mcq": "Complex partial seizure",
+        "summarized_frq": "Temporal lobe epilepsy"
+    },
+    "trial_2": {
+        "vignette_mcq": "Complex partial seizure",
+        "vignette_frq": "Temporal lobe epilepsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having episodes where I grimace and stare for a few minutes, and I don't respond to anything during these episodes. I also don't remember them afterward."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these episodes, and how often do they occur?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these episodes for the past month, and they last about 3 to 4 minutes each time."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you recently started any new treatments?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications or undergoing new treatments."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of epilepsy or seizures?"
+            },
+            {
+                "role": "user",
+                "content": "I'm just a patient and don't have detailed medical or family history knowledge."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any other symptoms during or after these episodes like confusion, headache, or muscle soreness?"
+            },
+            {
+                "role": "user",
+                "content": "After one of these episodes, I felt lethargic and confused."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently had any head injuries or infections affecting the central nervous system?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent head injuries or infections affecting the central nervous system."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Absence seizures"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Complex partial seizure",
+        "multiturn_frq": "**Final Diagnosis:** Absence Seizures",
+        "singleturn_mcq": "Complex partial seizure",
+        "singleturn_frq": "**Final Diagnosis:** Temporal Lobe Epilepsy",
+        "summarized_conversation": "A patient has reported experiencing episodes where they grimace and stare for a few minutes without responding to anything around them. These episodes, which the patient does not recall afterward, have been occurring for the past month and last approximately 3 to 4 minutes each. The patient is not currently taking any medications nor undergoing new treatments and lacks detailed knowledge about their medical or family history. Following these episodes, the patient felt lethargic and confused. There have been no recent head injuries or infections affecting the central nervous system reported by the patient.",
+        "summarized_mcq": "Complex partial seizure",
+        "summarized_frq": "Absence seizures"
+    },
+    "trial_3": {
+        "vignette_mcq": "Complex partial seizure",
+        "vignette_frq": "Temporal lobe epilepsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having episodes where I stare and make facial grimaces for a few minutes, and I don't remember these episodes later. I also experience a muddy taste in my mouth before these episodes start."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 7-year-old boy."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent illnesses or infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent illnesses or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of epilepsy or seizures?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about family history of epilepsy or seizures."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Temporal Lobe Epilepsy"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Complex partial seizure",
+        "multiturn_frq": "**Final Diagnosis:** Childhood Absence Epilepsy",
+        "singleturn_mcq": "Complex partial seizure",
+        "singleturn_frq": "Final Diagnosis: Temporal Lobe Epilepsy",
+        "summarized_conversation": "A 7-year-old boy presents with episodes characterized by staring and making facial grimaces for a few minutes, during which he remains unaware and does not recall the events later. Before these episodes, he experiences a muddy taste in his mouth. He has not had any recent illnesses or infections. The boy is not on any medications, and there is no provided information about a family history of epilepsy or seizures.",
+        "summarized_mcq": "Complex partial seizure",
+        "summarized_frq": "Focal onset impaired awareness seizures (previously known as complex partial seizures)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Complex partial seizure",
+        "vignette_frq": "Temporal lobe epilepsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing episodes where I grimace and stare for a few minutes, and I don't respond or remember anything during these episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "How often do these episodes occur and how long do they usually last?"
+            },
+            {
+                "role": "user",
+                "content": "These episodes have been occurring for the past month and they usually last about 3 to 4 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any triggers or patterns associated with these episodes?"
+            },
+            {
+                "role": "user",
+                "content": "I recall a muddy taste in my mouth before the onset of the symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of neurological disorders, or is there a family history of epilepsy or seizures?"
+            },
+            {
+                "role": "user",
+                "content": "I can't provide information about any personal or family history of neurological disorders or epilepsy."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medication or have you started any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "I am not currently taking any medication, and I haven't started any new medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent illness, injury, or significant stress?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't experienced any recent illness, injury, or significant stress."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Temporal Lobe Epilepsy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Complex partial seizure",
+        "multiturn_frq": "**Final Diagnosis:** Focal onset impaired awareness seizures (previously known as complex partial seizures).",
+        "singleturn_mcq": "Complex partial seizure",
+        "singleturn_frq": "**Final Diagnosis:** Absence seizures",
+        "summarized_conversation": "A patient has been experiencing episodes characterized by grimacing and staring for approximately 3 to 4 minutes, during which the patient is unresponsive and retains no memory of these events. These episodes have been occurring for the past month. Prior to the onset of symptoms, the patient describes a muddy taste in their mouth. The patient lacks any personal or family history of neurological disorders or epilepsy. No recent medications, illness, injuries, or significant stress were reported by the patient.",
+        "summarized_mcq": "Complex partial seizure",
+        "summarized_frq": "Focal onset impaired awareness seizures (complex partial seizures)"
+    }
+}

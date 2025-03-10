@@ -1,0 +1,245 @@
+{
+    "case_vignette": "An infectious disease investigator is evaluating the diagnostic accuracy of a new interferon-gamma-based assay for diagnosing tuberculosis in patients who have previously received a Bacillus Calmette-Gu\u00e9rin (BCG) vaccine. Consenting participants with a history of BCG vaccination received an interferon-gamma assay and were subsequently evaluated for tuberculosis by sputum culture. Results of the study are summarized in the table below.\nTuberculosis, confirmed by culture No tuberculosis Total\nPositive interferon-gamma assay 90 6 96\nNegative interferon-gamma assay 10 194 204\nTotal 100 200 300\n",
+    "question": "Based on these results, what is the sensitivity of the interferon-gamma-based assay for the diagnosis of tuberculosis in this study?\"",
+    "trial_0": {
+        "vignette_mcq": "90/100",
+        "vignette_frq": "90%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any symptoms; I'm just here as part of a study evaluating a new test for tuberculosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been in contact with anyone known to have tuberculosis recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been in contact with anyone known to have tuberculosis recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced a chronic cough, night sweats, weight loss, or fever recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any of those symptoms recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of tuberculosis or a positive tuberculosis test in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have a history of tuberculosis, but I have been vaccinated with the BCG vaccine in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Latent Tuberculosis Infection (for study purpose evaluation, given BCG vaccination and no active symptoms or contact)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: 194/200",
+        "multiturn_frq": "Final Diagnosis: Tuberculosis-free",
+        "singleturn_mcq": "194/200",
+        "singleturn_frq": "Final Diagnosis: Tuberculosis",
+        "summarized_conversation": "The individual presents for assessment as part of a study evaluating a new diagnostic tool for tuberculosis. The individual confirms having no current symptoms and no recent contact with anyone diagnosed with tuberculosis. The individual also reports no recent experience of related symptoms and no personal history of tuberculosis, although they have received the BCG vaccine in the past.",
+        "summarized_mcq": "90/100",
+        "summarized_frq": "The sensitivity cannot be determined from the provided information."
+    },
+    "trial_1": {
+        "vignette_mcq": "90/100",
+        "vignette_frq": "90%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any symptoms. I'm here as part of a study to test a new test for tuberculosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent exposure to someone diagnosed with tuberculosis?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent exposure to someone diagnosed with tuberculosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had a positive tuberculosis test or diagnosis in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had a positive tuberculosis test or diagnosis in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: No tuberculosis infection"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: 194/200",
+        "multiturn_frq": "Final Diagnosis: Tuberculosis",
+        "singleturn_mcq": "194/200",
+        "singleturn_frq": "Final Diagnosis: Tuberculosis",
+        "summarized_conversation": "A patient is participating in a study to test a new diagnostic tool for tuberculosis. The patient exhibits no symptoms and reports no recent exposure to someone diagnosed with tuberculosis. Additionally, the patient has never received a positive tuberculosis test or diagnosis in the past.",
+        "summarized_mcq": "90/100",
+        "summarized_frq": "There is not enough information provided to determine the sensitivity of the interferon-gamma-based assay for the diagnosis of tuberculosis in this study."
+    },
+    "trial_2": {
+        "vignette_mcq": "90/100",
+        "vignette_frq": "90%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not experiencing any symptoms; I'm just participating in a study for tuberculosis testing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had a positive tuberculosis skin test or blood test recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a positive result on a blood test recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any known exposure to someone with active tuberculosis?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure, I'm just participating in a study and was told my blood test was positive."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like fever, night sweats, weight loss, or persistent cough?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Latent Tuberculosis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Latent tuberculosis",
+        "multiturn_frq": "Final Diagnosis: Latent tuberculosis infection.",
+        "singleturn_mcq": "90/100",
+        "singleturn_frq": "The patient did not provide information on the sensitivity of the interferon-gamma-based assay for tuberculosis diagnosis from the study. Further clarification from the study results would be needed to answer.",
+        "summarized_conversation": "A person is participating in a study for tuberculosis testing and reports that they are not experiencing any symptoms related to tuberculosis. Recently, they received a positive result on a blood test for tuberculosis as part of the study, but they are not sure about the details as they are only participating in the research. The individual confirms that they do not have any symptoms commonly associated with tuberculosis.",
+        "summarized_mcq": "90/100",
+        "summarized_frq": "The sensitivity of the test cannot be determined from the information provided."
+    },
+    "trial_3": {
+        "vignette_mcq": "90/100",
+        "vignette_frq": "90%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not currently experiencing any specific symptoms; I'm just here as a participant in a study related to tuberculosis testing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent exposure to someone known to have tuberculosis?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent exposure to someone known to have tuberculosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any positive tuberculosis tests in the past, or received the BCG vaccine?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have received the BCG vaccine in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: History of BCG vaccination"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: 90/100",
+        "multiturn_frq": "Final Diagnosis: False positive tuberculosis test due to prior BCG vaccination.",
+        "singleturn_mcq": "90/100",
+        "singleturn_frq": "Final Diagnosis: Tuberculosis Exposure/Infection",
+        "summarized_conversation": "The individual is currently not experiencing any specific symptoms and is present merely as a participant in a study related to tuberculosis testing. The individual reports no recent exposure to anyone known to have tuberculosis. They confirm having received the BCG vaccine in the past.",
+        "summarized_mcq": "194/200",
+        "summarized_frq": "The sensitivity of the interferon-gamma release assay (IGRA) cannot be determined from the information provided as there are no individuals with confirmed tuberculosis included for comparison."
+    },
+    "trial_4": {
+        "vignette_mcq": "90/100",
+        "vignette_frq": "90%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any symptoms; I'm just participating in a study for tuberculosis testing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently been exposed to anyone diagnosed with tuberculosis?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been exposed to anyone diagnosed with tuberculosis recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you previously had tuberculosis or a positive tuberculosis test?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't had tuberculosis, but I've previously received the BCG vaccine."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Latent Tuberculosis Infection"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: 194/200",
+        "multiturn_frq": "Final Diagnosis: Latent tuberculosis infection",
+        "singleturn_mcq": "90/96",
+        "singleturn_frq": "Final Diagnosis: Tuberculosis",
+        "summarized_conversation": "The individual is participating in a tuberculosis testing study and is not currently exhibiting any symptoms of tuberculosis. They have not been exposed to anyone recently diagnosed with tuberculosis. The individual has not had tuberculosis in the past but has received the BCG vaccine previously.",
+        "summarized_mcq": "90/100",
+        "summarized_frq": "The sensitivity of the interferon-gamma-based assay for the diagnosis of tuberculosis in this study cannot be determined based on the given information."
+    }
+}

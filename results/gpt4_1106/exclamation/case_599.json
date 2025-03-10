@@ -1,0 +1,365 @@
+{
+    "case_vignette": "A 45-year-old woman comes to the physician because of shortness of breath while lying on her back over the past month! During this period, she has also had several episodes of bloody coughing! The patient reports that she had a heart problem when she was a child that was treated with antibiotics! She emigrated to the US from Russia 5 years ago! There is no family history of serious illness! Pulmonary examination shows crackles at both lung bases! Cardiac examination is shown! An ECG shows tachycardia and no P waves! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Mitral valve stenosis",
+        "vignette_frq": "Mitral stenosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing shortness of breath while lying on my back and have also been coughing up blood."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known heart or lung conditions, or have you had any in the past?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a heart problem when I was a child that was treated with antibiotics."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet recently?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention any swelling in my legs or feet, so I haven't experienced that."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of smoking or exposure to any chemicals or pollutants?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention any history of smoking or exposure to chemicals or pollutants, so I have no such history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent chest pain or palpitations?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette does not mention experiencing chest pain or palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of heart disease or lung conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no family history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any weight loss or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention weight loss or night sweats, so I haven't experienced those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Infective Endocarditis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Mitral valve stenosis.",
+        "multiturn_frq": "**Final Diagnosis:** Mitral Stenosis",
+        "singleturn_mcq": "Mitral valve stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary embolism",
+        "summarized_conversation": "A patient has been experiencing shortness of breath while lying on their back and coughing up blood for the past month. Previously, the patient had a heart problem in childhood that was treated with antibiotics. There is no history of swelling in the patient's legs or feet, smoking, exposure to chemicals or pollutants, and the patient has not experienced chest pain or palpitations. Additionally, there is no family history of serious illness. The patient also has not been experiencing weight loss or night sweats.",
+        "summarized_mcq": "Mitral valve stenosis",
+        "summarized_frq": "Mitral stenosis"
+    },
+    "trial_1": {
+        "vignette_mcq": "Mitral valve stenosis",
+        "vignette_frq": "Rheumatic heart disease with mitral stenosis.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing shortness of breath when I lie on my back and episodes of coughing up blood over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or ankles recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs or ankles."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease, pulmonary issues, or cancers in your family?"
+            },
+            {
+                "role": "user",
+                "content": "There is no family history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications or have any other existing health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I had a heart problem when I was a child that was treated with antibiotics, but no current medications or other health conditions are mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience chest pain or palpitations along with your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't experience chest pain or palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pulmonary embolism"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Mitral valve stenosis.",
+        "multiturn_frq": "**Final Diagnosis:** Pulmonary Embolism",
+        "singleturn_mcq": "Mitral valve stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary embolism.",
+        "summarized_conversation": "A patient has been experiencing shortness of breath when lying on their back and episodes of coughing up blood for the past month. The patient reported no swelling in their legs or ankles and denied any family history of serious illness. The patient had a heart problem during childhood that was treated with antibiotics; however, they are not taking any current medications or suffering from other health conditions. Additionally, the patient does not experience chest pain or palpitations.",
+        "summarized_mcq": "Mitral valve stenosis",
+        "summarized_frq": "Pulmonary embolism"
+    },
+    "trial_2": {
+        "vignette_mcq": "Mitral valve stenosis",
+        "vignette_frq": "Mitral stenosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing shortness of breath when lying on my back and episodes of coughing up blood over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of heart disease or lung disease in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no family history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unexplained weight loss or night sweats along with your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any unexplained weight loss or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or exposure to occupational hazards like asbestos?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any history of smoking or exposure to occupational hazards like asbestos."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed or treated for any other medical conditions recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been diagnosed or treated for any other medical conditions recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of tuberculosis or have you been in close contact with someone who has tuberculosis?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of tuberculosis nor have I been in close contact with someone who has tuberculosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your heart rhythm or palpitations?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my heart rhythm or palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Mitral Stenosis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Mitral valve stenosis",
+        "multiturn_frq": "**Final Diagnosis:** Pulmonary embolism",
+        "singleturn_mcq": "Mitral valve stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary embolism",
+        "summarized_conversation": "A patient has been experiencing shortness of breath when lying on their back and episodes of coughing up blood over the past month. The patient reports no swelling in their legs or feet and no family history of serious illness. The patient also reports no unexpected weight loss or night sweats, and has no history of smoking or exposure to occupational hazards such as asbestos. Additionally, the patient has not been diagnosed or treated for any other medical conditions recently, has no history of tuberculosis, and has not been in close contact with anyone who has tuberculosis. Lastly, the patient does not report any changes in their heart rhythm or palpitations.",
+        "summarized_mcq": "Mitral valve stenosis",
+        "summarized_frq": "Pulmonary embolism"
+    },
+    "trial_3": {
+        "vignette_mcq": "Mitral valve stenosis",
+        "vignette_frq": "Mitral stenosis.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing shortness of breath while lying on my back and have also coughed up blood several times over the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 45-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of heart disease, or lung disease in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no family history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent respiratory infections, or been diagnosed with any lung diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent respiratory infections or been diagnosed with any lung diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you had recent surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications or have had any recent surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience swelling in your legs or weight gain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced swelling in my legs or weight gain."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pulmonary embolism"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Mitral valve stenosis",
+        "multiturn_frq": "**Final Diagnosis:** Pulmonary embolism.",
+        "singleturn_mcq": "Mitral valve stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary embolism",
+        "summarized_conversation": "A 45-year-old woman reports experiencing shortness of breath while lying on her back and has also coughed up blood several times over the past month. She mentions no family history of serious illness and has not had any recent respiratory infections or been diagnosed with any lung diseases. Furthermore, she is not currently on any medications and has not undergone any recent surgeries. She also does not report any swelling in her legs or weight gain.",
+        "summarized_mcq": "Mitral valve stenosis",
+        "summarized_frq": "Pulmonary embolism"
+    },
+    "trial_4": {
+        "vignette_mcq": "Mitral valve stenosis",
+        "vignette_frq": "Mitral stenosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing shortness of breath when lying on my back and episodes of bloody coughing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past month."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease or any other illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a heart problem when I was a child that was treated with antibiotics."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently take any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar symptoms or a history of heart issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no family history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Congestive Heart Failure."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Mitral valve stenosis",
+        "multiturn_frq": "Final Diagnosis: Infective Endocarditis",
+        "singleturn_mcq": "Final Diagnosis: Mitral valve stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Pulmonary edema",
+        "summarized_conversation": "A patient has been experiencing shortness of breath when lying on their back and episodes of bloody coughing for the past month. They had a heart problem in childhood which was treated with antibiotics. The patient is not currently on any medications and there is no family history of serious illness.",
+        "summarized_mcq": "Mitral valve stenosis",
+        "summarized_frq": "Congestive heart failure"
+    }
+}

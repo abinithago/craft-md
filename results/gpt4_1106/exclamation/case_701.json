@@ -1,0 +1,341 @@
+{
+    "case_vignette": "A 17-year-old boy comes to the emergency department because of a 3-day history of pain in his left wrist! That morning the pain increased and he started to have chills and malaise! Last week he had self-resolving left knee pain! He is otherwise healthy and has not had any trauma to the wrist! He recently returned from a camping trip to Minnesota! He is sexually active with one female partner, who uses a diaphragm for contraception! His temperature is 37!7\u00b0C (99!9\u00b0F)! Examination shows several painless violaceous vesiculopustular lesions on the dorsum of both wrists and hands; two lesions are present on the left palm! There is swelling and erythema of the left wrist with severe tenderness to palpation and passive movement! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Disseminated gonococcal infection",
+        "vignette_frq": "Disseminated gonococcal infection",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have pain in my left wrist, chills, and malaise. There are also painless purple blister-like lesions on both wrists and hands. My left wrist is swollen, red, and very tender."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms start appearing?"
+            },
+            {
+                "role": "user",
+                "content": "The wrist pain started 3 days ago, and the chills and malaise started today. The lesions on my wrists and hands were noticed recently as well."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or contact with animals?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any injuries or contact with animals."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent travel or outdoor activities in wooded or coastal areas?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently returned from a camping trip to Minnesota."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known tick bites or noticed any ticks on your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any tick bites or ticks on my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or chronic health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any known allergies or chronic health conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Erysipeloid"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Disseminated gonococcal infection",
+        "multiturn_frq": "**Final Diagnosis:** Rat-bite fever",
+        "singleturn_mcq": "Final Diagnosis: Disseminated gonococcal infection",
+        "singleturn_frq": "**Final Diagnosis:** Rat-bite fever.",
+        "summarized_conversation": "A patient reports experiencing pain in their left wrist, chills, and malaise. Additionally, the patient has painless purple blister-like lesions on both wrists and hands. The left wrist is swollen, red, and very tender. The pain in the wrist began 3 days ago, while the chills and malaise started today. The lesions on the wrists and hands were also noticed recently. The patient denies having any injuries or contact with animals but mentions having returned from a recent camping trip in Minnesota. The patient has not noticed any tick bites or ticks on their body, and states they do not have any known allergies or chronic health issues.",
+        "summarized_mcq": "Disseminated gonococcal infection",
+        "summarized_frq": "Rocky Mountain spotted fever"
+    },
+    "trial_1": {
+        "vignette_mcq": "Disseminated gonococcal infection",
+        "vignette_frq": "Disseminated gonococcal infection",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my left wrist that has gotten worse today, along with chills and generally feeling unwell."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or infections?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am otherwise healthy and not on any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of autoimmune diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any redness, swelling, or warmth in the area of the wrist pain?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my left wrist is swollen and red, and it's very tender when touched or moved."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Infectious arthritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Disseminated gonococcal infection",
+        "multiturn_frq": "**Final Diagnosis:** Cellulitis",
+        "singleturn_mcq": "Final Diagnosis: Disseminated gonococcal infection",
+        "singleturn_frq": "Final Diagnosis: Septic arthritis",
+        "summarized_conversation": "A patient presents experiencing increased pain in their left wrist, accompanied by chills and a general feeling of unwellness, worsening today. The patient confirms the absence of recent injuries or infections, and indicates that they are otherwise healthy with no medications in use. There is no family history of autoimmune diseases mentioned. The patient's left wrist is noted to be swollen, red, and extremely tender upon touch or movement.",
+        "summarized_mcq": "Disseminated gonococcal infection",
+        "summarized_frq": "Septic arthritis"
+    },
+    "trial_2": {
+        "vignette_mcq": "Disseminated gonococcal infection",
+        "vignette_frq": "Disseminated gonococcal infection",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my left wrist for a few days, and this morning I started feeling chills and generally unwell."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any redness, swelling, or warmth in your wrist or any other parts of your body?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my left wrist is swollen and red, and it's very tender when touched or moved."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or changes in your usual activities that could have affected your wrist?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any trauma to the wrist or changes in my activities recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history of joint problems, autoimmune diseases, or infections?"
+            },
+            {
+                "role": "user",
+                "content": "I am otherwise healthy and have not had any history of joint problems, autoimmune diseases, or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled to any regions known for specific infections or have you been in contact with any unwell individuals recently?"
+            },
+            {
+                "role": "user",
+                "content": "I recently returned from a camping trip to Minnesota, but I haven't been in contact with any unwell individuals."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any tick bites or insect bites during or after your camping trip?"
+            },
+            {
+                "role": "user",
+                "content": "You didn't ask about that specifically in the past, so I didn't mention it, but no, I haven't noticed any tick or insect bites."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a fever or any flu-like symptoms apart from chills?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I do have a slight fever with a temperature of 37.7\u00b0C (99.9\u00b0F) and I've been feeling generally unwell, similar to flu-like symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Septic arthritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Disseminated gonococcal infection",
+        "multiturn_frq": "**Final Diagnosis:** Septic arthritis",
+        "singleturn_mcq": "Final Diagnosis: Disseminated gonococcal infection",
+        "singleturn_frq": "Final Diagnosis: Septic arthritis",
+        "summarized_conversation": "A patient has been experiencing pain in their left wrist for the past few days and recently onset of chills and general malaise was noted. Examination reveals swelling, redness, and tenderness in the left wrist, which is exacerbated by movement or touch. The patient denies any recent trauma or changes in their wrist activities. Their medical history is clear of joint problems, autoimmune diseases, or infections. They returned from a camping trip in Minnesota without being in contact with any unwell individuals. Although not previously asked, the patient confirms no recent tick or insect bites. The patient also reports a slight fever with a temperature of 37.7\u00b0C (99.9\u00b0F) and overall flu-like symptoms.",
+        "summarized_mcq": "Lyme arthritis",
+        "summarized_frq": "Septic arthritis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Disseminated gonococcal infection",
+        "vignette_frq": "Disseminated gonococcal infection",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing pain in my left wrist, along with chills and malaise."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms begin?"
+            },
+            {
+                "role": "user",
+                "content": "The pain in my left wrist started three days ago, but it got worse this morning, and that's when the chills and malaise began too."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or insect bites to your wrist or any part of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any trauma to my wrist or any other injuries."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any redness, warmth, or swelling around your wrist?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there is swelling and redness on my left wrist, and it is very tender to touch and when moved."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any underlying health conditions or are you currently taking any medication?"
+            },
+            {
+                "role": "user",
+                "content": "I am otherwise healthy and not taking any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently had any surgical procedures or been hospitalized?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any surgical procedures or been hospitalized recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Septic arthritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acute rheumatic fever",
+        "multiturn_frq": "**Final Diagnosis:** Septic arthritis",
+        "singleturn_mcq": "Disseminated gonococcal infection",
+        "singleturn_frq": "Final Diagnosis: Septic arthritis",
+        "summarized_conversation": "A patient reports experiencing pain in their left wrist accompanied by chills and malaise. The wrist pain commenced three days ago, worsening this morning when the chills and malaise also started. The patient denies any trauma to the wrist or other injuries. There is noted swelling and redness in the left wrist, which is very tender both to touch and when moved. The patient describes themselves as otherwise healthy and not on any medications. The patient has not undergone any surgical procedures or been hospitalized recently.",
+        "summarized_mcq": "Disseminated gonococcal infection",
+        "summarized_frq": "Septic arthritis"
+    },
+    "trial_4": {
+        "vignette_mcq": "Disseminated gonococcal infection",
+        "vignette_frq": "Disseminated gonococcal infection",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing pain in my left wrist for the past 3 days, chills, and a general feeling of being unwell."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any redness, swelling, or warmth around the wrist?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there is swelling and redness in my left wrist, and it's very tender to touch."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries, cuts, or animal bites on or near your wrist?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any trauma, injuries, cuts, or animal bites to my wrist."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of autoimmune diseases or recent infections anywhere else in your body?"
+            },
+            {
+                "role": "user",
+                "content": "I had self-resolving pain in my left knee last week, but no history of autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any fever or changes in your ability to move your wrist or perform daily activities?"
+            },
+            {
+                "role": "user",
+                "content": "This morning, my pain in the wrist increased, making it difficult to move, and I've had a mild fever."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Septic Arthritis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Disseminated gonococcal infection",
+        "multiturn_frq": "**Final Diagnosis:** Septic Arthritis",
+        "singleturn_mcq": "Disseminated gonococcal infection",
+        "singleturn_frq": "**Final Diagnosis:** Septic arthritis",
+        "summarized_conversation": "The patient has been experiencing increasing pain in their left wrist over the past 3 days, accompanied by chills and malaise. They report swelling and redness in the affected wrist, which is highly tender to touch. The patient denies any recent trauma, injuries, cuts, or animal bites to the wrist. Previously, they had self-resolving pain in their left knee last week but no history of autoimmune diseases. This morning, the patient noted exacerbated wrist pain, significant enough to impair movement, along with a mild fever.",
+        "summarized_mcq": "Disseminated gonococcal infection",
+        "summarized_frq": "Septic arthritis"
+    }
+}

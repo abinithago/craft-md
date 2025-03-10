@@ -1,0 +1,6 @@
+cpu-bind=MASK - frappe, task  0  0 [3953219]: mask 0xc03f000100c03e set
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 38, in <module>
+    dataset = pd.read_csv(args.input_file)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'input_file'

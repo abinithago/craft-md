@@ -1,0 +1,373 @@
+{
+    "case_vignette": "A 32-year-old man comes to the physician because of a 1-week history of fever, weakness, diffuse abdominal pain, and multiple lumps on his body. He has recently returned to the USA from a 3-month agricultural internship in South America. Physical examination shows enlarged superficial cervical and inguinal lymph nodes. There is tender hepatomegaly. A photomicrograph of a liver biopsy sample after methenamine silver staining is shown. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Paracoccidioidomycosis",
+        "vignette_frq": "Visceral leishmaniasis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever, weakness, diffuse abdominal pain, and multiple lumps on my body for the past week."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine or bowel movements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in the color of my urine or bowel movements."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history or chronic conditions I should be aware of?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have any previous medical history or chronic conditions to report."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you traveled recently or been in contact with anyone who is sick?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently returned to the USA from a 3-month agricultural internship in South America."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been bitten by any insects that you recall during your internship in South America?"
+            },
+            {
+                "role": "user",
+                "content": "I can't recall being bitten by any insects during my internship in South America."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if the lumps on your body are painful or tender to touch?"
+            },
+            {
+                "role": "user",
+                "content": "The lumps on my body are not painful or tender to touch."
+            },
+            {
+                "role": "assistant",
+                "content": "Have these lumps changed in size or number since you first noticed them?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't noticed any change in the size or number of the lumps since I first saw them."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lymphoma."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Paracoccidioidomycosis",
+        "multiturn_frq": "**Final Diagnosis:** Visceral leishmaniasis",
+        "singleturn_mcq": "Final Diagnosis: Paracoccidioidomycosis",
+        "singleturn_frq": "Final Diagnosis: Lymphoma",
+        "summarized_conversation": "The patient has been experiencing fever, weakness, diffuse abdominal pain, and multiple lumps on their body for the past week. The patient reports no changes in the color of urine or bowel movements and has no previous medical history or chronic conditions. Recently, they returned to the USA from a three-month agricultural internship in South America and cannot recall being bitten by any insects during their time there. Further, the lumps on their body are not painful or tender to touch, and there have been no changes in the size or number of the lumps since they first observed them.",
+        "summarized_mcq": "Paracoccidioidomycosis",
+        "summarized_frq": "Visceral leishmaniasis."
+    },
+    "trial_1": {
+        "vignette_mcq": "Paracoccidioidomycosis",
+        "vignette_frq": "Visceral leishmaniasis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever, weakness, diffuse abdominal pain, and multiple lumps on my body over the past week."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or consistency of your stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in the color or consistency of my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the lumps appear to be on the surface of the skin or deeper, like in the glands?"
+            },
+            {
+                "role": "user",
+                "content": "The lumps appear to be deeper, like in the glands."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you lost weight recently without trying?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not specify any unintentional weight loss, so I haven't experienced that."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any night sweats or chills?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention night sweats or chills, so I haven't experienced those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent exposure to sick contacts or traveled to a new area in the past few months?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently returned to the USA from a 3-month agricultural internship in South America."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any skin lesions or unusual bruising?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention any skin lesions or unusual bruising, so I haven't experienced those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Visceral Leishmaniasis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Paracoccidioidomycosis",
+        "multiturn_frq": "**Final Diagnosis:** Visceral leishmaniasis",
+        "singleturn_mcq": "Final Diagnosis: Blastomycosis",
+        "singleturn_frq": "**Final Diagnosis:** Lymphoma",
+        "summarized_conversation": "The patient has been experiencing fever, weakness, diffuse abdominal pain, and multiple lumps on the body over the past week. The patient reports that the lumps seem to be deeper, resembling those in the glands. There have been no changes noted in the color or consistency of the patient's stools. The patient has not experienced any unintentional weight loss, night sweats, chills, skin lesions, or unusual bruising, as these symptoms are not mentioned in the case vignette. Recently, the patient returned to the USA after a 3-month agricultural internship in South America.",
+        "summarized_mcq": "Paracoccidioidomycosis",
+        "summarized_frq": "Lymphatic filariasis"
+    },
+    "trial_2": {
+        "vignette_mcq": "Paracoccidioidomycosis",
+        "vignette_frq": "Disseminated histoplasmosis.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a fever, feeling weak, having diffuse abdominal pain, and noticing multiple lumps on my body for the past week."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled or been in contact with animals?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently returned from a 3-month agricultural internship in South America."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes to your skin, like discoloration or ulcers, particularly around the lumps?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes to my skin like discoloration or ulcers around the lumps."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about any pre-existing medical conditions or current medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have the lumps changed in size or number since you first noticed them?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not specify whether the lumps have changed in size or number since I first noticed them."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any respiratory symptoms like coughing or difficulty breathing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any respiratory symptoms like coughing or difficulty breathing."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any gastrointestinal symptoms like diarrhea, vomiting, or changes in appetite?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any gastrointestinal symptoms like diarrhea, vomiting, or changes in appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Visceral Leishmaniasis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Paracoccidioidomycosis",
+        "multiturn_frq": "**Final Diagnosis:** Visceral leishmaniasis",
+        "singleturn_mcq": "Final Diagnosis: Blastomycosis",
+        "singleturn_frq": "**Final Diagnosis:** Lymphoma",
+        "summarized_conversation": "A patient reports suffering from a fever, feelings of weakness, diffuse abdominal pain, and observing multiple lumps on their body over the past week. Additionally, the patient recently completed a 3-month agricultural internship in South America. The patient has not noticed any skin changes such as discoloration or ulcers around the lumps nor provided information about any pre-existing medical conditions or current medications. It is also not specified whether the lumps have changed in size or number since they were first observed. Furthermore, the patient denies experiencing any respiratory symptoms such as coughing or difficulty breathing, and has not had any gastrointestinal symptoms such as diarrhea, vomiting, or changes in appetite.",
+        "summarized_mcq": "Paracoccidioidomycosis",
+        "summarized_frq": "Leishmaniasis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Paracoccidioidomycosis",
+        "vignette_frq": "Visceral leishmaniasis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a fever, feeling weak, having diffuse abdominal pain, and noticed multiple lumps on my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled or lived in an area where certain diseases are common, such as parts of Africa, South America, or Asia?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently returned to the USA from a 3-month agricultural internship in South America."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you notice any insect bites or injuries during your time in South America?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention anything about insect bites or injuries specifically during my time in South America."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the lumps on your body look like enlarged lymph nodes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the lumps on my body are enlarged lymph nodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any night sweats or unexplained weight loss along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned experiencing night sweats or unexplained weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lymphatic filariasis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Paracoccidioidomycosis",
+        "multiturn_frq": "**Final Diagnosis:** Visceral leishmaniasis",
+        "singleturn_mcq": "Final Diagnosis: Blastomycosis",
+        "singleturn_frq": "Final Diagnosis: Lymphoma.",
+        "summarized_conversation": "A patient presents with a fever, weakness, diffuse abdominal pain, and multiple lumps on their body. They have recently returned to the USA from a three-month agricultural internship in South America. No instances of insect bites or injuries were reported during their stay in South America. The lumps on the patient's body have been identified as enlarged lymph nodes. The patient has not reported experiencing night sweats or unexplained weight loss.",
+        "summarized_mcq": "Paracoccidioidomycosis",
+        "summarized_frq": "Lymphatic filariasis"
+    },
+    "trial_4": {
+        "vignette_mcq": "Paracoccidioidomycosis",
+        "vignette_frq": "Disseminated histoplasmosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having a fever, feeling weak, experiencing diffuse abdominal pain, and I've noticed multiple lumps on my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about a week."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the lumps appear to be swollen lymph nodes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the lumps appear to be swollen lymph nodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled or been in contact with any sick individuals?"
+            },
+            {
+                "role": "user",
+                "content": "I recently returned from a 3-month agricultural internship in South America."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your skin color or jaundice?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my skin color or signs of jaundice."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or take any medications regularly?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any pre-existing medical conditions and I'm not taking any medications regularly."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Visceral leishmaniasis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Paracoccidioidomycosis",
+        "multiturn_frq": "**Final Diagnosis:** Lymphoma",
+        "singleturn_mcq": "Final Diagnosis: Blastomycosis",
+        "singleturn_frq": "Final Diagnosis: Lymphoma",
+        "summarized_conversation": "A patient is experiencing a fever, feelings of weakness, diffuse abdominal pain, and reports noticing multiple lumps on their body. The patient has been experiencing these symptoms for approximately one week and notes that the lumps appear to be swollen lymph nodes. The patient has recently returned from a 3-month agricultural internship in South America. There is no recent change in weight, no alteration in skin color, or signs of jaundice. The patient does not have any pre-existing medical conditions and does not take any medications regularly.",
+        "summarized_mcq": "Paracoccidioidomycosis",
+        "summarized_frq": "Lymphatic filariasis"
+    }
+}

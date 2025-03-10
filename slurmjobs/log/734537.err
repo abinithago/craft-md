@@ -1,0 +1,15 @@
+cpu-bind=MASK - latte, task  0  0 [1691507]: mask 0xf0f0000000f0f00000 set
+  0%|          | 0/250 [00:00<?, ?it/s]  3%|▎         | 7/250 [00:00<00:20, 11.80it/s]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 40, in <module>
+    execute_script(args)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 28, in execute_script
+    graderai_evaluation(case, dataset, path_dir, experiment_names)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/graderai_eval.py", line 31, in graderai_evaluation
+    res[f"trial_{i}"][f"evaluation_{exp}"], res[f"trial_{i}"][f"extracted_ans_{exp}"] = diagnosis_evaluation(correct_ans, clinical_llm_response)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 67, in diagnosis_evaluation
+    clinical_llm_ans = extract_diagnosis_name(clinical_llm_response).lower()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+  0%|          | 0/250 [00:00<?, ?it/s]  0%|          | 1/250 [05:12<21:36:03, 312.30s/it]slurmstepd: error: *** JOB 734537 ON latte CANCELLED AT 2025-02-11T15:33:33 ***

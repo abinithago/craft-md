@@ -1,0 +1,333 @@
+{
+    "case_vignette": "a 27-year-old woman is brought to the emergency department after sustaining a fall from her bicycle 1 hour ago. the patient was on her way to work as she lost her balance, hitting her head on the sidewalk. she had an initial loss of consciousness for a couple of minutes following the accident. she currently has nausea and a headache. she has vomited twice during the last 30 minutes. she has no history of a serious illness. the patient does not smoke or drink alcohol. she has never used illicit drugs. she takes no medications. her temperature is 37\u00b0c (98.6\u00b0f), pulse is 50/min, respirations are 10/min, and blood pressure is 160/90 mm hg. she is oriented to person, place, and time. her lungs are clear to auscultation. cardiac examination shows bradycardia but no murmurs, rubs, or gallops. the abdomen is soft and nontender. there is a bruise on the right temporal side of the head. while performing the remainder of the physical examination the patient starts having a seizure. intravenous lorazepam is administered and she is admitted to the intensive care unit. ",
+    "question": "which  is the most likely diagnosis in this patient?",
+    "trial_0": {
+        "vignette_mcq": "Epidural hematoma",
+        "vignette_frq": "Epidural hematoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm currently experiencing nausea, headache, and I have vomited twice."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the last hour since my accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you describe the nature of the accident you were involved in?"
+            },
+            {
+                "role": "user",
+                "content": "I lost my balance while riding my bicycle and hit my head on the sidewalk."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you lose consciousness after hitting your head?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had an initial loss of consciousness for a couple of minutes following the accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of previous head injuries or neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of a serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Concussion"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Epidural hematoma",
+        "multiturn_frq": "**Final Diagnosis:** Concussion",
+        "singleturn_mcq": "Subarachnoidal hemorrhage",
+        "singleturn_frq": "Final Diagnosis: Migraine",
+        "summarized_conversation": "A patient reports experiencing nausea, headaches, and has vomited twice within the last hour following an accident. The patient lost balance while riding a bicycle and sustained a head injury by hitting the sidewalk. The patient also experienced a brief loss of consciousness for a couple of minutes immediately after the accident. The patient has no history of any serious illness.",
+        "summarized_mcq": "Epidural hematoma",
+        "summarized_frq": "Concussion"
+    },
+    "trial_1": {
+        "vignette_mcq": "Epidural hematoma",
+        "vignette_frq": "Epidural hematoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I currently have nausea, a headache, and I've vomited twice in the last 30 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about an hour since my accident."
+            },
+            {
+                "role": "assistant",
+                "content": "What kind of accident were you involved in?"
+            },
+            {
+                "role": "user",
+                "content": "I was involved in a bicycle accident where I lost my balance and hit my head on the sidewalk."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you lose consciousness after hitting your head?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had an initial loss of consciousness for a couple of minutes following the accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any issues with your vision or balance since the accident?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not mentioned any issues with my vision or balance."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any similar symptoms or head injuries in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of a serious illness or similar symptoms in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Concussion"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Epidural hematoma",
+        "multiturn_frq": "**Final Diagnosis:** Concussion",
+        "singleturn_mcq": "Subarachnoidal hemorrhage",
+        "singleturn_frq": "Final Diagnosis: Migraine",
+        "summarized_conversation": "A patient presents with nausea, a headache, and reports vomiting twice within the last 30 minutes. These symptoms have been persistent for about an hour following a bicycle accident where the patient lost balance and hit their head on the sidewalk. The patient also experienced a brief loss of consciousness for a few minutes immediately after the accident. The patient has not mentioned any issues with vision or balance, nor do they have a history of serious illness or similar symptoms in the past.",
+        "summarized_mcq": "Epidural hematoma",
+        "summarized_frq": "Concussion"
+    },
+    "trial_2": {
+        "vignette_mcq": "Epidural hematoma.",
+        "vignette_frq": "Epidural hematoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm currently experiencing nausea and a headache, and I've vomited twice in the last 30 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about an hour since my accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you describe the accident you were involved in?"
+            },
+            {
+                "role": "user",
+                "content": "I lost my balance while riding my bicycle and hit my head on the sidewalk."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you lose consciousness after hitting your head?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I lost consciousness for a couple of minutes after the accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any confusion, dizziness, or changes in your vision since the accident?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't experienced any confusion, dizziness, or changes in my vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous history of similar symptoms, or have you ever been diagnosed with neurological issues before this incident?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of similar symptoms or serious illnesses, and I've never been diagnosed with neurological issues before."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Concussion."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Epidural hematoma",
+        "multiturn_frq": "**Final Diagnosis:** Concussion",
+        "singleturn_mcq": "Subarachnoidal hemorrhage",
+        "singleturn_frq": "Final Diagnosis: Migraine",
+        "summarized_conversation": "A patient reports feeling nauseated and experiencing headaches, having vomited twice within the last 30 minutes. These symptoms have persisted for approximately an hour following a bicycle accident in which the patient lost their balance and hit their head on the sidewalk. The patient also mentioned losing consciousness for a couple of minutes after the accident. However, the patient has not experienced any confusion, dizziness, or vision changes. The patient has no prior history of similar symptoms, serious illnesses, or any diagnosed neurological issues.",
+        "summarized_mcq": "Epidural hematoma",
+        "summarized_frq": "Concussion"
+    },
+    "trial_3": {
+        "vignette_mcq": "Epidural hematoma",
+        "vignette_frq": "The most likely diagnosis is an epidural hematoma.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I currently have nausea, a headache, and I have vomited twice in the last 30 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about an hour since my fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you describe how and where you fell?"
+            },
+            {
+                "role": "user",
+                "content": "I lost my balance while riding my bicycle and hit my head on the sidewalk."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you lose consciousness after hitting your head?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had an initial loss of consciousness for a couple of minutes following the accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications or have any pre-existing medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I take no medications and have no history of a serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Concussion"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Epidural hematoma",
+        "multiturn_frq": "Final Diagnosis: Concussion",
+        "singleturn_mcq": "Subarachnoidal hemorrhage",
+        "singleturn_frq": "Final Diagnosis: Migraine",
+        "summarized_conversation": "A patient reports experiencing nausea, a headache, and has vomited twice within the last 30 minutes. These symptoms have persisted for about an hour following an incident where the patient lost balance while riding a bicycle and struck their head on the sidewalk. The patient also experienced a brief loss of consciousness for a couple of minutes after the fall. Additionally, the patient confirms having no history of serious illness and is not on any medications.",
+        "summarized_mcq": "Epidural hematoma",
+        "summarized_frq": "Concussion"
+    },
+    "trial_4": {
+        "vignette_mcq": "Epidural hematoma",
+        "vignette_frq": "Epidural hematoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing nausea, a headache, and I have vomited twice recently."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about an hour since I had a fall from my bicycle."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you hit your head during the fall? If so, did you lose consciousness?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I hit my head on the sidewalk and I lost consciousness for a couple of minutes after the fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in vision, hearing, balance, or memory since the accident?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't experienced any changes in vision, hearing, balance, or memory since the accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history of head injuries or neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of a serious illness, including head injuries or neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of migraines or similar symptoms in the past, unrelated to any injury?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have never experienced migraines or similar symptoms in the past, unrelated to any injury."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Concussion."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Epidural hematoma",
+        "multiturn_frq": "**Final Diagnosis:** Concussion",
+        "singleturn_mcq": "Subarachnoidal hemorrhage",
+        "singleturn_frq": "**Final Diagnosis:** Migraine",
+        "summarized_conversation": "A patient presents with symptoms of nausea, headache, and vomiting that have occurred twice recently. These symptoms started approximately an hour after the patient had a fall from a bicycle, during which the patient hit their head on the sidewalk, leading to a loss of consciousness for a brief period. Since the accident, the patient reports no changes in vision, hearing, balance, or memory. There is no history of serious illness, including head injuries or neurological disorders, in the patient's medical record. Additionally, the patient has no prior history of experiencing migraines or similar symptoms unrelated to any injury.",
+        "summarized_mcq": "Epidural hematoma",
+        "summarized_frq": "Concussion"
+    }
+}

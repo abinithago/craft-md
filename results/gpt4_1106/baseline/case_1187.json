@@ -1,0 +1,357 @@
+{
+    "case_vignette": "A 25-year-old man comes to the physician for a 2-month history of abdominal discomfort, fatigue, and increased urinary frequency, especially at night. He has also noticed that despite eating more often he has lost 14-lbs (6-kg). He has a congenital solitary kidney and a history of Hashimoto thyroiditis, for which he takes levothyroxine. He has smoked two packs of cigarettes daily for 10 years. BMI is 18 kg/m2. His temperature is 36.7\u00b0C (98.1\u00b0F), pulse is 80/min, and blood pressure is 110/60 mm Hg. Physical examination is unremarkable. Serum studies show an osmolality of 305 mOsm/L and bicarbonate of 17 mEq/L. Urinalysis shows clear-colored urine with no organisms. ",
+    "question": "Which  is most likely to be helpful in establishing the diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Serum glucose",
+        "vignette_frq": "Serum creatinine and blood urea nitrogen levels.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Renal and Genitourinary System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal discomfort, fatigue, and I'm urinating more frequently, especially at night."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or odor of your urine?"
+            },
+            {
+                "role": "user",
+                "content": "No, my urine is clear-colored and there are no changes in the odor."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like swelling in your legs, hands, or face?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs, hands, or face."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of diabetes, hypertension, or any chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of Hashimoto thyroiditis and I take medication for it."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent changes to your medication or dosage for Hashimoto thyroiditis?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no recent changes to my medication or dosage for Hashimoto thyroiditis."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of kidney disease or any other related health issues?"
+            },
+            {
+                "role": "user",
+                "content": "I was born with only one kidney, but there's no mentioned specific family history of kidney disease or other related health issues in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Unilateral Renal Agenesis"
+            }
+        ],
+        "multiturn_mcq": "Serum creatinine",
+        "multiturn_frq": "**Final Diagnosis:** Unilateral Renal Agenesis",
+        "singleturn_mcq": "Serum glucose",
+        "singleturn_frq": "Urinalysis and blood glucose test.",
+        "summarized_conversation": "A patient reports abdominal discomfort, fatigue, and increased urination frequency, particularly at night. The patient's urine is clear-colored and doesn't exhibit any changes in odor. There has been no noticeable swelling in the legs, hands, or face. The patient has a history of Hashimoto thyroiditis and consistently takes medication for it, with no recent changes in medication or dosage. The patient was born with only one kidney, but there is no specific family history of kidney disease or similar health issues provided in the information.",
+        "summarized_mcq": "Serum creatinine",
+        "summarized_frq": "Urinalysis and blood tests for kidney function (e.g., serum creatinine, blood urea nitrogen)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Serum glucose",
+        "vignette_frq": "Serum creatinine",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Renal and Genitourinary System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal discomfort, fatigue, and I've been urinating more frequently, especially at night."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain or burning sensation when you urinate?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no pain or burning sensation when I urinate."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or appearance of your urine?"
+            },
+            {
+                "role": "user",
+                "content": "My urine is clear-colored."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of diabetes or hypertension?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of diabetes or hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling in your legs, ankles, or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any swelling in my legs, ankles, or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent infections or illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of kidney disease or any other chronic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I have a congenital solitary kidney, but I do not have any family history of kidney disease or other chronic diseases mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Kidney Disease (CKD) due to congenital solitary kidney."
+            }
+        ],
+        "multiturn_mcq": "Serum creatinine",
+        "multiturn_frq": "Final Diagnosis: Chronic Kidney Disease",
+        "singleturn_mcq": "Serum glucose",
+        "singleturn_frq": "Urinalysis",
+        "summarized_conversation": "The individual has been experiencing abdominal discomfort, increased fatigue, and more frequent urination, particularly at night, for the past 2 months. The urination does not come with pain or a burning sensation, and the urine appears clear-colored. The individual denies any history of diabetes or hypertension and reports no recent swellings in the legs, ankles, or feet. Moreover, there have been no recent infections or illnesses. The individual does have a congenital solitary kidney but does not have any family history of kidney disease or other mentioned chronic diseases.",
+        "summarized_mcq": "Serum creatinine",
+        "summarized_frq": "Urinalysis and serum creatinine test."
+    },
+    "trial_2": {
+        "vignette_mcq": "Serum creatinine",
+        "vignette_frq": "Renal ultrasound",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Renal and Genitourinary System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal discomfort, fatigue, and I've been using the bathroom a lot more, especially at night. I've also noticed weight loss despite eating more."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of diabetes or high blood pressure?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have a history of diabetes or high blood pressure."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in urine color, or have you seen blood in your urine?"
+            },
+            {
+                "role": "user",
+                "content": "No, my urine is clear-colored and there's no blood in it."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of kidney disease or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "I have a congenital solitary kidney, but no other family history of kidney disease or chronic illnesses mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Kidney Disease"
+            }
+        ],
+        "multiturn_mcq": "Serum creatinine",
+        "multiturn_frq": "Final Diagnosis: Chronic Kidney Disease",
+        "singleturn_mcq": "Serum glucose",
+        "singleturn_frq": "Blood glucose test",
+        "summarized_conversation": "A patient reports experiencing abdominal discomfort, fatigue, increased nocturnal urinary frequency, and unintended weight loss despite an increase in appetite. These symptoms have been present for approximately 2 months. The patient denies any history of diabetes or high blood pressure. The urine appears clear, with no presence of blood. The patient does have a congenital solitary kidney but mentions no other family history of kidney disease or chronic illnesses.",
+        "summarized_mcq": "Serum creatinine",
+        "summarized_frq": "Renal function tests (including serum creatinine and blood urea nitrogen levels) and urine analysis."
+    },
+    "trial_3": {
+        "vignette_mcq": "Serum glucose",
+        "vignette_frq": "Renal ultrasound",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Renal and Genitourinary System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal discomfort, fatigue, and I've been urinating more frequently, especially during the night."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like weight loss, fever, or swelling in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've actually lost 14 pounds despite eating more often, but I don't have any fever or swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of diabetes or high blood pressure?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of diabetes or high blood pressure."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color or appearance of your urine?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my urine has been clear-colored."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or any known kidney diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I have a congenital solitary kidney, but I don't know of any other family members with similar symptoms or kidney diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Kidney Disease (CKD)"
+            }
+        ],
+        "multiturn_mcq": "Serum creatinine",
+        "multiturn_frq": "**Final Diagnosis:** Diabetes insipidus",
+        "singleturn_mcq": "Serum glucose",
+        "singleturn_frq": "Urinalysis",
+        "summarized_conversation": "The patient reports having been experiencing abdominal discomfort, fatigue, and increased frequency of urination, particularly at night for approximately two months. Additionally, the patient has lost 14 pounds despite an increase in appetite. The patient mentions no symptoms of fever or swelling in the legs or feet. There is no personal history of diabetes or high blood pressure. The patient's urine has been clear-colored. The patient has a congenital solitary kidney, but there is no known family history of similar symptoms or kidney diseases.",
+        "summarized_mcq": "Ultrasonography of the thyroid gland",
+        "summarized_frq": "Blood tests (including kidney function tests) and urinalysis."
+    },
+    "trial_4": {
+        "vignette_mcq": "Serum glucose",
+        "vignette_frq": "Serum glucose test",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Renal and Genitourinary System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing abdominal discomfort, feeling tired, and I've been urinating more frequently, especially at night."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as fever, weight loss, or blood in your urine?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've lost 14 lbs despite eating more, but I don't have any fever or blood in my urine."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of diabetes or any other chronic illnesses in your family or yourself?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of Hashimoto thyroiditis and a congenital solitary kidney, but no diabetes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any new medications or changed your diet recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not taken any new medications or changed my diet recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any swelling in your legs, ankles, or around your eyes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any swelling in my legs, ankles, or around my eyes."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic kidney disease (CKD)"
+            }
+        ],
+        "multiturn_mcq": "Serum creatinine",
+        "multiturn_frq": "**Final Diagnosis:** Type 1 Diabetes Mellitus",
+        "singleturn_mcq": "Serum glucose",
+        "singleturn_frq": "Urinalysis",
+        "summarized_conversation": "A patient reports experiencing abdominal discomfort, fatigue, and an increased frequency of urination particularly during the night. These symptoms have persisted for 2 months. The patient also notes a weight loss of 14 lbs despite an increased appetite. There is no presence of fever or blood in the urine. The patient provides a medical history, which includes Hashimoto thyroiditis and a congenital solitary kidney, but confirms the absence of diabetes. There have been no recent changes to medications or diet. Additionally, the patient does not report any swelling in the legs, ankles, or around the eyes.",
+        "summarized_mcq": "Serum creatinine",
+        "summarized_frq": "Renal function tests"
+    }
+}

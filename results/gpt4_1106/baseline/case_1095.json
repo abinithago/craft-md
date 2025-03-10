@@ -1,0 +1,309 @@
+{
+    "case_vignette": "A 34-year-old man comes to the physician with a 2-month history of difficulty concentrating at work. He is worried he may lose his job due to poor performance. He feels constantly tired but attributes his fatigue to waking up early most mornings and being unable to fall back asleep. His wife has noticed that he has been speaking more slowly than usual and his appetite has decreased. He used to enjoy dance classes with her but has not been as interested in this recently. He is a veteran who returned from a deployment to Afghanistan 2 years ago. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having trouble concentrating at work, feeling constantly tired, difficulty falling back asleep, speaking more slowly, decreased appetite, and less interest in activities I used to enjoy, like dance classes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health issues such as depression or anxiety, either personal or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any personal or family history of mental health issues like depression or anxiety."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any significant life changes or stressful events in your life recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a military deployment to Afghanistan 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any recurring memories or dreams about your deployment, or find yourself avoiding situations that remind you of it?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not experience recurring memories or dreams about my deployment, nor do I avoid situations that remind me of it."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my appetite has decreased recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Major depressive disorder",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Final Diagnosis: Major depressive disorder",
+        "singleturn_frq": "Final Diagnosis: Major Depressive Disorder",
+        "summarized_conversation": "The patient reports difficulty concentrating at work, constant tiredness, trouble falling back asleep, slower speech, decreased appetite, and diminished interest in activities previously enjoyed, such as dance classes. These symptoms have been present for approximately 2 months. The patient has no personal or family history of mental health issues like depression or anxiety. However, the patient returned from a military deployment in Afghanistan 2 years ago. The patient does not experience recurring memories or dreams related to the deployment, nor does the patient avoid situations reminiscent of it. Recently, there has been a notable decrease in the patient's appetite.",
+        "summarized_mcq": "Major depressive disorder",
+        "summarized_frq": "Major depressive disorder"
+    },
+    "trial_1": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty concentrating at work, feeling constantly tired, speaking more slowly, decreased appetite, and a loss of interest in activities I used to enjoy like dance classes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleep patterns recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been waking up early most mornings and have been unable to fall back asleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any significant life events or stressors in your life recently?"
+            },
+            {
+                "role": "user",
+                "content": "I returned from a military deployment in Afghanistan 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications, or have you had a history of mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any current medications or a history of mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Major depressive disorder",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Major depressive disorder",
+        "singleturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "summarized_conversation": "A patient reports difficulties with concentration at work, recurring fatigue, slowed speech, decreased appetite, and a diminishing interest in previously enjoyed activities such as dance classes, ongoing for about 2 months. Additionally, the patient mentions waking up early most mornings without being able to fall back asleep. The patient returned from a military deployment in Afghanistan 2 years ago. The patient doesn't mention taking any medications currently nor does the patient have a documented history of mental health issues.",
+        "summarized_mcq": "Major depressive disorder",
+        "summarized_frq": "Major depressive disorder."
+    },
+    "trial_2": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty concentrating at work, feeling constantly tired, and I often wake up early and can't fall back asleep."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your mood or interest in activities lately?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've not been as interested in dance classes, which I used to enjoy."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any existing medical conditions or currently take any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any history of mental health issues in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no history of mental health issues in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Major depressive disorder",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "**Final Diagnosis:** Major depressive disorder",
+        "singleturn_frq": "Final Diagnosis: Depression",
+        "summarized_conversation": "The patient has been experiencing difficulty in concentrating at work, persistent tiredness, and disrupted sleep patterns, waking up early and unable to fall back asleep for approximately two months. The patient also reports a decreased interest in dance classes, which were previously enjoyable. The patient does not have any known medical conditions and is not currently on any medications. Additionally, there is no known history of mental health issues within the patient's family.",
+        "summarized_mcq": "Major depressive disorder",
+        "summarized_frq": "Major depressive disorder"
+    },
+    "trial_3": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty concentrating at work, feeling constantly tired, and waking up early without being able to fall back asleep. I've also been speaking more slowly and have less of an appetite. Plus, I've lost interest in activities I used to enjoy like dance classes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent major life changes or stressful events?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a military deployment in Afghanistan 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any mental health conditions, or is there any family history of mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided doesn't specify any personal or family history of mental health conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Major depressive disorder",
+        "multiturn_frq": "Final Diagnosis: Major Depressive Disorder",
+        "singleturn_mcq": "Final Diagnosis: Major depressive disorder",
+        "singleturn_frq": "Final Diagnosis: Major Depressive Disorder",
+        "summarized_conversation": "A patient has been experiencing several symptoms including difficulty concentrating at work, consistent fatigue, early morning awakenings with an inability to go back to sleep, slowed speech, decreased appetite, and a diminished interest in previously enjoyed activities such as dance classes. These symptoms have been present for about two months. The patient also disclosed that they returned from a military deployment in Afghanistan two years ago. There is no personal or family history of mental health conditions provided in this case.",
+        "summarized_mcq": "Major depressive disorder",
+        "summarized_frq": "Major depressive disorder"
+    },
+    "trial_4": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty concentrating at work, feeling constantly tired, waking up early and unable to fall back asleep, speaking more slowly, decreased appetite, and losing interest in activities I used to enjoy."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant life changes or stressful events recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a military deployment to Afghanistan 2 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history of mental health issues, or is there any family history of mental health disorders? "
+            },
+            {
+                "role": "user",
+                "content": "I don't have any past medical history of mental health issues mentioned, and there is no information on family history of mental health disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed changes in your weight recently due to changes in appetite or begun using drugs or alcohol?"
+            },
+            {
+                "role": "user",
+                "content": "My appetite has decreased, but there's no specific mention of weight change or drug or alcohol use."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Major depressive disorder",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "**Final Diagnosis:** Major depressive disorder",
+        "singleturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "summarized_conversation": "A patient has reported experiencing difficulty concentrating at work, constant tiredness, early awakenings with inability to fall back asleep, slowed speech, decreased appetite, and loss of interest in previously enjoyable activities for approximately 2 months. The patient returned from a military deployment in Afghanistan 2 years ago. The patient has no previously reported history of mental health issues and there is no family history provided related to mental health disorders. Additionally, the patient notes a decrease in appetite, but there is no mention of significant weight change or any use of drugs or alcohol.",
+        "summarized_mcq": "Major depressive disorder",
+        "summarized_frq": "Major depressive disorder"
+    }
+}

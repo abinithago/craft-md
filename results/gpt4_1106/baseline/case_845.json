@@ -1,0 +1,381 @@
+{
+    "case_vignette": "A 39-year-old man comes to the emergency department because of increasing shortness of breath over the past 3 months. He has been unable to climb the 3 flights of stairs to his apartment. Six years ago, he was diagnosed with HIV. He is currently receiving triple antiretroviral therapy, but he says that he often misses doses. His temperature is 38.1\u00b0C (100.6\u00b0 F), pulse is 90/min, respirations are 22/min, and blood pressure is 160/70 mm Hg. There is a grade 4/6 holodiastolic murmur heard best at the right sternal border. The pupils are 4 mm, round, and not reactive to light. When a pen tip is advanced closer to the face, the pupils constrict. Extraocular movements are intact. When asked to stand, hold his arms in front of him, and close his eyes, he loses his balance and takes a step backward. An x-ray of the chest shows widening of the mediastinum. ",
+    "question": "Which  is most likely to confirm the diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Treponemal test",
+        "vignette_frq": "Chest CT scan",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing shortness of breath over the past 3 months and now I'm unable to climb the 3 flights of stairs to my apartment."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any associated symptoms like cough, fever, or weight loss?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a fever with a temperature of 38.1\u00b0C (100.6\u00b0F)."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or water retention in your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs or water retention."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of smoking or exposure to any toxic substances?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of smoking or exposure to toxic substances in my history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you traveled recently or been exposed to anyone who was sick?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't traveled recently or been exposed to anyone who was sick."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic illnesses or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was diagnosed with HIV six years ago and I am currently on triple antiretroviral therapy, though I often miss doses."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any night sweats or unexplained weight loss recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any night sweats or unexplained weight loss recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pneumocystis pneumonia (PCP)"
+            }
+        ],
+        "multiturn_mcq": "Treponemal test",
+        "multiturn_frq": "**Final Diagnosis:** Pneumocystis pneumonia (PCP)",
+        "singleturn_mcq": "Anti-nuclear antibodies",
+        "singleturn_frq": "Final Diagnosis: Heart failure",
+        "summarized_conversation": "A patient has been experiencing increasing shortness of breath over the past 3 months and is now unable to climb the 3 flights of stairs to their apartment. The patient reports a fever with a temperature of 38.1\u00b0C (100.6\u00b0F). No leg swelling or water retention has been noticed. The patient's history does not mention smoking or exposure to toxic substances. They have not traveled recently or been exposed to anyone who was ill. The patient was diagnosed with HIV six years ago and is on triple antiretroviral therapy but often misses doses. The patient has not experienced any night sweats or unexplained weight loss recently.",
+        "summarized_mcq": "Treponemal test",
+        "summarized_frq": "Pneumocystis pneumonia (PCP)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Treponemal test",
+        "vignette_frq": "Syphilis testing",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing shortness of breath for the past 3 months and am unable to climb 3 flights of stairs to my apartment."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any associated symptoms such as fever, chest pain, or cough?"
+            },
+            {
+                "role": "user",
+                "content": "I have a fever, but I'm not experiencing any chest pain or cough."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or weight gain recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs or weight gain recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease, lung disease, or other chronic conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with HIV six years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications, and are you regularly taking antiretroviral therapy for your HIV?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently on triple antiretroviral therapy for my HIV, but I often miss doses. "
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections, such as pneumonia or tuberculosis?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any recent infections like pneumonia or tuberculosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pneumocystis pneumonia (PCP)"
+            }
+        ],
+        "multiturn_mcq": "Treponemal test",
+        "multiturn_frq": "**Final Diagnosis:** HIV-related pulmonary hypertension.",
+        "singleturn_mcq": "Fibrillin gene mutation test",
+        "singleturn_frq": "Final Diagnosis: Chronic obstructive pulmonary disease (COPD)",
+        "summarized_conversation": "A patient has been experiencing increasing shortness of breath over the past three months and finds it challenging to climb three flights of stairs to their apartment. They report having a fever, but no chest pain or cough. There has been no noticeable swelling in the legs or recent weight gain. The patient was diagnosed with HIV six years ago. Currently, they are on triple antiretroviral therapy for their HIV but confess to frequently missing doses. The patient has not reported any recent infections such as pneumonia or tuberculosis.",
+        "summarized_mcq": "Treponemal test",
+        "summarized_frq": "Pneumocystis jirovecii pneumonia (PCP)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Treponemal test",
+        "vignette_frq": "MRI of the brain",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing shortness of breath for the past 3 months, especially when trying to climb stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any associated symptoms like chest pain, fever, or cough?"
+            },
+            {
+                "role": "user",
+                "content": "I have a fever with a temperature of 38.1\u00b0C (100.6\u00b0F)."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or pain in your legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling, redness, or pain in my legs."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent surgeries, periods of immobility, or long-distance travels?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent surgeries, periods of immobility, or long-distance travels."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart or lung diseases, either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was diagnosed with HIV six years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been regularly taking your medications for HIV, and have you had any recent changes in your treatment or immune status?"
+            },
+            {
+                "role": "user",
+                "content": "I am on triple antiretroviral therapy for HIV, but I often miss doses."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pneumocystis pneumonia (PCP)"
+            }
+        ],
+        "multiturn_mcq": "Treponemal test",
+        "multiturn_frq": "Final Diagnosis: Pneumocystis pneumonia (PCP)",
+        "singleturn_mcq": "Fibrillin gene mutation test",
+        "singleturn_frq": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)",
+        "summarized_conversation": "A patient has been experiencing an increasing shortness of breath for the past three months, particularly noticeable when attempting to climb stairs. The patient also reports a fever with a temperature of 38.1\u00b0C (100.6\u00b0F). The patient denies any swelling, redness, or pain in the legs, and reports no recent surgeries, periods of immobility, or long-distance travel. The patient has been living with HIV for six years and is on triple antiretroviral therapy, although admits to frequently missing doses.",
+        "summarized_mcq": "Treponemal test",
+        "summarized_frq": "Pneumocystis pneumonia (PCP)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Treponemal test",
+        "vignette_frq": "CT scan of the chest",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing shortness of breath over the past 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms like fever, cough, or weight loss during this period?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had a fever."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of smoking or exposure to occupational hazards like asbestos?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of smoking or exposure to occupational hazards like asbestos."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease or lung conditions like asthma or COPD?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of heart disease or lung conditions like asthma or COPD."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any swelling in your legs or around your ankles?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any swelling in my legs or around my ankles."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies, or have you been exposed to anything new, such as pets, plants, or environments?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any known allergies or exposure to new pets, plants, or environments."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you travelled recently or been in contact with someone who is sick?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't travelled recently or been in contact with anyone who is sick."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous history of similar symptoms, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first occurrence of these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Tuberculosis"
+            }
+        ],
+        "multiturn_mcq": "Treponemal test",
+        "multiturn_frq": "Final Diagnosis: Tuberculosis",
+        "singleturn_mcq": "Fibrillin gene mutation test",
+        "singleturn_frq": "Final Diagnosis: Asthma",
+        "summarized_conversation": "A patient has been dealing with increasing shortness of breath over the past three months. The patient confirms having a fever but denies any history of smoking or exposure to occupational hazards such as asbestos. There is no history of heart disease or lung conditions like asthma or COPD in the patient's medical records. The patient has not noticed any swelling in the legs or around the ankles, and does not have any known allergies or recent exposure to new pets, plants, or environments. Additionally, the patient mentions no recent travel or contact with sick individuals. This is the first occurrence of these symptoms for the patient.",
+        "summarized_mcq": "Treponemal test",
+        "summarized_frq": "Pneumonia"
+    },
+    "trial_4": {
+        "vignette_mcq": "Treponemal test",
+        "vignette_frq": "CT scan of the chest",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having increasing shortness of breath over the past 3 months and I find it difficult to climb the 3 flights of stairs to my apartment."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any cough, fever, or weight loss during these 3 months?"
+            },
+            {
+                "role": "user",
+                "content": "I have had a fever, but no mention of cough or weight loss in my case."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other existing medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was diagnosed with HIV six years ago and I'm currently on triple antiretroviral therapy, though I often miss doses."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been diagnosed with or treated for tuberculosis or any other lung infection in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no mention of being diagnosed with or treated for tuberculosis or any other lung infection in my past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling in your legs, chest pain, or notice increased fatigue when exerting yourself?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of swelling in my legs, chest pain, or increased fatigue during exertion in my details."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your shortness of breath worsened after lying down or at night?"
+            },
+            {
+                "role": "user",
+                "content": "My case does not specify whether the shortness of breath worsens after lying down or at night."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your HIV condition caused any complications such as infections or reduced immunity levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "The details provided do not specify any recent complications like infections or reduced immunity levels due to my HIV condition."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pneumocystis pneumonia (PCP)"
+            }
+        ],
+        "multiturn_mcq": "Treponemal test",
+        "multiturn_frq": "**Final Diagnosis:** Pneumocystis pneumonia (PCP)",
+        "singleturn_mcq": "Temporal artery biopsy",
+        "singleturn_frq": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)",
+        "summarized_conversation": "A patient has been experiencing increasing shortness of breath for the past three months, finding it increasingly difficult to climb three flights of stairs to their apartment. Although the patient reports having had a fever, there is no mention of cough or weight loss. The patient was diagnosed with HIV six years ago and is currently on triple antiretroviral therapy, but often misses doses. There is no history of being diagnosed with or treated for tuberculosis or any other lung infection. Additionally, there is no report of swelling in the legs, chest pain, or increased fatigue during exertion. The details do not specify if the shortness of breath worsens after lying down or at night. Furthermore, no recent complications such as infections or reduced immunity levels related to the HIV condition are mentioned in the patient's details.",
+        "summarized_mcq": "Treponemal test",
+        "summarized_frq": "Pneumocystis pneumonia (PCP)"
+    }
+}

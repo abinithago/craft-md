@@ -1,0 +1,357 @@
+{
+    "case_vignette": "A 5-year-old girl is brought to the physician by her parents because of difficulty at school. She does not listen to her teachers or complete assignments as requested. She does not play or interact with her peers. The girl also ignores her parents. Throughout the visit, she draws circles repeatedly and avoids eye contact. Physical and neurological examination shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have difficulty listening to my teachers, completing assignments, interacting with my peers, and I also ignore my parents."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any developmental delays, like in speaking, walking, or other milestones?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any specific developmental delays."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these difficulties occur at home, school, or in other settings as well?"
+            },
+            {
+                "role": "user",
+                "content": "I experience difficulties both at home and at school."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of attention disorders or mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any family history of attention disorders or mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Attention-deficit/hyperactivity disorder",
+        "multiturn_frq": "**Final Diagnosis:** Attention Deficit Hyperactivity Disorder (ADHD)",
+        "singleturn_mcq": "Attention-deficit/hyperactivity disorder",
+        "singleturn_frq": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)",
+        "summarized_conversation": "A 5-year-old child is experiencing several difficulties in daily life. The child struggles with listening to teachers, completing assignments, interacting with peers, and is also non-responsive towards directions from parents. This behavior is observed both at home and at school. The provided details do not mention any specific developmental delays, nor is there a family history of attention disorders or mental health issues noted for this child.",
+        "summarized_mcq": "Attention-deficit/hyperactivity disorder",
+        "summarized_frq": "Attention Deficit Hyperactivity Disorder (ADHD)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder (ASD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having trouble listening to my teachers, completing assignments, interacting with my peers, and I ignore my parents as well."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these issues occur both at home and at school?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, these issues occur both at home and at school."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar issues or been diagnosed with any psychological or neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know about any similar issues or diagnoses in my family members."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing these difficulties for more than 6 months?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not specify the duration of my difficulties."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you please specify how long you have been experiencing these difficulties?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure how long I've been experiencing these difficulties."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your trouble with listening and completing tasks get better when you are doing activities you really enjoy?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention how my behavior changes with activities I enjoy."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you often easily distracted or do you tend to fidget and have difficulty staying still?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette doesn't mention me being easily distracted or having difficulty staying still."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you frequently act impulsively, making quick decisions without thinking about the consequences?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention me acting impulsively or making quick decisions without thinking about the consequences."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the child often seem to be in his/her own world, or have difficulty understanding social cues?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I don't play or interact with my peers and ignore my parents, which might suggest I have difficulty understanding social cues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder (ASD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Autism spectrum disorder",
+        "multiturn_frq": "**Final Diagnosis:** Autism Spectrum Disorder",
+        "singleturn_mcq": "Attention-deficit/hyperactivity disorder",
+        "singleturn_frq": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)",
+        "summarized_conversation": "A 5-year-old is experiencing difficulties in several areas. The child has trouble listening to teachers, completing assignments, and interacting with peers, while also ignoring parents. These issues are present both at home and at school. There is no known similar issues or diagnoses in family members. The case vignette does not specify the duration of these difficulties, nor how the behavior might change with activities the child enjoys. Additionally, the vignette does not mention if the child is easily distracted or has difficulty staying still, nor does it suggest that the child acts impulsively or makes quick decisions without considering the consequences. However, the child does not play or interact with peers and ignores parents, which may indicate difficulty in understanding social cues.",
+        "summarized_mcq": "Autism spectrum disorder",
+        "summarized_frq": "Autism Spectrum Disorder (ASD)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder (ASD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have trouble listening to my teachers, completing assignments, playing or interacting with others, and I tend to ignore my parents."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any history of similar symptoms in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there's no information provided about any family history of similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any improvement or changes in your symptoms when you are in different environments? For example, at home versus at school."
+            },
+            {
+                "role": "user",
+                "content": "There's no information provided about any changes in my symptoms between different environments."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you often act impulsively or have a short attention span in activities appropriate for your age?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have difficulty listening and completing assignments."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Attention-deficit/hyperactivity disorder",
+        "multiturn_frq": "**Final Diagnosis:** Attention Deficit Hyperactivity Disorder (ADHD)",
+        "singleturn_mcq": "Attention-deficit/hyperactivity disorder",
+        "singleturn_frq": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)",
+        "summarized_conversation": "A patient has difficulty listening to teachers, completing assignments, interacting with others, and often ignores parental directions. The patient is 5 years old. There is no provided information about a family history of similar symptoms nor any report on changes in symptoms across different environments. The patient has consistently shown difficulties in listening and completing assignments.",
+        "summarized_mcq": "Attention-deficit/hyperactivity disorder",
+        "summarized_frq": "Attention-Deficit/Hyperactivity Disorder (ADHD)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm having difficulty listening to my teachers, completing assignments, interacting with my peers, and I avoid eye contact."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any developmental delays, like in speech or motor skills?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no developmental delays in speech or motor skills."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a similar condition or any neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your difficulty in concentrating and interacting get better in a certain type of environment or remain the same everywhere?"
+            },
+            {
+                "role": "user",
+                "content": "It remains the same everywhere."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder (ASD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Autism spectrum disorder",
+        "multiturn_frq": "**Final Diagnosis:** Autism Spectrum Disorder",
+        "singleturn_mcq": "Final Diagnosis: Autism spectrum disorder",
+        "singleturn_frq": "**Final Diagnosis:** Autism Spectrum Disorder",
+        "summarized_conversation": "The patient, a 5-year-old, reports experiencing difficulties in listening to teachers, completing assignments, and interacting with peers. Additionally, the patient tends to avoid eye contact. There have been no developmental delays in speech or motor skills reported. The patient has no knowledge of their family\u2019s medical history. These challenges are consistent across all settings.",
+        "summarized_mcq": "Autism spectrum disorder",
+        "summarized_frq": "Autism Spectrum Disorder (ASD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have difficulty listening to my teachers, completing assignments, interacting with my peers, and I ignore my parents."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like hyperactivity or impulsivity?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have symptoms of hyperactivity or impulsivity."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your child have difficulty sustaining attention in tasks or play activities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have difficulty sustaining attention in tasks and play activities."
+            },
+            {
+                "role": "assistant",
+                "content": "Has this issue been ongoing for more than six months?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not specify the duration of my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the difficulty in listening, completing assignments, and interacting with peers occur in more than one setting, such as both at home and at school?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have difficulty listening, completing assignments, and interacting with peers both at home and at school."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Attention-Deficit/Hyperactivity Disorder, Predominantly Inattentive Presentation (ADHD-PI)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Attention-deficit/hyperactivity disorder",
+        "multiturn_frq": "**Final Diagnosis:** Attention Deficit Disorder (ADD)",
+        "singleturn_mcq": "Attention-deficit/hyperactivity disorder",
+        "singleturn_frq": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)",
+        "summarized_conversation": "A 5-year-old child exhibits difficulties in several areas. The child has trouble listening to teachers, completing assignments, interacting with peers, and tends to ignore parents. The child does not display symptoms of hyperactivity or impulsivity but does have difficulty sustaining attention in tasks and play activities. The duration of these symptoms is not specified in the provided information. Additionally, these difficulties are present both at home and at school.",
+        "summarized_mcq": "Attention-deficit/hyperactivity disorder",
+        "summarized_frq": "Attention Deficit Disorder (ADD)"
+    }
+}

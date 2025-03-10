@@ -1,0 +1,341 @@
+{
+    "case_vignette": "A 76-year-old woman is brought to the physician because of lesions on her left arm. She first noticed them 3 months ago and they have grown larger since that time. She has not had any pain or pruritus in the area. She has a history of invasive ductal carcinoma of the left breast, which was treated with mastectomy and radiation therapy 27 years ago. Since that time, she has had lymphedema of the left arm. Physical examination shows extensive edema of the left arm. There are four coalescing, firm, purple-blue nodules on the left lateral axillary region and swelling of the surrounding skin. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma of the breast (Stewart-Treves syndrome)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have lesions on my left arm that have grown larger over the past 3 months, and my left arm is also very swollen."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any pain associated with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't felt any pain in the area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any unexpected weight loss, fevers, or night sweats along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of cancer or similar diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of invasive ductal carcinoma of the left breast, which was treated 27 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any diagnostic imaging or biopsy done recently for your arm symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any diagnostic imaging or biopsy done recently for my arm symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lymphedema-associated lymphangiosarcoma (Stewart-Treves syndrome)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Angiosarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Lymphedema",
+        "singleturn_mcq": "Angiosarcoma",
+        "singleturn_frq": "**Final Diagnosis:** Kaposi's sarcoma",
+        "summarized_conversation": "A patient reports having lesions on their left arm, which have grown larger over the past three months. Additionally, they observe that their left arm is very swollen. Despite these changes, they have not experienced any pain in the area and have not had any other related symptoms. They have a history of invasive ductal carcinoma of the left breast, which was treated 27 years ago. Recently, no diagnostic imaging or biopsy has been conducted to assess the symptoms in their arm.",
+        "summarized_mcq": "Angiosarcoma",
+        "summarized_frq": "Recurrent breast cancer with lymphedema and possible lymphangitic spread."
+    },
+    "trial_1": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma of the breast (Stewart-Treves syndrome)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have lesions on my left arm that have grown larger over the last 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms besides the lesions on your arm?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any pain or itching in the area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or fevers?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent infections or fevers."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar skin lesions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar skin lesions in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of skin cancer or other cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of breast cancer myself, but there's no mention of a family history of skin cancer or other cancers in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "What treatments or medications are you currently taking for your breast cancer?"
+            },
+            {
+                "role": "user",
+                "content": "I had a mastectomy and radiation therapy for my breast cancer 27 years ago, but the details about current treatments or medications are not specified."
+            },
+            {
+                "role": "assistant",
+                "content": "Have the lesions on your arm changed color or bled?"
+            },
+            {
+                "role": "user",
+                "content": "The lesions have not bled, but they are purple-blue in color."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Kaposi's sarcoma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Angiosarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Kaposi's sarcoma",
+        "singleturn_mcq": "Melanoma",
+        "singleturn_frq": "Final Diagnosis: Kaposi's sarcoma",
+        "summarized_conversation": "A patient reports having lesions on their left arm, which have increased in size over the last three months. The patient experiences no pain or itching at the site of the lesions. There have been no recent infections or fevers, and the patient does not have a history of similar skin issues. They have a personal history of breast cancer, including treatment with a mastectomy and radiation therapy 27 years ago, but there is no mentioned family history of skin or other cancers. The lesions, described as purple-blue, have not bled. Details about current treatments or medications are not provided.",
+        "summarized_mcq": "Angiosarcoma",
+        "summarized_frq": "Kaposi sarcoma"
+    },
+    "trial_2": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma (Stewart-Treves syndrome)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have lesions on my left arm that have been growing larger over the last three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight or general health during this period?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my weight or general health."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any similar issues among your close family members?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no similar issues among my close family members."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the lesions bleed or itch?"
+            },
+            {
+                "role": "user",
+                "content": "No, the lesions do not bleed or itch."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any night sweats, fevers, or unexplained fatigue?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced night sweats, fevers, or unexplained fatigue."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 76-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous history of cancer or significant illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had invasive ductal carcinoma of the left breast, which was treated with mastectomy and radiation therapy 27 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cutaneous metastasis of breast cancer."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Angiosarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Cutaneous metastasis of breast cancer",
+        "singleturn_mcq": "Angiosarcoma",
+        "singleturn_frq": "Final Diagnosis: Cutaneous T-cell lymphoma",
+        "summarized_conversation": "A 76-year-old woman presents with lesions on her left arm that have been enlarging over the past three months. She reports no changes in weight or general health and no family history of similar issues. The lesions do not bleed or itch, and she denies experiencing night sweats, fevers, or unexplained fatigue. She has a medical history of invasive ductal carcinoma of the left breast, treated with mastectomy and radiation therapy 27 years ago.",
+        "summarized_mcq": "Angiosarcoma",
+        "summarized_frq": "Cutaneous metastasis of breast cancer"
+    },
+    "trial_3": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma (Stewart-Treves syndrome)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have noticed some lesions on my left arm that have grown larger over the last three months, and there's also extensive swelling in that arm."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your body weight recently, either gain or loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my body weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of blood clotting issues or anyone in your family with such issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any history of blood clotting issues, and there's no family history of such issues either."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any pain associated with the lesions or the swelling?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any pain in the area with the lesions or the swelling."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer, either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a history of invasive ductal carcinoma of the left breast, which was treated with mastectomy and radiation therapy 27 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lymphedema-associated angiosarcoma, also known as Stewart-Treves syndrome."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Angiosarcoma",
+        "multiturn_frq": "Final Diagnosis: Lymphedema-associated angiosarcoma (Stewart-Treves syndrome)",
+        "singleturn_mcq": "Final Diagnosis: Angiosarcoma",
+        "singleturn_frq": "Final Diagnosis: Kaposi's Sarcoma",
+        "summarized_conversation": "A patient reported observing lesions on their left arm, which have increased in size over the past three months, accompanied by extensive swelling in the same arm. The patient has not experienced any recent changes in body weight. There is no personal or family history of blood clotting issues. The patient mentioned no pain associated with the lesions or the swelling. The patient has a medical history of invasive ductal carcinoma of the left breast, which was addressed with a mastectomy and radiation therapy 27 years earlier.",
+        "summarized_mcq": "Angiosarcoma",
+        "summarized_frq": "Lymphedema associated with chronic lymphedema-related angiosarcoma (Stewart-Treves syndrome)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Angiosarcoma",
+        "vignette_frq": "Angiosarcoma of the breast (Stewart-Treves syndrome)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have noticed lesions on my left arm that have grown larger over the past 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any other symptoms such as fever, night sweats, or unexplained weight loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar skin issues or other significant medical conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a history of invasive ductal carcinoma of the left breast which was treated with mastectomy and radiation therapy, and since then, I have had lymphedema of the left arm."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the texture or color of the lesions on your arm changed since you first noticed them?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the lesions have coalesced into firm, purple-blue nodules."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of cancer or any genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I am sorry, but I can't provide details about my family's medical history as it wasn't mentioned in the provided information."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Angiosarcoma of the arm associated with chronic lymphedema (Stewart-Treves syndrome)."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Angiosarcoma",
+        "multiturn_frq": "**Final Diagnosis:** Angiosarcoma associated with chronic lymphedema (Stewart-Treves syndrome)",
+        "singleturn_mcq": "Melanoma",
+        "singleturn_frq": "Final Diagnosis: Cutaneous T-cell lymphoma",
+        "summarized_conversation": "A patient reports observing lesions on their left arm, which have progressively enlarged over the past three months. The patient confirms no experience with the given symptoms. There is a pertinent medical history of invasive ductal carcinoma of the left breast, previously managed with a mastectomy and radiation therapy, post which the patient developed lymphedema of the same arm. Furthermore, the lesions have merged into firm, purple-blue nodules. The patient is unable to provide details about their family medical history, as it was not included in the initial information provided.",
+        "summarized_mcq": "Angiosarcoma",
+        "summarized_frq": "Angiosarcoma of the breast (Stewart-Treves syndrome)"
+    }
+}

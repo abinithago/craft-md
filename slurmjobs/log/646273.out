@@ -1,0 +1,7 @@
+#!/bin/bash
+cuda available True
+/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/bin/python
+Processed file saved to /data/healthy-ml/scratch/abinitha/craft-md/craft-md/data_augmented/gender.csv
+cuda available True
+/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/bin/python
+Processed file saved to /data/healthy-ml/scratch/abinitha/craft-md/craft-md/data_augmented/no_gender.csv

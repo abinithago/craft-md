@@ -1,0 +1,341 @@
+{
+    "case_vignette": "A 5-year-old girl is brought to the physician because her mother has found her to be inattentive at home and has received multiple complaints from her teachers at school. She does not complete her assignments and does not listen to her teachers' instructions. She refuses to talk to her parents or peers. Her mother says, \u201cShe ignores everything I say to her!\u201d She prefers playing alone, and her mother reports that she likes playing with 5 red toy cars, repeatedly arranging them in a straight line. She avoids eye contact with her mother and the physician throughout the visit. Physical and neurological examination shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder (ASD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been inattentive, not completing my assignments, and not listening to instructions at school. I also don't talk to my parents or friends much."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "My mother noticed these issues recently and has been receiving complaints from my teachers."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any recent changes or stressful events in your life or environment?"
+            },
+            {
+                "role": "user",
+                "content": "No, there haven't been any mentioned changes or stressful events recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have trouble sleeping or experience changes in your appetite?"
+            },
+            {
+                "role": "user",
+                "content": "There are no issues with my sleep or changes in appetite mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of mental health issues, such as depression or ADHD?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided about family history related to mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms or feelings of sadness, irritability, or hopelessness that you have been experiencing?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no other symptoms or feelings of sadness, irritability, or hopelessness mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 5-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Autism spectrum disorder",
+        "multiturn_frq": "**Final Diagnosis:** Attention Deficit Hyperactivity Disorder (ADHD)",
+        "singleturn_mcq": "Autism spectrum disorder",
+        "singleturn_frq": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)",
+        "summarized_conversation": "A 5-year-old girl has been exhibiting signs of inattentiveness at school, failing to complete her assignments, and not following instructions. Additionally, she has withdrawn from interacting with her parents and friends. Her mother has become aware of these issues and has received complaints from the girl's teachers. According to reports, there haven't been any recent changes or stressful events in her life. Her sleep patterns and appetite remain unchanged. There is also no family history of mental health issues noted, nor are there any accompanying feelings of sadness, irritability, or hopelessness mentioned.",
+        "summarized_mcq": "Hearing impairment",
+        "summarized_frq": "Attention-deficit/hyperactivity disorder (ADHD)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder (ASD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having trouble paying attention both at home and in school, and I don't complete my assignments or listen to instructions. I also don't talk much to my parents or friends, and I mostly play alone."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure exactly how long, but my mother and my teachers have noticed these issues recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you often feel sad, hopeless, or uninterested in activities you previously enjoyed?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't feel sad or hopeless; I just prefer playing with my red toy cars by myself."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you find any particular sounds, textures, or situations overwhelming or distressing?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned feeling overwhelmed by sounds, textures, or specific situations. I mostly avoid eye contact and prefer to play alone."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing repetitive behaviors or a strong adherence to routines?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I like to repeatedly arrange my 5 red toy cars in a straight line."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Autism spectrum disorder",
+        "multiturn_frq": "**Final Diagnosis:** Autism Spectrum Disorder",
+        "singleturn_mcq": "Final Diagnosis: Autism spectrum disorder",
+        "singleturn_frq": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)",
+        "summarized_conversation": "The patient has been experiencing difficulty in maintaining attention, both at home and in school settings. Assignments remain incomplete and instructions are often not followed. Interaction with parents and peers is minimal, and the patient mostly engages in solitary play. The duration of these issues is uncertain, but they have been observed recently by the patient's mother and teachers. The patient denies feeling sad or hopeless but shows a preference for playing alone with red toy cars. There has been no reported feeling of being overwhelmed by auditory stimuli, textures, or specific situations. Eye contact is generally avoided and the patient repeatedly arranges five red toy cars in a straight line, indicating a specific pattern of play behavior.",
+        "summarized_mcq": "Autism spectrum disorder",
+        "summarized_frq": "Autism Spectrum Disorder (ASD)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been inattentive and not completing my assignments or listening to instructions at school. I also don't talk to my parents or peers and avoid making eye contact."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent changes at home or school that might be affecting you?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no changes mentioned at home or school."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you engage in repetitive behaviors or have very specific interests or routines?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I like playing with 5 red toy cars and repeatedly arrange them in a straight line."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of delayed speech or other developmental milestones?"
+            },
+            {
+                "role": "user",
+                "content": "The information about delayed speech or other developmental milestones is not provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family been diagnosed with a similar or related condition?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided about family history of similar or related conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Autism spectrum disorder",
+        "multiturn_frq": "**Final Diagnosis:** Autism Spectrum Disorder.",
+        "singleturn_mcq": "Autism spectrum disorder",
+        "singleturn_frq": "Final Diagnosis: Autism Spectrum Disorder",
+        "summarized_conversation": "A 5-year-old child has been displaying inattention, avoiding completing assignments, and not listening to instructions at school. The child also avoids conversation and eye contact with both parents and peers. There have been no recent changes at home or school reported. The child shows a preference for playing with 5 red toy cars, which they often arrange in a straight line repeatedly. Information regarding delayed speech or other developmental milestones is not provided, and there is no family history of similar or related conditions available.",
+        "summarized_mcq": "Autism spectrum disorder",
+        "summarized_frq": "Autism Spectrum Disorder (ASD)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder (ASD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been inattentive at home and school, not completing assignments, ignoring instructions, and refusing to talk to parents or peers."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for an unspecified duration; the vignette doesn't mention how long."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent changes at home or school that might be affecting you?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette doesn't mention any recent changes at home or school."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms like mood changes, sleep disturbances, or changes in eating habits?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette does not mention any mood changes, sleep disturbances, or changes in eating habits."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health issues or similar symptoms in your family?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette doesn't provide information about any family history of mental health issues or similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been evaluated by a professional for ADHD or any other mental health disorders before?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette does not mention any prior evaluations for ADHD or other mental health disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Attention Deficit Hyperactivity Disorder (ADHD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Oppositional defiant disorder",
+        "multiturn_frq": "**Final Diagnosis:** Attention Deficit Hyperactivity Disorder (ADHD)",
+        "singleturn_mcq": "Oppositional defiant disorder",
+        "singleturn_frq": "**Final Diagnosis:** Attention Deficit Hyperactivity Disorder (ADHD)",
+        "summarized_conversation": "The patient has been inattentive both at home and school, not completing assignments, ignoring instructions, and refusing to communicate with either parents or peers. The duration of these symptoms is not specified in the vignette. Furthermore, there are no recent changes noted at home or school. The vignette does not discuss any alterations in the patient's mood, sleep patterns, or eating habits. There is no family history of mental health issues or similar symptoms provided. Additionally, no prior evaluations for ADHD or other mental health disorders are mentioned in the vignette.",
+        "summarized_mcq": "Oppositional defiant disorder",
+        "summarized_frq": "Attention-Deficit/Hyperactivity Disorder (ADHD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Autism spectrum disorder",
+        "vignette_frq": "Autism Spectrum Disorder (ASD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been inattentive at home and school, and I don't complete my assignments or listen to instructions. I also tend to play alone and avoid eye contact with others."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty in communicating or often repeat certain behaviors?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I refuse to talk to my parents or peers and I repeatedly arrange my 5 red toy cars in a straight line."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other developmental or neurological conditions before?"
+            },
+            {
+                "role": "user",
+                "content": "No, my physical and neurological examination shows no abnormalities."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of similar or related conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I can't provide any details about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder (ASD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Autism spectrum disorder",
+        "multiturn_frq": "**Final Diagnosis:** Autism Spectrum Disorder",
+        "singleturn_mcq": "Autism spectrum disorder",
+        "singleturn_frq": "Final Diagnosis: Autism Spectrum Disorder",
+        "summarized_conversation": "A 5-year-old child is displaying signs of inattention at home and school, failing to complete assignments or adhere to instructions. The child plays in solitude and avoids eye contact with others. In addition, the child refuses to converse with parents or peers and is observed arranging five red toy cars in a straight line repeatedly. The child's physical and neurological examinations reveal no abnormalities, and there is no information available regarding the family's medical history.",
+        "summarized_mcq": "Autism spectrum disorder",
+        "summarized_frq": "Autism Spectrum Disorder (ASD)"
+    }
+}

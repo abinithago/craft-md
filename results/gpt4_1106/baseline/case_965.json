@@ -1,0 +1,277 @@
+{
+    "case_vignette": "A 33-year-old woman is brought to the physician by her husband because of persistent sadness for the past 2 months. During this period, she also has had difficulty sleeping and an increased appetite. She had similar episodes that occurred 2 years ago and 9 months ago that each lasted for 4 months. Between these episodes, she reported feeling very energetic and rested after 3 hours of sleep. She often went for long periods of time without eating. She works as a stock market trader and received a promotion 5 months ago. She regularly attends yoga classes on the weekends with her friends. On mental status examination, she has a blunted affect. She denies suicidal thoughts and illicit drug use. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Bipolar II disorder",
+        "vignette_frq": "Bipolar disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling persistently sad for the past 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleep or appetite during this period?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been having difficulty sleeping and my appetite has increased."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any episodes of elevated mood or increased energy during these two months?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had episodes of elevated mood or increased energy during these two months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of depression or any other mental health issues either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I had similar episodes of persistent sadness 2 years ago and 9 months ago, and between these episodes I felt very energetic with little need for sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bipolar Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Bipolar II disorder",
+        "multiturn_frq": "Final Diagnosis: Bipolar Disorder",
+        "singleturn_mcq": "Major depressive disorder with atypical features",
+        "singleturn_frq": "Final Diagnosis: Major Depressive Disorder",
+        "summarized_conversation": "A patient reports experiencing persistent sadness for the past two months. Alongside this, they have had difficulty sleeping and an increased appetite. The patient notes that there have been no episodes of elevated mood or increased energy during this period. They also mentioned having similar episodes of persistent sadness two years ago and nine months ago. In between these episodes, the patient experienced periods of feeling very energetic with little need for sleep.",
+        "summarized_mcq": "Bipolar II disorder",
+        "summarized_frq": "Bipolar disorder"
+    },
+    "trial_1": {
+        "vignette_mcq": "Bipolar II disorder",
+        "vignette_frq": "Bipolar disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling persistently sad for the past 2 months, and I've been having difficulty sleeping and an increased appetite during this period."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant life changes or stressors recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I received a promotion at work 5 months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health issues, either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I had similar episodes of feeling very sad in the past, and between these episodes, I felt extremely energetic with very little sleep."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bipolar Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Bipolar II disorder",
+        "multiturn_frq": "**Final Diagnosis:** Bipolar Disorder",
+        "singleturn_mcq": "Final Diagnosis: Major depressive disorder with atypical features",
+        "singleturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "summarized_conversation": "A patient has been experiencing persistent sadness for the past 2 months, accompanied by difficulty sleeping and an increased appetite. The patient mentions a recent promotion at work 5 months prior. In the past, the patient had similar episodes of feeling very sad, which would alternate with periods of feeling extremely energetic and requiring very little sleep.",
+        "summarized_mcq": "Bipolar II disorder",
+        "summarized_frq": "Bipolar disorder"
+    },
+    "trial_2": {
+        "vignette_mcq": "Bipolar II disorder",
+        "vignette_frq": "Bipolar disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling persistently sad for the past 2 months and am having difficulty sleeping with an increased appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant life changes or stressors around the time your symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I received a promotion at work 5 months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health issues, either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I've had similar episodes of sadness in the past, each lasting for several months, but between these episodes I felt very energetic."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or undergoing therapy for your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications or undergoing therapy for my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bipolar Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Bipolar II disorder",
+        "multiturn_frq": "**Final Diagnosis:** Bipolar Disorder",
+        "singleturn_mcq": "Final Diagnosis: Major depressive disorder with atypical features",
+        "singleturn_frq": "Final Diagnosis: Major Depressive Disorder",
+        "summarized_conversation": "A patient reports having persistent sadness for the past two months, coupled with difficulty sleeping and an increased appetite. The patient received a promotion at work five months ago. Historically, the patient has experienced similar episodes of sadness, each lasting for several months, but between these episodes, they felt very energetic. The patient is currently not taking any medications or undergoing therapy for these symptoms.",
+        "summarized_mcq": "Bipolar II disorder",
+        "summarized_frq": "Bipolar disorder"
+    },
+    "trial_3": {
+        "vignette_mcq": "Bipolar II disorder",
+        "vignette_frq": "Bipolar disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling persistently sad for the past 2 months, and I'm having difficulty sleeping and an increased appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant weight changes along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific weight changes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous history of mental health issues or is there any family history of psychiatric conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of psychiatric conditions in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any feelings of hopelessness or thoughts of self-harm?"
+            },
+            {
+                "role": "user",
+                "content": "I deny having suicidal thoughts."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any difficulty in concentrating or making decisions since these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any issues with concentration or decision-making."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Major depressive disorder with atypical features",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Final Diagnosis: Major depressive disorder with atypical features",
+        "singleturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "summarized_conversation": "The patient has been experiencing persistent sadness for the past two months and is struggling with difficulty sleeping and an increased appetite. There is no mention of any specific weight changes. The patient does not have a personal or family history of psychiatric conditions as per the information provided. The patient denies having suicidal thoughts and hasn't mentioned any issues with concentration or decision-making.",
+        "summarized_mcq": "Major depressive disorder with atypical features",
+        "summarized_frq": "Major depressive disorder"
+    },
+    "trial_4": {
+        "vignette_mcq": "Bipolar II disorder",
+        "vignette_frq": "Bipolar disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling persistently sad for the past 2 months and I've been having difficulty sleeping. I've also noticed an increased appetite lately."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific changes in my weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mood disorders or psychiatric conditions personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of mood disorders or psychiatric conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medication or have you recently stopped any medication?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned taking any medication or stopping any recently."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 33-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Major depressive disorder with atypical features",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Final Diagnosis: Major depressive disorder with atypical features",
+        "singleturn_frq": "Final Diagnosis: Major Depressive Disorder",
+        "summarized_conversation": "A 33-year-old woman presents with persistent sadness, which has been ongoing for the past 2 months. She also reports difficulty sleeping and an increased appetite. No specific changes in her weight have been mentioned. She has no personal or family history of mood disorders or psychiatric conditions and is not taking any medications, nor has she stopped any recently.",
+        "summarized_mcq": "Major depressive disorder with atypical features",
+        "summarized_frq": "Major depressive disorder."
+    }
+}

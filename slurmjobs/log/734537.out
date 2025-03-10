@@ -1,0 +1,11 @@
+#!/bin/bash
+cuda
+Thread for case_2 is dispatched.
+Thread for case_3 is dispatched.
+Thread for case_4 is dispatched.
+Thread for case_5 is dispatched.
+Thread for case_6 is dispatched.
+Thread for case_7 is dispatched.
+Thread for case_8 is dispatched.
+Thread for case_10 is dispatched.
+cuda

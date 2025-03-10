@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 63-year-old man comes to the physician with a 4-week history of fatigue, crampy abdominal pain, watery diarrhea, and pain in his mouth and gums. He returned from a 2-week trip to the Dominican Republic 2 months ago. He has smoked one pack of cigarettes daily for 45 years. Examination shows three 1.5-cm, painful ulcers in the mouth. Abdominal examination shows mild tenderness to palpation in the right lower quadrant without guarding or rebound. His hemoglobin concentration is 11.2 g/dL, mean corpuscular volume is 75 fL, and leukocyte count is 11,900 mm3. Colonoscopy shows a cobblestone mucosa. A photomicrograph of a biopsy specimen is shown. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Crohn disease",
+        "vignette_frq": "Crohn's disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, crampy abdominal pain, watery diarrhea, and pain in my mouth and gums."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 4 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood or mucus in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any blood or mucus in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any underlying medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any underlying medical conditions or current medications in my initial description."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any weight loss recently?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention experiencing any weight loss recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your family members have a history of gastrointestinal or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any family history of gastrointestinal or autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Crohn's Disease"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Behcet disease",
+        "multiturn_frq": "**Final Diagnosis:** Crohn's Disease",
+        "singleturn_mcq": "Final Diagnosis: Crohn disease",
+        "singleturn_frq": "**Final Diagnosis:** Crohn's Disease",
+        "summarized_conversation": "A patient has been experiencing fatigue, crampy abdominal pain, watery diarrhea, and pain in the mouth and gums persisting for around 4 weeks. The patient reports no presence of blood or mucus in the stool. No underlying medical conditions or current medications were reported by the patient. Moreover, the patient hasn't experienced any recent weight loss and there's no family history of gastrointestinal or autoimmune diseases mentioned.",
+        "summarized_mcq": "Behcet disease",
+        "summarized_frq": "Irritable Bowel Syndrome (IBS)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Crohn disease",
+        "vignette_frq": "Crohn's disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing fatigue, crampy abdominal pain, watery diarrhea, and pain in my mouth and gums."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms start?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms started about 4 weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in your stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any blood in my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any other conditions or medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar symptoms in the past or a family history of gastrointestinal diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of a history of similar symptoms or family history of gastrointestinal diseases in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you traveled recently or consumed any unusual food or water?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a 2-week trip to the Dominican Republic 2 months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traveler's diarrhea"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Behcet disease",
+        "multiturn_frq": "**Final Diagnosis:** Traveler's diarrhea",
+        "singleturn_mcq": "Final Diagnosis: Crohn disease",
+        "singleturn_frq": "**Final Diagnosis:** Crohn's Disease",
+        "summarized_conversation": "A patient has reported suffering from fatigue, crampy abdominal pain, watery diarrhea, and pain in the mouth and gums which began roughly 4 weeks ago. Upon inquiry, the patient confirmed that there has been no blood observed in the stools. There was no other conditions or medications reported, nor any history of similar symptoms or a family history of gastrointestinal diseases. Additionally, the patient mentioned returning from a 2-week trip to the Dominican Republic 2 months prior.",
+        "summarized_mcq": "Crohn disease",
+        "summarized_frq": "Traveler's diarrhea"
+    },
+    "trial_2": {
+        "vignette_mcq": "Crohn disease",
+        "vignette_frq": "Crohn's disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing fatigue, crampy abdominal pain, and watery diarrhea, along with pain in my mouth and gums."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 4 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in your stools or bleeding from your gums?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any blood in my stools or bleeding from my gums."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any gastrointestinal diseases, like Crohn's disease or ulcerative colitis, in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled or eaten anything unusual that could have triggered these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a 2-week trip to the Dominican Republic 2 months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or supplements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications or supplements."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traveler's diarrhea"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Whipple disease.",
+        "multiturn_frq": "Final Diagnosis: Giardiasis",
+        "singleturn_mcq": "Final Diagnosis: Crohn disease",
+        "singleturn_frq": "**Final Diagnosis:** Crohn's Disease",
+        "summarized_conversation": "A patient has been experiencing fatigue, crampy abdominal pain, and watery diarrhea, along with pain in the mouth and gums for about 4 weeks. The patient reports no occurrence of blood in the stools or bleeding from the gums when asked. Additionally, the patient mentioned returning from a 2-week trip to the Dominican Republic 2 months ago. The patient confirms not currently taking any medications or supplements.",
+        "summarized_mcq": "Crohn disease",
+        "summarized_frq": "Infectious enteritis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Crohn disease",
+        "vignette_frq": "Crohn's disease.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, crampy abdominal pain, watery diarrhea, and pain in my mouth and gums for the past four weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any recent weight loss or a change in your appetite?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any recent weight loss or a change in my appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed or treated for any other medical conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I can't provide information about past medical diagnoses or treatments as it's not mentioned in the details provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known family history of gastrointestinal diseases or autoimmune disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have information about my family history of gastrointestinal diseases or autoimmune disorders to share."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been on any new medications or supplements recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not started any new medications or supplements recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Crohn's Disease"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Behcet disease",
+        "multiturn_frq": "**Final Diagnosis:** Crohn's Disease",
+        "singleturn_mcq": "Final Diagnosis: Crohn disease",
+        "singleturn_frq": "**Final Diagnosis:** Crohn's Disease",
+        "summarized_conversation": "A patient has been experiencing fatigue, crampy abdominal pain, watery diarrhea, and pain in their mouth and gums for the past four weeks. The patient notes no blood in the stool and there is no mention of any recent weight loss or a change in appetite. The patient cannot provide any information about past medical diagnoses or treatments, as it's not included in the details provided. Furthermore, the patient doesn't have information regarding a family history of gastrointestinal diseases or autoimmune disorders. The patient also confirms that no new medications or supplements have been started recently.",
+        "summarized_mcq": "Behcet disease",
+        "summarized_frq": "Crohn's disease"
+    },
+    "trial_4": {
+        "vignette_mcq": "Crohn disease",
+        "vignette_frq": "Crohn's disease",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, crampy abdominal pain, watery diarrhea, and pain in my mouth and gums for about four weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood or mucus in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any blood or mucus in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent weight loss or fever?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any recent weight loss or fever."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of gastrointestinal diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any history of gastrointestinal diseases in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you started any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications, nor have I started any new medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your diet or traveled recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a 2-week trip to the Dominican Republic 2 months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traveler's diarrhea"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Behcet disease",
+        "multiturn_frq": "**Final Diagnosis:** Traveler's diarrhea",
+        "singleturn_mcq": "Final Diagnosis: Crohn disease",
+        "singleturn_frq": "Final Diagnosis: Crohn's Disease",
+        "summarized_conversation": "A patient has been experiencing symptoms including fatigue, crampy abdominal pain, watery diarrhea, and pain in their mouth and gums for approximately four weeks. The patient reports no presence of blood or mucus in their stool, no recent weight loss, and no fever. The patient has no family history of gastrointestinal diseases and is neither on any medication currently nor has started any new medications recently. Additionally, the patient returned from a two-week trip to the Dominican Republic two months ago.",
+        "summarized_mcq": "Behcet disease",
+        "summarized_frq": "Traveler's diarrhea"
+    }
+}

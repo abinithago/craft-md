@@ -1,0 +1,293 @@
+{
+    "case_vignette": "A 5-year-old boy is brought to the physician because of high-grade fever and generalized fatigue for 5 days. Two days ago, he developed a rash on his trunk. He returned from a family hiking trip to Montana 1 week ago. His immunization records are unavailable. His temperature is 39.8\u00b0C (103.6\u00b0F), pulse is 111/min, and blood pressure is 96/60 mm Hg. Examination shows injection of the conjunctivae bilaterally. The tongue and pharynx are erythematous. Tender cervical lymphadenopathy is present on the left. There is a macular rash over the trunk and extremities. Bilateral knee joints are swollen and tender; range of motion is limited by pain. Cardiopulmonary examination shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Kawasaki disease",
+        "vignette_frq": "Rocky Mountain spotted fever",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having a high-grade fever and general tiredness for 5 days, and two days ago I developed a rash on my trunk."
+            },
+            {
+                "role": "assistant",
+                "content": "Did the rash spread to other parts of your body or is it still localized to your trunk?"
+            },
+            {
+                "role": "user",
+                "content": "The rash has spread to my extremities as well."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as joint pain, swollen glands, or headache?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have tender swollen glands on the left side of my neck and my knee joints are swollen and tender, which makes it painful to move them."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled or been exposed to anyone who might have been ill?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a family hiking trip to Montana about a week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Rocky Mountain spotted fever."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Kawasaki disease",
+        "multiturn_frq": "Final Diagnosis: Rocky Mountain Spotted Fever.",
+        "singleturn_mcq": "Final Diagnosis: Kawasaki disease",
+        "singleturn_frq": "**Final Diagnosis:** Typhoid Fever",
+        "summarized_conversation": "A patient has been experiencing a high-grade fever and general tiredness for 5 days. Two days ago, the patient noticed a rash on their trunk, which has now extended to the extremities. The patient also reports having tender swollen glands on the left side of their neck and swelling and tenderness in the knee joints, causing pain during movement. The patient mentions having returned from a family hiking trip in Montana approximately a week ago.",
+        "summarized_mcq": "Acute rheumatic fever",
+        "summarized_frq": "Tick-borne relapsing fever (TBRF)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Kawasaki disease",
+        "vignette_frq": "Rocky Mountain spotted fever",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing high-grade fever, generalized fatigue, a rash on my trunk, red eyes, a red throat, swollen and tender lymph nodes on the left side of my neck, swollen and painful knee joints with limited movement, and I just got back from a hiking trip."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been bitten by any insects, such as ticks or mosquitoes, during your hiking trip?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure if I was bitten by any insects during the trip."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or chronic health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "My immunization records are unavailable, and there's no mention of any known allergies or chronic health conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone close to you (family, friends, fellow hikers) experienced similar symptoms recently?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information provided about anyone close to me experiencing similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Adult-onset Still's disease."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Kawasaki disease",
+        "multiturn_frq": "**Final Diagnosis:** Rubella",
+        "singleturn_mcq": "Final Diagnosis: Kawasaki disease",
+        "singleturn_frq": "**Final Diagnosis:** Acute HIV infection",
+        "summarized_conversation": "A patient recently returned from a hiking trip is presenting with various symptoms including a high-grade fever, generalized fatigue, a rash on the trunk, red eyes, a red throat, swollen and tender lymph nodes on the left side of the neck, and swollen and painful knee joints with limited movement. The patient cannot confirm any insect bites during the trip. There are no available immunization records, and no known allergies or chronic health conditions have been mentioned. Additionally, there is no information about anyone close to the patient experiencing similar symptoms.",
+        "summarized_mcq": "Kawasaki disease",
+        "summarized_frq": "Rubella"
+    },
+    "trial_2": {
+        "vignette_mcq": "Kawasaki disease",
+        "vignette_frq": "Rocky Mountain spotted fever",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a high-grade fever, generalized fatigue, a rash on my trunk, red and swollen eyes, a red throat, swollen and tender lymph nodes on the left side of my neck, and swollen and painful knee joints that make it hard to move them."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently been in contact with someone who was sick or traveled to a new area?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a family hiking trip to Montana 1 week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any allergies or chronic medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "My immunization records are unavailable, and there is no mention of allergies or chronic medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Rubella"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Kawasaki disease",
+        "multiturn_frq": "**Final Diagnosis:** Rubella",
+        "singleturn_mcq": "**Final Diagnosis:** Kawasaki disease",
+        "singleturn_frq": "**Final Diagnosis:** Acute Rheumatic Fever",
+        "summarized_conversation": "A patient presents with a high-grade fever, generalized fatigue, a rash on the trunk, red and swollen eyes, a red throat, swollen and tender lymph nodes on the left side of the neck, and swollen and painful knee joints, which impair movement. The patient returned from a family hiking trip in Montana a week ago. The patient's immunization records are unavailable, and there are no known allergies or chronic medical conditions reported.",
+        "summarized_mcq": "Kawasaki disease",
+        "summarized_frq": "Rubella (German measles)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Kawasaki disease",
+        "vignette_frq": "Rocky Mountain spotted fever",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a high-grade fever, generalized fatigue, a rash on my trunk and extremities, red eyes, red throat, swollen and tender lymph nodes on the left side of my neck, and swollen, tender knees with limited movement due to pain."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing high-grade fever and fatigue for 5 days, and the rash developed 2 days ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you traveled recently or been in contact with anyone who was sick?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a family hiking trip to Montana 1 week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Did anyone else on the trip experience similar symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have information about whether anyone else on the trip experienced similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any allergies or chronic medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "My medical information regarding allergies or chronic conditions is not available."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been bitten by ticks or insects during your trip?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure if I was bitten by ticks or insects during the trip."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any recent unusual or raw meat or unpasteurized dairy product consumptions?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information available about consuming unusual or raw meat, or unpasteurized dairy products."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "I have not started any new medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Acute Rheumatic Fever."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Kawasaki disease",
+        "multiturn_frq": "**Final Diagnosis:** Rubella",
+        "singleturn_mcq": "**Final Diagnosis:** Kawasaki disease",
+        "singleturn_frq": "Final Diagnosis: Rubella",
+        "summarized_conversation": "A patient reports experiencing a high-grade fever, generalized fatigue, a rash on the trunk and extremities, red eyes, a red throat, swollen and tender lymph nodes on the left side of the neck, and swollen, tender knees with limited movement due to pain. These symptoms have been present for 5 days, with the rash appearing 2 days ago. The patient recently returned from a family hiking trip in Montana a week ago. It is unclear whether other trip attendees experienced similar symptoms. The patient does not have any medical information regarding allergies or chronic conditions available, and it is uncertain whether there was exposure to tick or insect bites during the trip. No information is provided about the consumption of unusual or raw meat, or unpasteurized dairy products, and the patient has not started any new medications recently.",
+        "summarized_mcq": "Kawasaki disease",
+        "summarized_frq": "Rocky Mountain spotted fever"
+    },
+    "trial_4": {
+        "vignette_mcq": "Kawasaki disease",
+        "vignette_frq": "Rocky Mountain spotted fever",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a high-grade fever, I'm feeling very tired, and I have a rash on my trunk and extremities. My eyes are red, my throat is red and sore, and my knees are swollen and painful, making it hard to move them properly."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently traveled or been exposed to any specific environments where infectious diseases are common?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I returned from a family hiking trip in Montana about a week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any tick bites or had close contact with wild animals during your trip?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about any tick bites or contact with wild animals."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies, or is there a relevant family history of autoimmune or other diseases?"
+            },
+            {
+                "role": "user",
+                "content": "My immunization records are unavailable, and there's no mention of allergies or family history of diseases in my records."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Rocky Mountain spotted fever."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Kawasaki disease",
+        "multiturn_frq": "**Final Diagnosis:** Rocky Mountain spotted fever.",
+        "singleturn_mcq": "Final Diagnosis: Kawasaki disease",
+        "singleturn_frq": "Final Diagnosis: Kawasaki disease",
+        "summarized_conversation": "A patient presents with a high-grade fever, general fatigue, and a rash on both the trunk and extremities. The patient also reports having red and sore eyes, a red and sore throat, as well as swollen and painful knees, which impede proper movement. Recently, the patient returned from a family hiking trip in Montana about a week ago. The patient is uncertain about any tick bites or contact with wild animals. The patient's immunization records are unavailable, and there is no mention of allergies or a family history of diseases in the records.",
+        "summarized_mcq": "Kawasaki disease",
+        "summarized_frq": "Rocky Mountain spotted fever"
+    }
+}

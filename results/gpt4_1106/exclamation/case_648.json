@@ -1,0 +1,373 @@
+{
+    "case_vignette": "An 8-year-old girl is brought to the physician by her parents because they are concerned with her behavior! She has temper outbursts six or seven times per week, which last anywhere between 5 minutes to half an hour or until she becomes tired! According to her father, she screams at others and throws things in anger \u201cwhen things don't go her way!\u201d He says these outbursts started when she was 6 and a half years old and even between the outbursts, she is constantly irritable! She had been suspended from school three times in the past year for physical aggression, but her grades have remained unaffected! She appears agitated and restless! Physical examination shows no abnormalities! During the mental status examination, she is uncooperative and refuses to answer questions! ",
+    "question": "What is the most likely diagnosis in this child?",
+    "trial_0": {
+        "vignette_mcq": "Disruptive mood dysregulation disorder",
+        "vignette_frq": "Disruptive mood dysregulation disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have temper outbursts multiple times a week, I feel constantly irritable, and I am agitated and restless."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 8 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have trouble focusing or remaining still?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I appear agitated and restless."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your sleeping or eating habits recently?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any changes in my sleeping or eating habits."
+            },
+            {
+                "role": "assistant",
+                "content": "Have these symptoms been present for more than 6 months?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, these symptoms have been present since I was 6 and a half years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Disruptive Mood Dysregulation Disorder (DMDD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Disruptive mood dysregulation disorder",
+        "multiturn_frq": "**Final Diagnosis:** Disruptive Mood Dysregulation Disorder",
+        "singleturn_mcq": "Final Diagnosis: Disruptive mood dysregulation disorder",
+        "singleturn_frq": "Final Diagnosis: Disruptive Mood Dysregulation Disorder",
+        "summarized_conversation": "A patient presents with frequent temper outbursts occurring multiple times a week, constant irritability, and feelings of agitation and restlessness. The patient is 8 years old. There is no change observed in the patient's sleeping or eating habits. These symptoms have been present since the patient was 6 and a half years old.",
+        "summarized_mcq": "Disruptive mood dysregulation disorder",
+        "summarized_frq": "Disruptive Mood Dysregulation Disorder (DMDD)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Disruptive mood dysregulation disorder",
+        "vignette_frq": "Disruptive mood dysregulation disorder (DMDD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have frequent temper outbursts several times a week and feel constantly irritable. I also feel agitated and restless."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 8 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these temper outbursts and feelings of irritability happen in all settings like home, school, and with friends?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, they happen in all settings."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have these symptoms been occurring?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms have been occurring since I was 6 and a half years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have difficulty sleeping or concentrating on tasks?"
+            },
+            {
+                "role": "user",
+                "content": "My grades have remained unaffected, so I don't have difficulty concentrating on tasks, and there is no mention of sleeping problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of mental health issues, like mood disorders or ADHD?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about my family's mental health history."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Disruptive Mood Dysregulation Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Disruptive mood dysregulation disorder",
+        "multiturn_frq": "**Final Diagnosis:** Disruptive Mood Dysregulation Disorder (DMDD)",
+        "singleturn_mcq": "Final Diagnosis: Disruptive mood dysregulation disorder",
+        "singleturn_frq": "Final Diagnosis: Disruptive Mood Dysregulation Disorder",
+        "summarized_conversation": "A patient presents with frequent temper outbursts several times a week and reports feeling constantly irritable, agitated, and restless. The patient is 8 years old. The symptoms occur in all settings and have been persisting since the patient was 6 and a half years old. Despite these symptoms, the patient's academic performance remains stable, with unaffected grades indicating no difficulties in concentrating on tasks, and there are no reported sleeping problems. The patient is unsure about their family's mental health history.",
+        "summarized_mcq": "Disruptive mood dysregulation disorder",
+        "summarized_frq": "Disruptive Mood Dysregulation Disorder (DMDD)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Disruptive mood dysregulation disorder",
+        "vignette_frq": "Disruptive mood dysregulation disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have temper outbursts several times a week that can last up to half an hour, and I feel irritable all the time. I also become agitated and restless."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms started when I was 6 and a half years old."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you now?"
+            },
+            {
+                "role": "user",
+                "content": "I am 8 years old now."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any other symptoms such as difficulty concentrating, sleep disturbances, or feelings of sadness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't experience those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any family members been diagnosed with psychological or neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The information about family history isn't provided; I don't know about that."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed that your symptoms are triggered by certain situations or are they unpredictable?"
+            },
+            {
+                "role": "user",
+                "content": "My outbursts usually occur when things don't go my way."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Disruptive Mood Dysregulation Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Disruptive mood dysregulation disorder",
+        "multiturn_frq": "**Final Diagnosis:** Disruptive Mood Dysregulation Disorder",
+        "singleturn_mcq": "Final Diagnosis: Disruptive mood dysregulation disorder",
+        "singleturn_frq": "Final Diagnosis: Disruptive Mood Dysregulation Disorder",
+        "summarized_conversation": "A patient presents with frequent temper outbursts, occurring several times a week and lasting up to half an hour each. Additionally, the patient reports feeling irritable and experiences feelings of agitation and restlessness. These symptoms started when the patient was 6 and a half years old and have persisted until now, with the patient currently being 8 years old. The outbursts typically happen when things do not go as the patient desires. The patient does not experience additional symptoms and there is no available information regarding family medical history.",
+        "summarized_mcq": "Disruptive mood dysregulation disorder",
+        "summarized_frq": "Disruptive Mood Dysregulation Disorder (DMDD)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Disruptive mood dysregulation disorder",
+        "vignette_frq": "Disruptive mood dysregulation disorder (DMDD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have temper outbursts multiple times a week, feel constantly irritable, and get easily agitated and restless."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 8 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any periods where you feel excessively happy or have elevated energy levels?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have periods of feeling excessively happy or having elevated energy levels."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these symptoms occur mostly in specific situations or environments, such as at school or at home?"
+            },
+            {
+                "role": "user",
+                "content": "They occur when things don't go my way, regardless of the specific environment."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any issues with sleep patterns or changes in your appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no issues with my sleep patterns or changes in my appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent stress or major changes in your life such as moving, changing schools, or family issues?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any recent stress or major changes in my life."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have difficulty focusing or completing tasks at school or at home?"
+            },
+            {
+                "role": "user",
+                "content": "No, my grades have remained unaffected despite my behavior issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you or anyone in your family been diagnosed with any mental health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any mental health conditions diagnosed in me or my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Disruptive Mood Dysregulation Disorder (DMDD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Disruptive mood dysregulation disorder.",
+        "multiturn_frq": "**Final Diagnosis:** Disruptive Mood Dysregulation Disorder (DMDD)",
+        "singleturn_mcq": "**Final Diagnosis:** Disruptive mood dysregulation disorder",
+        "singleturn_frq": "**Final Diagnosis:** Disruptive Mood Dysregulation Disorder (DMDD)",
+        "summarized_conversation": "An 8-year-old patient reports experiencing temper outbursts multiple times a week, along with constant irritability, and feelings of agitation and restlessness. These symptoms arise when situations do not proceed as the patient desires, and this pattern persists irrespective of the environment. The patient does not experience periods of excessive happiness or elevated energy levels. There have been no changes in the patient's sleep patterns or appetite. No recent stressors or major life changes have been reported, and the patient's academic performance remains unaffected by these behavioral issues. There is also no mention of any mental health conditions diagnosed in the patient or their family.",
+        "summarized_mcq": "Disruptive mood dysregulation disorder",
+        "summarized_frq": "Disruptive Mood Dysregulation Disorder (DMDD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Disruptive mood dysregulation disorder",
+        "vignette_frq": "Disruptive mood dysregulation disorder (DMDD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have temper outbursts multiple times a week, feel constantly irritable, and I've been feeling agitated and restless."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 8 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do your symptoms occur in specific settings like at school or at home, or are they present in multiple settings?"
+            },
+            {
+                "role": "user",
+                "content": "They are present in multiple settings."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms since I was 6 and a half years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any patterns in your mood or behavior, like feeling overly happy or overly sad at times?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed feelings of being overly happy or overly sad; I am mostly irritable."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your irritability and anger outbursts occur most days or are there days when you do not experience these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "My irritability and anger outbursts occur most days of the week."
+            },
+            {
+                "role": "assistant",
+                "content": "Has any family member had similar symptoms or been diagnosed with any psychological or psychiatric conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family's medical or psychological history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any difficulty in concentrating on tasks at school or home?"
+            },
+            {
+                "role": "user",
+                "content": "No, my grades have remained unaffected despite my behavior issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Disruptive Mood Dysregulation Disorder (DMDD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Disruptive mood dysregulation disorder",
+        "multiturn_frq": "**Final Diagnosis:** Disruptive Mood Dysregulation Disorder (DMDD)",
+        "singleturn_mcq": "**Final Diagnosis:** Disruptive mood dysregulation disorder",
+        "singleturn_frq": "**Final Diagnosis:** Disruptive Mood Dysregulation Disorder",
+        "summarized_conversation": "The patient, an 8-year-old child, has been experiencing temper outbursts multiple times a week, constant irritability, and feelings of agitation and restlessness. These symptoms have been present since the child was 6 and a half years old and occur in multiple settings. The child does not experience feelings of being overly happy or sad, but rather feels mostly irritable with anger outbursts occurring most days of the week. The child is unaware of any family medical or psychological history. Despite these behavioral issues, the child's academic performance has not been affected.",
+        "summarized_mcq": "Disruptive mood dysregulation disorder",
+        "summarized_frq": "Disruptive Mood Dysregulation Disorder (DMDD)"
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "case_vignette": "a 19-year-old man is brought to the emergency department 35 minutes after being involved in a high-speed motor vehicle collision. on arrival, he is alert, has mild chest pain, and minimal shortness of breath. he has one episode of vomiting in the hospital. his temperature is 37.3\u00b0c (99.1\u00b0f), pulse is 108/min, respirations are 23/min, and blood pressure is 90/70 mm hg. pulse oximetry on room air shows an oxygen saturation of 92%. examination shows multiple abrasions over his trunk and right upper extremity. there are coarse breath sounds over the right lung base. cardiac examination shows no murmurs, rubs, or gallop. infusion of 0.9% saline is begun. he subsequently develops increasing shortness of breath. arterial blood gas analysis on 60% oxygen shows:\nph 7.36\npco2 39 mm hg\npo2 68 mm hg\nhco3- 18 meq/l\no2 saturation 81%\nan x-ray of the chest shows patchy, irregular infiltrates over the right lung fields. ",
+    "question": "which  is the most likely diagnosis?\"",
+    "trial_0": {
+        "vignette_mcq": "Pulmonary contusion",
+        "vignette_frq": "Traumatic lung contusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing mild chest pain, minimal shortness of breath, and I've had one episode of vomiting."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 19-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease or similar symptoms in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of heart disease or similar symptoms in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications or have any other existing health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently on any medications or have any other existing health conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Has any of your close family members had heart disease or similar symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, none of my close family members have had heart disease or similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you engaged in any unusual physical activity or experienced significant stress recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, but I was involved in a high-speed motor vehicle collision recently."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Traumatic myocardial contusion"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pulmonary contusion.",
+        "multiturn_frq": "Final Diagnosis: Traumatic aortic injury.",
+        "singleturn_mcq": "Final Diagnosis: Pneumothorax",
+        "singleturn_frq": "**Final Diagnosis:** Gastroesophageal reflux disease (GERD)",
+        "summarized_conversation": "A 19-year-old man reports experiencing mild chest pain, minimal shortness of breath, and one episode of vomiting. He confirms having no history of heart disease or previously similar symptoms. Additionally, he is not currently taking any medications and has no other existing health conditions. He also states that no close family members have had heart disease or exhibited similar symptoms. However, he was recently involved in a high-speed motor vehicle collision.",
+        "summarized_mcq": "Pulmonary contusion",
+        "summarized_frq": "Traumatic injury to the chest or heart from the motor vehicle collision."
+    },
+    "trial_1": {
+        "vignette_mcq": "Pulmonary contusion",
+        "vignette_frq": "Pulmonary contusion",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm currently experiencing mild chest pain, minimal shortness of breath, which has been increasing, and one episode of vomiting."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms since being involved in a motor vehicle collision about 35 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any pre-existing medical conditions and I am not on any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any loss of consciousness or severe headache since the accident?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any loss of consciousness or severe headache since the accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of heart disease or any cardiovascular issues in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of heart disease or any cardiovascular issues in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Traumatic Myocardial Contusion"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pulmonary contusion",
+        "multiturn_frq": "**Final Diagnosis:** Traumatic myocardial contusion",
+        "singleturn_mcq": "Pneumothorax",
+        "singleturn_frq": "**Final Diagnosis:** Myocardial Infarction",
+        "summarized_conversation": "The person is currently experiencing mild chest pain, minimal shortness of breath which has been increasing, and had one episode of vomiting. These symptoms started approximately 35 minutes ago following involvement in a motor vehicle collision. The individual reports no pre-existing medical conditions and is not taking any medications. Additionally, there has been no loss of consciousness or severe headache since the accident. The individual also states there is no history of heart disease or cardiovascular issues in their family.",
+        "summarized_mcq": "Pulmonary contusion",
+        "summarized_frq": "Traumatic cardiac injury"
+    }
+}

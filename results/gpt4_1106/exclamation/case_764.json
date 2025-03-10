@@ -1,0 +1,413 @@
+{
+    "case_vignette": "A 70-year-old man comes to the physician because of progressive fatigue and lower back pain for the past 4 months! The back pain worsened significantly after he had a minor fall while doing yard work the previous day! For the past year, he has had a feeling of incomplete emptying of his bladder after voiding! His vital signs are within normal limits! Examination shows bilateral paravertebral muscle spasm, severe tenderness over the second lumbar vertebra, and mild tenderness over the lower thoracic vertebrae! Neurologic examination shows no abnormalities! His hemoglobin is 10!5 g/dl, alkaline phosphatase is 110 U/L, and serum calcium is 11!1 mg/dl! An x-ray of the skull is shown! ",
+    "question": "Which  is the most appropriate next step in diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Serum protein electrophoresis",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive fatigue and lower back pain for the past 4 months. The back pain got a lot worse yesterday after a minor fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes like weight loss, fever, or night sweats along with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any weight loss, fever, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of osteoporosis or fractures, or is there any family history of similar issues?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of osteoporosis or fractures."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any bruising or bleeding that is unusual for you?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any unusual bruising or bleeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any medications recently or undergone any medical treatments?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned taking any medications or undergoing any medical treatments recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Considering your symptoms and responses, have you had any recent blood tests, and if yes, what were the results?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had some blood tests; my hemoglobin was 10.5 g/dl, alkaline phosphatase was 110 U/L, and serum calcium was 11.1 mg/dl."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Myeloma."
+            }
+        ],
+        "multiturn_mcq": "Serum protein electrophoresis",
+        "multiturn_frq": "Final Diagnosis: Multiple Myeloma",
+        "singleturn_mcq": "MRI of the spine",
+        "singleturn_frq": "Do you have any difficulty in urination or noticed any changes in your bowel habits?",
+        "summarized_conversation": "A patient reports progressive fatigue and lower back pain that has been occurring for the past four months. The back pain intensified following a minor fall the previous day. The patient denies experiencing weight loss, fever, or night sweats. There is no personal or family history of osteoporosis or fractures reported. Additionally, the patient has not noted any unusual bruising or bleeding. There is no recent history of taking medications or undergoing medical treatments. No personal or family history of cancer has been mentioned. The patient has undergone some blood tests, which revealed a hemoglobin level of 10.5 g/dl, an alkaline phosphatase level of 110 U/L, and a serum calcium level of 11.1 mg/dl.",
+        "summarized_mcq": "MRI of the spine",
+        "summarized_frq": "Order imaging studies of the spine and perform serum and urine protein electrophoresis."
+    },
+    "trial_1": {
+        "vignette_mcq": "Serum protein electrophoresis",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing progressive fatigue and lower back pain for the past 4 months, and the pain in my back worsened significantly since yesterday after a minor fall. Additionally, for the past year, I've also felt like I'm not completely emptying my bladder after going to the bathroom."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 70-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about any personal or family history of cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any weight loss, night sweats, or fever recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced weight loss, night sweats, or fever recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent blood work or imaging studies done? If yes, what were the results?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my recent blood work showed that my hemoglobin is 10.5 g/dl, alkaline phosphatase is 110 U/L, and serum calcium is 11.1 mg/dl. Additionally, an x-ray of my skull was performed."
+            },
+            {
+                "role": "assistant",
+                "content": "What were the findings on your skull x-ray?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have the specific details about the findings on the skull x-ray."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any changes in your bowel or urinary habits aside from the sensation of incomplete bladder emptying?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no other changes in my bowel or urinary habits aside from the sensation of incomplete bladder emptying."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Myeloma"
+            }
+        ],
+        "multiturn_mcq": "Serum protein electrophoresis",
+        "multiturn_frq": "Final Diagnosis: Multiple Myeloma",
+        "singleturn_mcq": "MRI of the spine",
+        "singleturn_frq": "What is your age and gender?",
+        "summarized_conversation": "A 70-year-old man presents with progressive fatigue and lower back pain that has been worsening over the past 4 months. The back pain became significantly worse following a minor fall yesterday. Additionally, he has been experiencing a sensation of incomplete bladder emptying for the past year. He reports no personal or family history of cancer, and denies recent weight loss, night sweats, or fever. Recent blood work indicated a hemoglobin level of 10.5 g/dl, alkaline phosphatase at 110 U/L, and serum calcium at 11.1 mg/dl. An x-ray of the skull has been performed, though specific details of the findings are not available. There have been no changes in his bowel or urinary habits other than the sensation of incomplete bladder emptying.",
+        "summarized_mcq": "MRI of the spine",
+        "summarized_frq": "Perform a bone marrow biopsy."
+    },
+    "trial_2": {
+        "vignette_mcq": "Serum protein electrophoresis",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing progressive fatigue and lower back pain for the past 4 months, and the back pain has gotten much worse after a minor fall yesterday. Additionally, for the past year, I often feel like I haven't completely emptied my bladder after using the restroom."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 70-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any chronic illnesses or have been previously diagnosed with any medical condition?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific chronic illnesses or previous medical diagnoses."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned any changes in my appetite or weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you or anyone in your family had any history of cancer?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any numbness, tingling, or weakness in your legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, my neurologic examination showed no abnormalities."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent blood tests or imaging studies done? If yes, what were the results?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had some blood tests done. My hemoglobin is 10.5 g/dl, alkaline phosphatase is 110 U/L, and serum calcium is 11.1 mg/dl. An x-ray of my skull was also taken."
+            },
+            {
+                "role": "assistant",
+                "content": "What did the x-ray of your skull show?"
+            },
+            {
+                "role": "user",
+                "content": "I am unable to interpret the x-ray results myself. You would need to ask a physician for specific details about the findings."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Myeloma."
+            }
+        ],
+        "multiturn_mcq": "Serum protein electrophoresis",
+        "multiturn_frq": "Final Diagnosis: Multiple Myeloma",
+        "singleturn_mcq": "MRI of the spine",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A 70-year-old man has been suffering from progressive fatigue and worsening lower back pain for the past four months, which intensified after a minor fall the previous day. Additionally, for the past year, he frequently experiences a feeling of incomplete bladder emptying after using the restroom. He has not disclosed any chronic illnesses or previous medical conditions. There has been no mention of changes in appetite or weight, nor any family history of cancer. His recent neurologic examination showed no abnormalities. The patient has undergone some blood tests which revealed a hemoglobin level of 10.5 g/dl, alkaline phosphatase at 110 U/L, and serum calcium at 11.1 mg/dl. An x-ray of his skull was also performed, the results of which he is unable to interpret himself and would require a physician's input for specific details.",
+        "summarized_mcq": "Serum protein electrophoresis",
+        "summarized_frq": "Order a serum protein electrophoresis and skeletal survey."
+    },
+    "trial_3": {
+        "vignette_mcq": "Serum protein electrophoresis",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing progressive fatigue and lower back pain for the past 4 months, and recently it got worse after a minor fall. I also feel like I can't completely empty my bladder after using the bathroom."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 70-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had similar symptoms in the past, or do you have any other chronic medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar symptoms in the past, and there is no mention of chronic medical conditions in my case."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently, or experienced any fevers or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no changes in my weight, fevers, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or bone diseases?"
+            },
+            {
+                "role": "user",
+                "content": "There is no mention of a family history of cancer or bone diseases in my case."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you undergone any diagnostic tests recently, such as blood tests or imaging?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had blood tests and an x-ray of my skull recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Did the results from the blood tests or x-ray reveal any abnormalities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my hemoglobin level is low at 10.5 g/dl, my serum calcium is high at 11.1 mg/dl, and my alkaline phosphatase is 110 U/L."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Myeloma."
+            }
+        ],
+        "multiturn_mcq": "Serum protein electrophoresis",
+        "multiturn_frq": "Final Diagnosis: Multiple Myeloma",
+        "singleturn_mcq": "MRI of the spine",
+        "singleturn_frq": "Imaging of the spine, such as an MRI.",
+        "summarized_conversation": "A 70-year-old man has been suffering from progressive fatigue and lower back pain for the last four months. His symptoms worsened following a minor fall. He also reports an inability to completely empty his bladder after using the bathroom. He has not experienced similar symptoms in the past and does not have any chronic medical conditions. Additionally, there have been no changes in his weight, nor has he experienced fevers or night sweats. There is no family history of cancer or bone diseases. Recently, he underwent blood tests and an x-ray of his skull. The results revealed a low hemoglobin level at 10.5 g/dl, high serum calcium at 11.1 mg/dl, and an alkaline phosphatase level of 110 U/L.",
+        "summarized_mcq": "Serum protein electrophoresis",
+        "summarized_frq": "Bone marrow biopsy"
+    },
+    "trial_4": {
+        "vignette_mcq": "Serum protein electrophoresis",
+        "vignette_frq": "Bone marrow biopsy.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive fatigue and lower back pain for the past 4 months, and the back pain got significantly worse after a minor fall yesterday."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently, either gain or loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as frequent infections, bruising, or unexplained bleeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced frequent infections, bruising, or unexplained bleeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of cancer in your family?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about a family history of cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you tell me about your age and gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 70-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any numbness, tingling, or weakness in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, my neurologic examination showed no abnormalities."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any imaging studies, like an X-ray or MRI, done for your back pain?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, an x-ray of my skull has been done."
+            },
+            {
+                "role": "assistant",
+                "content": "What did the x-ray of your skull reveal?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not describe the specific findings of the x-ray of my skull."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had blood tests done recently, and if so, what were the findings?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, recent blood tests showed that my hemoglobin is 10.5 g/dl, alkaline phosphatase is 110 U/L, and serum calcium is 11.1 mg/dl."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Multiple Myeloma"
+            }
+        ],
+        "multiturn_mcq": "Serum protein electrophoresis",
+        "multiturn_frq": "**Final Diagnosis:** Multiple Myeloma.",
+        "singleturn_mcq": "MRI of the spine",
+        "singleturn_frq": "What is your age and gender?",
+        "summarized_conversation": "A 70-year-old man has been experiencing progressive fatigue and lower back pain for the past four months, with the back pain significantly worsening after a minor fall the previous day. He reports no recent changes in weight, nor has he experienced frequent infections, bruising, or unexplained bleeding. There is no provided information regarding a family history of cancer. His neurologic examination showed no abnormalities. An x-ray of his skull has been conducted, though specific findings from this x-ray are not described. Recent blood tests revealed that his hemoglobin is 10.5 g/dl, alkaline phosphatase is 110 U/L, and serum calcium is 11.1 mg/dl.",
+        "summarized_mcq": "Serum protein electrophoresis",
+        "summarized_frq": "Bone marrow biopsy"
+    }
+}

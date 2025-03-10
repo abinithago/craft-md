@@ -1,0 +1,317 @@
+{
+    "case_vignette": "A 36-year-old woman, gravida 1, para 1, has back pain and numbness in her lower extremities after an emergency cesarean delivery of a healthy 3856-g (8-lb, 8-oz) newborn male! She had a placental abruption and lost approximately 2000 ml of blood! During the procedure, she received two units of packed red blood cells and intravenous fluids! She has no history of serious illness and takes no medications! She is sexually active with one male partner, and they use condoms inconsistently! She is alert and oriented to person, place, and time! Her temperature is 37!2\u00b0C (98!9\u00b0F), pulse is 90/min, respirations are 15/min, and blood pressure is 94/58 mm Hg! Examination shows decreased sensation to temperature and pinprick below her waist and 0/5 muscle strength in her lower extremities! She feels the vibrations of a tuning fork placed on both of her great toes! Deep tendon reflexes are absent in the lower extremities and 2+ in the upper extremities! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Anterior spinal artery syndrome",
+        "vignette_frq": "Spinal cord infarction",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have back pain and numbness in my lower extremities."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms started after my emergency cesarean delivery."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in bladder or bowel control since your symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in bladder or bowel control."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous history of neurological conditions or surgeries involving the spine?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of serious illness and have not had any surgeries involving the spine."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your gait or difficulty walking since the onset of your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have difficulty walking due to the numbness and lack of muscle strength in my lower extremities."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cauda Equina Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Anterior spinal artery syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Cauda Equina Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Anterior spinal artery syndrome.",
+        "singleturn_frq": "Final Diagnosis: Lumbar spinal stenosis.",
+        "summarized_conversation": "A patient reports experiencing back pain and numbness in the lower extremities. These symptoms began following an emergency cesarean delivery. The patient notes that there have been no changes in bladder or bowel control. The patient does not have a history of serious illness nor any previous surgeries involving the spine. Difficulty walking due to numbness and lack of muscle strength in the lower extremities is also reported by the patient.",
+        "summarized_mcq": "Anterior spinal artery syndrome",
+        "summarized_frq": null
+    },
+    "trial_1": {
+        "vignette_mcq": "Anterior spinal artery syndrome",
+        "vignette_frq": "Spinal cord infarction.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have back pain and numbness in my lower extremities."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms since my emergency cesarean delivery."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you have any complications or injuries during or after your cesarean delivery?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a placental abruption and lost about 2000 ml of blood during the delivery."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bladder or bowel control since your symptoms began?"
+            },
+            {
+                "role": "user",
+                "content": "The information about changes in bladder or bowel control is not mentioned in my case, so I do not have an answer for that."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any imaging tests like MRI performed after your symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any imaging tests like an MRI performed since my symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any weakness in your legs or difficulty walking since these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have experienced complete weakness in my lower extremities and cannot walk."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cauda Equina Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Anterior spinal artery syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Spinal cord injury",
+        "singleturn_mcq": "Final Diagnosis: Anterior spinal artery syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Lumbar spinal stenosis",
+        "summarized_conversation": "A patient reports suffering from back pain and numbness in the lower extremities, symptoms that started following an emergency cesarean delivery. During the delivery, the patient had a placental abruption and lost about 2000 ml of blood. There is no mention of changes in bladder or bowel control in this particular case. The patient has not undergone any imaging tests such as MRI since the onset of these symptoms. Additionally, the patient experiences complete weakness in the lower extremities and is unable to walk.",
+        "summarized_mcq": "Anterior spinal artery syndrome",
+        "summarized_frq": null
+    },
+    "trial_2": {
+        "vignette_mcq": "Anterior spinal artery syndrome",
+        "vignette_frq": "Spinal cord infarction",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have back pain and numbness in my lower extremities."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms since my emergency cesarean delivery."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you have any complications or specific issues during or after your cesarean delivery?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a placental abruption and lost about 2000 ml of blood during the procedure."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any treatments or interventions since your cesarean delivery for these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I received two units of packed red blood cells and intravenous fluids during the procedure."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of serious illness and I take no medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cauda Equina Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Anterior spinal artery syndrome",
+        "multiturn_frq": "Final Diagnosis: Spinal Epidural Hematoma",
+        "singleturn_mcq": "Anterior spinal artery syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Lumbar spinal stenosis.",
+        "summarized_conversation": "A patient presents with back pain and numbness in the lower extremities which began after an emergency cesarean delivery. The patient experienced a placental abruption during the delivery and lost approximately 2000 ml of blood. During the procedure, the patient was administered two units of packed red blood cells and intravenous fluids. The patient has no history of serious illness and is not on any medications.",
+        "summarized_mcq": "Anterior spinal artery syndrome",
+        "summarized_frq": "Spinal epidural hematoma"
+    },
+    "trial_3": {
+        "vignette_mcq": "Anterior spinal artery syndrome",
+        "vignette_frq": "Spinal cord infarction",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have back pain and numbness in my lower extremities."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms start?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms started after my emergency cesarean delivery."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any issues with bladder or bowel control since your symptoms began?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any issues with bladder or bowel control."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or were there any complications during your cesarean delivery?"
+            },
+            {
+                "role": "user",
+                "content": "I had a placental abruption during my cesarean delivery and lost about 2000 ml of blood. I have no history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you feeling any weakness in your legs along with the numbness?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have complete weakness in my lower extremities."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cauda Equina Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Anterior spinal artery syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Spinal epidural hematoma",
+        "singleturn_mcq": "Final Diagnosis: Anterior spinal artery syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Lumbar spinal stenosis",
+        "summarized_conversation": "A patient reports experiencing back pain and numbness in the lower extremities. These symptoms began following an emergency cesarean delivery. The patient denies any issues with bladder or bowel control. During the cesarean delivery, the patient experienced a placental abruption and lost approximately 2000 ml of blood. There is no history of serious illness reported by the patient. The patient also notes complete weakness in the lower extremities.",
+        "summarized_mcq": "Anterior spinal artery syndrome",
+        "summarized_frq": "Spinal cord infarction."
+    },
+    "trial_4": {
+        "vignette_mcq": "Anterior spinal artery syndrome",
+        "vignette_frq": "Spinal cord infarction",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have back pain and numbness in my lower extremities."
+            },
+            {
+                "role": "assistant",
+                "content": "Did the pain and numbness start suddenly or gradually?"
+            },
+            {
+                "role": "user",
+                "content": "The pain and numbness started after my emergency cesarean delivery."
+            },
+            {
+                "role": "assistant",
+                "content": "How long ago was your cesarean delivery?"
+            },
+            {
+                "role": "user",
+                "content": "The information about the exact duration since my cesarean delivery is not specified in my case details."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as difficulty urinating or loss of bowel control?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not mentioned experiencing difficulty urinating or loss of bowel control."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous surgeries or medical conditions affecting your spine or nervous system before your cesarean delivery?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of serious illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Cauda Equina Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Anterior spinal artery syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Cauda Equina Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Anterior spinal artery syndrome",
+        "singleturn_frq": "Final Diagnosis: Spinal stenosis",
+        "summarized_conversation": "A patient reports suffering from back pain and numbness in the lower extremities. These symptoms began after undergoing an emergency cesarean delivery. The specific duration since the cesarean delivery has not been provided in the patient's case details. The patient has not reported experiencing difficulty urinating or loss of bowel control. Additionally, the patient has no history of serious illness.",
+        "summarized_mcq": "Posterior spinal artery syndrome",
+        "summarized_frq": null
+    }
+}

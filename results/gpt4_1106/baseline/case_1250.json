@@ -1,0 +1,301 @@
+{
+    "case_vignette": "A 3-day-old female newborn delivered vaginally at 36 weeks to a 27-year-old woman has generalized convulsions lasting 3 minutes. Prior to the event, she was lethargic and had difficulty feeding. The infant has two healthy older siblings and the mother's immunizations are up-to-date. The infant appears icteric. The infant's weight and length are at the 5th percentile, and her head circumference is at the 99th percentile for gestational age. There are several purpura of the skin. Ocular examination shows posterior uveitis. Cranial ultrasonography shows ventricular dilatation, as well as hyperechoic foci within the cortex, basal ganglia, and periventricular region. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Congenital Toxoplasma gondii infection",
+        "vignette_frq": "Congenital toxoplasmosis.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing convulsions, feeling very lethargic, and having difficulty feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "The patient is a 3-day-old newborn."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the newborn have a fever or any signs of infection like irritability or rash?"
+            },
+            {
+                "role": "user",
+                "content": "The newborn has several purpura on the skin, which are like rash spots, but there's no mention of a fever or irritability."
+            },
+            {
+                "role": "assistant",
+                "content": "Was there any known infection or illness in the mother during pregnancy?"
+            },
+            {
+                "role": "user",
+                "content": "The mother's immunizations are up-to-date, and there is no mention of any infection or illness during the pregnancy."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the newborn have any blood relatives with a history of bleeding disorders or blood-related illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "The infant has two healthy older siblings, and there is no mention of any blood relatives with bleeding disorders or blood-related illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Sepsis with disseminated intravascular coagulation (DIC)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Congenital cytomegalovirus infection",
+        "multiturn_frq": "Final Diagnosis: Neonatal alloimmune thrombocytopenia",
+        "singleturn_mcq": "Congenital cytomegalovirus infection",
+        "singleturn_frq": "Final Diagnosis: Neonatal seizures",
+        "summarized_conversation": "A 3-day-old newborn patient has been experiencing convulsions, lethargy, and difficulty feeding. The newborn exhibits several purpura on the skin, although there is no mention of a fever or irritability. The mother's immunizations are up-to-date, and there has been no mention of any infection or illness during the pregnancy. The newborn has two healthy older siblings, and there is no mention of any bleeding disorders or blood-related illnesses among blood relatives.",
+        "summarized_mcq": "Congenital cytomegalovirus infection",
+        "summarized_frq": "Neonatal sepsis"
+    },
+    "trial_1": {
+        "vignette_mcq": "Congenital Toxoplasma gondii infection",
+        "vignette_frq": "Congenital toxoplasmosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I experienced generalized convulsions, have been feeling lethargic, and had difficulty feeding. Also, my skin looks yellowish."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 3-day-old newborn."
+            },
+            {
+                "role": "assistant",
+                "content": "Was there any difficulty or complications noted during pregnancy or at the time of your delivery?"
+            },
+            {
+                "role": "user",
+                "content": "I was delivered vaginally at 36 weeks, which is considered a bit early, as full term is typically around 40 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any tests or treatments since you started experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had a cranial ultrasonography which showed ventricular dilatation and some abnormal areas within the brain."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Intracranial Hemorrhage"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Congenital cytomegalovirus infection",
+        "multiturn_frq": "**Final Diagnosis:** Neonatal herpes simplex virus infection with central nervous system involvement.",
+        "singleturn_mcq": "Final Diagnosis: Congenital cytomegalovirus infection",
+        "singleturn_frq": "**Final Diagnosis:** Neonatal jaundice with possible hypoglycemia.",
+        "summarized_conversation": "A 3-day-old newborn is facing several health challenges including generalized convulsions, lethargy, difficulty feeding, and yellowish skin. The infant was delivered vaginally at 36 weeks, which is slightly premature as full term is usually around 40 weeks. A cranial ultrasonography on the infant revealed ventricular dilatation and some abnormal areas within the brain.",
+        "summarized_mcq": "Congenital cytomegalovirus infection",
+        "summarized_frq": "Neonatal infection or congenital infection such as cytomegalovirus or toxoplasmosis."
+    },
+    "trial_2": {
+        "vignette_mcq": "Congenital Toxoplasma gondii infection",
+        "vignette_frq": "Congenital toxoplasmosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having generalized convulsions, feeling very sleepy, and facing difficulty with feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "The patient is a 3-day-old newborn."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the baby have a fever, or any signs of infection like irritability or rash?"
+            },
+            {
+                "role": "user",
+                "content": "The baby has several purpura on the skin but no mention of fever or irritability."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the baby had any tests done, like a blood count or a lumbar puncture?"
+            },
+            {
+                "role": "user",
+                "content": "The case mentions a cranial ultrasonography but does not mention a blood count or a lumbar puncture."
+            },
+            {
+                "role": "assistant",
+                "content": "Was there any abnormality on the cranial ultrasonography?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the cranial ultrasonography showed ventricular dilatation and hyperechoic foci within the cortex, basal ganglia, and periventricular region."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the newborn have any known exposure to infections during pregnancy, specifically any viral infections?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette does not provide information on exposure to infections during pregnancy."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Herpes Simplex Virus Encephalitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Congenital cytomegalovirus infection",
+        "multiturn_frq": "Final Diagnosis: Neonatal Herpes Simplex Virus Encephalitis",
+        "singleturn_mcq": "Final Diagnosis: Congenital cytomegalovirus infection",
+        "singleturn_frq": "**Final Diagnosis:** Neonatal seizures",
+        "summarized_conversation": "A 3-day-old newborn patient has been experiencing generalized convulsions, increased sleepiness, and difficulty with feeding. The baby presents with several purpura on the skin, although there is no presence of fever or irritability reported. A cranial ultrasonography was performed, revealing ventricular dilatation and hyperechoic foci in the cortex, basal ganglia, and periventricular region. However, a blood count or lumbar puncture has not been conducted. There is no information provided about possible exposure to infections during pregnancy in this case.",
+        "summarized_mcq": "Congenital cytomegalovirus infection.",
+        "summarized_frq": "Neonatal herpes simplex virus (HSV) infection"
+    },
+    "trial_3": {
+        "vignette_mcq": "Congenital Toxoplasma gondii infection",
+        "vignette_frq": "Congenital toxoplasmosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having generalized convulsions, feeling lethargic, and having difficulty feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "The patient is a 3-day-old newborn."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the newborn experienced any symptoms like jaundice, or have you noticed any changes in the color of their skin or eyes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the newborn appears icteric, which means her skin and eyes have turned yellow."
+            },
+            {
+                "role": "assistant",
+                "content": "Were there any complications during pregnancy or delivery reported?"
+            },
+            {
+                "role": "user",
+                "content": "No complications during pregnancy or delivery were reported."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the newborn have any family history of liver diseases or genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The infant has two healthy older siblings and there is no indication of a family history of liver diseases or genetic disorders mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal jaundice"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Congenital cytomegalovirus infection",
+        "multiturn_frq": "**Final Diagnosis:** Neonatal jaundice due to ABO incompatibility",
+        "singleturn_mcq": "Final Diagnosis: Congenital cytomegalovirus infection",
+        "singleturn_frq": "**Final Diagnosis:** Neonatal seizures",
+        "summarized_conversation": "The patient is a 3-day-old newborn experiencing generalized convulsions, lethargy, and difficulty feeding. The newborn appears icteric, signified by yellowing of the skin and eyes. There were no complications reported during pregnancy or delivery. The infant has two healthy older siblings, and there is no reported family history of liver diseases or genetic disorders.",
+        "summarized_mcq": "Congenital cytomegalovirus infection",
+        "summarized_frq": "Neonatal jaundice with potential kernicterus."
+    },
+    "trial_4": {
+        "vignette_mcq": "Congenital Toxoplasma gondii infection.",
+        "vignette_frq": "Congenital toxoplasmosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been feeling very lethargic and have had difficulty feeding. Also, I recently experienced convulsions lasting for about 3 minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 3-day-old newborn."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your mother had any health issues during pregnancy or at birth, like infections or diabetes?"
+            },
+            {
+                "role": "user",
+                "content": "No, my mother's immunizations are up-to-date, and there were no health issues during pregnancy or at birth mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any issues like jaundice or unusual color changes in your skin or eyes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I appear icteric, which is a yellowing of my skin and eyes."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Jaundice"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Congenital cytomegalovirus infection.",
+        "multiturn_frq": "**Final Diagnosis:** Neonatal jaundice with possible kernicterus.",
+        "singleturn_mcq": "Congenital cytomegalovirus infection",
+        "singleturn_frq": "Final Diagnosis: Neonatal seizures",
+        "summarized_conversation": "A 3-day-old newborn presents with several health concerns, including lethargy, difficulties with feeding, and a recent episode of convulsions lasting about 3 minutes. The newborn appears icteric, displaying a yellowing of the skin and eyes. The mother's immunizations are up-to-date, and no health issues were reported during pregnancy or at birth.",
+        "summarized_mcq": "Congenital cytomegalovirus infection",
+        "summarized_frq": "Neonatal jaundice with kernicterus"
+    }
+}

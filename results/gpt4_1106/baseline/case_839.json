@@ -1,0 +1,365 @@
+{
+    "case_vignette": "A 6-year-old boy is brought to the emergency department with a mild fever for the past week. He has also had generalized weakness and fatigue for the past month. He has been complaining of diffuse pain in his legs and arms. He has a history of Down syndrome with surgical repair of a congenital atrial septal defect as an infant. His temperature is 38.0\u00b0 C (100.4\u00b0 F), pulse is 85/min, respirations are 16/min, and blood pressure is 90/60 mm Hg. He has enlarged cervical lymph nodes bilaterally that are nontender to palpation. He is uncooperative for the rest of the examination. Laboratory studies show:\nHemoglobin 10.2 g/dL\nHematocrit 30.0%\nLeukocyte count 50,000/mm3\nPlatelet count 20,000/mm3\nSerum\nSodium 136 mEq/L\nPotassium 4.7 mEq/L\nChloride 102 mEq/L\nBicarbonate 25 mEq/L\nUrea nitrogen 18 mg/dL\nCreatinine 1.1 mg/dL\nTotal bilirubin 0.9 mg/dL\nAST 30 U/L\nALT 46 U/L\n",
+    "question": "Which  is most likely to confirm the diagnosis?\"",
+    "trial_0": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a mild fever for the past week, generalized weakness and fatigue for the past month, and diffuse pain in my arms and legs."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently, or any night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my weight or experienced any night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recurrent infections or noticed any unusual bruising or bleeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had recurrent infections, unusual bruising, or bleeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history of chronic illness, or is there any family history of blood disorders or cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I have Down syndrome and had surgery as an infant to repair a congenital heart defect, but no family history of blood disorders or cancers has been mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent blood tests, and if so, were there any abnormalities noted, particularly in your white blood cells, platelets, or hemoglobin levels?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my recent blood tests showed abnormalities: I have a high white blood cell count, low platelets, and low hemoglobin levels."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute myeloid leukemia (AML)"
+            }
+        ],
+        "multiturn_mcq": "Bone marrow biopsy",
+        "multiturn_frq": "Final Diagnosis: Acute Lymphoblastic Leukemia",
+        "singleturn_mcq": "Peripheral blood smear",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "The patient has been experiencing a mild fever for the past week, generalized weakness and fatigue for the past month, and diffuse pain in the arms and legs. The patient reports no changes in weight or night sweats. Additionally, the patient has not experienced recurrent infections, unusual bruising, or bleeding. The patient has Down syndrome and underwent surgery in infancy to repair a congenital heart defect but reports no family history of blood disorders or cancers. Recent blood tests indicated abnormalities, including a high white blood cell count, low platelets, and low hemoglobin levels.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Bone marrow biopsy."
+    },
+    "trial_1": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a mild fever for the past week, generalized weakness and fatigue for the past month, and I have diffuse pain in my legs and arms."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 6-year-old boy."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any bruising or bleeding that's unusual, like nosebleeds or bleeding gums?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any unusual bruising or bleeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling, hardness, or pain in your bones, particularly in the ribs, spine, or pelvis?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any swelling, hardness, or pain in those areas."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any unexplained weight loss or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any unexplained weight loss or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of infections, particularly frequent or severe infections, in the past few months?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had frequent or severe infections in the past few months."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with a blood-related or oncological condition?"
+            },
+            {
+                "role": "user",
+                "content": "I don\u2019t have any information about my family history regarding similar symptoms or blood-related conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Given your age, symptoms, and no evident family history, have you had any recent blood tests, and if so, what were the results? Especially concerning blood cell counts or abnormalities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had recent blood tests, and the results showed that I have a high leukocyte (white blood cell) count and a low platelet count."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute Lymphoblastic Leukemia (ALL)"
+            }
+        ],
+        "multiturn_mcq": "Bone marrow biopsy",
+        "multiturn_frq": "Final Diagnosis: Acute Lymphoblastic Leukemia (ALL)",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A 6-year-old boy has been reporting a mild fever for the past week, and generalized weakness and fatigue lasting for a month. Additionally, he describes having diffuse pain in his legs and arms. He has not noticed any unusual bruising or bleeding and denies any swelling, hardness, or pain in specific areas. The boy also has not experienced any unexplained weight loss or night sweats and reports no history of frequent or severe infections in recent months. He lacks information about any family history concerning similar symptoms or blood-related conditions. Recent blood tests revealed a high leukocyte (white blood cell) count and a low platelet count in his results.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Acute lymphoblastic leukemia (ALL)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "Hello! I've been experiencing a mild fever for the past week, generalized weakness and fatigue for about a month, and diffuse pain in my legs and arms. Additionally, my neck glands feel swollen."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent unexplained weight loss or night sweats along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced unexplained weight loss or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of recurring infections or have you noticed any unusual bruising or bleeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have a history of recurring infections, but I do have unusually low levels of platelets."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been previously diagnosed with any hematological disorders or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been diagnosed with any hematological disorders or autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of hematological disorders, autoimmune diseases, or cancer?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have information on my family's medical history regarding hematological disorders, autoimmune diseases, or cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you undergone any tests or procedures recently to investigate your symptoms? If so, can you share those results?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently had some lab tests which showed a high white blood cell count and low platelet count."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Lymphocytic Leukemia (CLL)"
+            }
+        ],
+        "multiturn_mcq": "Bone marrow biopsy",
+        "multiturn_frq": "Final Diagnosis: Acute Lymphoblastic Leukemia (ALL)",
+        "singleturn_mcq": "Peripheral blood smear",
+        "singleturn_frq": "Final Diagnosis: Hodgkin's Lymphoma",
+        "summarized_conversation": "A patient has approached reporting a mild fever persisting over the past week. Additionally, the patient has been suffering from generalized weakness and fatigue for about a month and has diffuse pain in the arms and legs. The patient also mentions having swollen neck glands. There is no experience of unexplained weight loss or night sweats reported by the patient. Although there is no history of recurring infections, the patient has unusually low levels of platelets. There are no previous diagnoses related to hematological disorders or autoimmune diseases. The patient also lacks information regarding their family's medical history concerning hematological disorders, autoimmune diseases, or cancer. Recent lab tests revealed a high white blood cell count and a low platelet count in the patient.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Bone marrow biopsy"
+    },
+    "trial_3": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a mild fever for the past week and I've been feeling generally weak and tired for the past month. I also have pain in my legs and arms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling or bruises that appeared without any injury?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any swelling or bruises."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like night sweats, weight loss, or enlarged lymph nodes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have enlarged lymph nodes in my neck area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unintentional weight loss recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any unintentional weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar symptoms in the past, or any chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "I have Down syndrome and had surgery as an infant for a heart defect, but no history of these specific symptoms before."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of blood disorders or cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of blood disorders or cancers."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute Lymphoblastic Leukemia (ALL)"
+            }
+        ],
+        "multiturn_mcq": "Peripheral blood smear",
+        "multiturn_frq": "Final Diagnosis: Acute Lymphoblastic Leukemia",
+        "singleturn_mcq": "Peripheral blood smear",
+        "singleturn_frq": "Blood tests, including complete blood count, erythrocyte sedimentation rate, and tests for autoimmune markers.",
+        "summarized_conversation": "A patient has been experiencing a mild fever for the past week and has felt generally weak and tired for the past month. The patient also reports pain in their legs and arms but denies noticing any swelling or bruises. The patient has enlarged lymph nodes in the neck area but has not experienced any unintentional weight loss. The patient has Down syndrome and underwent surgery in infancy for a heart defect, but there is no history of these specific symptoms before. Additionally, the patient is not aware of any family history of blood disorders or cancers.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Lymphoma"
+    },
+    "trial_4": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a mild fever for the past week and I feel generally weak and tired, which has been ongoing for about a month. I'm also having pain in my legs and arms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your skin or bleeding tendencies, such as rashes or easy bruising?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my skin or any easy bruising."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swollen lymph nodes, particularly in your neck, armpits, or groin?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have swollen lymph nodes in my neck, but they aren't tender when touched."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any significant weight loss recently without trying?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any significant weight loss recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced night sweats along with your other symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or blood disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I don't have information about my family history of cancer or blood disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "What medications are you currently taking, if any?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not taking any medications currently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hodgkin's lymphoma"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Peripheral blood smear",
+        "multiturn_frq": "Final Diagnosis: Chronic Lymphocytic Leukemia",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "Please, how old are you and are you male or female?",
+        "summarized_conversation": "A patient has been suffering from a mild fever for the past week and reports feeling generally weak and tired for about a month. Additionally, the patient experiences pain in their legs and arms. The patient has not noticed any changes in their skin or any easy bruising. The patient mentions having swollen lymph nodes in their neck which are not tender to touch. The patient has not experienced any significant weight loss or night sweats recently. The patient is unaware of any family history of cancer or blood disorders and is not currently taking any medications.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Lymphoma"
+    }
+}

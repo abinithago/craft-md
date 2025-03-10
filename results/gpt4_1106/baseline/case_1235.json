@@ -1,0 +1,397 @@
+{
+    "case_vignette": "A 34-year-old man comes to the physician because of palpitations, shortness of breath, diarrhea, and abdominal cramps for 2 months. Physical examination shows cutaneous flushing of the face. Auscultation of the chest shows bilateral wheezing. A 24-hour urine collection shows increased 5-hydroxyindoleacetic acid (5-HIAA) concentration. A contrast-enhanced CT scan of the abdomen shows an intestinal tumor with extensive metastasis to the liver. A diagnosis of an inoperable disease is made and the patient is started on treatment with octreotide. Six weeks later, the patient's symptoms have improved except for his abdominal pain and frequent loose stools. The physician suggests enrolling the patient in a trial to test additional treatment with a new drug that has been shown to improve symptoms in other patients with the same condition. ",
+    "question": "The expected beneficial effect of this new drug is most likely caused by inhibition of which ?",
+    "trial_0": {
+        "vignette_mcq": "Tryptophan hydroxylase",
+        "vignette_frq": "Serotonin (5-hydroxytryptamine)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing abdominal pain and frequent loose stools."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in your stools or any changes in stool color?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any blood or changes in stool color."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any associated symptoms like fever, weight loss, or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have fever, weight loss, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever experienced similar symptoms in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced similar symptoms in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of gastrointestinal diseases such as inflammatory bowel disease or celiac disease?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any family history of gastrointestinal diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medication or have you recently taken antibiotics?"
+            },
+            {
+                "role": "user",
+                "content": "I am currently on treatment with octreotide."
+            },
+            {
+                "role": "assistant",
+                "content": "Given your current symptoms and treatment, do you have any underlying conditions such as a tumor or hormone-related issues?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have an intestinal tumor with extensive metastasis to the liver."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Carcinoid syndrome."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Carcinoid Syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Carcinoid syndrome",
+        "singleturn_mcq": "Vasoactive intestinal peptide",
+        "singleturn_frq": "Apologies for the confusion, but I need more information to help you accurately. \n\nHave you noticed any blood in your stools?",
+        "summarized_conversation": "A patient reports experiencing abdominal pain and frequent loose stools for approximately two months. The patient notes there has been no blood observed nor changes in stool color. Additionally, the patient denies having fever, weight loss, or night sweats and has not experienced similar symptoms in the past. There is no family history of gastrointestinal diseases. The patient is currently being treated with octreotide and has disclosed the presence of an intestinal tumor with extensive metastasis to the liver.",
+        "summarized_mcq": "Vasoactive intestinal peptide",
+        "summarized_frq": "The expected beneficial effect of octreotide is most likely caused by the inhibition of hormone secretion."
+    },
+    "trial_1": {
+        "vignette_mcq": "Tryptophan hydroxylase",
+        "vignette_frq": "Serotonin",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing abdominal pain and frequent loose stools."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in your stools or any changes in the color of your stools?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any blood or changes in the color of my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms like weight loss, fever, or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have weight loss, fever, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of gastrointestinal diseases or cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about my family history of gastrointestinal diseases or cancers."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any medication recently, or have you traveled somewhere new before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't taken any medication recently or traveled somewhere new before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any conditions related to the immune system or gastrointestinal system in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with any conditions related to the immune system or gastrointestinal system in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Irritable Bowel Syndrome (IBS)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Irritable Bowel Syndrome (IBS)",
+        "multiturn_frq": "Final Diagnosis: Irritable Bowel Syndrome (IBS)",
+        "singleturn_mcq": "Vasoactive intestinal peptide",
+        "singleturn_frq": "I'm sorry, but this directive is incorrect based on our current conversation. I'm still gathering information through questioning to arrive at a diagnosis. I will continue with the assessment.\n\nHave you noticed any blood in your stools?",
+        "summarized_conversation": "A patient reports experiencing abdominal pain and frequent loose stools for the past two months. The patient notes no presence of blood or changes in the color of the stools. Additionally, the patient has not reported weight loss, fever, or night sweats. The patient is uncertain about any family history of gastrointestinal diseases or cancers. There is no recent medication use or travel to new places prior to the onset of these symptoms. Also, the patient has not been diagnosed with any conditions related to the immune system or the gastrointestinal system in the past.",
+        "summarized_mcq": "Vasoactive intestinal peptide",
+        "summarized_frq": "Based on the symptoms provided, the patient may be experiencing Irritable Bowel Syndrome (IBS)."
+    },
+    "trial_2": {
+        "vignette_mcq": "Tryptophan hydroxylase",
+        "vignette_frq": "Serotonin",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing abdominal pain and frequent loose stools."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in your stools or weight loss during this period?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any blood in my stools or weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any accompanying symptoms like fever, joint pain, or skin rashes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have symptoms like fever, joint pain, or skin rashes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar symptoms in the past, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first occurrence of these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with an inoperable intestinal tumor with liver metastasis and I am currently taking octreotide."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Carcinoid syndrome."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Carcinoid syndrome",
+        "multiturn_frq": "Final Diagnosis: Carcinoid Syndrome",
+        "singleturn_mcq": "Vasoactive intestinal peptide",
+        "singleturn_frq": "Please ignore the previous message. How long have you been experiencing these symptoms?",
+        "summarized_conversation": "A patient has been experiencing abdominal pain and frequent loose stools for the past 2 months. The patient reports no blood noticed in the stools or weight loss. Additionally, there are no other symptoms such as fever, joint pain, or skin rashes. This is the first occurrence of these symptoms. The patient has a history of being diagnosed with an inoperable intestinal tumor with liver metastasis and is currently on octreotide treatment.",
+        "summarized_mcq": "Vasoactive intestinal peptide",
+        "summarized_frq": "Growth hormone release"
+    },
+    "trial_3": {
+        "vignette_mcq": "Tryptophan hydroxylase",
+        "vignette_frq": "Serotonin",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm currently experiencing abdominal pain and frequent loose stools."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in your stools or significant changes in the color?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any blood or significant changes in color in my stools."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent weight loss or fever along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent weight loss or fever."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of inflammatory bowel disease or any gastrointestinal diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any history of inflammatory bowel disease or other gastrointestinal diseases in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or did you start new medications before the symptoms began?"
+            },
+            {
+                "role": "user",
+                "content": "I am currently on treatment with octreotide."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any specific medical condition for which you are taking octreotide?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been diagnosed with an inoperable disease involving an intestinal tumor with extensive metastasis to the liver."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Carcinoid syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Carcinoid syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Carcinoid syndrome.",
+        "singleturn_mcq": "Vasoactive intestinal peptide",
+        "singleturn_frq": "I apologize for any confusion, but to accurately diagnose your condition, I need to continue asking some questions. Could you please share how long you've been experiencing these symptoms?",
+        "summarized_conversation": "A patient has been experiencing abdominal pain and frequent loose stools for two months. The patient notes that there has been no presence of blood or significant changes in the color of their stools. Additionally, the patient reports not having any recent weight loss or fever. There is no family history of inflammatory bowel disease or other gastrointestinal diseases. The patient is currently undergoing treatment with octreotide. The patient has been diagnosed with an inoperable disease involving an intestinal tumor with extensive metastasis to the liver.",
+        "summarized_mcq": "Vasoactive intestinal peptide",
+        "summarized_frq": "The expected beneficial effect of octreotide is most likely caused by inhibition of hormone secretion from the tumor."
+    },
+    "trial_4": {
+        "vignette_mcq": "Tryptophan hydroxylase",
+        "vignette_frq": "Serotonin",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm currently experiencing abdominal pain and frequent loose stools."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For about 2 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in your stools or significant changes in stool color?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any blood or significant changes in stool color."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as fever, weight loss, or fatigue?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have fever, weight loss, or fatigue."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had similar symptoms in the past, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first time I am experiencing these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of gastrointestinal diseases such as Crohn's disease, ulcerative colitis, or colon cancer?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any family history of gastrointestinal diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any new medications or changed your diet extensively in the period before the onset of your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't taken any new medications or changed my diet extensively before the onset of my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you traveled recently to a new location where you could have been exposed to different food and water sources?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not traveled recently to a new location."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Irritable Bowel Syndrome (IBS)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Irritable Bowel Syndrome (IBS)",
+        "multiturn_frq": "Final Diagnosis: Irritable Bowel Syndrome (IBS)",
+        "singleturn_mcq": "Vasoactive intestinal peptide",
+        "singleturn_frq": "Please describe the nature of your abdominal pain.",
+        "summarized_conversation": "A patient reports suffering from abdominal pain and frequent loose stools for the past two months. There has been no presence of blood or significant changes in stool color. The patient does not exhibit any symptoms of fever, weight loss, or fatigue. This is the first instance the patient has experienced these symptoms. There is no family history of gastrointestinal diseases. The patient has not taken any new medications or undergone substantial dietary changes before the symptoms appeared. Also, the patient has not traveled recently to any new locations.",
+        "summarized_mcq": "Vasoactive intestinal peptide",
+        "summarized_frq": "Inhibition of Cyclooxygenase (COX) enzymes."
+    }
+}

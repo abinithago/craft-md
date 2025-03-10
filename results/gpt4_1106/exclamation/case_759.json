@@ -1,0 +1,285 @@
+{
+    "case_vignette": "A 60-year-old man comes to the physician because of a 3-month history of a slowly enlarging painless ulcer on his lower lip! One year ago he had a painful rash near his upper lip that resolved completely with acyclovir therapy! He has a 10-year history of type 2 diabetes mellitus treated with metformin! He has worked in construction for the past 33 years! He has smoked one pack of cigarettes daily for 35 years! Examination shows a 0!5 x 0!5 cm nontender ulcer with everted edges on the midline of his lower lip! The erythematous ulcer bleeds upon palpation! He has numerous moles of varying sizes all over his body! There are no palpable cervical lymph nodes! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Squamous cell carcinoma",
+        "vignette_frq": "Squamous cell carcinoma of the lip",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless ulcer on my lower lip that has been slowly getting bigger over the past 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in color or bleeding from the ulcer?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the ulcer is red and it bleeds when touched."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of skin cancer in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any family history of skin cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to a lot of sun or used tanning beds frequently in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I have worked in construction for the past 33 years, which has involved a lot of sun exposure."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Squamous Cell Carcinoma of the Lip"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Squamous cell carcinoma",
+        "multiturn_frq": "**Final Diagnosis:** Squamous Cell Carcinoma of the Lip",
+        "singleturn_mcq": "Basal cell carcinoma",
+        "singleturn_frq": "Final Diagnosis: Squamous Cell Carcinoma",
+        "summarized_conversation": "A patient reports having a painless ulcer on their lower lip, which has been gradually enlarging over the last three months. The ulcer is described as red and reportedly bleeds upon contact. The patient has no family history of skin cancer. They have been working in construction for 33 years, which has involved significant sun exposure.",
+        "summarized_mcq": "Squamous cell carcinoma",
+        "summarized_frq": "Squamous cell carcinoma of the lip"
+    },
+    "trial_1": {
+        "vignette_mcq": "Squamous cell carcinoma",
+        "vignette_frq": "Squamous cell carcinoma of the lip",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless ulcer on my lower lip that's been slowly getting bigger over the last three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in color or bleeding from the ulcer?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the ulcer is red and it bleeds when touched."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of excessive sun exposure or use of tanning beds?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have worked in construction for the past 33 years which involved a lot of sun exposure."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of skin cancer or significant skin diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any history of skin cancer or significant skin diseases in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been previously diagnosed with any immune system disorders or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I have type 2 diabetes mellitus and I'm currently taking metformin for it."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Squamous Cell Carcinoma of the Lip"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Squamous cell carcinoma",
+        "multiturn_frq": "**Final Diagnosis:** Squamous cell carcinoma of the lip.",
+        "singleturn_mcq": "Final Diagnosis: Squamous cell carcinoma",
+        "singleturn_frq": "Final Diagnosis: Squamous cell carcinoma of the lip.",
+        "summarized_conversation": "A patient reports a painless ulcer on their lower lip that has been gradually enlarging over the past three months. The ulcer, which is red, is prone to bleeding when touched. The patient has a 33-year long history of working in construction with substantial sun exposure. There is no family history of skin cancer or significant skin diseases. Additionally, the patient has type 2 diabetes mellitus and is currently being treated with metformin.",
+        "summarized_mcq": "Squamous cell carcinoma",
+        "summarized_frq": "Squamous cell carcinoma of the lip."
+    },
+    "trial_2": {
+        "vignette_mcq": "Squamous cell carcinoma",
+        "vignette_frq": "Squamous cell carcinoma of the lip",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a slowly enlarging painless ulcer on my lower lip that has been present for about 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you observed any similar lesions anywhere else on your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't observed similar lesions anywhere else on my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of skin cancer in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of skin cancer in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the sensation or numbness around the area of the ulcer?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in sensation or numbness around the area of the ulcer."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had significant sun exposure or previous skin damage on the affected area?"
+            },
+            {
+                "role": "user",
+                "content": "I've worked in construction for many years, so I have had significant sun exposure."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Squamous cell carcinoma of the lip."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Squamous cell carcinoma.",
+        "multiturn_frq": "**Final Diagnosis:** Squamous Cell Carcinoma of the Lip",
+        "singleturn_mcq": "Final Diagnosis: Squamous cell carcinoma",
+        "singleturn_frq": "Final Diagnosis: Squamous Cell Carcinoma",
+        "summarized_conversation": "A patient reports a slowly enlarging painless ulcer on their lower lip, which has been present for approximately 3 months. The patient denies observing similar lesions elsewhere on their body. There is no reported personal or familial history of skin cancer. Additionally, the patient notes no changes in sensation or numbness around the area of the ulcer. The patient has worked in construction for many years, resulting in significant sun exposure.",
+        "summarized_mcq": "Squamous cell carcinoma",
+        "summarized_frq": "Squamous cell carcinoma of the lip."
+    },
+    "trial_3": {
+        "vignette_mcq": "Squamous cell carcinoma",
+        "vignette_frq": "Squamous cell carcinoma of the lip",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless ulcer on my lower lip that has been slowly getting bigger over the last three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in color or bleeding from the ulcer?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the ulcer is red and it bleeds when touched."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of excessive sun exposure or use of tobacco products?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have worked in construction for many years which involved being in the sun, and I have smoked a pack of cigarettes daily for 35 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous history of skin cancers or other significant medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I have type 2 diabetes which I manage with metformin, and I had a painful rash near my upper lip a year ago that cleared up with treatment, but no history of skin cancers."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Squamous Cell Carcinoma of the Lip"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Squamous cell carcinoma",
+        "multiturn_frq": "Final Diagnosis: Squamous Cell Carcinoma of the Lip",
+        "singleturn_mcq": "Final Diagnosis: Squamous cell carcinoma",
+        "singleturn_frq": "Final Diagnosis: Squamous Cell Carcinoma",
+        "summarized_conversation": "A patient reports having a painless ulcer on their lower lip which has been slowly enlarging over the past three months. The ulcer is described as red and it bleeds when touched. The patient has a long history of working in construction, involving significant exposure to the sun, and has smoked a pack of cigarettes daily for 35 years. They have type 2 diabetes which is managed with metformin. Additionally, about a year ago, the patient experienced a painful rash near the upper lip, which resolved with treatment, and there is no history of skin cancers in the patient's medical record.",
+        "summarized_mcq": "Squamous cell carcinoma",
+        "summarized_frq": "Squamous cell carcinoma of the lip."
+    },
+    "trial_4": {
+        "vignette_mcq": "Squamous cell carcinoma",
+        "vignette_frq": "Squamous cell carcinoma of the lip.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a painless ulcer on my lower lip that has been slowly getting bigger over the last three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any similar issues in the past or other skin problems?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a painful rash near my upper lip a year ago, but it completely resolved with medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any other symptoms associated with the ulcer, such as bleeding or numbness?"
+            },
+            {
+                "role": "user",
+                "content": "The ulcer bleeds when touched, but there is no numbness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of tobacco use or excessive sun exposure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have smoked one pack of cigarettes daily for 35 years, and I have worked in construction for the past 33 years, which involved significant sun exposure."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Squamous Cell Carcinoma of the Lip."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Squamous cell carcinoma",
+        "multiturn_frq": "Final Diagnosis: Squamous Cell Carcinoma of the Lip",
+        "singleturn_mcq": "Final Diagnosis: Squamous cell carcinoma",
+        "singleturn_frq": "**Final Diagnosis:** Squamous cell carcinoma of the lip.",
+        "summarized_conversation": "A patient reports having a painless ulcer on their lower lip, which has slowly increased in size over the past three months. Previously, a year ago, the patient had experienced a painful rash near their upper lip, which completely resolved with medication. The ulcer currently bleeds when touched; however, the patient experiences no numbness. The patient has been a smoker for 35 years, consuming one pack of cigarettes daily, and has been working in construction for 33 years, entailing significant sun exposure.",
+        "summarized_mcq": "Squamous cell carcinoma",
+        "summarized_frq": "Squamous cell carcinoma of the lip."
+    }
+}

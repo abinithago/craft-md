@@ -1,0 +1,373 @@
+{
+    "case_vignette": "A 14-year-old girl is brought to the physician for evaluation of her short stature. She was born at term, and her birth length was normal. She has not yet attained menarche. Her mother is 162 cm (5 ft 4 in) tall and her father is 177 cm (5 ft 10 in) tall. She is at the 3rd percentile for height and 40th percentile for weight. Vital signs are within normal limits. Breast and pubic hair development are Tanner stage 2. The remainder of the examination shows no abnormalities. ",
+    "question": "Which  is the most appropriate next step in diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "X-ray of the hand and wrist",
+        "vignette_frq": "Obtain a bone age radiograph.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am shorter than most people my age, and I haven't started menstruating yet."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 14 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of any hormonal or genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of a family history of hormonal or genetic disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any developmental delays or other health issues in childhood?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no developmental delays or other health issues in my childhood."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sense of smell?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my sense of smell."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Delayed Puberty"
+            }
+        ],
+        "multiturn_mcq": "Evaluation of sex hormone profile",
+        "multiturn_frq": "**Final Diagnosis:** Growth Hormone Deficiency",
+        "singleturn_mcq": "Measurement of serum thyroid-stimulating hormone concentration",
+        "singleturn_frq": "Final Diagnosis: Turner Syndrome",
+        "summarized_conversation": "A 14-year-old patient presents to the clinic with concerns about being shorter than most peers and not having started menstruation yet. The patient reports no family history of hormonal or genetic disorders. Additionally, there have been no developmental delays or other health issues noted in childhood. The patient has not observed any changes in the sense of smell.",
+        "summarized_mcq": "Evaluation of sex hormone profile",
+        "summarized_frq": "Assess growth hormone levels and perform a karyotype test."
+    },
+    "trial_1": {
+        "vignette_mcq": "X-ray of the hand and wrist",
+        "vignette_frq": "Obtain bone age radiograph.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm here because I'm shorter than expected for my age."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 14 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you male or female?"
+            },
+            {
+                "role": "user",
+                "content": "I am female."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any delays in the development of secondary sexual characteristics, like breast development or pubic hair?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my breast and pubic hair development are at Tanner stage 2, which indicates a delay."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of growth or developmental delays?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of any family history of growth or developmental delays."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been previously evaluated or treated for this condition? If so, what were the findings or treatments?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette does not provide any information about previous evaluations or treatments for my condition."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any issues with your sense of smell?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided on any issues with my sense of smell."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Delayed Puberty"
+            }
+        ],
+        "multiturn_mcq": "Measurement of serum thyroid-stimulating hormone concentration.",
+        "multiturn_frq": "Final Diagnosis: Kallmann Syndrome",
+        "singleturn_mcq": "X-ray of the hand and wrist",
+        "singleturn_frq": "Final Diagnosis: Growth Hormone Deficiency",
+        "summarized_conversation": "A 14-year-old female patient presents for evaluation due to being shorter than expected for her age. Her breast and pubic hair development are recorded to be at Tanner stage 2, indicative of a developmental delay. There is no family history of growth or developmental delays mentioned. No prior evaluations or treatments for her condition have been documented. Additionally, there are no reported issues with her sense of smell.",
+        "summarized_mcq": "X-ray of the hand and wrist",
+        "summarized_frq": "Order a bone age X-ray."
+    },
+    "trial_2": {
+        "vignette_mcq": "X-ray of the hand and wrist",
+        "vignette_frq": "Obtain bone age radiography.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "Hello! I am here because I am concerned about my short stature compared to others my age."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 14 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you a male or a female?"
+            },
+            {
+                "role": "user",
+                "content": "I am a female."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started puberty, and if so, at what age did it begin?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have started puberty, but I'm still in the early stages. My breast and pubic hair development are at Tanner stage 2."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of similar growth or developmental issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no similar growth or developmental issues in my family history. My mother and father are of average height."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any medications or have any other existing health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications and I do not have any other health conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Growth Hormone Deficiency."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Measurement of serum thyroid-stimulating hormone concentration",
+        "multiturn_frq": "**Final Diagnosis:** Constitutional Growth Delay",
+        "singleturn_mcq": "X-ray of the hand and wrist",
+        "singleturn_frq": "Final Diagnosis: Growth hormone deficiency",
+        "summarized_conversation": "A patient has come with concerns regarding her short stature in comparison to others her age. She is a 14-year-old female who has begun puberty, but is still in the early stages with breast and pubic hair development at Tanner stage 2. She informs that there are no similar growth or developmental issues in her family history, and both her parents are of average height. She is not on any medications and does not have any other health conditions.",
+        "summarized_mcq": "X-ray of the hand and wrist",
+        "summarized_frq": "Order a bone age X-ray."
+    },
+    "trial_3": {
+        "vignette_mcq": "X-ray of the hand and wrist",
+        "vignette_frq": "Obtain bone age radiograph.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I was brought in for evaluation due to my short stature."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 14 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you a male or a female?"
+            },
+            {
+                "role": "user",
+                "content": "I am a female."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of similar growth issues or any other hereditary conditions?"
+            },
+            {
+                "role": "user",
+                "content": "There's no mention of similar growth issues or any hereditary conditions in my family history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any issues with your sense of smell?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any issues with my sense of smell."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any other symptoms such as fatigue, frequent urination, increased hunger or thirst?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been experiencing any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "There is no mention of any existing medical conditions or medications that I am currently taking."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any blood tests or hormone assessments done recently? If yes, what were the results?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided about recent blood tests or hormone assessments."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any delays in developmental milestones or puberty compared to your peers?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have not yet attained menarche and my breast and pubic hair development are at Tanner stage 2, which indicates a delay compared to my peers."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Growth Hormone Deficiency"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Turner Syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Growth Hormone Deficiency",
+        "singleturn_mcq": "Measurement of serum thyroid-stimulating hormone concentration",
+        "singleturn_frq": "**Final Diagnosis:** Growth hormone deficiency",
+        "summarized_conversation": "A patient was brought in for evaluation due to her short stature. She is a 14-year-old female. There is no mention of similar growth issues or any hereditary conditions in her family history. She has not experienced any issues with her sense of smell. She also hasn't been experiencing any additional symptoms. There is no mention of any existing medical conditions or medications that she is currently taking. There is no information provided about recent blood tests or hormone assessments. She has not yet attained menarche and her breast and pubic hair development are at Tanner stage 2, indicating a delay compared to her peers.",
+        "summarized_mcq": "Measurement of serum thyroid-stimulating hormone concentration",
+        "summarized_frq": "Order a bone age X-ray and hormone levels, including LH, FSH, estrogen, and thyroid function tests."
+    },
+    "trial_4": {
+        "vignette_mcq": "X-ray of the hand and wrist",
+        "vignette_frq": "Bone age assessment",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Endocrinology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am here because I am shorter than most people my age."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 14 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any issues with your vision or headaches?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not experiencing any issues with my vision or headaches."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any delayed growth or puberty compared to your peers?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have not yet started menstruating and my breast and pubic hair development are delayed compared to my peers."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known medical conditions or have you taken any long-term medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any known medical conditions and I am not on any long-term medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your close family members have similar issues with growth or puberty?"
+            },
+            {
+                "role": "user",
+                "content": "No, my parents do not have similar issues; my mother is 5 feet 4 inches and my father is 5 feet 10 inches tall."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Growth Hormone Deficiency"
+            }
+        ],
+        "multiturn_mcq": "MRI of the brain",
+        "multiturn_frq": "**Final Diagnosis:** Growth Hormone Deficiency",
+        "singleturn_mcq": "X-ray of the hand and wrist",
+        "singleturn_frq": "Final Diagnosis: Growth Hormone Deficiency",
+        "summarized_conversation": "The patient, a 14-year-old individual, presents to the clinic with concerns about being shorter than most peers of the same age. The patient reports no issues with vision or headaches. Furthermore, the patient has not begun menstruating and shows delayed development in breast and pubic hair compared to peers. The patient has no known medical conditions and is not on any long-term medications. There are no similar developmental issues reported in the family, with the patient's mother standing at 5 feet 4 inches and the father at 5 feet 10 inches tall.",
+        "summarized_mcq": "Evaluation of sex hormone profile",
+        "summarized_frq": "Order a karyotype to evaluate for Turner syndrome."
+    }
+}

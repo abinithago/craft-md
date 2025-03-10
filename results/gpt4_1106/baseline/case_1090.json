@@ -1,0 +1,442 @@
+{
+    "case_vignette": "A 34-year-old woman comes to the physician because of recent fatigue and weakness that is exacerbated by cross-country skiing. Four weeks ago, she was diagnosed with pneumonia; sputum cultures on Eaton agar showed organisms that lacked a cell wall. Physical examination shows conjunctival pallor and cyanosis of the fingertips. Both lungs are clear to auscultation. ",
+    "question": "Which  findings is most likely to confirm the diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Erythrocytes coated with autoantibodies",
+        "vignette_frq": "Detection of cold agglutinins",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling really tired and weak, especially when I go cross-country skiing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about four weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like shortness of breath, chest pain, or swelling in your legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine after exercising?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in the color of my urine after exercising."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any ongoing health conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with pneumonia four weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you completed the course of treatment for pneumonia, and have you noticed any improvement in your symptoms since then?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've completed the treatment, but I haven't noticed any improvement in my fatigue and weakness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any fever, weight loss, or night sweats recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any fever, weight loss, or night sweats recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease, lung disease, or any other chronic illnesses in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any history of heart disease, lung disease, or other chronic illnesses in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-viral fatigue syndrome"
+            }
+        ],
+        "multiturn_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "multiturn_frq": "Final Diagnosis: Post-viral fatigue syndrome",
+        "singleturn_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "singleturn_frq": "Hemoglobin level",
+        "summarized_conversation": "A patient reports feeling extremely tired and weak, particularly while engaging in cross-country skiing. These symptoms have persisted for approximately four weeks. The patient denies any other concurrent symptoms such as changes in the color of their urine post-exercise. They were diagnosed with pneumonia four weeks ago and have completed the prescribed treatment, although they report no improvement in their fatigue and weakness. The patient also confirms the absence of fever, weight loss, or night sweats in the recent period. Additionally, they are not aware of any familial history of heart disease, lung disease, or other chronic illnesses.",
+        "summarized_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "summarized_frq": "Measurement of serum lactate dehydrogenase and haptoglobin levels, and a peripheral blood smear.",
+        "extracted_ans_vignette_frq": "none",
+        "extracted_ans_multiturn_frq": "post-viral fatigue syndrome",
+        "extracted_ans_singleturn_frq": "none",
+        "extracted_ans_summarized_frq": "none"
+    },
+    "trial_1": {
+        "vignette_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "vignette_frq": "Cold agglutinins",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been feeling very tired and weak, especially when I go cross-country skiing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I started feeling these symptoms about four weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like shortness of breath, chest pain, or heart palpitations?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have shortness of breath, chest pain, or heart palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any muscle pain or changes in the color of your urine?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced muscle pain or changes in the color of my urine."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Four weeks ago, I was diagnosed with pneumonia."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you completed any treatment for pneumonia, such as antibiotics? If yes, which antibiotics did you take?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was treated for pneumonia, but I'm not sure about the specific antibiotics used."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any symptoms like numbness or loss of sensation in your extremities, particularly after physical activity like skiing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed numbness or loss of sensation in my extremities."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent weight loss or change in appetite?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any recent weight loss or changes in appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of heart disease, autoimmune diseases, or other chronic conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of heart disease, autoimmune diseases, or other chronic conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Considering your symptoms and recent health history, I suspect the cause might involve your respiratory or hematologic system potentially related to recent illness. Do you currently or have you ever smoked?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have never smoked."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-viral fatigue syndrome"
+            }
+        ],
+        "multiturn_mcq": "Erythrocytes coated with autoantibodies",
+        "multiturn_frq": "Final Diagnosis: Post-viral fatigue syndrome",
+        "singleturn_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "singleturn_frq": "Hemoglobin level",
+        "summarized_conversation": "The patient reports feeling very tired and weak, particularly noticeable when engaging in cross-country skiing, with symptoms having started about four weeks ago. The patient denies experiencing shortness of breath, chest pain, or heart palpitations. There is no history of muscle pain or changes in urine color. The patient was diagnosed with pneumonia four weeks ago and received treatment, although the specific antibiotics used are unclear. The patient does not report numbness or loss of sensation in their extremities, nor any recent weight loss or changes in appetite. There is no known family history of heart disease, autoimmune diseases, or other chronic conditions, and the patient has never smoked.",
+        "summarized_mcq": "Erythrocytes coated with autoantibodies",
+        "summarized_frq": "Blood test to check for anemia.",
+        "extracted_ans_vignette_frq": "cold agglutinins",
+        "extracted_ans_multiturn_frq": "post-viral fatigue syndrome",
+        "extracted_ans_singleturn_frq": "none",
+        "extracted_ans_summarized_frq": "none"
+    },
+    "trial_2": {
+        "vignette_mcq": "Erythrocytes with basophilic granules",
+        "vignette_frq": "Cold agglutinins",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue and weakness, especially noticeable when I'm cross-country skiing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about four weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any palpitations, shortness of breath, or dizziness during your episodes of fatigue and weakness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any palpitations, shortness of breath, or dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with pneumonia four weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you completed the treatment for your pneumonia?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure if the treatment is completed, but I was diagnosed four weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent weight loss or fever along with your fatigue and weakness?"
+            },
+            {
+                "role": "user",
+                "content": "No, there has been no recent weight loss or fever."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar episodes in the past, or is this the first time?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first time I've experienced these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-viral fatigue syndrome."
+            }
+        ],
+        "multiturn_mcq": "Erythrocytes coated with autoantibodies",
+        "multiturn_frq": "Final Diagnosis: Post-viral fatigue syndrome",
+        "singleturn_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "singleturn_frq": "Hemoglobin level",
+        "summarized_conversation": "A patient has been experiencing fatigue and weakness for the past four weeks, which becomes notably evident during cross-country skiing. The patient has not observed any symptoms such as palpitations, shortness of breath, or dizziness. Four weeks ago, the patient was diagnosed with pneumonia and is unclear if the treatment has been completed since then. There have been no recent occurrences of weight loss or fever, and these symptoms of fatigue and weakness are new to the patient.",
+        "summarized_mcq": "Erythrocytes coated with autoantibodies",
+        "summarized_frq": "Post-viral syndrome following pneumonia.",
+        "extracted_ans_vignette_frq": "cold agglutinins",
+        "extracted_ans_multiturn_frq": "post-viral fatigue syndrome",
+        "extracted_ans_singleturn_frq": "none",
+        "extracted_ans_summarized_frq": "post-viral syndrome"
+    },
+    "trial_3": {
+        "vignette_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "vignette_frq": "Cold agglutinins",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue and weakness, especially when I'm cross-country skiing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling this way for about four weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience shortness of breath or chest pain during these activities?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not experience shortness of breath or chest pain during these activities."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your skin, such as turning blue, especially on your lips or fingers, during or after activities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have noticed that my fingertips turn blue."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart or lung diseases, either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any personal or family history of heart or lung diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had similar symptoms in the past during other activities or at rest?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar symptoms in the past during other activities or at rest."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections, surgeries, or trauma?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was diagnosed with pneumonia four weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hypoxemia"
+            }
+        ],
+        "multiturn_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "multiturn_frq": "**Final Diagnosis:** Pneumonia",
+        "singleturn_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "singleturn_frq": "Final Diagnosis: Chronic Fatigue Syndrome",
+        "summarized_conversation": "A patient has been experiencing fatigue and weakness, predominantly during cross-country skiing, for about four weeks. The patient does not report any shortness of breath or chest pain while engaging in these activities. However, they have observed that their fingertips turn blue. The patient does not have a personal or family history of heart or lung diseases, and they have not experienced similar symptoms previously during other activities or at rest. The patient was diagnosed with pneumonia four weeks ago.",
+        "summarized_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "summarized_frq": "Reduced oxygen saturation during exercise.",
+        "extracted_ans_vignette_frq": "cold agglutinins",
+        "extracted_ans_multiturn_frq": "pneumonia",
+        "extracted_ans_singleturn_frq": "chronic fatigue syndrome",
+        "extracted_ans_summarized_frq": "none"
+    },
+    "trial_4": {
+        "vignette_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "vignette_frq": "Cold agglutinin titers",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Infectious Diseases. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling really tired and weak recently, especially when I go cross-country skiing."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about four weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms, such as shortness of breath, chest pain, or palpitations?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced shortness of breath, chest pain, or palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with pneumonia about four weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you completed the treatment for pneumonia, and have you noticed any improvement in your symptoms since then?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've completed the treatment for pneumonia, but I haven't noticed any improvement in my fatigue and weakness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any heart or lung conditions in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about heart or lung conditions in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent weight loss, fevers, or night sweats along with your fatigue and weakness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any weight loss, fevers, or night sweats along with my fatigue and weakness."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-viral fatigue syndrome."
+            }
+        ],
+        "multiturn_mcq": "Erythrocytes coated with autoantibodies",
+        "multiturn_frq": "Final Diagnosis: Post-viral fatigue syndrome",
+        "singleturn_mcq": "Erythrocytes with denatured hemoglobin inclusions",
+        "singleturn_frq": "Hemoglobin level",
+        "summarized_conversation": "A patient reports feeling extremely tired and weak, particularly noticeable while cross-country skiing. These symptoms have been present for approximately four weeks. The patient does not experience shortness of breath, chest pain, or palpitations. A diagnosis of pneumonia was made about four weeks ago, and although the treatment for pneumonia has been completed, there has been no improvement in the patient's fatigue and weakness. The patient has no known family history of heart or lung conditions. Additionally, there has been no recent weight loss, fevers, or night sweats reported in conjunction with the fatigue and weakness.",
+        "summarized_mcq": "Erythrocytes coated with autoantibodies.",
+        "summarized_frq": "Post-viral fatigue syndrome.",
+        "extracted_ans_vignette_frq": "none",
+        "extracted_ans_multiturn_frq": "post-viral fatigue syndrome",
+        "extracted_ans_singleturn_frq": "none",
+        "extracted_ans_summarized_frq": "post-viral fatigue syndrome"
+    },
+    "correct_ans": "erythrocytes coated with autoantibodies"
+}

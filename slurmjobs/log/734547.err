@@ -1,0 +1,27 @@
+cpu-bind=MASK - latte, task  0  0 [1695217]: mask 0xf000f00000f001e set
+  0%|          | 0/250 [00:00<?, ?it/s]  0%|          | 1/250 [07:02<29:11:27, 422.04s/it]  1%|          | 2/250 [13:43<28:14:33, 409.97s/it]  2%|▏         | 4/250 [19:57<18:27:47, 270.19s/it]  2%|▏         | 5/250 [25:21<19:31:39, 286.94s/it]  2%|▏         | 6/250 [31:14<20:48:30, 307.01s/it]  3%|▎         | 7/250 [37:26<22:04:06, 326.94s/it]  3%|▎         | 8/250 [44:08<23:29:29, 349.46s/it]  3%|▎         | 8/250 [44:30<22:26:19, 333.80s/it]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 40, in <module>
+    execute_script(args)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 28, in execute_script
+    graderai_evaluation(case, dataset, path_dir, experiment_names)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/graderai_eval.py", line 31, in graderai_evaluation
+    res[f"trial_{i}"][f"evaluation_{exp}"], res[f"trial_{i}"][f"extracted_ans_{exp}"] = diagnosis_evaluation(correct_ans, clinical_llm_response)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 67, in diagnosis_evaluation
+    clinical_llm_ans = extract_diagnosis_name(clinical_llm_response).lower()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+  0%|          | 0/250 [00:00<?, ?it/s]  0%|          | 1/250 [06:31<27:03:58, 391.32s/it]  1%|          | 2/250 [12:16<25:05:09, 364.15s/it]  1%|          | 3/250 [18:08<24:36:55, 358.77s/it]  2%|▏         | 4/250 [24:13<24:39:56, 360.96s/it]  2%|▏         | 5/250 [31:14<26:03:35, 382.92s/it]  2%|▏         | 6/250 [37:47<26:10:08, 386.10s/it]  3%|▎         | 7/250 [44:22<26:15:26, 389.00s/it]  3%|▎         | 8/250 [50:13<25:20:16, 376.93s/it]  4%|▎         | 9/250 [54:27<22:39:34, 338.48s/it]  4%|▍         | 10/250 [58:30<20:36:28, 309.12s/it]  4%|▍         | 11/250 [1:02:34<19:11:19, 289.04s/it]  5%|▍         | 12/250 [1:06:46<18:21:53, 277.79s/it]  5%|▌         | 13/250 [1:10:48<17:34:50, 267.05s/it]  6%|▌         | 14/250 [1:15:26<17:42:51, 270.22s/it]  6%|▌         | 15/250 [1:19:44<17:24:32, 266.69s/it]  6%|▋         | 16/250 [1:23:58<17:05:09, 262.86s/it]  7%|▋         | 17/250 [1:27:49<16:23:02, 253.15s/it]  7%|▋         | 18/250 [1:32:00<16:16:34, 252.56s/it]  8%|▊         | 19/250 [1:36:38<16:41:26, 260.12s/it]  8%|▊         | 20/250 [1:40:56<16:35:28, 259.69s/it]  8%|▊         | 21/250 [1:45:42<17:01:15, 267.58s/it]  9%|▉         | 22/250 [1:50:02<16:47:29, 265.13s/it]  9%|▉         | 23/250 [1:54:04<16:17:39, 258.41s/it] 10%|▉         | 24/250 [1:58:07<15:56:00, 253.81s/it] 10%|█         | 25/250 [2:03:09<16:45:15, 268.07s/it] 10%|█         | 25/250 [2:04:21<18:39:14, 298.47s/it]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 40, in <module>
+    execute_script(args)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 28, in execute_script
+    graderai_evaluation(case, dataset, path_dir, experiment_names)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/graderai_eval.py", line 31, in graderai_evaluation
+    res[f"trial_{i}"][f"evaluation_{exp}"], res[f"trial_{i}"][f"extracted_ans_{exp}"] = diagnosis_evaluation(correct_ans, clinical_llm_response)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 67, in diagnosis_evaluation
+    clinical_llm_ans = extract_diagnosis_name(clinical_llm_response).lower()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'

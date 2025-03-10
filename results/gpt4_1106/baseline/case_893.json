@@ -1,0 +1,469 @@
+{
+    "case_vignette": "A 34-year-old woman comes to the physician because of a 3-month history of pain in her right thumb and wrist that radiates to her elbow. It is worse when she holds her infant son and improves with the use of an ice pack. Six months ago, she slipped on a wet floor and fell on her right outstretched hand. Her mother takes methotrexate for chronic joint pain. The patient takes ibuprofen as needed for her current symptoms. Examination of the right hand shows tenderness over the radial styloid with swelling but no redness. There is no crepitus. Grasping her right thumb and exerting longitudinal traction toward the ulnar side elicits pain. Range of motion of the finger joints is normal. There is no swelling, redness, or tenderness of any other joints. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "De Quervain tenosynovitis",
+        "vignette_frq": "De Quervain tenosynovitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my right thumb and wrist that also radiates to my elbow for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noted any stiffness or swelling in the affected areas?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there is swelling over my right wrist, particularly near the base of the thumb, but no stiffness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any numbness or tingling in your hand or fingers?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any numbness or tingling in my hand or fingers."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms in any other joints?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no swelling, redness, or tenderness in any other joints."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or engage in activities that might strain your wrist and thumb?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I slipped on a wet floor and fell on my right outstretched hand about six months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any medications or received any treatments for your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been taking ibuprofen as needed for the pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: De Quervain's Tenosynovitis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: De Quervain tenosynovitis",
+        "multiturn_frq": "**Final Diagnosis:** De Quervain's tenosynovitis",
+        "singleturn_mcq": "De Quervain tenosynovitis",
+        "singleturn_frq": "Final Diagnosis: Carpal Tunnel Syndrome",
+        "summarized_conversation": "The patient has been experiencing pain in their right thumb and wrist, which also radiates to the elbow, for the past three months. They report swelling over the right wrist, particularly near the base of the thumb, but no stiffness. The patient denies any numbness or tingling in the hand or fingers. There is no swelling, redness, or tenderness in any other joints. The patient recalls slipping on a wet floor and falling onto their right outstretched hand about six months ago. They have been taking ibuprofen as needed to manage the pain.",
+        "summarized_mcq": "De Quervain tenosynovitis",
+        "summarized_frq": "De Quervain's tenosynovitis"
+    },
+    "trial_1": {
+        "vignette_mcq": "De Quervain tenosynovitis",
+        "vignette_frq": "De Quervain tenosynovitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my right thumb and wrist that also spreads up to my elbow."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the affected areas?"
+            },
+            {
+                "role": "user",
+                "content": "There's swelling over the area near my thumb, but there's no redness or warmth."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty performing movements with your thumb or wrist, such as gripping objects or twisting motions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I experience pain when I grasp my right thumb and try to move it toward the side of my little finger."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of injury to your thumb or wrist?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, six months ago I slipped on a wet floor and fell on my right outstretched hand."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you received any treatment or consulted a healthcare provider since the injury occurred?"
+            },
+            {
+                "role": "user",
+                "content": "I've been taking ibuprofen as needed for the pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any improvement or worsening of the symptoms since the injury occurred?"
+            },
+            {
+                "role": "user",
+                "content": "The pain is worse when I hold my infant son but improves with the use of an ice pack."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: De Quervain's Tenosynovitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** De Quervain tenosynovitis",
+        "multiturn_frq": "**Final Diagnosis:** De Quervain's Tenosynovitis",
+        "singleturn_mcq": "Final Diagnosis: De Quervain tenosynovitis",
+        "singleturn_frq": "**Final Diagnosis:** Carpal Tunnel Syndrome",
+        "summarized_conversation": "A patient reports persistent pain in the right thumb, wrist, and extending up to the elbow for approximately three months. Additionally, swelling is noted near the thumb area, though there is no redness or heat. The pain exacerbates when the patient attempts to move the thumb towards the side of the little finger. Six months ago, the patient had experienced an accident where they slipped on a wet floor and landed on an outstretched right hand. For pain management, the patient uses ibuprofen as needed. The symptoms particularly intensify while holding the patient's infant son but show improvement with the application of an ice pack.",
+        "summarized_mcq": "De Quervain tenosynovitis",
+        "summarized_frq": "De Quervain's tenosynovitis"
+    },
+    "trial_2": {
+        "vignette_mcq": "De Quervain tenosynovitis",
+        "vignette_frq": "De Quervain tenosynovitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing pain in my right thumb and wrist that spreads to my elbow."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been dealing with these symptoms for about 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness or warmth in the affected joints?"
+            },
+            {
+                "role": "user",
+                "content": "There is swelling over the radial styloid, but there is no redness or warmth."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty moving your wrist or does it feel stiff, especially in the mornings?"
+            },
+            {
+                "role": "user",
+                "content": "My range of motion is normal, and I don't experience stiffness in the mornings."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries to your hand or wrist?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, six months ago, I slipped on a wet floor and fell on my right outstretched hand."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you perform any repetitive activities with your hands or wrists, like typing or playing an instrument?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not perform any repetitive activities with my hands or wrists."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: De Quervain's Tenosynovitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** De Quervain tenosynovitis",
+        "multiturn_frq": "**Final Diagnosis:** De Quervain's Tenosynovitis",
+        "singleturn_mcq": "Final Diagnosis: De Quervain tenosynovitis",
+        "singleturn_frq": "**Final Diagnosis:** Rheumatoid Arthritis",
+        "summarized_conversation": "A patient reports pain in their right thumb and wrist that extends to their elbow, which has been persisting for approximately 3 months. There is noticeable swelling over the radial styloid, albeit without redness or warmth. The patient's range of motion remains normal, and they do not experience morning stiffness. Six months prior, the patient had an incident where they slipped on a wet floor and fell onto their right outstretched hand. The patient confirms not engaging in any repetitive activities that might strain the hands or wrists.",
+        "summarized_mcq": "De Quervain tenosynovitis",
+        "summarized_frq": "De Quervain's tenosynovitis"
+    },
+    "trial_3": {
+        "vignette_mcq": "De Quervain tenosynovitis",
+        "vignette_frq": "De Quervain tenosynovitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having pain in my right thumb and wrist that sometimes radiates up to my elbow for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you, and are you male or female?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 34-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth around your thumb and wrist?"
+            },
+            {
+                "role": "user",
+                "content": "There is swelling over the radial side of my wrist, but no redness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any similar symptoms in other joints of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no symptoms in any other joints."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you perform any repetitive activities with your hands such as typing or playing musical instruments?"
+            },
+            {
+                "role": "user",
+                "content": "You didn't provide that information, so I can't say whether I perform any repetitive activities with my hands."
+            },
+            {
+                "role": "assistant",
+                "content": "Apologies for that oversight. Do you engage in repetitive hand or wrist movements in your daily activities or occupation?"
+            },
+            {
+                "role": "user",
+                "content": "You didn't provide any specific information about my daily activities or occupation, so I can't answer if I engage in repetitive hand or wrist movements."
+            },
+            {
+                "role": "assistant",
+                "content": "My apologies for the confusion. Could you please tell me about your daily activities or occupation which might involve repetitive movements of your hands or wrists?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there's no information provided about my daily activities or occupation in the details you have."
+            },
+            {
+                "role": "assistant",
+                "content": "I apologize for the confusion. Are you involved in any profession or hobby that requires repetitive motion of your wrist or hand?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information provided about my profession or hobbies involving repetitive motion of my wrist or hand."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your job or any of your hobbies involve frequent use of your hands or wrists?"
+            },
+            {
+                "role": "user",
+                "content": "There's no specific detail about my job or hobbies and their involvement with frequent use of my hands or wrists."
+            },
+            {
+                "role": "assistant",
+                "content": "I apologize for the oversight. Can you describe your occupation and any hobbies you regularly engage in?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but the information about my occupation and hobbies isn't provided in the details you have."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your current occupation and do you have any hobbies that involve repetitive hand motions?"
+            },
+            {
+                "role": "user",
+                "content": "The details about my current occupation and hobbies aren't provided in the information you have."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you please share your current occupation and any hobbies you frequently engage in?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there's no information about my occupation or hobbies in the details provided."
+            },
+            {
+                "role": "assistant",
+                "content": "I apologize for any oversight. Could you please let me know what type of work you do and how you generally spend your leisure time?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information provided about my work or how I spend my leisure time."
+            },
+            {
+                "role": "assistant",
+                "content": "My apologies for the confusion. Can you please specify your occupation and describe a typical day, highlighting activities that might stress your hands or wrists?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but the information about my occupation and a typical day isn't provided in the details you have."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous injuries to your wrist, thumb, or elbow?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, six months ago I slipped on a wet floor and fell on my right outstretched hand."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you recall if the pain in your wrist and thumb started after this fall?"
+            },
+            {
+                "role": "user",
+                "content": "The details provided do not specify exactly when the pain started in relation to the fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Did the pain in your wrist and thumb begin before or after your fall?"
+            },
+            {
+                "role": "user",
+                "content": "The provided information doesn't specify if the pain started before or after the fall."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any medications for the pain, and did they offer any relief?"
+            },
+            {
+                "role": "user",
+                "content": "I take ibuprofen as needed for the pain, but the information doesn't specify how effective it has been."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any improvement in symptoms when you rest or modify your activities?"
+            },
+            {
+                "role": "user",
+                "content": "The pain improves with the use of an ice pack."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: De Quervain's Tenosynovitis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** De Quervain tenosynovitis",
+        "multiturn_frq": "**Final Diagnosis:** De Quervain's Tenosynovitis",
+        "singleturn_mcq": "De Quervain tenosynovitis",
+        "singleturn_frq": "Final Diagnosis: Carpal Tunnel Syndrome",
+        "summarized_conversation": "A 34-year-old woman has been experiencing pain in her right thumb, wrist, and the pain sometimes radiates up to her elbow for the past three months. She reports swelling over the radial side of her wrist, but no redness, and there are no symptoms in any other joints. The patient has not provided information regarding repetitive activities with her hands or any details about her daily activities or occupation in relation to engaging in repetitive hand or wrist movements. She mentioned having slipped on a wet floor and falling on her right outstretched hand six months ago, however, it is not specified whether the pain started before or after this fall. For managing the pain, she takes ibuprofen as needed and reports that the pain improves with the use of an ice pack.",
+        "summarized_mcq": "De Quervain tenosynovitis",
+        "summarized_frq": "De Quervain's tenosynovitis"
+    },
+    "trial_4": {
+        "vignette_mcq": "De Quervain tenosynovitis",
+        "vignette_frq": "De Quervain tenosynovitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing pain in my right thumb and wrist that spreads up to my elbow for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the affected areas?"
+            },
+            {
+                "role": "user",
+                "content": "There's swelling over the radial side of my wrist, but no redness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any stiffness in your wrist or thumb, especially in the morning? If so, how long does it last?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any stiffness in the morning."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any injuries to your wrist, thumb, or elbow recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, about six months ago I slipped and fell on my right outstretched hand."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you seek medical evaluation or treatment after the injury? If yes, what was the diagnosis or treatment provided?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not specify whether I sought medical evaluation or treatment immediately after the injury, nor does it detail any diagnosis or treatment provided at that time."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you had any treatment for your symptoms since they started?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been taking ibuprofen as needed for the pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any numbness or tingling sensation in your wrist, thumb, or fingers?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't experience any numbness or tingling sensation."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** De Quervain's Tenosynovitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** De Quervain tenosynovitis",
+        "multiturn_frq": "**Final Diagnosis:** De Quervain's Tenosynovitis",
+        "singleturn_mcq": "Final Diagnosis: De Quervain tenosynovitis",
+        "singleturn_frq": "**Final Diagnosis:** Rheumatoid Arthritis",
+        "summarized_conversation": "The patient has been dealing with pain that originates in the right thumb and wrist and spreads up to the elbow for the past three months. The pain is accompanied by swelling on the radial side of the wrist without any redness. The patient does not experience any stiffness in the morning. About six months ago, the patient slipped and fell, landing on an outstretched right hand. It is not specified whether the patient sought medical evaluation or treatment immediately after the injury, nor what diagnosis or treatment might have been provided. The patient has been taking ibuprofen as needed to manage the pain. The patient does not report any numbness or tingling sensation.",
+        "summarized_mcq": "De Quervain tenosynovitis",
+        "summarized_frq": "De Quervain's Tenosynovitis"
+    }
+}

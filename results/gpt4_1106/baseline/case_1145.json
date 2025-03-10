@@ -1,0 +1,285 @@
+{
+    "case_vignette": "A 25-year-old woman is brought to the physician by her husband because she has appeared increasingly agitated over the last week. She feels restless, has not been able to sleep well, and has been pacing around her house continuously in an attempt to relieve her symptoms. Two weeks ago, she was diagnosed with schizophrenia and treatment with fluphenazine was initiated. Today, physical examination is interrupted multiple times because she is unable to sit or stand still for more than a couple minutes. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Akathisia",
+        "vignette_frq": "Acute akathisia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very restless, unable to sleep well, and I can't seem to sit or stand still for more than a couple of minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the last week."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health disorders like anxiety, depression, or bipolar disorder?"
+            },
+            {
+                "role": "user",
+                "content": "Two weeks ago, I was diagnosed with schizophrenia."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medication for schizophrenia or any other condition?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started treatment with fluphenazine two weeks ago for schizophrenia."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of neurological or psychiatric conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure; we didn't discuss any family history details in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Akathisia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Akathisia",
+        "multiturn_frq": "Final Diagnosis: Acute Akathisia",
+        "singleturn_mcq": "Akathisia",
+        "singleturn_frq": "**Final Diagnosis:** Restless Legs Syndrome",
+        "summarized_conversation": "A patient has been experiencing significant restlessness, an inability to sleep well, and an inability to remain stationary, either sitting or standing, for more than a couple of minutes. These symptoms have been present for the last week. The patient was diagnosed with schizophrenia two weeks ago and began treatment with fluphenazine at that time for this condition. There are no details provided regarding family history in the information given.",
+        "summarized_mcq": "Akathisia",
+        "summarized_frq": "Akathisia"
+    },
+    "trial_1": {
+        "vignette_mcq": "Akathisia",
+        "vignette_frq": "Acute akathisia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very restless and unable to sit or stand still for more than a couple minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for the last week."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started taking any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started taking fluphenazine two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any muscle stiffness or tremors along with the restlessness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not experiencing muscle stiffness or tremors."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Akathisia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Akathisia",
+        "multiturn_frq": "**Final Diagnosis:** Akathisia",
+        "singleturn_mcq": "Akathisia",
+        "singleturn_frq": "Final Diagnosis: Restless Legs Syndrome",
+        "summarized_conversation": "The patient has been experiencing heightened restlessness, being unable to remain seated or standing still for more than a few minutes. These symptoms have been present for the past week. The patient started taking fluphenazine two weeks prior. The patient reports no muscle stiffness or tremors.",
+        "summarized_mcq": "Akathisia",
+        "summarized_frq": "Akathisia"
+    },
+    "trial_2": {
+        "vignette_mcq": "Akathisia",
+        "vignette_frq": "Acute akathisia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very agitated and restless, and I can't sit or stand still for more than a couple of minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the last week."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started taking fluphenazine two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health disorders?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was diagnosed with schizophrenia two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Akathisia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Akathisia",
+        "multiturn_frq": "**Final Diagnosis:** Acute akathisia",
+        "singleturn_mcq": "Akathisia",
+        "singleturn_frq": "Final Diagnosis: Restless Legs Syndrome",
+        "summarized_conversation": "A patient has been feeling very agitated and restless, unable to sit or stand still for more than a couple of minutes. These symptoms have been ongoing for the past week. The patient started taking fluphenazine two weeks ago, following a new diagnosis of schizophrenia also made two weeks ago.",
+        "summarized_mcq": "Akathisia",
+        "summarized_frq": "Akathisia"
+    },
+    "trial_3": {
+        "vignette_mcq": "Akathisia",
+        "vignette_frq": "Acute akathisia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very restless, unable to sleep well, and I keep pacing around my house to try to feel better."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the last week."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health issues like anxiety, depression, or bipolar disorder?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with schizophrenia two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medication for your schizophrenia? If yes, what are they?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking fluphenazine for my schizophrenia."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any involuntary muscle movements or stiffness since starting your medication?"
+            },
+            {
+                "role": "user",
+                "content": "Today, my physical examination was difficult because I am unable to sit or stand still for more than a couple of minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Akathisia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Akathisia",
+        "multiturn_frq": "**Final Diagnosis:** Akathisia",
+        "singleturn_mcq": "Akathisia",
+        "singleturn_frq": "Final Diagnosis: Restless Legs Syndrome",
+        "summarized_conversation": "The patient has been feeling very restless, unable to sleep well, and has found themselves pacing around the house frequently over the last week. They were diagnosed with schizophrenia two weeks ago and are currently on fluphenazine to manage their condition. During a physical examination today, the patient experienced difficulty as they were unable to sit or stand still for more than a couple of minutes.",
+        "summarized_mcq": "Akathisia",
+        "summarized_frq": "Akathisia"
+    },
+    "trial_4": {
+        "vignette_mcq": "Akathisia",
+        "vignette_frq": "Akathisia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very restless and unable to sit or stand still for more than a couple minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling this way for the last week."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I started taking fluphenazine two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any similar symptoms in the past before starting the medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, these symptoms started after beginning the medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Akathisia."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Akathisia",
+        "multiturn_frq": "**Final Diagnosis:** Acute akathisia",
+        "singleturn_mcq": "Akathisia",
+        "singleturn_frq": "Final Diagnosis: Restless Legs Syndrome",
+        "summarized_conversation": "A patient has been experiencing increased restlessness, finding it difficult to remain seated or standing still for more than a few minutes. This has been ongoing for the past week. The patient started taking fluphenazine two weeks prior to the onset of these symptoms. The symptoms began after the initiation of the medication.",
+        "summarized_mcq": "Akathisia",
+        "summarized_frq": "Akathisia"
+    }
+}

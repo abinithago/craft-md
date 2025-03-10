@@ -1,0 +1,365 @@
+{
+    "case_vignette": "A 65-year-old woman comes to the physician because of a 8-month history of worsening difficulties swallowing food and retrosternal chest discomfort! She reports that she sometimes has a feeling of \u201cfood getting stuck\u201d in her throat and hears a \u201cgurgling sound\u201d from her throat while eating! She says that she occasionally coughs up pieces of undigested food! She has noticed a bad taste in her mouth and bad breath! She has not had fever or weight loss! She has been visiting Mexico every year for the past 7 years! She has Raynaud disease treated with nifedipine! Her father died because of gastric cancer! She had smoked one-half pack of cigarettes daily for 20 years but stopped 25 years ago! Vital signs are within normal limits! Physical examination shows no abnormalities! Her hemoglobin concentration is 14 g/dL, leukocyte count is 9800/mm3, and platelet count is 215,000/mm3! An ECG shows sinus rhythm with no evidence of ischemia! ",
+    "question": "Which  is most likely to confirm the diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Esophagogastroduodenoscopy",
+        "vignette_frq": "Barium swallow study followed by esophagogastroduodenoscopy (EGD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty swallowing food and experiencing discomfort behind my breastbone. Sometimes food feels like it gets stuck in my throat, and I hear a gurgling sound while eating. I occasionally cough up pieces of undigested food, and I've noticed bad breath and a bad taste in my mouth."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of acid reflux or gastroesophageal reflux disease (GERD)?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific history of acid reflux or gastroesophageal reflux disease (GERD)."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you lost any weight unintentionally recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of autoimmune diseases or suspect any in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I have Raynaud disease, which is an autoimmune condition."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Achalasia."
+            }
+        ],
+        "multiturn_mcq": "Esophagogastroduodenoscopy",
+        "multiturn_frq": "Final Diagnosis: Achalasia",
+        "singleturn_mcq": "Barium esophagram",
+        "singleturn_frq": "Final Diagnosis: Achalasia",
+        "summarized_conversation": "The patient reports difficulty swallowing food and discomfort behind the breastbone. They mention that sometimes food feels like it gets stuck in their throat, and a gurgling sound is heard while eating. They occasionally cough up pieces of undigested food, noticing bad breath and a bad taste in their mouth. These symptoms have been present for about 8 months. The patient does not mention a specific history of acid reflux or gastroesophageal reflux disease (GERD). They have not experienced any weight loss. The patient has Raynaud disease, which is an autoimmune condition.",
+        "summarized_mcq": "Esophagogastroduodenoscopy",
+        "summarized_frq": "Esophageal manometry and barium swallow study."
+    },
+    "trial_1": {
+        "vignette_mcq": "Esophagogastroduodenoscopy",
+        "vignette_frq": "Barium swallow study",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been having worsening difficulties swallowing food, chest discomfort, a feeling of food getting stuck in my throat, unwanted sounds from my throat while eating, and occasional coughing up of undigested food. I've also noticed a bad taste in my mouth and bad breath."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of gastroesophageal reflux disease (GERD) or have you been diagnosed with any other gastrointestinal conditions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with GERD or any other gastrointestinal conditions in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any weight loss recently without trying?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Has any of your immediate family members been diagnosed with a gastrointestinal or esophageal disorder?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my father died because of gastric cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have difficulty swallowing both solids and liquids, or just solids?"
+            },
+            {
+                "role": "user",
+                "content": "I have difficulty swallowing food, which implies solids."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience heartburn or have acidic or sour taste in your mouth often?"
+            },
+            {
+                "role": "user",
+                "content": "I have noticed a bad taste in my mouth, but I did not mention experiencing heartburn specifically."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Achalasia"
+            }
+        ],
+        "multiturn_mcq": "Esophagogastroduodenoscopy",
+        "multiturn_frq": "**Final Diagnosis:** Achalasia",
+        "singleturn_mcq": "Barium esophagram",
+        "singleturn_frq": "Final Diagnosis: Achalasia",
+        "summarized_conversation": "A patient reports a progressive issue with swallowing food, accompanied by chest discomfort and the sensation of food being lodged in the throat. The patient also experiences unwanted throat noises while eating and occasionally regurgitates undigested food. Additionally, the patient mentions having a bad taste in the mouth and persistent bad breath. These symptoms have persisted for eight months. The patient has never been diagnosed with gastroesophageal reflux disease (GERD) or other gastrointestinal conditions and has not experienced weight loss. The patient's father passed away due to gastric cancer. The patient specifically notes difficulty with swallowing solids and confirms the presence of a bad taste in the mouth, without specifically mentioning heartburn.",
+        "summarized_mcq": "Esophagogastroduodenoscopy",
+        "summarized_frq": "Esophageal manometry and barium swallow study."
+    },
+    "trial_2": {
+        "vignette_mcq": "Esophagogastroduodenoscopy",
+        "vignette_frq": "Barium swallow study",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulties swallowing food and retrosternal chest discomfort for the past 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any unintentional weight loss or food coming back up after eating?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any unintentional weight loss, but I occasionally cough up pieces of undigested food."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any heartburn or a sour taste in your mouth along with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have noticed a bad taste in my mouth."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you find certain types of foods or drinks worsen your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific types of foods or drinks that worsen my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of smoking or alcohol consumption?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I smoked one-half pack of cigarettes daily for 20 years but stopped 25 years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of gastrointestinal diseases or cancers?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my father died because of gastric cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Achalasia"
+            }
+        ],
+        "multiturn_mcq": "Esophagogastroduodenoscopy",
+        "multiturn_frq": "**Final Diagnosis:** Achalasia.",
+        "singleturn_mcq": "Barium esophagram",
+        "singleturn_frq": "Final Diagnosis: Esophageal Stricture",
+        "summarized_conversation": "A patient reports having experienced difficulty in swallowing food and retrosternal chest discomfort for the past 8 months. The patient denies having any unintentional weight loss, though mentions occasionally coughing up pieces of undigested food. They have also noticed a bad taste in their mouth. The patient does not cite any specific types or substances of food or drinks that exacerbate the symptoms. The patient has a smoking history of consuming half a pack of cigarettes daily for 20 years, however, they quit smoking 25 years ago. The patient revealed that their father died of gastric cancer.",
+        "summarized_mcq": "Esophagogastroduodenoscopy",
+        "summarized_frq": "An upper GI endoscopy with biopsy."
+    },
+    "trial_3": {
+        "vignette_mcq": "Esophagogastroduodenoscopy",
+        "vignette_frq": "Barium swallow and esophageal manometry.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulties swallowing food and feel discomfort behind my breastbone. Sometimes food feels stuck in my throat, and I hear a gurgling sound while eating. I also occasionally cough up pieces of undigested food, and I've noticed a bad taste in my mouth and bad breath."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For about 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any weight loss or is there a specific type of food that worsens your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have not had any weight loss, and there isn't a specific type of food that worsens my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of heartburn or acid reflux?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of heartburn or acid reflux."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your voice or persistent sore throat along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in my voice or persistent sore throat."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty breathing, especially during or after meals?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any difficulty breathing during or after meals."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or autoimmune disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I have Raynaud disease, which is an autoimmune condition."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Achalasia"
+            }
+        ],
+        "multiturn_mcq": "Barium esophagram",
+        "multiturn_frq": "Final Diagnosis: Achalasia.",
+        "singleturn_mcq": "Barium esophagram",
+        "singleturn_frq": "Final Diagnosis: Achalasia",
+        "summarized_conversation": "A patient reports experiencing difficulties swallowing food and feeling discomfort behind the breastbone. The patient notes that sometimes food feels stuck in the throat and reports hearing a gurgling sound while eating. Occasionally, the patient coughs up undigested food pieces and has noticed a bad taste in the mouth along with bad breath for about 8 months. The patient reports no weight loss associated with these symptoms and states that no specific type of food worsens the symptoms. The patient has no history of heartburn or acid reflux and hasn't experienced any changes in voice or persistent sore throat. There are also no difficulties in breathing during or after meals. The patient has Raynaud's disease, which is an autoimmune condition.",
+        "summarized_mcq": "Barium esophagram",
+        "summarized_frq": "Barium swallow and esophagram."
+    },
+    "trial_4": {
+        "vignette_mcq": "Esophagogastroduodenoscopy",
+        "vignette_frq": "Barium swallow study",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulties swallowing food, a feeling of food getting stuck in my throat, and a gurgling sound from my throat while eating. I occasionally cough up pieces of undigested food, and I've noticed a bad taste in my mouth and bad breath."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 8 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of autoimmune diseases or previous throat or esophageal surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of autoimmune diseases or previous throat or esophageal surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you lost weight recently without trying?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any weight loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience heartburn or regurgitation of acid?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not experience heartburn or regurgitation of acid."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of gastrointestinal or esophageal disorders?"
+            },
+            {
+                "role": "user",
+                "content": "My father died because of gastric cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your voice or persistent hoarseness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any changes in my voice or persistent hoarseness."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Zenker's Diverticulum"
+            }
+        ],
+        "multiturn_mcq": "Barium esophagram",
+        "multiturn_frq": "**Final Diagnosis:** Zenker's Diverticulum",
+        "singleturn_mcq": "Barium esophagram",
+        "singleturn_frq": "**Final Diagnosis:** Zenker's Diverticulum",
+        "summarized_conversation": "A patient reports difficulties in swallowing food, describing a sensation of food getting stuck in the throat, along with a gurgling sound while eating. The patient occasionally coughs up pieces of undigested food and notices a bad taste in the mouth and bad breath. These symptoms have persisted for about 8 months. The patient has no history of autoimmune diseases or previous throat or esophageal surgeries. There is no report of weight loss, heartburn, or regurgitation of acid. The patient notes that their father passed away due to gastric cancer. Additionally, the patient has not experienced changes in their voice or persistent hoarseness.",
+        "summarized_mcq": "Esophagogastroduodenoscopy",
+        "summarized_frq": "Esophageal manometry and barium swallow study."
+    }
+}

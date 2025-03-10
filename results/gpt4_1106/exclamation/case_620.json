@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A previously healthy 16-year-old boy is brought to the physician by his parents for evaluation because of extreme irritability, fatigue, and loss of appetite for 3 weeks! Five months ago, his grandfather, whom he was very close to, passed away from chronic lymphocytic leukemia! He used to enjoy playing soccer but quit his soccer team last week! When he comes home from school he goes straight to bed and sleeps for 11\u201312 hours each night! He previously had good grades, but his teachers report that he has been disrespectful and distracted in class and failed an exam last week! He tried alcohol twice at a party last year and he has never smoked cigarettes! Vital signs are within normal limits! On mental status examination, he avoids making eye contact but cooperates with the exam! His affect is limited and he describes an irritable mood! He is easily distracted and has a difficult time focusing for an extended conversation! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling extremely irritable, tired, and I've lost my appetite for the last 3 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have lost weight recently due to my loss of appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any psychiatric or emotional disorders such as depression or anxiety?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of psychiatric or emotional disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently experiencing any other symptoms such as fever, night sweats, or swollen lymph nodes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not experiencing symptoms like fever, night sweats, or swollen lymph nodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty in sleeping or changes in your sleeping pattern?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been sleeping a lot more than usual, going straight to bed when I come home from school and sleeping for 11\u201312 hours each night."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 16-year-old boy."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant life changes or stressors recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my grandfather, whom I was very close to, passed away from chronic lymphocytic leukemia five months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Depression"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Adjustment disorder with depressed mood",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Major depressive disorder",
+        "singleturn_frq": "**Final Diagnosis:** Depression",
+        "summarized_conversation": "A 16-year-old boy reports feeling extremely irritable, tired, and experiencing a loss of appetite for the last three weeks. He has also lost weight recently due to his decreased appetite. He confirms that he does not have a history of psychiatric or emotional disorders. Furthermore, he is not experiencing symptoms such as fever, night sweats, or swollen lymph nodes. He mentions that he has been sleeping significantly more than usual, going straight to bed after returning from school and sleeping for 11\u201312 hours each night. Additionally, he shares that his grandfather, to whom he was very close, passed away from chronic lymphocytic leukemia five months ago.",
+        "summarized_mcq": "Adjustment disorder with depressed mood",
+        "summarized_frq": "Depression"
+    },
+    "trial_1": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling extremely irritable, tired, and I've lost my appetite for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleep patterns or weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been sleeping 11-12 hours each night and going straight to bed when I get home from school."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications and I don't have any other medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of depression or other mental health disorders?"
+            },
+            {
+                "role": "user",
+                "content": "My grandfather passed away five months ago from chronic lymphocytic leukemia, but there's no mention of any mental health disorders in my family history."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Adjustment disorder with depressed mood",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Major depressive disorder",
+        "singleturn_frq": "**Final Diagnosis:** Depression",
+        "summarized_conversation": "A patient has been experiencing severe irritability, fatigue, and a loss of appetite for the past three weeks. The patient reports sleeping for 11-12 hours each night and going directly to bed upon returning home from school. The patient is not on any medications and has no other medical conditions. The patient's grandfather passed away five months ago from chronic lymphocytic leukemia, but there is no mention of mental health disorders in the family history.",
+        "summarized_mcq": "Adjustment disorder with depressed mood",
+        "summarized_frq": "Major depressive disorder"
+    },
+    "trial_2": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing extreme irritability, fatigue, and a loss of appetite for the past 3 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have lost some weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of thyroid issues, either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any personal or family history of thyroid issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any feelings of sadness or hopelessness along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been feeling quite sad and hopeless."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have started any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications and have not started any new ones recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any sleep disturbances, such as difficulty falling asleep or staying asleep?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had trouble falling or staying asleep; I've been sleeping for 11-12 hours each night."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Depression with atypical features",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Major depressive disorder",
+        "singleturn_frq": "Final Diagnosis: Depression",
+        "summarized_conversation": "The patient has been experiencing severe irritability, fatigue, and a loss of appetite for the past three weeks, during which they also noticed weight loss. They have no personal or family history of thyroid issues and have been feeling quite sad and hopeless. They are not currently taking any medications nor have they started any new ones recently. Furthermore, the patient reports sleeping 11-12 hours each night without difficulty in falling or staying asleep.",
+        "summarized_mcq": "Major depressive disorder",
+        "summarized_frq": "Major depressive disorder"
+    },
+    "trial_3": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing extreme irritability, fatigue, and loss of appetite for about 3 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any specific changes in my weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bowel habits or digestion recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned any changes in my bowel habits or digestion."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of depression or other mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any history of depression or other mental health issues mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been diagnosed with any other medical conditions; I was previously healthy."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently take any medications or supplements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't take any medications or supplements."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any recent stresses or changes in your life?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my grandfather, whom I was very close to, passed away five months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Adjustment disorder with depressed mood",
+        "multiturn_frq": "**Final Diagnosis:** Bereavement-related depression",
+        "singleturn_mcq": "Final Diagnosis: Major depressive disorder",
+        "singleturn_frq": "Final Diagnosis: Depression",
+        "summarized_conversation": "A patient has been experiencing extreme irritability, fatigue, and loss of appetite for about 3 weeks, with no reported changes in weight. The patient reports no alterations in bowel habits or digestion, and there is no history of depression or other mental health issues. The patient has not been diagnosed with any other medical conditions and was previously healthy. The patient is not taking any medications or supplements. The patient's grandfather, to whom the patient was very close, passed away five months ago.",
+        "summarized_mcq": "Adjustment disorder with depressed mood",
+        "summarized_frq": "Adjustment disorder with depressed mood."
+    },
+    "trial_4": {
+        "vignette_mcq": "Major depressive disorder",
+        "vignette_frq": "Major depressive disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing extreme irritability, fatigue, and a loss of appetite for the past 3 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have lost some weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of thyroid issues or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of thyroid issues or any other chronic illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or supplements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not taking any medications or supplements."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you observed any changes in your sleep patterns or stress levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been sleeping 11-12 hours each night when I come home from school, and I've been under a lot of stress, especially since my grandfather passed away five months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am 16 years old and male."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Depression"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Adjustment disorder with depressed mood",
+        "multiturn_frq": "**Final Diagnosis:** Depression",
+        "singleturn_mcq": "Major depressive disorder",
+        "singleturn_frq": "Final Diagnosis: Depression",
+        "summarized_conversation": "A 16-year-old male patient has been facing issues like extreme irritability, fatigue, and a loss of appetite for the past three weeks. He reports recent weight loss but does not have a history of thyroid issues or any other chronic illnesses. He is not on any medications or supplements. Additionally, he mentions sleeping for 11-12 hours nightly since returning home from school and is undergoing significant stress, primarily due to his grandfather's passing five months ago.",
+        "summarized_mcq": "Major depressive disorder",
+        "summarized_frq": "Depression"
+    }
+}

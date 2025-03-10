@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 53-year-old man comes to the physician because of a 3-month history of cough and progressively worsening difficulty walking up the stairs in his apartment. He has noticed that it is easier for him to climb the stairs after he has exercised. He has also had a 4.6-kg (10.1-lb) weight loss over the past 6 months. He has smoked one pack of cigarettes daily for 35 years. Examination shows dry mucous membranes. The pupils are equal and react sluggishly to light. Muscle strength in the proximal lower extremity is initially 3/5 but increases to 5/5 after repeated muscle tapping. His achilles reflex is 1+. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Lambert-Eaton syndrome",
+        "vignette_frq": "Lambert-Eaton myasthenic syndrome (LEMS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a cough and progressively worsening difficulty walking up the stairs for the past three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any shortness of breath or chest pain?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any shortness of breath or chest pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any muscle weakness or numbness in your limbs?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have noticed muscle weakness in my legs, especially when trying to climb stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulties in swallowing or changes in your speaking voice?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned any difficulties in swallowing or changes in my speaking voice."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of neurological or muscular diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any family history of neurological or muscular diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you previously been diagnosed with any chronic illnesses or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any previous chronic illnesses or current medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Myasthenia Gravis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Myasthenia gravis",
+        "multiturn_frq": "**Final Diagnosis:** Myasthenia Gravis",
+        "singleturn_mcq": "Myasthenia gravis",
+        "singleturn_frq": "**Final Diagnosis:** Amyotrophic lateral sclerosis (ALS)",
+        "summarized_conversation": "A patient has been experiencing a cough and progressively worsening difficulty in walking up stairs for the past three months. The patient does not report shortness of breath or chest pain. The patient has noticed muscle weakness in the legs, particularly when attempting to climb stairs. There are no difficulties in swallowing or changes in the speaking voice reported. The patient does not disclose any family history of neurological or muscular diseases. Further, the patient does not mention any previous chronic illnesses or current medications.",
+        "summarized_mcq": "Lambert-Eaton syndrome",
+        "summarized_frq": "Myasthenia gravis"
+    },
+    "trial_1": {
+        "vignette_mcq": "Lambert-Eaton syndrome",
+        "vignette_frq": "Lambert-Eaton myasthenic syndrome (LEMS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having a cough for a few months, difficulty walking up stairs that somehow improves a bit after I exercise, and I've also lost some weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 53-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of smoking or other pulmonary issues?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have smoked one pack of cigarettes daily for 35 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any muscle weakness, particularly after periods of rest, that improves with activity?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed that my muscle strength in the legs is initially weak but it improves after I repeatedly use them, like when climbing stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty swallowing or changes in your voice?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any difficulty swallowing or changes in my voice."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of neurological diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned anything about my family history concerning neurological diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Myasthenia Gravis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Lambert-Eaton syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Lambert-Eaton Myasthenic Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Myasthenia gravis",
+        "singleturn_frq": "**Final Diagnosis:** Myasthenia Gravis",
+        "summarized_conversation": "A patient presents to the clinic with a persistent cough that he has been experiencing for a few months, accompanied by difficulty in walking up stairs which somewhat improves after exercising, and recent weight loss. The patient is a 53-year-old man who has smoked one pack of cigarettes daily for 35 years. He has noticed that his muscle strength in the legs is initially weak but shows improvement after repeated use, such as climbing stairs. The patient does not experience any difficulty in swallowing or changes in his voice, and he has not disclosed any family history of neurological diseases.",
+        "summarized_mcq": "Lambert-Eaton syndrome",
+        "summarized_frq": "Lambert-Eaton myasthenic syndrome (LEMS)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Lambert-Eaton syndrome",
+        "vignette_frq": "Lambert-Eaton myasthenic syndrome (LEMS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing a persistent cough and find it increasingly difficult to walk up stairs, but it does get a bit easier after some exercise. I've also lost some weight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known cardiovascular or respiratory diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any known cardiovascular or respiratory diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you, and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 53-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any muscle weakness or muscle pain recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have noticed muscle weakness, especially in my lower legs, but it improves after repeatedly using the muscles."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of neuromuscular diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know about any family history of neuromuscular diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any difficulty in swallowing or changes in your voice?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any difficulty in swallowing or changes in my voice."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Myasthenia Gravis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Myasthenia gravis",
+        "multiturn_frq": "**Final Diagnosis:** Myasthenia Gravis",
+        "singleturn_mcq": "Final Diagnosis: Lambert-Eaton syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Myasthenia Gravis",
+        "summarized_conversation": "A patient has been exhibiting symptoms that include a persistent cough and difficulty ascending stairs, which somewhat alleviates after exercise. The 53-year-old male also reports recent weight loss. He confirms having no known cardiovascular or respiratory diseases. Additionally, he experiences muscle weakness, particularly in his lower legs, although this improves with repeated use of the muscles. The patient states that he is unaware of any family history of neuromuscular diseases, and he has not encountered any difficulties with swallowing or changes in his voice.",
+        "summarized_mcq": "Lambert-Eaton syndrome",
+        "summarized_frq": "The most likely diagnosis is Lambert-Eaton myasthenic syndrome (LEMS)."
+    },
+    "trial_3": {
+        "vignette_mcq": "Lambert-Eaton syndrome",
+        "vignette_frq": "Lambert-Eaton myasthenic syndrome (LEMS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have had a persistent cough for the past three months and I'm experiencing progressively worsening difficulty when climbing stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any associated symptoms like muscle pain or weakness in areas other than the legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced muscle pain or weakness in areas other than my legs."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any difficulty swallowing or changes in your voice?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any difficulty swallowing or changes in my voice."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of respiratory issues or diseases like asthma or COPD?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have a history of respiratory issues like asthma or COPD, but I have been smoking for 35 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any unintended weight loss or changes in your appetite?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have lost about 10.1 pounds over the past six months without trying."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of neurological or muscular diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have a family history of neurological or muscular diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Myasthenia Gravis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Lambert-Eaton syndrome",
+        "multiturn_frq": "Final Diagnosis: Lambert-Eaton Myasthenic Syndrome (LEMS)",
+        "singleturn_mcq": "Myasthenia gravis",
+        "singleturn_frq": "Final Diagnosis: Myasthenia Gravis",
+        "summarized_conversation": "A patient reports having a persistent cough for the past three months, along with progressively worsening difficulty when climbing stairs. The patient mentions no muscle pain or weakness in areas other than the legs, and has not observed any difficulty swallowing or changes in voice. There is no prior history of respiratory issues like asthma or COPD, but the patient has been a smoker for 35 years. The patient also notes an unintended weight loss of about 10.1 pounds over the past six months. There is no family history of neurological or muscular diseases reported by the patient.",
+        "summarized_mcq": "Lambert-Eaton syndrome",
+        "summarized_frq": "Lambert-Eaton Myasthenic Syndrome (LEMS)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Lambert-Eaton syndrome",
+        "vignette_frq": "Lambert-Eaton myasthenic syndrome (LEMS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing a cough and progressively worsening difficulty walking up stairs over the past 3 months. Additionally, I have lost about 10 pounds over the last 6 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any weakness in specific muscles, especially in your legs or around your hips?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed weakness in the muscles around my hips and upper legs, especially when I start walking up stairs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty lifting objects or reaching overhead?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't specifically mentioned any difficulty with lifting objects or reaching overhead."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any shortness of breath or changes in your voice or swallowing?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned experiencing shortness of breath, changes in my voice, or difficulty swallowing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of neurological or muscle diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of neurological or muscle diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been on any medication or had other medical conditions recently?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned being on any medication or having other medical conditions recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Myasthenia Gravis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Polymyalgia rheumatica",
+        "multiturn_frq": "**Final Diagnosis:** Myasthenia Gravis",
+        "singleturn_mcq": "Final Diagnosis: Myasthenia gravis",
+        "singleturn_frq": "**Final Diagnosis:** Amyotrophic lateral sclerosis (ALS)",
+        "summarized_conversation": "A patient reports having a persistent cough and progressively worsening difficulty in walking up stairs that has developed over the past three months. Additionally, the patient has lost about 10 pounds in the last six months. The patient has noticed weakness primarily in the muscles around the hips and upper legs, which is particularly noticeable when initiating stair climbing. There has been no mention of difficulty in lifting objects or reaching overhead. The patient has not reported experiencing shortness of breath, changes in voice, or difficulty swallowing. Furthermore, the patient does not have a known family history of neurological or muscle diseases and has not been on any medication or diagnosed with any other medical conditions recently.",
+        "summarized_mcq": "Polymyalgia rheumatica",
+        "summarized_frq": "Polymyositis"
+    }
+}

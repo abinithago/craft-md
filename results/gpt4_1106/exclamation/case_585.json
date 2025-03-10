@@ -1,0 +1,301 @@
+{
+    "case_vignette": "A 32-year-old man comes to the emergency department for acute pain in the left eye! He reports having awoken in the morning with a foreign body sensation! He had forgotten to remove his contact lenses before sleeping! Following lens removal, he experienced immediate pain, discomfort, and tearing of the left eye! He reports that the foreign body sensation persists and that rinsing with water has not improved the pain! He has been wearing contact lenses for 4 years and occasionally forgets to remove them at night! He has no history of serious medical illness! On examination, the patient appears distressed with pain and photophobia in the left eye! Administration of a topical anesthetic relieves the pain! Visual acuity is 20/20 in both eyes! Ocular motility and pupillary response are normal! The corneal reflex is normal and symmetric in both eyes! ",
+    "question": "Which  is most likely to establish the diagnosis in this patient?",
+    "trial_0": {
+        "vignette_mcq": "Fluorescein examination",
+        "vignette_frq": "Fluorescein staining of the cornea.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing acute pain, a foreign body sensation, discomfort, and tearing in my left eye."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms start?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms started when I woke up this morning."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or exposure to chemicals or foreign objects in your eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I just forgot to remove my contact lenses before sleeping last night."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you notice any redness or changes in your vision in the affected eye?"
+            },
+            {
+                "role": "user",
+                "content": "There's no mention of redness or changes in my vision; my visual acuity is still 20/20."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Corneal abrasion"
+            }
+        ],
+        "multiturn_mcq": "Fluorescein examination",
+        "multiturn_frq": "**Final Diagnosis:** Corneal abrasion",
+        "singleturn_mcq": "Fluorescein examination",
+        "singleturn_frq": "Final Diagnosis: Corneal abrasion",
+        "summarized_conversation": "A patient reports experiencing acute pain, a foreign body sensation, discomfort, and tearing in their left eye, which all began upon waking up that morning. The patient admits to having forgotten to remove their contact lenses before sleeping the previous night. There is no mention of redness or any changes in vision; the patient confirms their visual acuity remains at 20/20.",
+        "summarized_mcq": "Fluorescein examination",
+        "summarized_frq": "Corneal abrasion"
+    },
+    "trial_1": {
+        "vignette_mcq": "Fluorescein examination",
+        "vignette_frq": "Fluorescein staining of the cornea.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have acute pain in my left eye, a sensation of something being in my eye, discomfort, and my eye is tearing up."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms since waking up this morning."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you notice any redness or changes in your vision, such as blurriness or sensitivity to light?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am experiencing sensitivity to light in my left eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries, exposure to chemicals, or changes in your usual environment that could have affected your eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any injuries, exposure to chemicals, or changes in my environment that could have affected my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you wear contact lenses, and if so, did you sleep with them on or have any issues with them recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I wear contact lenses and I forgot to remove them before sleeping last night."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Corneal abrasion"
+            }
+        ],
+        "multiturn_mcq": "Fluorescein examination",
+        "multiturn_frq": "Final Diagnosis: Corneal abrasion",
+        "singleturn_mcq": "Fluorescein examination",
+        "singleturn_frq": "Final Diagnosis: Corneal abrasion",
+        "summarized_conversation": "A patient reports acute pain in their left eye, accompanied by sensations of a foreign object inside, discomfort, and excessive tearing. These symptoms have been ongoing since they woke up this morning. The patient also reports increased sensitivity to light in the affected eye. There have been no injuries, exposure to chemicals, or environmental changes that could have precipitated these symptoms. However, the patient mentions wearing contact lenses and forgetting to remove them before going to sleep the previous night.",
+        "summarized_mcq": "Fluorescein examination",
+        "summarized_frq": "Corneal abrasion or keratitis."
+    },
+    "trial_2": {
+        "vignette_mcq": "Fluorescein examination",
+        "vignette_frq": "Fluorescein staining of the cornea",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I woke up with a feeling like there's something in my left eye, which still persists, along with pain, discomfort, and tearing in that eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any redness or visual changes in your left eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any redness or changes in my vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you recall any recent injury or exposure to chemicals, dust, or foreign objects in your eye?"
+            },
+            {
+                "role": "user",
+                "content": "No recent injury or exposure to chemicals, dust, or foreign objects, I just forgot to remove my contact lenses before sleeping."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms previously when wearing contact lenses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I occasionally forget to remove them at night and have similar issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Contact Lens Overwear Syndrome"
+            }
+        ],
+        "multiturn_mcq": "Fluorescein examination",
+        "multiturn_frq": "**Final Diagnosis:** Contact lens overwear syndrome",
+        "singleturn_mcq": "Fluorescein examination",
+        "singleturn_frq": "Foreign body in the eye.",
+        "summarized_conversation": "A patient woke up with a sensation as if there was something in their left eye, which continues to persist alongside pain, discomfort, and tearing in the same eye. The patient notes no redness or changes in vision. There has been no recent injury or exposure to chemicals, dust, or foreign objects. The patient admitted to forgetting to remove their contact lenses before sleeping, and mentioned that they occasionally forget to remove them at night, which has led to similar issues in the past.",
+        "summarized_mcq": "Fluorescein examination",
+        "summarized_frq": "Corneal abrasion or contact lens-related keratitis."
+    },
+    "trial_3": {
+        "vignette_mcq": "Fluorescein examination",
+        "vignette_frq": "Fluorescein staining of the cornea",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I woke up with a feeling like there's something in my left eye and it hurts, even after removing my contact lenses and rinsing with water. I'm also experiencing discomfort and tearing in that eye."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms since I woke up this morning."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any redness or changes in vision in the affected eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any redness or changes in vision; my vision is still 20/20."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of eye issues or allergies, or are you currently taking any medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of serious medical illness or allergies, and I am not currently taking any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms in the past, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first occurrence of these symptoms; I've not experienced something similar before."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you typically wear your contact lenses overnight or for extended periods?"
+            },
+            {
+                "role": "user",
+                "content": "I occasionally forget to remove my contact lenses at night, but I have been wearing them for 4 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Contact lens-related corneal abrasion."
+            }
+        ],
+        "multiturn_mcq": "Fluorescein examination",
+        "multiturn_frq": "**Final Diagnosis:** Corneal abrasion",
+        "singleturn_mcq": "Fluorescein examination",
+        "singleturn_frq": "Final Diagnosis: Corneal abrasion",
+        "summarized_conversation": "A patient woke up with a sensation of something in their left eye that was painful, even after they removed their contact lenses and rinsed with water. The patient also reports discomfort and tearing in the same eye. These symptoms have been present since awakening this morning. The patient notes no changes in vision or redness; their vision remains at 20/20. They have no history of serious medical illnesses or allergies and are not currently on any medications. This is the first occurrence of such symptoms for the patient. They mention occasionally forgetting to remove their contact lenses at night, though they have been using them for 4 years.",
+        "summarized_mcq": "Fluorescein examination",
+        "summarized_frq": "Slit-lamp examination of the eye."
+    },
+    "trial_4": {
+        "vignette_mcq": "Fluorescein examination",
+        "vignette_frq": "Fluorescein staining of the cornea",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing acute pain and discomfort in my left eye, along with a sensation of having something foreign in it, and it's tearing up as well."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you see any redness or experience sensitivity to light in the affected eye?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am experiencing sensitivity to light in my affected eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent eye injuries or exposure to chemicals?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent eye injuries or exposure to chemicals."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you wear contact lenses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I wear contact lenses and have been using them for 4 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been following proper lens care and hygiene practices, or have you worn your lenses for longer periods than recommended recently?"
+            },
+            {
+                "role": "user",
+                "content": "I occasionally forget to remove them at night, including last night when I forgot to take them out before sleeping."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Contact lens keratitis."
+            }
+        ],
+        "multiturn_mcq": "Fluorescein examination",
+        "multiturn_frq": "**Final Diagnosis:** Corneal ulcer",
+        "singleturn_mcq": "Fluorescein examination",
+        "singleturn_frq": "Foreign body in the eye",
+        "summarized_conversation": "A patient is experiencing acute pain and discomfort in their left eye, accompanied by a sensation of something foreign present within it, and the eye is tearing up as well. This patient also reports an increased sensitivity to light in the affected eye. They confirm no recent injuries to the eye or exposure to chemicals. The patient has been using contact lenses for 4 years and acknowledges occasionally forgetting to remove them at night, including the previous night when they were not removed before sleeping.",
+        "summarized_mcq": "Fluorescein examination",
+        "summarized_frq": "Corneal ulcer."
+    }
+}

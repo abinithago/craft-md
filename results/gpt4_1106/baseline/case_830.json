@@ -1,0 +1,317 @@
+{
+    "case_vignette": "A 30-year-old woman comes to the physician with her husband because they have been trying to conceive for 15 months with no success. They have been sexually active at least twice a week. The husband sometimes has difficulties maintaining erection during sexual activity. During attempted vaginal penetration, the patient has discomfort and her pelvic floor muscles tighten up. Three years ago, the patient was diagnosed with body dysmorphic disorder. There is no family history of serious illness. She does not smoke or drink alcohol. She takes no medications. Vital signs are within normal limits. Pelvic examination shows normal appearing vulva without redness; there is no vaginal discharge. An initial attempt at speculum examination is aborted after the patient's pelvic floor muscles tense up and she experiences discomfort. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Genitopelvic pain disorder",
+        "vignette_frq": "Vaginismus",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Obstetrics and Gynecology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I experience discomfort and tightening of my pelvic floor muscles during attempted vaginal penetration."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for 15 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous gynecological surgeries or treatments?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any previous gynecological surgeries or treatments."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you able to insert tampons or undergo a gynecological exam without discomfort?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am unable to undergo a gynecological exam without discomfort, and an initial attempt at speculum examination had to be aborted because of pelvic floor muscle tension and discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any emotional distress or anxiety related to sexual activity or penetration?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, during sexual activity I experience discomfort, and my pelvic floor muscles tighten up, which could be related to emotional distress."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Vaginismus."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Genitopelvic pain disorder",
+        "multiturn_frq": "**Final Diagnosis:** Vaginismus.",
+        "singleturn_mcq": "Genitopelvic pain disorder",
+        "singleturn_frq": "Final Diagnosis: Vaginismus",
+        "summarized_conversation": "A patient reports experiencing discomfort and a tightening sensation of the pelvic floor muscles during attempted vaginal penetration, which has been ongoing for 15 months. The patient has no history of previous gynecological surgeries or treatments. Initial attempts at a speculum examination were terminated due to pelvic floor muscle tension and discomfort, indicating an inability to undergo a gynecological exam without significant discomfort. Furthermore, the patient indicates experiencing discomfort and tightening of the pelvic floor muscles during sexual activity, potentially linked to emotional distress.",
+        "summarized_mcq": "Genitopelvic pain disorder",
+        "summarized_frq": "Vaginismus."
+    },
+    "trial_1": {
+        "vignette_mcq": "Genitopelvic pain disorder",
+        "vignette_frq": "Vaginismus",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Obstetrics and Gynecology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have discomfort during attempted vaginal penetration and my pelvic floor muscles tighten up."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you previously been diagnosed with any gynecological conditions or other relevant medical issues?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was diagnosed with body dysmorphic disorder three years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently using any medications or undergoing any treatment?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any trauma or significant life events related to this symptom?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no mention of trauma or significant life events related to this symptom in my history."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience pain or discomfort during other times apart from attempted penetration, like during menstruation or while using tampons?"
+            },
+            {
+                "role": "user",
+                "content": "No, I only experience discomfort during attempted vaginal penetration."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Vaginismus"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Genitopelvic pain disorder",
+        "multiturn_frq": "**Final Diagnosis:** Vaginismus",
+        "singleturn_mcq": "Final Diagnosis: Genitopelvic pain disorder",
+        "singleturn_frq": "**Final Diagnosis:** Vaginismus",
+        "summarized_conversation": "A patient reports discomfort during attempted vaginal penetration, during which the pelvic floor muscles tighten up. The patient was diagnosed with body dysmorphic disorder three years ago. Currently, the patient is not taking any medications. There is no mention of trauma or significant life events related to the symptom in the patient's history. The discomfort is experienced exclusively during attempted vaginal penetration.",
+        "summarized_mcq": "Genitopelvic pain disorder",
+        "summarized_frq": "Vaginismus"
+    },
+    "trial_2": {
+        "vignette_mcq": "Genitopelvic pain disorder",
+        "vignette_frq": "Vaginismus",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Obstetrics and Gynecology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I experience discomfort and my pelvic floor muscles tighten up during attempted vaginal penetration."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms during sexual activity for the past 15 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience pain during non-sexual activities that involve vaginal penetration, such as tampon insertion or pelvic exams?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, during a pelvic exam, my pelvic floor muscles tense up and I experience discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of gynecological surgeries or traumatic events related to the pelvic area?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of gynecological surgeries or traumatic events related to the pelvic area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any psychological conditions, or do you have a history of anxiety or depression?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was diagnosed with body dysmorphic disorder three years ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Vaginismus"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Genitopelvic pain disorder",
+        "multiturn_frq": "Final Diagnosis: Vaginismus",
+        "singleturn_mcq": "Genitopelvic pain disorder",
+        "singleturn_frq": "**Final Diagnosis:** Vaginismus",
+        "summarized_conversation": "A patient describes discomfort and tightening of the pelvic floor muscles during attempted vaginal penetration, symptoms that have been occurring during sexual activity for the past 15 months. During pelvic exams, the patient confirms the pelvic floor muscles tense up accompanied by discomfort. The patient has no recorded history of gynecological surgeries or traumatic events related to the pelvic area. They were diagnosed with body dysmorphic disorder three years prior.",
+        "summarized_mcq": "Psychogenic dyspareunia",
+        "summarized_frq": "Vaginismus"
+    },
+    "trial_3": {
+        "vignette_mcq": "Genitopelvic pain disorder",
+        "vignette_frq": "Vaginismus",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Obstetrics and Gynecology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have discomfort and my pelvic floor muscles tighten up during attempted vaginal penetration."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for 15 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous gynecological surgeries or trauma?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any previous gynecological surgeries or trauma."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any pain during other activities or only during vaginal penetration?"
+            },
+            {
+                "role": "user",
+                "content": "Only during vaginal penetration."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any anxiety, fear, or negative feelings about sexual activity?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I experience discomfort and tightening of pelvic floor muscles which may indicate some anxiety or fear related to sexual activity."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Vaginismus."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Genitopelvic pain disorder",
+        "multiturn_frq": "**Final Diagnosis:** Vaginismus.",
+        "singleturn_mcq": "Final Diagnosis: Genitopelvic pain disorder",
+        "singleturn_frq": "**Final Diagnosis:** Vaginismus.",
+        "summarized_conversation": "A patient reports discomfort and tightening of the pelvic floor muscles during attempted vaginal penetration. These symptoms have been present for 15 months. The patient denies having any previous gynecological surgeries or trauma. The symptoms occur specifically during vaginal penetration. The patient acknowledges discomfort and tightening of pelvic floor muscles, which may indicate some anxiety or fear related to sexual activity.",
+        "summarized_mcq": "Genitopelvic pain disorder",
+        "summarized_frq": "Vaginismus"
+    },
+    "trial_4": {
+        "vignette_mcq": "Genitopelvic pain disorder",
+        "vignette_frq": "Vaginismus",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Obstetrics and Gynecology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have discomfort and tightening of my pelvic floor muscles during attempted vaginal penetration."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for at least 15 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience pain during other activities or just during vaginal penetration?"
+            },
+            {
+                "role": "user",
+                "content": "I only experience discomfort during vaginal penetration."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any trauma or surgeries in the pelvic area before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any trauma or surgeries in the pelvic area before these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other associated symptoms such as urinary difficulties or pain during menstruation?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any urinary difficulties or pain during menstruation."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications or have you undergone any treatments for these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not on any medications nor have I undergone any treatments for these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Vaginismus."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Genitopelvic pain disorder",
+        "multiturn_frq": "**Final Diagnosis:** Vaginismus",
+        "singleturn_mcq": "Final Diagnosis: Genitopelvic pain disorder",
+        "singleturn_frq": "**Final Diagnosis:** Vaginismus.",
+        "summarized_conversation": "A patient reports discomfort and tightening of their pelvic floor muscles during attempted vaginal penetration. They have been experiencing these symptoms for at least 15 months, and it specifically occurs during vaginal penetration. The patient has no history of trauma or surgeries in the pelvic area prior to the onset of these symptoms. Furthermore, they do not experience any urinary difficulties or pain during menstruation. Additionally, the patient is not currently taking any medications nor have they undergone any treatments for these symptoms.",
+        "summarized_mcq": "Genitopelvic pain disorder",
+        "summarized_frq": "Vaginismus"
+    }
+}

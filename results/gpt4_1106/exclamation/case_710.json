@@ -1,0 +1,325 @@
+{
+    "case_vignette": "A 53-year-old man is brought to the emergency department following an episode of loss of consciousness 1 hour ago! He had just finished micturating, when he fell down! His wife heard the noise and found him unconscious on the floor! He regained consciousness after 30 seconds and was able to talk normally with his wife immediately! There was no urinary incontinence! On arrival, he is alert and oriented! Cardiopulmonary examination shows no abnormalities! Neurologic examination shows no focal findings! Serum concentrations of glucose, creatinine, and electrolytes are within the reference range! An electrocardiogram shows no abnormalities! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Situational syncope",
+        "vignette_frq": "Micturition syncope",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I experienced a sudden loss of consciousness for about 30 seconds an hour ago after I finished urinating."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you experience any other symptoms before or after this event, such as palpitations or feeling lightheaded?"
+            },
+            {
+                "role": "user",
+                "content": "No, I did not experience palpitations or feeling lightheaded before or after the event."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any medical conditions that you've been diagnosed with previously, or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information on medical conditions or medications in the context of my situation."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had similar episodes in the past where you lost consciousness, particularly related to urination or other triggering activities?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar episodes in the past related to urination or other triggering activities."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of fainting spells or heart-related issues?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information on family history related to fainting spells or heart issues in the context of my situation."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Micturition syncope"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Situational syncope",
+        "multiturn_frq": "**Final Diagnosis:** Micturition syncope",
+        "singleturn_mcq": "Situational syncope",
+        "singleturn_frq": "Final Diagnosis: Micturition syncope.",
+        "summarized_conversation": "A patient reported a sudden loss of consciousness for approximately 30 seconds that occurred an hour after urinating. The patient did not experience palpitations or feeling lightheaded before or after the event. The patient has no known medical conditions or medications relevant to this situation. Furthermore, there have been no similar episodes in the past related to urination or other triggering activities. There is no family history of fainting spells or heart issues reported in this context.",
+        "summarized_mcq": "Situational syncope",
+        "summarized_frq": "Micturition syncope"
+    },
+    "trial_1": {
+        "vignette_mcq": "Situational syncope",
+        "vignette_frq": "Micturition syncope",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "Hello! I experienced a sudden episode of loss of consciousness about an hour ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any episodes like this before, where you lost consciousness suddenly?"
+            },
+            {
+                "role": "user",
+                "content": "No, this is the first time it has happened."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms accompanying the loss of consciousness, such as muscle twitching or confusion afterward?"
+            },
+            {
+                "role": "user",
+                "content": "No, there were no muscle twitching or confusion afterward; I was able to talk normally immediately after regaining consciousness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic medical conditions or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any chronic medical conditions and I am not on any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Were you engaged in any particular activity or under any stress when the loss of consciousness occurred?"
+            },
+            {
+                "role": "user",
+                "content": "I had just finished urinating when the loss of consciousness occurred."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Micturition syncope"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Situational syncope",
+        "multiturn_frq": "**Final Diagnosis:** Micturition syncope",
+        "singleturn_mcq": "Cardiovascular syncope",
+        "singleturn_frq": "Final Diagnosis: Syncope",
+        "summarized_conversation": "A patient reported experiencing a sudden loss of consciousness about an hour ago, marking the first occurrence of such an event. Muscle twitching or confusion did not follow the episode; the patient could communicate normally immediately after regaining consciousness. The patient has no chronic medical conditions and is not currently taking any medications. The loss of consciousness occurred right after the patient had finished urinating.",
+        "summarized_mcq": "Situational syncope",
+        "summarized_frq": "Vasovagal syncope"
+    },
+    "trial_2": {
+        "vignette_mcq": "Situational syncope",
+        "vignette_frq": "Vasovagal syncope",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I experienced a loss of consciousness for about 30 seconds after urinating."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had similar episodes in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar episodes in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms along with the loss of consciousness, like sweating or feeling lightheaded?"
+            },
+            {
+                "role": "user",
+                "content": "No, I did not experience any sweating or feeling lightheaded."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known heart conditions or neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any known heart conditions or neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you take any medications regularly?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any regular medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent change in your diet, hydration, or physical activity levels?"
+            },
+            {
+                "role": "user",
+                "content": "No, there has been no recent change in my diet, hydration, or physical activity levels."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Micturition syncope."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Situational syncope",
+        "multiturn_frq": "**Final Diagnosis:** Micturition syncope",
+        "singleturn_mcq": "Situational syncope",
+        "singleturn_frq": "Final Diagnosis: Micturition syncope",
+        "summarized_conversation": "A patient reported experiencing a loss of consciousness for approximately 30 seconds following urination. The patient has no prior history of similar episodes. There were no symptoms of sweating or feeling lightheaded reported during the episode. The patient does not have any known heart conditions or neurological disorders and does not take any regular medications. Additionally, there has been no recent change in diet, hydration levels, or physical activity.",
+        "summarized_mcq": "Situational syncope",
+        "summarized_frq": "Micturition syncope"
+    },
+    "trial_3": {
+        "vignette_mcq": "Situational syncope",
+        "vignette_frq": "Micturition syncope",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I experienced a sudden episode of loss of consciousness for about 30 seconds after finishing urinating. I fell down but regained consciousness quickly and was able to talk normally afterwards."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced anything like this before?"
+            },
+            {
+                "role": "user",
+                "content": "No, this has never happened to me before."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "There is no mention of any other medical conditions or medications in my case description."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cardiac, neurological, or other systemic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided about my family history of diseases in my case description."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you feel dizzy, lightheaded, or have any chest pain before you lost consciousness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I did not feel dizzy, lightheaded, or have any chest pain before losing consciousness."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you experience any sweating, warmth, or visual changes before the episode?"
+            },
+            {
+                "role": "user",
+                "content": "No, I did not experience any sweating, warmth, or visual changes before the episode."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Micturition Syncope"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Situational syncope",
+        "multiturn_frq": "**Final Diagnosis:** Micturition syncope",
+        "singleturn_mcq": "Final Diagnosis: Situational syncope",
+        "singleturn_frq": "**Final Diagnosis:** Micturition Syncope",
+        "summarized_conversation": "A patient experienced a sudden loss of consciousness, lasting about 30 seconds, after urinating. The patient fell but regained consciousness quickly and was able to converse normally afterward. This was the first occurrence of such an episode for the patient. The patient's medical history does not include any other medical conditions or mention of medications. Additionally, there is no available information about the family history of diseases. The patient did not feel dizzy, lightheaded, or experience chest pain prior to losing consciousness. Moreover, there were no symptoms of sweating, warmth, or visual changes before the episode occurred.",
+        "summarized_mcq": "Situational syncope",
+        "summarized_frq": "Micturition syncope"
+    },
+    "trial_4": {
+        "vignette_mcq": "Situational syncope",
+        "vignette_frq": "Micturition syncope",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I experienced an episode of loss of consciousness for about 30 seconds after I finished urinating an hour ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Did you experience any jerking movements or confusion after regaining consciousness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I did not experience any jerking movements or confusion after regaining consciousness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar episodes in the past? If yes, under what circumstances?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced similar episodes in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other ongoing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any ongoing medical conditions or medications that I am taking."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart problems or seizures in your family?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any family history of heart problems or seizures."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Micturition Syncope"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Situational syncope",
+        "multiturn_frq": "**Final Diagnosis:** Micturition syncope",
+        "singleturn_mcq": "Situational syncope",
+        "singleturn_frq": "Final Diagnosis: Micturition Syncope",
+        "summarized_conversation": "A patient experienced an episode of loss of consciousness lasting approximately 30 seconds, occurring about an hour after urinating. The patient did not display any jerking movements or express confusion upon regaining consciousness. This was the first occurrence of such an episode for the patient. The patient's record does not disclose any preexisting medical conditions or current medications. Additionally, there is no noted family history of heart problems or seizures.",
+        "summarized_mcq": "Situational syncope",
+        "summarized_frq": "Vasovagal syncope"
+    }
+}

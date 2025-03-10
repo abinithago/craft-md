@@ -1,0 +1,381 @@
+{
+    "case_vignette": "A 19-year-old female college student comes to the physician for a sudden loss of visual acuity of her right eye! She noticed that she was unable to read the time on the alarm clock when she woke up in the morning! When she closes her right eye, she is able to see sharply! When she closes her left eye, she has blurry double vision! She does not recall trauma to her eye but has been working long nights on her honors thesis! She has a history of occasional shoulder luxation! She is 180 cm (5 ft 11 in) tall, and weighs 62 kg (136 lbs); her BMI is 19!1 kg/m2! Her vital signs are within normal limits! On physical examination, slender and long fingers are noted! She has several flat, demarcated brownish nevi on her left cheek! Ocular examination shows upward temporal subluxation of her right lens! ",
+    "question": "Which  is the most likely diagnosis in this patient?",
+    "trial_0": {
+        "vignette_mcq": "Marfan syndrome",
+        "vignette_frq": "Marfan syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing sudden loss of visual clarity in my right eye, and when I close that eye, everything appears sharp, but when I close my left eye, I see things blurry and doubled."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I noticed it when I woke up this morning."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of diabetes, hypertension, or any other chronic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have diabetes, hypertension, or any other chronic diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any pain, redness, or discharge from the affected eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any pain, redness, or discharge from the affected eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent trauma or injury to the eye or head?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not recall any trauma to my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of migraines or any neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of migraines or any neurological conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms like flashes of light, floaters, or a curtain-like shadow over your field of vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed flashes of light, floaters, or a curtain-like shadow over my field of vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members experienced similar eye issues, or do they have a history of eye diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any similar eye issues or history of eye diseases in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic neuritis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Marfan syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Optic neuritis.",
+        "singleturn_mcq": "Marfan syndrome",
+        "singleturn_frq": "Final Diagnosis: Optic neuritis",
+        "summarized_conversation": "A patient reports experiencing a sudden loss of visual clarity in their right eye. They describe that when closing their left eye, things appear sharp, but when the right eye is used, they see things blurry and doubled. The issue was first noticed upon waking up in the morning. The patient confirms they do not have diabetes, hypertension, or any other chronic diseases. Additionally, they have not noticed any pain, redness, or discharge from the affected eye. There is no history of trauma to the eye or any past experiences with migraines or neurological conditions. No occurrences of flashes of light, floaters, or a curtain-like shadow over their field of vision have been observed. The patient is also not aware of any similar eye issues or history of eye diseases in their family.",
+        "summarized_mcq": "Multiple endocrine neoplasia 2B",
+        "summarized_frq": "Sudden onset of blurred and double vision in one eye without other symptoms could indicate a refractive error or a possible early sign of a cataract. It is recommended to see an eye specialist for a comprehensive examination to determine the exact cause."
+    },
+    "trial_1": {
+        "vignette_mcq": "Marfan syndrome",
+        "vignette_frq": "Marfan syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly lost the ability to see clearly with my right eye, and when I close my left eye, things look blurry and double."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I noticed it when I woke up this morning."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain or discomfort in your eye or around it?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any pain or discomfort in or around my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries to your head or eyes?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't recall any trauma to my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of occasional shoulder dislocation, but I'm not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of vision problems or eye diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of vision problems or eye diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Ischemic optic neuropathy."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Marfan syndrome",
+        "multiturn_frq": "Final Diagnosis: Optic neuritis",
+        "singleturn_mcq": "Marfan syndrome",
+        "singleturn_frq": "Final Diagnosis: Optic neuritis",
+        "summarized_conversation": "A patient reported a sudden loss of clear vision in the right eye upon awakening this morning, describing the vision as blurry and double when the left eye is closed. The patient experiences no pain or discomfort in or around the affected eye and recalls no trauma to the eye. The patient has a history of occasional shoulder dislocation but is not currently taking any medications. There is no reported family history of vision problems or eye diseases.",
+        "summarized_mcq": "Ehlers-Danlos syndrome",
+        "summarized_frq": "Sudden onset of painless monocular vision loss and diplopia suggests a possible diagnosis of a cranial nerve palsy, most likely involving the third, fourth, or sixth cranial nerve."
+    },
+    "trial_2": {
+        "vignette_mcq": "Marfan syndrome",
+        "vignette_frq": "Marfan syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've suddenly lost sharp vision in my right eye and when I close my left eye, everything appears blurry and doubled."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I noticed it when I woke up this morning."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing conditions or recent injuries related to your eyes or head?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't recall any trauma to my eye but I have a history of occasional shoulder dislocation."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms like pain in the eye, redness, or headaches?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any pain, redness, or headaches."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic conditions like diabetes, hypertension, or any neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any chronic conditions like diabetes, hypertension, or neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of eye diseases, such as glaucoma, macular degeneration, or retinal issues?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any family history of eye diseases like glaucoma, macular degeneration, or retinal issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any flashes of light, floating spots, or a curtain-like shadow over your field of vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any flashes of light, floating spots, or a curtain-like shadow over my field of vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Monocular Diplopia"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Marfan syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Optic neuritis.",
+        "singleturn_mcq": "Final Diagnosis: Marfan syndrome",
+        "singleturn_frq": "Final Diagnosis: Optic neuritis",
+        "summarized_conversation": "A patient has experienced a sudden loss of sharp vision in the right eye, describing the vision as blurry and doubled when the left eye is closed. This issue arose upon waking up in the morning. The patient reports no recent trauma to the eye and mentions a history of occasional shoulder dislocation. There is no associated pain, redness, or headaches. Additionally, the patient does not suffer from any chronic conditions such as diabetes, hypertension, or neurological disorders, and there is no known family history of eye diseases like glaucoma, macular degeneration, or retinal issues. There have been no symptoms of flashes of light, floating spots, or a curtain-like shadow affecting the field of vision.",
+        "summarized_mcq": "Ehlers-Danlos syndrome",
+        "summarized_frq": "Optic neuritis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Marfan syndrome",
+        "vignette_frq": "Marfan syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly lost the ability to see clearly with my right eye this morning, and I can't read clearly unless I close my right eye. When I close my left eye, my vision is blurry and doubled."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 19-year-old female."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not on any medication and don't have any chronic medical conditions, but I occasionally experience shoulder dislocations."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent trauma or injury to your eye or head?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any trauma to my eye or head recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of eye disorders or vision problems?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention anything about family history of eye disorders or vision problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Fourth Nerve Palsy"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Marfan syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Myasthenia Gravis",
+        "singleturn_mcq": "Final Diagnosis: Marfan syndrome",
+        "singleturn_frq": "Final Diagnosis: Monocular Diplopia",
+        "summarized_conversation": "A patient, a 19-year-old female, presented with a sudden loss of clear vision in her right eye. She reports not being able to read clearly unless she closes her right eye. When she closes her left eye, her vision appears blurry and doubled. The patient is not on any medication and has no chronic medical conditions, although she occasionally experiences shoulder dislocations. She confirmed that she has not suffered any recent trauma to her eye or head and has not mentioned any family history of eye disorders or vision problems.",
+        "summarized_mcq": "Ehlers-Danlos syndrome",
+        "summarized_frq": "Optic neuritis."
+    },
+    "trial_4": {
+        "vignette_mcq": "Marfan syndrome",
+        "vignette_frq": "Marfan syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I suddenly lost clear vision in my right eye, and things appear blurry and double when I look only with my right eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Since when have you been experiencing these vision changes?"
+            },
+            {
+                "role": "user",
+                "content": "I noticed the change this morning when I woke up and couldn't read the time on my alarm clock."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pain in your eye or around it?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any pain in or around my eye."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms such as numbness, weakness, or dizziness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced numbness, weakness, or dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions, like diabetes or hypertension?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have medical conditions like diabetes or hypertension, but I do occasionally experience shoulder dislocations."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of migraine or other neurological conditions in yourself or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have a history of migraine or other neurological conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or trauma to your head or eye?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not recall any trauma to my eye or head."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been diagnosed with or treated for any eye conditions or diseases previously?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with or treated for any eye conditions or diseases previously."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Optic neuritis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Homocystinuria",
+        "multiturn_frq": "**Final Diagnosis:** Optic neuritis",
+        "singleturn_mcq": "Marfan syndrome",
+        "singleturn_frq": "Final Diagnosis: Optic neuritis",
+        "summarized_conversation": "A patient reports suddenly losing clear vision in their right eye, describing the onset of blurriness and double vision solely in that eye. This change was noticed upon waking up, as the patient was unable to read the time on their alarm clock. The patient reports no pain in or around the eye. Furthermore, they do not experience symptoms such as numbness, weakness, or dizziness. The patient does not have medical conditions like diabetes or hypertension; however, they do experience occasional shoulder dislocations. There is no history of migraine or other neurological conditions, nor is there any recall of trauma to the eye or head. Additionally, the patient has not been previously diagnosed with or treated for any eye conditions or diseases.",
+        "summarized_mcq": "Ehlers-Danlos syndrome",
+        "summarized_frq": "The most likely diagnosis is a cranial nerve palsy, specifically involving the cranial nerve VI (abducens nerve palsy)."
+    }
+}

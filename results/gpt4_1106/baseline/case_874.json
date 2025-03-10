@@ -1,0 +1,325 @@
+{
+    "case_vignette": "A 39-year-old woman comes to the physician for difficulty sleeping and poor concentration at work. She sleeps with the lights turned on and wakes up frequently during the night with palpitations and profuse sweating. Three weeks ago she was sexually assaulted in her car. Since the assault she has avoided using her car and only uses public transportation. She also has nightmares of her attacker. She has been sent home from work for yelling at her coworkers. She has Hashimoto thyroiditis. Current medications include levothyroxine. She has been treated for pelvic inflammatory disease in the past. She has tried alcohol and melatonin to help her sleep. Mental status examination shows a depressed mood and a negative affect. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Post-traumatic stress disorder",
+        "vignette_frq": "Post-traumatic stress disorder (PTSD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm having difficulty sleeping and poor concentration at work."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like changes in mood, energy, or appetite?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a depressed mood."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any recent changes or stressful events in your life?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, three weeks ago I was sexually assaulted."
+            },
+            {
+                "role": "assistant",
+                "content": "I'm sorry to hear that. Are you currently taking any medication or receiving therapy for these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I'm currently taking levothyroxine for my Hashimoto thyroiditis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight or sleeping pattern since the assault?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I now sleep with the lights on and wake up frequently during the night with palpitations and profuse sweating."
+            },
+            {
+                "role": "assistant",
+                "content": "Are these night-time symptoms accompanied by feelings of panic or intense fear?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I also experience nightmares of my attacker."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-Traumatic Stress Disorder (PTSD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acute stress disorder",
+        "multiturn_frq": "**Final Diagnosis:** Post-traumatic stress disorder (PTSD)",
+        "singleturn_mcq": "Acute stress disorder",
+        "singleturn_frq": "**Final Diagnosis:** Stress",
+        "summarized_conversation": "A patient reports having difficulties with sleeping and poor concentration at work, having struggled with these symptoms for the past three weeks. The patient acknowledges a depressed mood and disclosed that these issues began following a sexual assault three weeks prior. The patient is currently under treatment with levothyroxine for Hashimoto thyroiditis. Additionally, the patient mentions sleeping with the lights on due to frequent awakenings at night accompanied by palpitations and profuse sweating. The patient also experiences nightmares involving the attacker.",
+        "summarized_mcq": "Post-traumatic stress disorder",
+        "summarized_frq": "Post-traumatic stress disorder (PTSD)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Post-traumatic stress disorder",
+        "vignette_frq": "Post-traumatic stress disorder (PTSD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm having difficulty sleeping and poor concentration at work."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms, such as changes in appetite or energy levels, or feelings of sadness?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been feeling depressed and my mood is low."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any recent changes in your life such as stress at work or personal losses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, three weeks ago I was sexually assaulted, which has been very stressful."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you received any medical treatment or psychological support after this incident?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not mentioned receiving any specific treatment or psychological support after the incident."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acute stress disorder",
+        "multiturn_frq": "Final Diagnosis: Major Depressive Disorder",
+        "singleturn_mcq": "Acute stress disorder",
+        "singleturn_frq": "Final Diagnosis: Depression",
+        "summarized_conversation": "A patient reports difficulties with sleeping and poor concentration at work, which have persisted for about three weeks. The patient also describes feeling depressed and experiencing low mood. The patient disclosed that these symptoms began following a sexual assault that occurred three weeks ago, which has been a source of considerable stress. The patient has not received any specific treatment or psychological support since the incident.",
+        "summarized_mcq": "Post-traumatic stress disorder",
+        "summarized_frq": "Major depressive disorder with features of acute stress response."
+    },
+    "trial_2": {
+        "vignette_mcq": "Post-traumatic stress disorder",
+        "vignette_frq": "Post-traumatic stress disorder (PTSD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm having difficulty sleeping and poor concentration at work."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms, like feeling sad or losing interest in activities you usually enjoy?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been feeling sad and have a depressed mood."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any changes in your appetite or weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "There's no mention of changes in my appetite or weight in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any ongoing stresses or significant changes in your personal or professional life recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, three weeks ago I was sexually assaulted."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you sought any medical or psychological help since the incident?"
+            },
+            {
+                "role": "user",
+                "content": "The provided text does not specify whether I have sought medical or psychological help since the incident."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a family history of depression or any other mental health disorders?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information provided about a family history of depression or any other mental health disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Major Depressive Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acute stress disorder",
+        "multiturn_frq": "**Final Diagnosis:** Major Depressive Disorder",
+        "singleturn_mcq": "Acute stress disorder",
+        "singleturn_frq": "Final Diagnosis: Stress",
+        "summarized_conversation": "A patient is experiencing difficulty sleeping and poor concentration at work and has been dealing with these issues for about three weeks. The patient reports feeling sad and having a depressed mood. No changes in appetite or weight have been noted. Notably, the patient was sexually assaulted three weeks ago. It is not specified whether the patient has sought medical or psychological help since the incident. There is no information provided about a family history of depression or any other mental health disorders.",
+        "summarized_mcq": "Acute stress disorder",
+        "summarized_frq": "Major depressive disorder with an acute stress reaction."
+    },
+    "trial_3": {
+        "vignette_mcq": "Post-traumatic stress disorder",
+        "vignette_frq": "Post-traumatic stress disorder (PTSD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm having difficulty sleeping, poor concentration at work, frequent waking at night with palpitations and profuse sweating, and nightmares."
+            },
+            {
+                "role": "assistant",
+                "content": "Have these symptoms been present for a few days, weeks, or longer than that?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms started three weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently experiencing any high levels of stress, recent trauma, or significant life changes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was sexually assaulted three weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms or mental health concerns prior to this incident?"
+            },
+            {
+                "role": "user",
+                "content": "No, these symptoms started after the assault."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-traumatic Stress Disorder (PTSD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acute stress disorder",
+        "multiturn_frq": "**Final Diagnosis:** Post-traumatic stress disorder (PTSD)",
+        "singleturn_mcq": "Final Diagnosis: Post-traumatic stress disorder",
+        "singleturn_frq": "**Final Diagnosis:** Post-traumatic stress disorder (PTSD)",
+        "summarized_conversation": "A patient reports having difficulty sleeping, poor concentration at work, frequent waking at night with palpitations and profuse sweating, and experiencing nightmares. These symptoms began three weeks ago. The patient mentions that these symptoms started after being sexually assaulted three weeks prior.",
+        "summarized_mcq": "Acute stress disorder",
+        "summarized_frq": "Post-traumatic stress disorder (PTSD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Post-traumatic stress disorder",
+        "vignette_frq": "Post-traumatic stress disorder (PTSD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have difficulty sleeping, poor concentration at work, nightmares, and I've been more irritable, frequently yelling at coworkers."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been involved in or witnessed any traumatic events recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was sexually assaulted three weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your interest in activities that you usually enjoy?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been avoiding using my car, which I previously used regularly, and now only use public transportation."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Post-Traumatic Stress Disorder (PTSD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acute stress disorder.",
+        "multiturn_frq": "**Final Diagnosis:** Post-Traumatic Stress Disorder (PTSD)",
+        "singleturn_mcq": "**Final Diagnosis:** Post-traumatic stress disorder",
+        "singleturn_frq": "**Final Diagnosis:** Post-traumatic stress disorder (PTSD)",
+        "summarized_conversation": "A patient reports experiencing difficulty sleeping, poor concentration at work, nightmares, irritability, and frequent yelling at coworkers for the past three weeks. The patient disclosed being sexually assaulted three weeks ago. The patient has been avoiding the use of their car, which was previously used regularly, and now solely relies on public transportation.",
+        "summarized_mcq": "Post-traumatic stress disorder",
+        "summarized_frq": "Post-traumatic stress disorder (PTSD)"
+    }
+}

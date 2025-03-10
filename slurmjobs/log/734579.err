@@ -1,0 +1,11 @@
+cpu-bind=MASK - frappe, task  0  0 [286181]: mask 0xc03f000100c03e set
+  0%|          | 0/1333 [00:00<?, ?it/s]  0%|          | 0/1333 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/model.py", line 37, in <module>
+    execute_script(dataset)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/model.py", line 22, in execute_script
+    craftmd_gpt(case, path_dir, model_name)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/craftmd.py", line 17, in craftmd_gpt
+    doctor_model = dmap_model[doctor_model_name]
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 'llama3-8b'

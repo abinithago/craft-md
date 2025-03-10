@@ -1,0 +1,357 @@
+{
+    "case_vignette": "A 78-year-old man comes to the physician for evaluation of progressive hearing loss in both ears over the past year! He has difficulties understanding conversations in crowded places and when more than one person talks at the same time! He has no dizziness, ear discharge, ringing noise, or ear pain! He has a history of hypertension, hypercholesterolemia, and type 2 diabetes mellitus! Medications include enalapril, metformin, and atorvastatin! Vital signs are within normal limits! Otoscopic examination shows pearly gray, translucent tympanic membranes with a normal light reflex! A vibrating 512 Hz tuning fork is placed on the left mastoid process! Once the patient no longer hears a tone, the fork is held over the ipsilateral ear and the patient reports to hear the tone again! The same test is repeated on the right side with similar results! There is no lateralization when a vibrating 512 Hz tuning fork is placed in the middle of the forehead! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Presbycusis",
+        "vignette_frq": "Presbycusis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing progressive hearing loss in both ears over the past year and I find it difficult to understand conversations in crowded places or when multiple people are talking at the same time."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any ringing in your ears or dizziness associated with your hearing loss?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any ringing in my ears or dizziness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of ear infections or ear surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of ear infections or ear surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to loud noises or music for prolonged periods in your daily environment or at work?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been exposed to loud noises or music for prolonged periods."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family members who have experienced similar hearing issues?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned anything about my family medical history regarding hearing issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently take any medications or have any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I take medications for hypertension, high cholesterol, and type 2 diabetes, specifically enalapril, atorvastatin, and metformin."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Presbycusis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Presbycusis",
+        "multiturn_frq": "**Final Diagnosis:** Presbycusis",
+        "singleturn_mcq": "Final Diagnosis: Presbycusis",
+        "singleturn_frq": "**Final Diagnosis:** Bilateral sensorineural hearing loss",
+        "summarized_conversation": "A patient reports experiencing progressive hearing loss in both ears over the past year and finding it difficult to understand conversations in crowded places or when multiple people are talking at the same time. The patient has not experienced any ringing in the ears or dizziness. They do not have a history of ear infections or ear surgeries, nor have they been exposed to loud noises or music for prolonged periods. There is no mention of a family history of hearing issues. The patient is currently on medications for hypertension, high cholesterol, and type 2 diabetes, which include enalapril, atorvastatin, and metformin.",
+        "summarized_mcq": "Presbycusis",
+        "summarized_frq": "Age-related hearing loss (presbycusis)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Presbycusis",
+        "vignette_frq": "Presbycusis (age-related hearing loss)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive hearing loss in both ears over the past year, and I find it difficult to understand conversations in crowded places or when more than one person talks at the same time."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 78 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any ringing or buzzing sounds in your ears (tinnitus) or dizziness/balance problems?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any ringing noise, dizziness, or ear pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to loud noises for extended periods at any point in your life, or had any ear infections?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any exposure to loud noises for extended periods or any ear infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of hearing loss?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of hearing loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking enalapril, metformin, and atorvastatin."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Presbycusis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Presbycusis",
+        "multiturn_frq": "**Final Diagnosis:** Presbycusis",
+        "singleturn_mcq": "**Final Diagnosis:** Presbycusis",
+        "singleturn_frq": "Final Diagnosis: Presbycusis",
+        "summarized_conversation": "A 78-year-old patient has been experiencing a progressive loss of hearing in both ears over the last year, making it difficult to understand conversations in crowded places or when multiple people are talking simultaneously. The patient does not experience any ringing noise, dizziness, or ear pain. There is no history of exposure to loud noises for extended periods or any ear infections, and there's no family history of hearing loss mentioned. The patient is currently taking enalapril, metformin, and atorvastatin.",
+        "summarized_mcq": "Presbycusis",
+        "summarized_frq": "Age-related hearing loss (presbycusis)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Presbycusis",
+        "vignette_frq": "Presbycusis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive hearing loss in both ears over the past year and have difficulties understanding conversations in crowded places and when multiple people are talking at the same time."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any associated symptoms like ringing in the ears or dizziness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any dizziness, ringing noise, or ear pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous ear infections or surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any ear infections or surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of hearing loss?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of hearing loss."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications or have any other existing medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking enalapril, metformin, and atorvastatin for hypertension, type 2 diabetes mellitus, and hypercholesterolemia."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Presbycusis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Presbycusis",
+        "multiturn_frq": "**Final Diagnosis:** Presbycusis",
+        "singleturn_mcq": "Final Diagnosis: Presbycusis",
+        "singleturn_frq": "Final Diagnosis: Bilateral sensorineural hearing loss",
+        "summarized_conversation": "The patient has been experiencing progressive hearing loss in both ears over the past year. The patient reports difficulties in understanding conversations in crowded places and when multiple people talk simultaneously. The patient denies any associated symptoms like dizziness, ringing noise, or ear pain. There have been no ear infections or surgeries reported by the patient. No family history of hearing loss has been mentioned. The patient is currently taking enalapril, metformin, and atorvastatin for diagnosed conditions of hypertension, type 2 diabetes mellitus, and hypercholesterolemia.",
+        "summarized_mcq": "Presbycusis",
+        "summarized_frq": "Age-related hearing loss (presbycusis)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Presbycusis",
+        "vignette_frq": "Presbycusis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive hearing loss in both ears for the past year and have difficulties understanding conversations in crowded places or when multiple people are talking at the same time."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 78-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any ringing or buzzing sounds in your ears, known as tinnitus?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any ringing or buzzing sounds in my ears."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to loud noises in your work environment or during leisure activities frequently throughout your life?"
+            },
+            {
+                "role": "user",
+                "content": "You didn't provide me with specific information on my exposure to loud noises, so based on what you've given me, I can't say for sure."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any discharge from your ears, pain, or feelings of pressure?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any discharge, pain, or feelings of pressure in my ears."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of hearing loss?"
+            },
+            {
+                "role": "user",
+                "content": "You didn't give me specific information about my family history regarding hearing loss, so based on what you've provided, I can't confirm any family history of it."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications that could potentially affect your hearing?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking enalapril, metformin, and atorvastatin."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Presbycusis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Presbycusis",
+        "multiturn_frq": "Final Diagnosis: Presbycusis",
+        "singleturn_mcq": "Final Diagnosis: Presbycusis",
+        "singleturn_frq": "**Final Diagnosis:** Presbycusis",
+        "summarized_conversation": "A patient presents to the clinic reporting progressive hearing loss in both ears that has been developing over the past year. The patient is a 78-year-old man who finds it challenging to understand conversations in crowded places or when multiple people are talking simultaneously. He does not experience any ringing or buzzing sounds in his ears. Additionally, the patient did not provide information about exposure to loud noises and is therefore unable to confirm its impact. There have been no instances of discharge, pain, or feelings of pressure in his ears. Furthermore, the lack of provided details on family history regarding hearing loss means he cannot confirm if it might be a hereditary issue. The patient is currently taking enalapril, metformin, and atorvastatin.",
+        "summarized_mcq": "Presbycusis",
+        "summarized_frq": "Age-related hearing loss (presbycusis)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Presbycusis",
+        "vignette_frq": "Presbycusis (age-related hearing loss)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive hearing loss in both ears over the past year and find it difficult to understand conversations in crowded places or when multiple people are speaking at once."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any ringing or buzzing sounds in your ears (tinnitus)?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any ringing or buzzing sounds in my ears."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been exposed to loud noises, either recently or consistently in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been exposed to loud noises recently or consistently in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulties with balance or episodes of dizziness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no dizziness or difficulties with balance."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar hearing issues or other auditory problems?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned anything about my family members having similar hearing issues or other auditory problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently using any medications, either prescribed or over-the-counter?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking enalapril, metformin, and atorvastatin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any drainage or fluid coming from your ears?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no ear discharge."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Presbycusis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Presbycusis",
+        "multiturn_frq": "**Final Diagnosis:** Presbycusis",
+        "singleturn_mcq": "Final Diagnosis: Presbycusis",
+        "singleturn_frq": "Final Diagnosis: Presbycusis",
+        "summarized_conversation": "A patient has noticed a gradual hearing loss in both ears over the past year and struggles to understand conversations in crowded settings or when several people are talking simultaneously. The patient reports no ringing or buzzing sounds in the ears. There has been no recent or consistent past exposure to loud noises. Additionally, the patient does not experience dizziness or issues with balance. There was no mention of family members having similar hearing problems or other auditory conditions. The patient is currently taking enalapril, metformin, and atorvastatin. The patient also confirms there is no ear discharge.",
+        "summarized_mcq": "Presbycusis",
+        "summarized_frq": "Age-related hearing loss (presbycusis)"
+    }
+}

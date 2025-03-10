@@ -1,0 +1,317 @@
+{
+    "case_vignette": "A 28-year-old woman is brought to a counselor by her father after he found out that she is being physically abused by her husband. The father reports that she refuses to end the relationship with her husband despite the physical abuse. She says that she feels uneasy when her husband is not around. She adds, \u201cI'm worried that if I leave him, my life will only get worse.\u201d She has never been employed since they got married because she is convinced that nobody would hire her. Her husband takes care of most household errands and pays all of the bills. Physical examination shows several bruises on the thighs and back. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Dependent personality disorder",
+        "vignette_frq": "Battered woman syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have several bruises on my thighs and back, and I feel uneasy when my husband is not around."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent falls, injuries or accidents that could explain the bruising?"
+            },
+            {
+                "role": "user",
+                "content": "The bruises are a result of being physically abused by my husband."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Physical abuse"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dependent personality disorder",
+        "multiturn_frq": "Final Diagnosis: Battered Person Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Dependent personality disorder",
+        "singleturn_frq": "**Final Diagnosis:** Domestic abuse",
+        "summarized_conversation": "The individual has multiple bruises on their thighs and back and experiences uneasiness in the absence of their spouse. The bruises are attributed to physical abuse inflicted by the spouse.",
+        "summarized_mcq": "Dependent personality disorder",
+        "summarized_frq": "Physical abuse/domestic violence."
+    },
+    "trial_1": {
+        "vignette_mcq": "Dependent personality disorder",
+        "vignette_frq": "Battered woman syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel uneasy when my husband is not around, and I'm worried that my life will worsen if I leave him."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience fear, anxiety, or nervousness when thinking about being separated from your husband?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I feel uneasy when he is not around."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these feelings?"
+            },
+            {
+                "role": "user",
+                "content": "I did not mention how long I have been experiencing these feelings."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you please specify how long this has been an issue for you?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I can't specify the duration as I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like nausea, sweating, or increased heart rate when you are away from your husband or think about being separated from him?"
+            },
+            {
+                "role": "user",
+                "content": "No, I did not mention experiencing nausea, sweating, or increased heart rate."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed that these feelings interfere with your daily life, work, or social activities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have never been employed since getting married because I am convinced that nobody would hire me."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these feelings that you have result in significant distress or impairment in social, occupational, or other areas of functioning?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, these feelings result in significant impairment as I have not been employed and believe nobody would hire me."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dependent Personality Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dependent personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Dependent Personality Disorder",
+        "singleturn_mcq": "Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Dependent Personality Disorder",
+        "summarized_conversation": "A woman feels uneasy whenever her husband is not around and worries that her life will deteriorate if she leaves him. She has been feeling this way for an unspecified period and does not recall experiencing physical symptoms such as nausea, sweating, or an increased heart rate. Since getting married, she has never been employed and strongly believes that no one would hire her, leading to significant impairment in her life due to these beliefs and unemployment.",
+        "summarized_mcq": "Dependent personality disorder",
+        "summarized_frq": "Dependent personality disorder"
+    },
+    "trial_2": {
+        "vignette_mcq": "Dependent personality disorder",
+        "vignette_frq": "Battered woman syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel uneasy when my husband is not around and I'm worried that if I leave him, my life will only get worse."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been feeling this way?"
+            },
+            {
+                "role": "user",
+                "content": "I have been feeling this way since I got married."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical or psychiatric history?"
+            },
+            {
+                "role": "user",
+                "content": "I have no past medical or psychiatric history mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your family members have a history of mental health disorders?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided about my family's mental health history."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have constant worries or fears that feel uncontrollable regarding being separated from your husband?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I feel uneasy when my husband is not around and I worry that my life will only get worse if I leave him."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Separation Anxiety Disorder."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dependent personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Separation Anxiety Disorder",
+        "singleturn_mcq": "Final Diagnosis: Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Separation Anxiety Disorder",
+        "summarized_conversation": "A patient expresses feelings of unease when her husband is not present and worries that leaving him might worsen her life. She has experienced these feelings since getting married. The patient reports no past medical or psychiatric history and no information is provided concerning her family's mental health history. She reiterates her unease in her husband's absence and her concerns about the potential negative consequences of leaving him.",
+        "summarized_mcq": "Dependent personality disorder",
+        "summarized_frq": "Separation anxiety disorder"
+    },
+    "trial_3": {
+        "vignette_mcq": "Dependent personality disorder",
+        "vignette_frq": "Dependent personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel uneasy when my husband is not around, and I'm worried that if I leave him, my life will only get worse."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these feelings?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these feelings since I got married."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these feelings impact your ability to function daily or engage in social activities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, these feelings impact my ability to function daily as I have never been employed since getting married, believing that nobody would hire me."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your sleep, appetite, or weight?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided doesn't mention any changes in my sleep, appetite, or weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever sought professional help or therapy for these feelings before?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not sought professional help or therapy for these feelings before."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any family history of mental health issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dependent Personality Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Dependent personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Dependent Personality Disorder",
+        "singleturn_mcq": "Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Dependent Personality Disorder",
+        "summarized_conversation": "A patient expresses feelings of unease when her husband is not around and shares concerns that her life might worsen if they were to separate. These feelings have persisted since getting married. She reports that these feelings impact her daily functioning significantly, as she has not been employed since her marriage due to a belief that no one would hire her. The patient has not noticed any changes in her sleep, appetite, or weight. She has never sought professional help or therapy for these feelings. There is no reported family history of mental health issues.",
+        "summarized_mcq": "Dependent personality disorder",
+        "summarized_frq": "Dependent personality disorder"
+    },
+    "trial_4": {
+        "vignette_mcq": "Dependent personality disorder",
+        "vignette_frq": "Battered woman syndrome (BWS)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel uneasy when my husband is not around and I'm worried that if I leave him, my life will only get worse."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been feeling this way?"
+            },
+            {
+                "role": "user",
+                "content": "I have been feeling this way since I got married."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any physical symptoms such as palpitations, sweating, or trembling during these times of uneasiness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced palpitations, sweating, or trembling."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these feelings of unease affect your ability to perform daily tasks or interact with others?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I feel so uneasy that I've never been employed since I got married because I'm convinced that nobody would hire me."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you consulted with a mental health professional about these feelings before?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not consulted with a mental health professional about these feelings before."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of any mental health disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family history of mental health disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Dependent Personality Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Dependent personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Dependent Personality Disorder",
+        "singleturn_mcq": "Final Diagnosis: Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Dependent Personality Disorder",
+        "summarized_conversation": "A woman expresses feelings of unease when her husband is not around, and she worries that her life may deteriorate if she were to leave him. These feelings have persisted since she got married. She denies experiencing any physical symptoms such as palpitations, sweating, or trembling. Furthermore, due to her unease, she has not been employed since getting married, believing that no one would hire her. She has not previously consulted with a mental health professional regarding these feelings. Additionally, she does not have information regarding her family's history of mental health disorders.",
+        "summarized_mcq": "Dependent personality disorder",
+        "summarized_frq": "Dependent personality disorder"
+    }
+}

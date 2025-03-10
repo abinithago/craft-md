@@ -1,0 +1,365 @@
+{
+    "case_vignette": "A 51-year-old woman comes to the physician because of fatigue and progressive pain and stiffness in her hands for 3 months! She used to play tennis but stopped 1 month ago because of difficulties holding the racket and her skin becoming \u201cvery sensitive to sunlight!\u201d Her last menstrual period was 1 year ago! She has diabetes mellitus controlled with insulin! She does not smoke or drink alcohol! Vital signs are within normal limits! The patient appears tanned! The second and third metacarpophalangeal joints of both hands are tender to palpation and range of motion is limited! ",
+    "question": "Which  is the most appropriate next step in diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Testing for anti-nuclear antibodies",
+        "vignette_frq": "Order antinuclear antibody (ANA) and anti-double-stranded DNA (anti-dsDNA) antibody tests.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, pain, and stiffness in my hands for 3 months, and my skin has become very sensitive to sunlight."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your joints, or are they becoming deformed?"
+            },
+            {
+                "role": "user",
+                "content": "The joints in my hands are tender and have limited range of motion, but there's no mention of swelling or deformity."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any rashes, particularly ones that may look like a butterfly across your cheeks and nose?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't mentioned any rashes on my face."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any fever, weight loss, or other systemic symptoms recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced fever, weight loss, or other systemic symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you started new medications in the past six months?"
+            },
+            {
+                "role": "user",
+                "content": "I am currently controlling my diabetes with insulin, but I haven't mentioned starting any new medications in the past six months."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Rheumatoid Arthritis"
+            }
+        ],
+        "multiturn_mcq": "Testing for anti-nuclear antibodies",
+        "multiturn_frq": "**Final Diagnosis:** Rheumatoid Arthritis",
+        "singleturn_mcq": "Testing for anti-nuclear antibodies",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A patient has reported experiencing fatigue, pain, and stiffness in their hands for the past three months, along with increased sensitivity to sunlight. The joints in their hands are tender with a limited range of motion, although there is no apparent swelling or deformity. The patient noted they do not have any rashes on their face, and they haven't experienced fever, weight loss, or other systemic symptoms. There is no personal or family history of autoimmune diseases mentioned. The patient is currently managing their diabetes with insulin and has not started any new medications in the past six months.",
+        "summarized_mcq": "Testing for anti-nuclear antibodies",
+        "summarized_frq": "Order antinuclear antibody (ANA) and rheumatoid factor (RF) tests."
+    },
+    "trial_1": {
+        "vignette_mcq": "Testing for anti-nuclear antibodies",
+        "vignette_frq": "Order antinuclear antibody (ANA) and anti-double-stranded DNA (anti-dsDNA) antibody tests.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing fatigue and progressive pain and stiffness in my hands for the last three months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you notice any swelling, redness, or warmth around the joints in your hands?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't noticed any swelling, redness, or warmth around the joints in my hands."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed similar symptoms in any other joints besides your hands?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed similar symptoms in any other joints besides my hands."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have diabetes mellitus and I am controlled with insulin."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of autoimmune or rheumatologic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I don't have information on any family history of autoimmune or rheumatologic diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty sleeping or do you wake up feeling unrefreshed?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any difficulty sleeping or issues with waking up feeling unrefreshed."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the sensation of your fingers, such as numbness or tingling?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in sensation like numbness or tingling in my fingers."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Osteoarthritis"
+            }
+        ],
+        "multiturn_mcq": "Testing for rheumatoid factors",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic cheiroarthropathy",
+        "singleturn_mcq": "Testing for rheumatoid factors",
+        "singleturn_frq": "Order Rheumatoid Factor and Anti-CCP tests.",
+        "summarized_conversation": "A patient has been experiencing fatigue and progressive pain and stiffness in the hands for the last three months. The patient reports no swelling, redness, or warmth around the joints in the hands, nor has similar symptoms been noticed in any other joints, only the hands. The patient has diabetes mellitus and is controlled with insulin. The patient is unable to provide information on any family history of autoimmune or rheumatologic diseases. The patient does not have any difficulty sleeping or issues with waking up feeling unrefreshed. Also, the patient has not noticed any changes in sensation like numbness or tingling in the fingers.",
+        "summarized_mcq": "Testing for rheumatoid factors",
+        "summarized_frq": "Order blood tests to assess inflammatory markers and rheumatoid factor."
+    },
+    "trial_2": {
+        "vignette_mcq": "Testing for anti-nuclear antibodies",
+        "vignette_frq": "Order antinuclear antibody (ANA) and anti-double-stranded DNA (anti-dsDNA) antibody tests.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue and pain and stiffness in my hands for the past 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have the symptoms been worse in the mornings or after periods of inactivity?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the symptoms have been worse in the mornings and after periods of inactivity."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you notice any swelling or redness in the joints of your hands?"
+            },
+            {
+                "role": "user",
+                "content": "The second and third joints of my hands are tender, but there is no mention of swelling or redness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had similar symptoms in the past or experienced any other joint issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had similar symptoms or other joint issues in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of autoimmune diseases or rheumatologic conditions?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about my family history of autoimmune diseases or rheumatologic conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you started any new treatments recently?"
+            },
+            {
+                "role": "user",
+                "content": "I am currently taking insulin for my diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Rheumatoid Arthritis"
+            }
+        ],
+        "multiturn_mcq": "Testing for rheumatoid factors",
+        "multiturn_frq": "Final Diagnosis: Rheumatoid Arthritis",
+        "singleturn_mcq": "Testing for rheumatoid factors",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A patient has reported experiencing fatigue, pain, and stiffness in their hands for the past three months. They've indicated that the symptoms exacerbate in the mornings and following periods of inactivity. Tender second and third joint pain in the hands was also noted, although no swelling or redness is apparent. The patient mentions they have not experienced similar symptoms or other joint issues in the past. There's no documented information on the patient\u2019s family history regarding autoimmune diseases or rheumatologic conditions. The patient is currently managing diabetes mellitus with insulin.",
+        "summarized_mcq": "Testing for rheumatoid factors",
+        "summarized_frq": "Order rheumatoid factor and anti-CCP antibodies tests."
+    },
+    "trial_3": {
+        "vignette_mcq": "Testing for anti-nuclear antibodies",
+        "vignette_frq": "Order antinuclear antibody (ANA) and anti-double stranded DNA (anti-dsDNA) tests.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue and progressive pain and stiffness in my hands for the past 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have these symptoms been more pronounced in the morning or after periods of inactivity?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the stiffness in my hands is more pronounced in the morning."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any associated swelling or redness in the joints of your hands or any other joints?"
+            },
+            {
+                "role": "user",
+                "content": "The second and third joints of my hands are tender, but there's no mention of swelling or redness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of autoimmune diseases or arthritis?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there's no information about my family history of autoimmune diseases or arthritis in the details provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent fevers, unintentional weight loss, or other systemic symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced recent fevers, unintentional weight loss, or other systemic symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any other chronic illnesses or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have diabetes mellitus and it's controlled with insulin."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Rheumatoid Arthritis"
+            }
+        ],
+        "multiturn_mcq": "Testing for rheumatoid factors",
+        "multiturn_frq": "Final Diagnosis: Rheumatoid Arthritis",
+        "singleturn_mcq": "Testing for rheumatoid factors",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A patient has been experiencing fatigue along with increasing pain and stiffness in their hands over the past three months. The stiffness is more pronounced in the morning. The second and third joints of the patient's hands are tender, although there are no reports of swelling or redness. There's no available information on the patient's family history concerning autoimmune diseases or arthritis. The patient has not had recent fevers, unintentional weight loss, or other systemic symptoms. The patient has diabetes mellitus, which is being managed with insulin.",
+        "summarized_mcq": "Testing for rheumatoid factors",
+        "summarized_frq": "Order rheumatoid factor and anti-CCP antibodies tests."
+    },
+    "trial_4": {
+        "vignette_mcq": "Testing for anti-nuclear antibodies",
+        "vignette_frq": "Order anti-nuclear antibody (ANA) and anti-double-stranded DNA (dsDNA) antibody tests.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue and progressive pain and stiffness in my hands for 3 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in the joints of your hands or other parts of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any swelling in the joints of my hands or other parts of my body."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of psoriasis or any skin rashes?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have a history of psoriasis, but my skin has become very sensitive to sunlight recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any dryness in your eyes or mouth during this period?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any dryness in my eyes or mouth during this period."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of rheumatoid arthritis, lupus, or other autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but the vignette does not provide any information about my family history of rheumatoid arthritis, lupus, or other autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any low-grade fevers or unexplained weight loss recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been experiencing any low-grade fevers or unexplained weight loss recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications, and if so, what are they?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am currently taking insulin for my diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic Cheiroarthropathy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Testing for anti-nuclear antibodies",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic cheiroarthropathy",
+        "singleturn_mcq": "Testing for rheumatoid factors",
+        "singleturn_frq": "Final Diagnosis: Rheumatoid Arthritis",
+        "summarized_conversation": "A patient reports experiencing fatigue and progressive pain and stiffness in the hands for the past three months. The patient has not noticed any swelling in the joints of the hands or other parts of the body. There is no history of psoriasis; however, the patient's skin has recently become very sensitive to sunlight. The patient has not experienced any dryness in the eyes or mouth during this period. There is no provided information about the patient's family history of rheumatoid arthritis, lupus, or other autoimmune diseases. The patient has not been experiencing any low-grade fevers or unexplained weight loss recently. The patient is currently taking insulin for diabetes mellitus.",
+        "summarized_mcq": "Testing for anti-nuclear antibodies",
+        "summarized_frq": "Refer the patient for antinuclear antibody (ANA) and rheumatoid factor (RF) testing."
+    }
+}

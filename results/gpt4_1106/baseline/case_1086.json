@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 2-year-old boy is brought to the physician because of progressive headaches, dizziness, and recurrent episodes of vomiting for 3 weeks. He has a history of surgical removal of a sac-like protuberance on his lower back soon after birth. Neurologic examination shows ataxia. Fundoscopy shows bilateral optic disk swelling. An MRI of the brain is shown. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Chiari II malformation",
+        "vignette_frq": "Chiari II malformation",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having headaches, feeling dizzy, and I keep throwing up."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "For 3 weeks now."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms, like changes in vision or hearing?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't noticed any changes in my hearing, but I can't speak to changes in vision since I'm just 2 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries, falls, or illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries, falls, or illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of my family's medical history since I'm only 2 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any fever along with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had a fever with these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pediatric Migraine"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Chiari II malformation",
+        "multiturn_frq": "**Final Diagnosis:** Pediatric brain tumor",
+        "singleturn_mcq": "Final Diagnosis: Chiari I malformation",
+        "singleturn_frq": "Final Diagnosis: Migraine",
+        "summarized_conversation": "A patient, aged 2 years old, has been experiencing headaches, dizziness, and persistent vomiting for 3 weeks. The patient hasn't noticed any changes in hearing and is unable to report on changes in vision due to their young age. There have been no recent injuries, falls, or illnesses, and no fever is associated with these symptoms. Additionally, the patient does not have access to their family\u2019s medical history due to their age.",
+        "summarized_mcq": "Ependymoma",
+        "summarized_frq": "Brain tumor"
+    },
+    "trial_1": {
+        "vignette_mcq": "Chiari II malformation",
+        "vignette_frq": "Chiari malformation",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive headaches, dizziness, and recurrent episodes of vomiting for the last 3 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your vision or any issues with balance or coordination?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed some issues with balance and coordination."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous medical conditions or surgeries related to your brain or nervous system?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had surgery right after birth to remove a sac-like protuberance on my lower back."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any medications recently for your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been taking any medications for these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chiari Malformation"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Chiari II malformation",
+        "multiturn_frq": "**Final Diagnosis:** Chiari Malformation",
+        "singleturn_mcq": "Chiari I malformation",
+        "singleturn_frq": "Final Diagnosis: Brain tumor",
+        "summarized_conversation": "The patient has been experiencing progressive headaches, dizziness, and recurrent episodes of vomiting for the last three weeks. Additionally, there have been noted issues with the patient's balance and coordination. The patient underwent surgery immediately after birth to remove a sac-like protuberance on their lower back. Unfortunately, the patient does not have further information about this condition. The patient has not been taking any medications to address these symptoms.",
+        "summarized_mcq": "Chiari II malformation",
+        "summarized_frq": "Chiari malformation"
+    },
+    "trial_2": {
+        "vignette_mcq": "Chiari II malformation",
+        "vignette_frq": "Chiari II malformation.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive headaches, dizziness, and recurrent episodes of vomiting for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your vision or hearing recently?"
+            },
+            {
+                "role": "user",
+                "content": "I've noticed changes in my vision, specifically swelling in the back of my eyes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in coordination or balance?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been experiencing issues with coordination and balance."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your family members have a history of neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family members with a history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any injuries or infections to your head or spine recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any recent injuries or infections to my head or spine."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Intracranial Hypertension"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Ependymoma",
+        "multiturn_frq": "**Final Diagnosis:** Intracranial Hypertension",
+        "singleturn_mcq": "Chiari I malformation",
+        "singleturn_frq": "**Final Diagnosis:** Brain tumor",
+        "summarized_conversation": "A patient has been experiencing progressive headaches, dizziness, and recurrent episodes of vomiting over the last three weeks. The patient has observed changes in their vision, specifically noting swelling in the back of their eyes. The patient confirms issues with coordination and balance, yet they do not have any history of cancer. The patient is also not aware of any family members having a history of neurological disorders. Moreover, the patient has not sustained any recent injuries or infections to their head or spine.",
+        "summarized_mcq": "Chiari I malformation",
+        "summarized_frq": "Brain tumor"
+    },
+    "trial_3": {
+        "vignette_mcq": "Chiari II malformation",
+        "vignette_frq": "Chiari malformation Type II",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing headaches, dizziness, and have been vomiting repeatedly for the past three weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent head injuries or accidents?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent head injuries or accidents."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any additional symptoms such as vision changes, fever, or neck stiffness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced vision changes, fever, or neck stiffness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any triggering factors for your symptoms, like specific activities or times of day?"
+            },
+            {
+                "role": "user",
+                "content": "No specific activities or times of day seem to trigger my symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history of neurological or gastrointestinal conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I had surgery soon after birth to remove a sac-like protuberance on my lower back."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with neurological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about my family history related to similar symptoms or neurological conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Given your previous surgery soon after birth for a sac-like protuberance on your lower back, have you had any follow-up evaluations regarding your spinal health or neurological status since then?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't had any follow-up evaluations regarding my spinal health or neurological status since the surgery right after birth."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chiari Malformation."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Chiari II malformation",
+        "multiturn_frq": "**Final Diagnosis:** Chiari Malformation",
+        "singleturn_mcq": "Chiari I malformation",
+        "singleturn_frq": "**Final Diagnosis:** Migraine",
+        "summarized_conversation": "The patient has been suffering from headaches, dizziness, and repeated vomiting for the past three weeks. The patient denies any recent head injuries or accidents. Additionally, the patient reports no changes in vision, fever, or neck stiffness, and there are no specific activities or times of day that appear to trigger these symptoms. The patient underwent surgery shortly after birth to remove a sac-like protuberance on the lower back but lacks information about any family history of similar symptoms or neurological conditions. There have been no follow-up evaluations concerning the patient's spinal health or neurological status since the post-birth surgery.",
+        "summarized_mcq": "Chiari II malformation",
+        "summarized_frq": "Chiari malformation."
+    },
+    "trial_4": {
+        "vignette_mcq": "Chiari II malformation",
+        "vignette_frq": "Chiari malformation",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Neurology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing headaches, dizziness, and episodes of vomiting for the past 3 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you describe the nature of your headaches? Are they localized or all over your head?"
+            },
+            {
+                "role": "user",
+                "content": "The headaches are progressive, but I can't specify if they are localized or all over my head."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your vision or hearing recently?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't noticed any changes in my hearing, but there is swelling of the optic disk which might affect my vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer or tumors?"
+            },
+            {
+                "role": "user",
+                "content": "I had surgery to remove a sac-like protuberance on my lower back soon after I was born, but there's no specific mention of cancer or tumors in my history."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of neurological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about a family history of neurological disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Intracranial hypertension"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Chiari II malformation",
+        "multiturn_frq": "Final Diagnosis: Intracranial Hypertension",
+        "singleturn_mcq": "Chiari I malformation",
+        "singleturn_frq": "Final Diagnosis: Migraine",
+        "summarized_conversation": "A patient has been experiencing headaches, dizziness, and episodes of vomiting for the past 3 weeks. The patient describes the headaches as progressive, but has not been able to determine if they are localized or affecting the entire head. The patient hasn't noticed any changes in hearing but there is swelling of the optic disk which could potentially affect vision. The patient underwent surgery to remove a sac-like protuberance on the lower back shortly after birth, but there's no specific mention of cancer or tumors in the patient's history. The patient is not currently taking any medications and does not have any information about a family history of neurological disorders.",
+        "summarized_mcq": "Chiari II malformation",
+        "summarized_frq": "Increased intracranial pressure (ICP)"
+    }
+}

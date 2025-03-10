@@ -1,0 +1,309 @@
+{
+    "case_vignette": "A 23-year-old woman is brought to the emergency department by her boyfriend 10 minutes after ingesting at least 15 acetaminophen tablets. She has been admitted to the hospital several times in the past few months after attempted self-harm. She claims that her boyfriend is \u201cextremely selfish\u201d and \u201cdoes not care for her.\u201d She says she feels lonely and wants her boyfriend to pay attention to her. Her boyfriend says that they have broken up 10 times in the past year because she is prone to outbursts of physical aggression as well as mood swings. He says that these mood swings last a few hours and can vary from states of \u201cexuberance and affection\u201d to states of \u201cdepression.\u201d On examination, the patient appears well-dressed and calm. She has normal speech, thought processes, and thought content. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Borderline personality disorder",
+        "vignette_frq": "Borderline personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I ingested at least 15 acetaminophen tablets about 10 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing liver conditions or diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any pre-existing liver conditions or diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any symptoms right now such as nausea, abdominal pain, or vomiting?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not experiencing any symptoms like nausea, abdominal pain, or vomiting right now."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acetaminophen Overdose"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Antisocial personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Acetaminophen overdose",
+        "singleturn_mcq": "Final Diagnosis: Borderline personality disorder",
+        "singleturn_frq": "**Final Diagnosis:** Acetaminophen overdose",
+        "summarized_conversation": "A patient reports having ingested at least 15 acetaminophen tablets approximately 10 minutes prior. The patient is not aware of any pre-existing liver conditions or diseases. Currently, the patient is not experiencing any symptoms such as nausea, abdominal pain, or vomiting.",
+        "summarized_mcq": "Borderline personality disorder",
+        "summarized_frq": null
+    },
+    "trial_1": {
+        "vignette_mcq": "Borderline personality disorder",
+        "vignette_frq": "Borderline personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel lonely and emotionally unstable, experiencing mood swings that vary from being really happy and affectionate to feeling depressed."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these mood swings and feelings of loneliness for at least the past year."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of mental health disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there specific triggers you've noticed that affect your mood swings, or do they seem to happen randomly?"
+            },
+            {
+                "role": "user",
+                "content": "My mood swings seem to be affected by my interactions and relationship issues with my boyfriend."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your energy levels, sleep pattern, or appetite along with the mood swings?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my energy levels, sleep pattern, or appetite along with the mood swings."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or undergoing any treatments?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not currently taking any medications or undergoing any treatments for my emotional and mood symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Borderline Personality Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Borderline personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Borderline Personality Disorder",
+        "singleturn_mcq": "Final Diagnosis: Borderline personality disorder",
+        "singleturn_frq": "Final Diagnosis: Bipolar Disorder",
+        "summarized_conversation": "The patient presents with feelings of loneliness and emotional instability, experiencing mood swings that range from intense happiness and affection to periods of depression. These symptoms have been persistent for at least the past year. The patient's mood swings appear to be influenced by interactions and relationship difficulties with their boyfriend. There are no reported changes in energy levels, sleep patterns, or appetite accompanying the mood swings. Additionally, the patient is not currently receiving any medications or treatments for the emotional and mood-related symptoms.",
+        "summarized_mcq": "Borderline personality disorder",
+        "summarized_frq": "Borderline personality disorder"
+    },
+    "trial_2": {
+        "vignette_mcq": "Borderline personality disorder",
+        "vignette_frq": "Borderline personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel lonely and want my boyfriend to pay more attention to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any emotional distress or changes in mood besides feeling lonely?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I experience mood swings that vary from exuberance and affection to depression."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these mood swings?"
+            },
+            {
+                "role": "user",
+                "content": "These mood swings last a few hours."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these mood swings affect your daily activities or relationships?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, they have led to multiple breakups with my boyfriend."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been diagnosed with any mental health disorders in the past or are currently taking any medications related to mental health?"
+            },
+            {
+                "role": "user",
+                "content": "I have not mentioned any specific mental health diagnosis or medications related to mental health in the information provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your family members have a history of mental health disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of mental health disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Borderline Personality Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Borderline personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Borderline Personality Disorder",
+        "singleturn_mcq": "Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Relationship issues",
+        "summarized_conversation": "A person expresses feeling lonely and desires more attention from their boyfriend. They report experiencing mood swings that range from exuberance and affection to depression, lasting a few hours. These mood swings have contributed to multiple breakups with their boyfriend. The person has not indicated any specific mental health diagnosis or medications related to mental health, nor have they mentioned a family history of mental health disorders.",
+        "summarized_mcq": "Borderline personality disorder",
+        "summarized_frq": "Borderline Personality Disorder (BPD)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Borderline personality disorder",
+        "vignette_frq": "Borderline personality disorder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I took a lot of acetaminophen tablets and I feel lonely."
+            },
+            {
+                "role": "assistant",
+                "content": "How much acetaminophen did you take and over what time period?"
+            },
+            {
+                "role": "user",
+                "content": "I took at least 15 acetaminophen tablets about 10 minutes ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any nausea, stomach pain, or vomiting currently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not experiencing any nausea, stomach pain, or vomiting currently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing liver conditions or have you had any issues with your liver in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any existing liver conditions or past issues with my liver."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acetaminophen overdose."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Borderline personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Acetaminophen overdose",
+        "singleturn_mcq": "Borderline personality disorder",
+        "singleturn_frq": "Final Diagnosis: Acetaminophen overdose",
+        "summarized_conversation": "The individual reported taking a significant quantity of acetaminophen tablets, approximately 15, around 10 minutes prior to seeking advice. The individual described feelings of loneliness but currently does not exhibit symptoms such as nausea, stomach pain, or vomiting. Furthermore, there was no mention of previous liver conditions or any past issues regarding liver health.",
+        "summarized_mcq": "Borderline personality disorder",
+        "summarized_frq": null
+    },
+    "trial_4": {
+        "vignette_mcq": "Borderline personality disorder",
+        "vignette_frq": "Borderline personality disorder (BPD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I feel lonely and I want my boyfriend to pay more attention to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Have your feelings of loneliness affected your daily activities or overall mood?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my feelings of loneliness have affected my mood."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience sadness or a lack of interest in activities you normally enjoy?"
+            },
+            {
+                "role": "user",
+                "content": "I did not mention experiencing sadness or a lack of interest in activities I normally enjoy in my description."
+            },
+            {
+                "role": "assistant",
+                "content": "Are these feelings of loneliness persistent, and how long have you been feeling this way?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't specify how long I've been feeling this way, but I mentioned feeling lonely and wanting attention from my boyfriend."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any changes in your sleep or eating patterns recently?"
+            },
+            {
+                "role": "user",
+                "content": "I didn't mention any changes in my sleep or eating patterns."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous episodes of mood changes or has anyone in your family had similar or other mental health issues?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have had previous episodes of mood swings that last a few hours, where my mood can vary from exuberance and affection to depression."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Borderline Personality Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Borderline personality disorder",
+        "multiturn_frq": "**Final Diagnosis:** Borderline Personality Disorder",
+        "singleturn_mcq": "Dependent personality disorder",
+        "singleturn_frq": "Final Diagnosis: Relationship issues",
+        "summarized_conversation": "A patient feels lonely and desires more attention from her boyfriend. She reports that her feelings of loneliness have impacted her mood. She has not described experiencing sadness or a lack of interest in activities that she normally enjoys. The duration of her feelings is not provided, but she does express a need for increased attention from her boyfriend. There are no changes in her sleep or eating patterns mentioned. The patient has experienced previous episodes of mood swings that lasted a few hours, where her mood varied from exuberance and affection to depression.",
+        "summarized_mcq": "Borderline personality disorder",
+        "summarized_frq": "Adjustment disorder with depressed mood"
+    }
+}

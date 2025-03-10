@@ -1,0 +1,2 @@
+cpu-bind=MASK - cortado, task  0  0 [2286110]: mask 0xff00000000ff00000000 set
+python: can't open file '/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/script.py': [Errno 2] No such file or directory

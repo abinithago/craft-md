@@ -1,0 +1,325 @@
+{
+    "case_vignette": "A 29-year-old African-American woman, gravida 4, para 0, comes to the physician for evaluation of recurrent abortions! Each pregnancy resulted in spontaneous abortion in the second trimester! The patient has a history of joint pain, chronic migraines, and recurrent poorly defined, macular skin rashes! She also reports episodes in which her fingers become pale and cold, and then redden! She is sexually active with her husband and does not use contraceptives! The patient works as a landscape architect! Her mother has a history of endometriosis! The patient takes a daily prenatal multivitamin and occasionally sumatriptan! She appears tired! Temperature is 36!5\u00b0C (97!7\u00b0F), pulse is 65/min, and blood pressure is 110/65 mm Hg! Examination of the hands shows two ulcerations on the tip of the right index finger and multiple tiny hemorrhages under the nails! There is a purple reticular rash on both calves! ",
+    "question": "Which  is most likely to confirm the diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Test for anticardiolipin antibodies",
+        "vignette_frq": "Antinuclear antibody (ANA) test and anti-Smith antibody test.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing joint pain, chronic migraines, skin rashes, and my fingers sometimes turn pale and cold before reddening. Also, I have had recurrent spontaneous abortions in the second trimester."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for several years now."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of autoimmune diseases or similar symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "My mother has a history of endometriosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you undergone any specific tests or received any previous diagnosis related to your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not received any specific diagnosis related to my current symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I take a daily prenatal multivitamin and occasionally sumatriptan."
+            },
+            {
+                "role": "assistant",
+                "content": "Have your symptoms ever improved or worsened with sun exposure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my skin rashes worsen with sun exposure."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Systemic Lupus Erythematosus (SLE)"
+            }
+        ],
+        "multiturn_mcq": "Test for anticardiolipin antibodies",
+        "multiturn_frq": "Final Diagnosis: Systemic Lupus Erythematosus (SLE)",
+        "singleturn_mcq": "Test for anticardiolipin antibodies",
+        "singleturn_frq": "**Final Diagnosis:** Systemic Lupus Erythematosus (SLE)",
+        "summarized_conversation": "A patient has been suffering from joint pain, chronic migraines, skin rashes, and episodes where their fingers turn pale and cold before becoming red. Additionally, the patient has experienced recurrent spontaneous abortions in the second trimester. These symptoms have been present for several years. The patient's mother has a history of endometriosis. The patient has not yet received a specific diagnosis regarding these symptoms. The patient takes a daily prenatal multivitamin and occasionally uses sumatriptan. The patient also notes that their skin rashes worsen with sun exposure.",
+        "summarized_mcq": "Test for anticardiolipin antibodies",
+        "summarized_frq": "Antinuclear antibody (ANA) test and anti-double stranded DNA (anti-dsDNA) test."
+    },
+    "trial_1": {
+        "vignette_mcq": "Test for anticardiolipin antibodies",
+        "vignette_frq": "Antiphospholipid antibody testing",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing joint pain, chronic migraines, and skin rashes that aren't clearly defined. Additionally, I've had episodes where my fingers become pale and cold, then turn red. I also appear tired."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for an extended period, but I can't specify the exact duration."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I take a daily prenatal multivitamin and occasionally use sumatriptan for my migraines."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of autoimmune diseases or rheumatological conditions?"
+            },
+            {
+                "role": "user",
+                "content": "My mother has a history of endometriosis, but I'm not aware of any autoimmune diseases or rheumatological conditions in the family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any relationship between your symptoms and exposure to sunlight or cold temperatures?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed that my fingers become pale and cold, and then redden, which seems to be related to exposure to cold temperatures."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Systemic Lupus Erythematosus (SLE)"
+            }
+        ],
+        "multiturn_mcq": "Test for anticardiolipin antibodies",
+        "multiturn_frq": "**Final Diagnosis:** Systemic Lupus Erythematosus (SLE)",
+        "singleturn_mcq": "Test for anticardiolipin antibodies",
+        "singleturn_frq": "Final Diagnosis: Systemic Lupus Erythematosus (SLE)",
+        "summarized_conversation": "A patient reports suffering from joint pain, chronic migraines, and undefined skin rashes. The patient also experiences episodes where their fingers turn pale and cold and then become red. They appear tired and have been experiencing these symptoms for an extended but unspecified period. The patient currently takes a daily prenatal multivitamin and occasionally uses sumatriptan for migraines. While the patient's mother has a history of endometriosis, there is no known family history of autoimmune diseases or rheumatological conditions. The patient has also noticed that the color changes in the fingers seem to relate to exposure to cold temperatures.",
+        "summarized_mcq": "Test for anticardiolipin antibodies",
+        "summarized_frq": "Raynaud's phenomenon"
+    },
+    "trial_2": {
+        "vignette_mcq": "Test for anticardiolipin antibodies",
+        "vignette_frq": "Antinuclear antibody (ANA) test and anti-double-stranded DNA (anti-dsDNA) test.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've had recurrent miscarriages, joint pain, chronic migraines, skin rashes, episodes where my fingers turn pale and cold and then become red, along with feeling generally tired."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been tested for any autoimmune disorders previously?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been tested for autoimmune disorders previously."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, my mother has a history of endometriosis, but there's no mentioned history of autoimmune diseases in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Are the skin rashes sensitive to sun exposure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the skin rashes are poorly defined and recurrent, which could imply sensitivity to sun exposure."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Systemic Lupus Erythematosus (SLE)"
+            }
+        ],
+        "multiturn_mcq": "Test for anticardiolipin antibodies",
+        "multiturn_frq": "**Final Diagnosis:** Systemic Lupus Erythematosus (SLE)",
+        "singleturn_mcq": "Test for anticardiolipin antibodies",
+        "singleturn_frq": "**Final Diagnosis:** Systemic Lupus Erythematosus (SLE)",
+        "summarized_conversation": "A patient reports having recurrent miscarriages, joint pain, chronic migraines, skin rashes, and instances where their fingers turn pale and cold followed by reddening. The patient also experiences general fatigue. They have not undergone testing for autoimmune disorders previously. The patient\u2019s mother has a history of endometriosis, but there is no known history of autoimmune diseases in the family. Additionally, the patient describes the skin rashes as poorly defined and recurrent, suggesting a possible sensitivity to sun exposure.",
+        "summarized_mcq": "Test for anticardiolipin antibodies",
+        "summarized_frq": "Antinuclear antibody (ANA) test and Anti-cardiolipin antibody test."
+    },
+    "trial_3": {
+        "vignette_mcq": "Test for anticardiolipin antibodies",
+        "vignette_frq": "Antinuclear antibody (ANA) and anti-double-stranded DNA (anti-dsDNA) tests.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing joint pain, chronic migraines, poorly defined skin rashes, and my fingers sometimes become pale and cold, and then redden."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for a while, but I can't specify the exact duration."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been previously diagnosed with any autoimmune or connective tissue diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been diagnosed with any autoimmune or connective tissue diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of autoimmune diseases or connective tissue disorders?"
+            },
+            {
+                "role": "user",
+                "content": "My mother has a history of endometriosis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any dryness in your mouth or eyes along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any dryness in my mouth or eyes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your symptoms worsened with exposure to cold or stress?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my fingers become pale and cold, then redden, which worsens with cold exposure."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Systemic Lupus Erythematosus (SLE) and Raynaud's Phenomenon."
+            }
+        ],
+        "multiturn_mcq": "Test for anticardiolipin antibodies.",
+        "multiturn_frq": "**Final Diagnosis:** Raynaud's phenomenon associated with systemic lupus erythematosus (SLE)",
+        "singleturn_mcq": "Test for anticardiolipin antibodies",
+        "singleturn_frq": "**Final Diagnosis:** Systemic lupus erythematosus (SLE)",
+        "summarized_conversation": "A patient reports suffering from joint pain, chronic migraines, and skin rashes, although the rashes are poorly defined. The patient also describes occasional episodes where their fingers become pale and cold, then redden, and notes that this condition worsens with cold exposure. The patient has been experiencing these symptoms for an indeterminate period. There is no diagnosed history of autoimmune or connective tissue diseases in the patient's medical records. The patient does not experience dryness in the mouth or eyes. The patient mentioned a family history of endometriosis in their mother.",
+        "summarized_mcq": "Test for anticardiolipin antibodies",
+        "summarized_frq": "Systemic Lupus Erythematosus (SLE)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Test for anticardiolipin antibodies",
+        "vignette_frq": "Antinuclear antibody (ANA) test and anti-double-stranded DNA (anti-dsDNA) test.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have joint pain, chronic migraines, recurrent skin rashes, and episodes where my fingers become pale and cold before reddening. I also feel tired and have tiny hemorrhages under my nails as well as a purple rash on my calves."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for a while now, although I can't specify exactly how long for each one."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or have you been diagnosed with anything in the past?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any specific diagnoses related to my current symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever been treated for or suspected to have an autoimmune disorder?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't specifically mentioned being treated for or suspected of having an autoimmune disorder."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any close family members been diagnosed with autoimmune or connective tissue diseases?"
+            },
+            {
+                "role": "user",
+                "content": "My mother has a history of endometriosis, but I didn't mention any autoimmune or connective tissue diseases in close family members."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any relationship between your symptoms and exposure to cold weather or stress?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed that my fingers become pale and cold, then redden, which could be related to exposure to cold."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Systemic Lupus Erythematosus (SLE) with possible Raynaud's phenomenon."
+            }
+        ],
+        "multiturn_mcq": "Test for anticardiolipin antibodies",
+        "multiturn_frq": "**Final Diagnosis: Systemic Lupus Erythematosus (SLE)**",
+        "singleturn_mcq": "Test for anticardiolipin antibodies",
+        "singleturn_frq": "Final Diagnosis: Systemic Lupus Erythematosus (SLE)",
+        "summarized_conversation": "A patient reports suffering from joint pain, chronic migraines, recurrent skin rashes, episodes where their fingers become pale and cold before reddening, and constant fatigue. Additionally, the patient has noticed small hemorrhages under the nails and a purple rash on the calves. The duration of these symptoms is unspecified as the patient cannot recall how long each symptom has been present. The patient has no confirmed diagnosis relating to these symptoms and has not been treated for or suspected to have an autoimmune disorder. The patient's mother has a history of endometriosis, but there is no mention of autoimmune or connective tissue diseases in close family members. The patient confirms that the discoloration of the fingers, which become pale and cold before reddening, may be related to exposure to cold.",
+        "summarized_mcq": "Test for anticardiolipin antibodies",
+        "summarized_frq": "Systemic lupus erythematosus (SLE)"
+    }
+}

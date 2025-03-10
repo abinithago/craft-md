@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 55-year-old man comes to the physician because of a 3-day history of decreased urine output, progressively worsening bilateral pedal edema, and fatigue! He has a 4-month history of persistent lower back pain! He has hypercholesterolemia and stable angina pectoris! Current medications include atorvastatin, aspirin, and ibuprofen! His pulse is 80/min, respirations are 16/min, and blood pressure is 150/100 mm Hg! Examination shows periorbital and pedal edema and pallor! There is tenderness of the lumbar spinal vertebrae! Straight leg raise test is negative! The remainder of the examination shows no abnormalities! Laboratory studies show:\nHemoglobin 8!9 mg/dl\nSerum\nUrea nitrogen 20 mg/dl\nCreatinine 2!4 mg/dl\nCalcium 11!2 mg/dl\nAlkaline phosphatase 140 U/L\nX-ray of the spine shows diffuse osteopenia and multiple lytic lesions! ",
+    "question": "Which  is most likely to confirm the diagnosis?\"",
+    "trial_0": {
+        "vignette_mcq": "Serum electrophoresis",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing decreased urine output, worsening swelling in both of my feet, and feeling very tired lately."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for the past 3 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous history of kidney disease or other chronic conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of kidney disease, but I have high cholesterol and stable chest pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine, such as it becoming darker?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in the color of my urine."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of taking medications for your cholesterol or any other conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I'm currently taking atorvastatin for my cholesterol, aspirin, and ibuprofen."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of kidney disease or related conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any knowledge about my family history of kidney disease or related conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute Kidney Injury (AKI)"
+            }
+        ],
+        "multiturn_mcq": "24-hour urine protein assay",
+        "multiturn_frq": "**Final Diagnosis:** Acute kidney injury (AKI)",
+        "singleturn_mcq": "24-hour urine protein assay",
+        "singleturn_frq": "Final Diagnosis: Chronic Kidney Disease",
+        "summarized_conversation": "A patient has been experiencing decreased urine output, worsening swelling in both feet, and increased fatigue over the past 3 days. The patient has no history of kidney disease but does have high cholesterol and stable chest pain. There have been no changes in the color of the urine. The patient is currently taking atorvastatin for cholesterol, aspirin, and ibuprofen. The patient does not have knowledge of any family history related to kidney disease or associated conditions.",
+        "summarized_mcq": "24-hour urine protein assay",
+        "summarized_frq": "Kidney function tests (blood test for serum creatinine and blood urea nitrogen, and urine analysis)."
+    },
+    "trial_1": {
+        "vignette_mcq": "Serum electrophoresis",
+        "vignette_frq": "Bone marrow biopsy.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing decreased urine output, swelling in both of my feet, and feeling very tired. I also have been having lower back pain for the past few months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in skin color, like paleness, yellowing, or bruising?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed that my skin looks paler than usual."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like bleeding gums, frequent nosebleeds, or blood in your stool or urine?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any of those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or fevers?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent infections or fevers."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known chronic illnesses, or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have high cholesterol and stable chest pain due to heart issues. I'm currently taking atorvastatin for cholesterol, aspirin, and ibuprofen."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with kidney or hematological diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family members having similar symptoms or diagnoses related to kidney or blood diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Kidney Disease (CKD)"
+            }
+        ],
+        "multiturn_mcq": "24-hour urine protein assay",
+        "multiturn_frq": "Final Diagnosis: Multiple Myeloma",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "Final Diagnosis: Multiple Myeloma",
+        "summarized_conversation": "A patient is reporting several health concerns, including decreased urine output, swelling in both feet, general fatigue, and lower back pain persisting for several months. The patient also notices a paler complexion than usual. Despite these symptoms, the patient hasn't experienced any recent infections, fevers, or other symptoms previously mentioned. The patient has a medical history of high cholesterol and stable chest pain related to heart issues and currently manages these conditions with atorvastatin for cholesterol, aspirin, and ibuprofen. There is no known family history of kidney or blood diseases in the patient's relatives.",
+        "summarized_mcq": "Serum electrophoresis",
+        "summarized_frq": "Multiple myeloma."
+    },
+    "trial_2": {
+        "vignette_mcq": "Serum electrophoresis",
+        "vignette_frq": "Serum protein electrophoresis with immunofixation.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing decreased urine output, progressively worsening swelling in both of my feet, and I've been feeling really tired lately."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you tell me about any pre-existing health conditions you have?"
+            },
+            {
+                "role": "user",
+                "content": "I have high cholesterol and stable chest pain related to heart issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine, or have you seen blood in it?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in the color of my urine or seen any blood in it."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of kidney disease or related conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about a family history of kidney disease or related conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you taken any new medications or changed your medication regimen recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not taken any new medications or changed my medication regimen recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you experiencing any other symptoms like shortness of breath or chest pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I'm not experiencing shortness of breath or chest pain currently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Kidney Disease"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Chronic Kidney Disease",
+        "multiturn_frq": "Final Diagnosis: Chronic Kidney Disease",
+        "singleturn_mcq": "24-hour urine protein assay",
+        "singleturn_frq": "**Final Diagnosis:** Chronic Kidney Disease",
+        "summarized_conversation": "A patient has been experiencing decreased urine output, progressively worsening swelling in both feet, and has reported feeling extremely tired lately. The patient has high cholesterol and stable chest pain linked to heart issues. There have been no changes in the color of the urine or any presence of blood observed. The patient does not have any knowledge of a family history of kidney disease or related conditions. There have been no recent changes to their medication regimen or any new medications added. Additionally, the patient is not experiencing any shortness of breath or chest pain at the current time.",
+        "summarized_mcq": "24-hour urine protein assay",
+        "summarized_frq": "Kidney function tests (e.g., serum creatinine, BUN)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Serum electrophoresis",
+        "vignette_frq": "Serum protein electrophoresis with immunofixation.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing decreased urine output, swelling in both feet, and feeling very tired for the last three days. Additionally, I have been having persistent lower back pain for the past four months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any changes in your weight recently, either gain or loss?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette doesn't mention any changes in my weight, so I haven't experienced any recent weight changes."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of high blood pressure, diabetes, or any chronic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of high cholesterol and stable chest pain related to heart issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any medications for your cholesterol or heart condition? If yes, what are they?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking atorvastatin for my cholesterol and aspirin for my heart condition."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of kidney disease or any other genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette doesn't mention any family history of kidney disease or genetic disorders, so I don't have that information."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic kidney disease"
+            }
+        ],
+        "multiturn_mcq": "Non-contrast renal CT",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Kidney Disease",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "**Final Diagnosis:** Multiple Myeloma",
+        "summarized_conversation": "The patient has been experiencing decreased urine output, swelling in both feet, and significant fatigue for the past three days. Additionally, the patient has been suffering from persistent lower back pain for the last four months. There have been no recent changes in the patient's weight. The patient has a history of high cholesterol and stable chest pain related to heart issues. The patient is currently taking atorvastatin for cholesterol management and aspirin for the heart condition. There is no mention of any family history of kidney disease or genetic disorders in this case.",
+        "summarized_mcq": "Serum electrophoresis",
+        "summarized_frq": "Renal function tests (blood urea nitrogen, serum creatinine) and urinalysis."
+    },
+    "trial_4": {
+        "vignette_mcq": "Serum electrophoresis",
+        "vignette_frq": "Serum protein electrophoresis with immunofixation and urine protein electrophoresis with immunofixation.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing decreased urine output, swelling in both feet, and feeling very tired."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "These symptoms have been going on for about 3 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as shortness of breath or chest pain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have shortness of breath or chest pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic medical conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have high cholesterol and stable chest pain due to heart issues, and I am currently taking medications which include atorvastatin for cholesterol, aspirin, and ibuprofen for pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine or any presence of blood?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in the color of my urine or any presence of blood."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of kidney problems or does anyone in your family have kidney-related issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of kidney problems, and there is no family history of kidney-related issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent infections, fever, or changes in diet or fluid intake?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any recent infections, fever, or changes in my diet or fluid intake."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute Kidney Injury"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: 24-hour urine protein assay",
+        "multiturn_frq": "**Final Diagnosis:** Acute kidney injury",
+        "singleturn_mcq": "24-hour urine protein assay",
+        "singleturn_frq": "Final Diagnosis: Chronic Kidney Disease",
+        "summarized_conversation": "A patient reports experiencing decreased urine output, swelling in both feet, and significant tiredness persisting for about three days. The patient specified not suffering from shortness of breath or chest pain. The patient has a history of high cholesterol and stable chest pain related to heart issues. Medications currently taken include atorvastatin, aspirin, and ibuprofen. The patient notes no change in the color of urine or the presence of blood. There is no personal or family history of kidney problems nor recent infections, fever, or changes in diet or fluid intake.",
+        "summarized_mcq": "24-hour urine protein assay",
+        "summarized_frq": "Kidney function tests"
+    }
+}

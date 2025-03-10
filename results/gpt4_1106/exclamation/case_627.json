@@ -1,0 +1,333 @@
+{
+    "case_vignette": "A 62-year-old woman comes to the physician because of increasing blurring of vision in both eyes! She says that the blurring has made it difficult to read, although she has noticed that she can read a little better if she holds the book below or above eye level! She also requires a bright light to look at objects! She reports that her symptoms began 8 years ago and have gradually gotten worse over time! She has hypertension and type 2 diabetes mellitus! Current medications include glyburide and lisinopril! When looking at an Amsler grid, she says that the lines in the center appear wavy and bent! An image of her retina, as viewed through fundoscopy is shown! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Age-related macular degeneration",
+        "vignette_frq": "Age-related macular degeneration (AMD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing blurring of vision in both eyes, which has made it difficult for me to read."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in color perception or night vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in color perception or night vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently have any other medical conditions or are you taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and type 2 diabetes mellitus, and I'm currently taking glyburide and lisinopril."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these vision changes?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these vision changes for about 8 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any family history of eye diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of eye diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic retinopathy."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Diabetic retinopathy",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic retinopathy",
+        "singleturn_mcq": "Final Diagnosis: Age-related macular degeneration",
+        "singleturn_frq": "**Final Diagnosis:** Presbyopia.",
+        "summarized_conversation": "The patient has been experiencing increasing blurring of vision in both eyes over the past 8 years, making it difficult to read. The individual reports no changes in color perception or night vision. The patient has a medical history of hypertension and type 2 diabetes mellitus and is currently on medication with glyburide and lisinopril. There is no family history of eye diseases mentioned.",
+        "summarized_mcq": "Diabetic retinopathy",
+        "summarized_frq": "Diabetic retinopathy"
+    },
+    "trial_1": {
+        "vignette_mcq": "Age-related macular degeneration",
+        "vignette_frq": "Age-related macular degeneration (AMD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing increasing blurring of vision in both eyes, making it difficult for me to read."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "My symptoms began 8 years ago and have gradually gotten worse over time."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other health issues such as diabetes or high blood pressure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes or worsening of your vision at specific times, like at night or while reading?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I require a bright light to look at objects, and blurring has made it difficult to read unless I hold the book below or above eye level."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of eye diseases, such as glaucoma or macular degeneration?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I haven't mentioned any family history of eye diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any symptoms like flashes of light, floating spots, or a curtain over your vision?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced symptoms like flashes of light, floating spots, or a curtain over my vision."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic retinopathy."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Diabetic retinopathy",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic retinopathy.",
+        "singleturn_mcq": "Final Diagnosis: Age-related macular degeneration",
+        "singleturn_frq": "**Final Diagnosis:** Presbyopia",
+        "summarized_conversation": "The patient reports an increasing blurring of vision in both eyes, which has progressively worsened over the past 8 years, complicating their ability to read. The patient has a medical history of hypertension and type 2 diabetes mellitus. They note a need for bright light to see objects clearly and have difficulty reading unless the book is held below or above eye level. The patient has not mentioned any family history of eye diseases. Additionally, the patient denies experiencing symptoms such as flashes of light, floating spots, or a curtain over their vision.",
+        "summarized_mcq": "Diabetic retinopathy",
+        "summarized_frq": "Cataracts"
+    },
+    "trial_2": {
+        "vignette_mcq": "Age-related macular degeneration",
+        "vignette_frq": "Age-related macular degeneration (AMD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing blurring of vision in both eyes, which makes it difficult to read."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "My symptoms began 8 years ago and have gradually gotten worse over time."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of diabetes or high blood pressure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your vision at night or in low light conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I require a bright light to look at objects."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had a recent eye examination, and if so, what were the findings?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, during an eye examination when I looked at an Amsler grid, I noticed that the lines in the center appear wavy and bent. An image of my retina was also viewed through fundoscopy."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic retinopathy."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Diabetic retinopathy",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic retinopathy.",
+        "singleturn_mcq": "Final Diagnosis: Age-related macular degeneration",
+        "singleturn_frq": "Final Diagnosis: Cataracts",
+        "summarized_conversation": "A patient has been experiencing progressive blurring of vision in both eyes, which is interfering with their ability to read. The symptoms started 8 years ago and have gradually worsened. The patient also has diagnosed conditions of hypertension and type 2 diabetes mellitus. Additionally, the patient requires bright light to see objects clearly. During an eye examination, while viewing an Amsler grid, the patient noticed that the lines in the center appeared wavy and bent. Fundoscopy was also conducted to view an image of the patient's retina.",
+        "summarized_mcq": "Age-related macular degeneration",
+        "summarized_frq": "Diabetic retinopathy"
+    },
+    "trial_3": {
+        "vignette_mcq": "Age-related macular degeneration",
+        "vignette_frq": "Age-related macular degeneration (AMD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increasing blurring of vision in both eyes, making it difficult to read."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 8 years now."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known health conditions like diabetes or high blood pressure?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and type 2 diabetes mellitus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your vision at different times of the day or during different activities?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've noticed that I can read a little better if I hold the book below or above eye level and I require a bright light to look at objects."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently use any corrective lenses, like glasses or contacts?"
+            },
+            {
+                "role": "user",
+                "content": "I did not mention using any corrective lenses like glasses or contacts."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any other changes in your eyes, such as double vision, halos around lights, or frequent changes in your vision prescription?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced those specific changes in my eyes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had a recent eye examination, and if so, what were the findings?"
+            },
+            {
+                "role": "user",
+                "content": "During a recent eye examination using an Amsler grid, the lines in the center appeared wavy and bent. Additionally, an image of my retina was viewed through fundoscopy."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic retinopathy."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Age-related macular degeneration",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic retinopathy.",
+        "singleturn_mcq": "Final Diagnosis: Age-related macular degeneration",
+        "singleturn_frq": "Final Diagnosis: Presbyopia",
+        "summarized_conversation": "A patient has been experiencing increasing blurriness of vision in both eyes for approximately eight years, which impedes their ability to read. The patient has a medical history of hypertension and type 2 diabetes mellitus. It has been noted that vision improves slightly when reading materials are held below or above eye level and when objects are viewed under bright light. The patient does not use corrective lenses such as glasses or contacts. No specific changes in the eyes have been mentioned by the patient. During a recent eye examination with an Amsler grid, the patient observed that the lines in the center appeared wavy and bent. Additionally, an image of the patient's retina was examined through fundoscopy.",
+        "summarized_mcq": "Age-related macular degeneration",
+        "summarized_frq": "Macular degeneration."
+    },
+    "trial_4": {
+        "vignette_mcq": "Age-related macular degeneration",
+        "vignette_frq": "Age-related macular degeneration (AMD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing increasing blurring of vision in both eyes, which makes it difficult to read."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms, such as eye pain or redness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have eye pain or redness."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 8 years, and they have gradually gotten worse over time."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you currently have any known health conditions or are you taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and type 2 diabetes mellitus, and I'm currently taking glyburide and lisinopril."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar vision issues or any diagnosed eye diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any family history of similar vision issues or diagnosed eye diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Diabetic Retinopathy"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Diabetic retinopathy",
+        "multiturn_frq": "**Final Diagnosis:** Diabetic retinopathy.",
+        "singleturn_mcq": "Age-related macular degeneration",
+        "singleturn_frq": "**Final Diagnosis:** Presbyopia",
+        "summarized_conversation": "The patient is experiencing increasing blurring of vision in both eyes, which has been making it difficult to read. The patient reports no eye pain or redness. These symptoms have been present for about 8 years and have gradually worsened over time. The patient has hypertension and type 2 diabetes mellitus and is currently taking glyburide and lisinopril. There is no mentioned family history of similar vision issues or diagnosed eye diseases.",
+        "summarized_mcq": "Diabetic retinopathy",
+        "summarized_frq": "Diabetic retinopathy."
+    }
+}

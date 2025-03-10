@@ -1,0 +1,341 @@
+{
+    "case_vignette": "A 67-year-old woman comes to the physician because of a 3-week history of fatigue and worsening back and abdominal pain! During this period, she has also had excessive night sweats and a 4!6-kg (10-lb) weight loss! She has had swelling of the neck for 3 days! She does not smoke or drink alcohol! Vital signs are within normal limits! Physical examination shows a 4-cm, supraclavicular, nontender, enlarged and fixed lymph node! The spleen is palpated 2 cm below the left costal margin! Laboratory studies show:\nHemoglobin 10!4 g/dL\nMean corpuscular volume 87 \u03bcm3\nLeukocyte count 5,200/mm3\nPlatelet count 190,000/mm3\nSerum\nLactate dehydrogenase 310 U/L\nA CT scan of the thorax and abdomen shows massively enlarged paraaortic, axillary, mediastinal, and cervical lymph nodes! Histopathologic examination of an excised cervical lymph node shows lymphocytes with a high proliferative index that stain positive for CD20! ",
+    "question": "Which  is the most likely diagnosis?\"",
+    "trial_0": {
+        "vignette_mcq": "Diffuse large B-cell lymphoma",
+        "vignette_frq": "Non-Hodgkin lymphoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, worsening back and abdominal pain, excessive night sweats, and significant weight loss over the past three weeks. Additionally, I've noticed swelling in my neck for the last three days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical conditions or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any previous medical conditions, and I am not currently on any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes like lumps, or been having frequent infections recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have noticed a lump in my neck that is about 4 cm, and it's not painful but feels fixed when I touch it."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or blood disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of cancer or blood disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent unexplained bruising or bleeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any unexplained bruising or bleeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hodgkin's Lymphoma."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Diffuse large B-cell lymphoma",
+        "multiturn_frq": "**Final Diagnosis:** Hodgkin's Lymphoma",
+        "singleturn_mcq": "Final Diagnosis: Diffuse large B-cell lymphoma",
+        "singleturn_frq": "**Final Diagnosis:** Lymphoma",
+        "summarized_conversation": "The patient has been experiencing a collection of symptoms including fatigue, worsening back and abdominal pain, excessive night sweats, and significant weight loss for the past three weeks. In the last three days, the patient has also noticed swelling in the neck. The patient does not have any pre-existing medical conditions and is not currently using any medications. A lump approximately 4 cm in size has been observed in the neck, which is not painful but feels fixed upon touch. The patient doesn't know of any family history of cancer or blood disorders, and has not experienced any unexplained bruising or bleeding.",
+        "summarized_mcq": "Diffuse large B-cell lymphoma",
+        "summarized_frq": "Lymphoma"
+    },
+    "trial_1": {
+        "vignette_mcq": "Diffuse large B-cell lymphoma",
+        "vignette_frq": "Non-Hodgkin's lymphoma",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, worsening back and abdominal pain, excessive night sweats, and weight loss for the past three weeks. Additionally, I have had swelling in my neck for the last three days."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 67-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer either personally or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any personal or family history of cancer."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any fevers, bleeding or bruising more easily than usual?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any fevers, bleeding or unusual bruising."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your bowel or bladder habits, or is there any blood in your urine or stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my bowel or bladder habits, nor have I seen any blood in my urine or stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other health conditions or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any other health conditions and I am not on any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any enlargement of lymph nodes other than the swelling in your neck, or have these symptoms led you to feel shortness of breath or coughing?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there has been a swelling of lymph nodes in various parts of my body including the neck, but I have not experienced shortness of breath or coughing."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lymphoma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Diffuse large B-cell lymphoma",
+        "multiturn_frq": "**Final Diagnosis:** Lymphoma",
+        "singleturn_mcq": "Final Diagnosis: Diffuse large B-cell lymphoma",
+        "singleturn_frq": "**Final Diagnosis:** Lymphoma",
+        "summarized_conversation": "A 67-year-old woman has been experiencing fatigue, worsening back and abdominal pain, excessive night sweats, and weight loss over the past three weeks. Additionally, she has noticed swelling in her neck for the last three days. She does not have any personal or family history of cancer. She denies having fevers, bleeding, or unusual bruising. Also, there have been no changes in her bowel or bladder habits, and she has not observed any blood in her urine or stool. She has no other health conditions and is not taking any medications. She mentions swelling of lymph nodes in various parts of her body including the neck, but she has not experienced shortness of breath or coughing.",
+        "summarized_mcq": "Diffuse large B-cell lymphoma",
+        "summarized_frq": "Lymphoma"
+    },
+    "trial_2": {
+        "vignette_mcq": "Diffuse large B-cell lymphoma",
+        "vignette_frq": "Non-Hodgkin lymphoma (NHL)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "Hello! I have been experiencing fatigue, worsening back and abdominal pain, excessive night sweats, and unexpected weight loss over the past three weeks. I also noticed swelling in my neck that started three days ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or bowel habits recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my appetite or bowel habits."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer in your family?"
+            },
+            {
+                "role": "user",
+                "content": "The information about family history of cancer is not provided in the details available to me."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or supplements?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications or supplements."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical problems or have you had any significant illnesses in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any other medical problems or significant past illnesses mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hodgkin's Lymphoma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Diffuse large B-cell lymphoma",
+        "multiturn_frq": "**Final Diagnosis:** Hodgkin Lymphoma",
+        "singleturn_mcq": "Final Diagnosis: Diffuse large B-cell lymphoma",
+        "singleturn_frq": "Final Diagnosis: Lymphoma",
+        "summarized_conversation": "A patient reports experiencing several symptoms including fatigue, worsening back and abdominal pain, excessive night sweats, and unexpected weight loss over the past three weeks. Additionally, the patient has noticed swelling in their neck, which started three days ago. The patient states no changes in appetite or bowel habits. There is no information regarding a family history of cancer available. The patient is not currently taking any medications or supplements and reports no other medical problems or significant past illnesses.",
+        "summarized_mcq": "Diffuse large B-cell lymphoma",
+        "summarized_frq": "Lymphoma"
+    },
+    "trial_3": {
+        "vignette_mcq": "Diffuse large B-cell lymphoma",
+        "vignette_frq": "Diffuse large B-cell lymphoma (DLBCL)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, worsening back and abdominal pain, excessive night sweats, and I've also lost 10 pounds in the last three weeks. Additionally, I've noticed swelling on my neck for the past 3 days."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 67-year-old woman."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not include any details about previous medical history or current medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you or anyone in your family been diagnosed with cancer or any other hematological diseases?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not include any details about family history or previous diagnoses of cancer or hematological diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hodgkin's Lymphoma"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Diffuse large B-cell lymphoma.",
+        "multiturn_frq": "Final Diagnosis: Lymphoma.",
+        "singleturn_mcq": "Final Diagnosis: Burkitt lymphoma",
+        "singleturn_frq": "Final Diagnosis: Hodgkin's Lymphoma",
+        "summarized_conversation": "A 67-year-old woman reports suffering from fatigue, worsening back and abdominal pain, excessive night sweats, and a weight loss of 10 pounds over the last three weeks. Additionally, she has noticed swelling on her neck for the past three days. The provided details do not include any information about her previous medical history, current medications, family history, or previous diagnoses of cancer or hematological diseases.",
+        "summarized_mcq": "Diffuse large B-cell lymphoma",
+        "summarized_frq": "Lymphoma"
+    },
+    "trial_4": {
+        "vignette_mcq": "Diffuse large B-cell lymphoma",
+        "vignette_frq": "Diffuse large B-cell lymphoma (DLBCL)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, worsening back and abdominal pain, excessive night sweats, and significant weight loss over the past few weeks. Also, I've noticed some swelling in my neck for the past few days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your appetite or bowel habits recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my appetite or bowel habits."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar symptoms in the past, or any other chronic medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of similar symptoms or other chronic medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a history of cancer or any genetic diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have any information about a history of cancer or genetic diseases in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent infections or fevers?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any recent infections or fevers."
+            },
+            {
+                "role": "assistant",
+                "content": "Given the neck swelling and other symptoms, have you felt any lumps or experienced pain in other areas like your armpit or groin?"
+            },
+            {
+                "role": "user",
+                "content": "I have not felt any lumps or experienced pain in my armpit or groin, but I do have a large, painless lump on my neck."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your doctor performed any blood tests or imaging studies like a CT scan or ultrasound for your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had some blood tests and a CT scan of my thorax and abdomen."
+            },
+            {
+                "role": "assistant",
+                "content": "What were the results of the CT scan and blood tests?"
+            },
+            {
+                "role": "user",
+                "content": "The CT scan showed massively enlarged lymph nodes in several areas, and my blood tests indicated a low hemoglobin level and slightly elevated lactate dehydrogenase."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Lymphoma"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Diffuse large B-cell lymphoma",
+        "multiturn_frq": "Final Diagnosis: Hodgkin's Lymphoma",
+        "singleturn_mcq": "Final Diagnosis: Diffuse large B-cell lymphoma",
+        "singleturn_frq": "Final Diagnosis: Lymphoma",
+        "summarized_conversation": "A patient has been experiencing symptoms including fatigue, worsening back and abdominal pain, excessive night sweats, and significant weight loss over the past few weeks. Additionally, the patient has observed some swelling in their neck for the past few days. The patient reports not noticing any changes in appetite or bowel habits and denies any history of similar symptoms or other chronic medical conditions. There is no known family history of cancer or genetic diseases. The patient has not experienced any recent infections or fevers. There have been no lumps or pain noted in the armpits or groin, but the patient has identified a large, painless lump on the neck. Lab results revealed a low hemoglobin level and slightly elevated lactate dehydrogenase, and a CT scan of the thorax and abdomen showed massively enlarged lymph nodes in several areas.",
+        "summarized_mcq": "Diffuse large B-cell lymphoma",
+        "summarized_frq": "Lymphoma"
+    }
+}

@@ -1,0 +1,245 @@
+{
+    "case_vignette": "A 25-year-old woman is brought to the emergency department after being involved in a rear-end collision, in which she was the restrained driver of the back car! On arrival, she is alert and active! She reports pain in both knees and severe pain over the right groin! Temperature is 37\u00b0C (98!6\u00b0F), pulse is 116/min, respirations are 19/min, and blood pressure is 132/79 mm Hg! Physical examination shows tenderness over both knee caps! The right groin is tender to palpation! The right leg is slightly shortened, flexed, adducted, and internally rotated! The remainder of the examination shows no abnormalities! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Posterior hip dislocation",
+        "vignette_frq": "Right hip dislocation",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have pain in both knees and severe pain in my right groin. My right leg is slightly shorter and is turned inward and bent."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms since my car accident today."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or have you had similar symptoms in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had similar symptoms in the past and I don't have any pre-existing medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any imaging tests done, like an X-ray, since your accident?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any imaging tests done since my accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hip dislocation"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Posterior hip dislocation",
+        "multiturn_frq": "Final Diagnosis: Hip fracture",
+        "singleturn_mcq": "Final Diagnosis: Posterior hip dislocation",
+        "singleturn_frq": "**Final Diagnosis:** Developmental Dysplasia of the Hip",
+        "summarized_conversation": "A patient presents with complaints of pain in both knees and severe pain in the right groin. Additionally, the right leg is noted to be slightly shorter, turned inward, and bent. These symptoms have all manifested since a car accident that occurred today. The patient confirms not having experienced similar symptoms in the past and reports no pre-existing medical conditions. Furthermore, no imaging tests have been conducted since the accident.",
+        "summarized_mcq": "Posterior hip dislocation",
+        "summarized_frq": "Right hip dislocation"
+    },
+    "trial_1": {
+        "vignette_mcq": "Posterior hip dislocation",
+        "vignette_frq": "Right hip dislocation",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing pain in both of my knees and severe pain over my right groin. My right leg also appears to be slightly shortened and it's positioned inward and bent towards my other leg."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms since being involved in a car accident earlier today."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous issues with your hips or legs before this accident?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any previous issues with my hips or legs before this accident."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Right hip dislocation"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Posterior hip dislocation",
+        "multiturn_frq": "**Final Diagnosis:** Right hip dislocation",
+        "singleturn_mcq": "**Final Diagnosis:** Posterior hip dislocation",
+        "singleturn_frq": "**Final Diagnosis:** Right hip fracture",
+        "summarized_conversation": "A patient reports experiencing pain in both knees and severe pain over the right groin. Additionally, the right leg appears to be slightly shortened, positioned inward, and bent towards the other leg. These symptoms have been present since being involved in a car accident earlier that day. The patient has no prior history of hip or leg issues before this accident.",
+        "summarized_mcq": "Posterior hip dislocation",
+        "summarized_frq": "Right hip dislocation"
+    },
+    "trial_2": {
+        "vignette_mcq": "Posterior hip dislocation",
+        "vignette_frq": "Right hip dislocation",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am experiencing pain in both my knees and severe pain over my right groin."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms since I was involved in a car accident earlier today."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other injuries or symptoms since the accident?"
+            },
+            {
+                "role": "user",
+                "content": "My right leg is slightly shortened, flexed, adducted, and internally rotated."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Right hip dislocation."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Posterior hip dislocation",
+        "multiturn_frq": "**Final Diagnosis:** Right hip dislocation",
+        "singleturn_mcq": "Final Diagnosis: Anterior hip dislocation",
+        "singleturn_frq": "Final Diagnosis: Right hip osteoarthritis",
+        "summarized_conversation": "The patient reports experiencing pain in both knees and severe pain over the right groin since being involved in a car accident earlier today. The patient's right leg appears to be slightly shortened, flexed, adducted, and internally rotated.",
+        "summarized_mcq": "Posterior hip dislocation",
+        "summarized_frq": "Right hip dislocation"
+    },
+    "trial_3": {
+        "vignette_mcq": "Posterior hip dislocation",
+        "vignette_frq": "Right hip dislocation",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have pain in both my knees and severe pain over my right groin. My right leg also looks a bit shorter, and it's bent, turned inward, and close to my other leg."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I started experiencing these symptoms just after being involved in a car accident today."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any pre-existing medical conditions or have you had any previous surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any pre-existing medical conditions or previous surgeries."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Right hip dislocation"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Posterior hip dislocation",
+        "multiturn_frq": "**Final Diagnosis:** Right hip dislocation",
+        "singleturn_mcq": "Final Diagnosis: Posterior hip dislocation",
+        "singleturn_frq": "**Final Diagnosis:** Developmental Dysplasia of the Hip (DDH)",
+        "summarized_conversation": "A patient reports experiencing pain in both knees and severe pain over the right groin. Additionally, the patient notes that their right leg appears somewhat shorter, is bent, turned inward, and positioned close to the other leg. These symptoms began to manifest after the patient was involved in a car accident earlier today. The patient does not have any pre-existing medical conditions or a history of previous surgeries.",
+        "summarized_mcq": "Posterior hip dislocation",
+        "summarized_frq": "Right hip dislocation"
+    },
+    "trial_4": {
+        "vignette_mcq": "Posterior hip dislocation",
+        "vignette_frq": "Right hip dislocation",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have pain in both knees and severe pain over my right groin. My right leg is also slightly shorter, flexed, turned inward, and feels tight towards my body."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms since I was involved in a car accident earlier today."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous injuries or surgeries to your hip, groin, or legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any previous injuries or surgeries to my hip, groin, or legs."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently on any medication?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any other medical conditions and I'm not currently on any medication."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hip dislocation"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Posterior hip dislocation",
+        "multiturn_frq": "**Final Diagnosis:** Hip dislocation",
+        "singleturn_mcq": "Final Diagnosis: Posterior hip dislocation",
+        "singleturn_frq": "**Final Diagnosis:** Hip Dislocation",
+        "summarized_conversation": "A patient reports experiencing pain in both knees with severe pain over their right groin. The patient describes their right leg as slightly shorter, flexed, turned inward, and feeling tight towards their body. These symptoms have been present since the patient was involved in a car accident earlier in the day. The patient denies any previous injuries or surgeries to their hip, groin, or legs. Furthermore, they do not have any other medical conditions and are not currently on any medication.",
+        "summarized_mcq": "Posterior hip dislocation",
+        "summarized_frq": "Right hip dislocation"
+    }
+}

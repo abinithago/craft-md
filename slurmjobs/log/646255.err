@@ -1,0 +1,2 @@
+cpu-bind=MASK - cortado, task  0  0 [2289172]: mask 0xff00000000ff00000000 set
+  0%|          | 0/2004 [00:00<?, ?it/s]slurmstepd: error: *** JOB 646255 ON cortado CANCELLED AT 2025-01-10T17:04:23 ***

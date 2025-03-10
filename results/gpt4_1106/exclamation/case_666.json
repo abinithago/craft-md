@@ -1,0 +1,333 @@
+{
+    "case_vignette": "A 3-month-old boy is brought to the physician by his parents for the evaluation of a rash on his scalp and forehead! The parents report that the rash has been present for several weeks! They state that the rash is sometimes red and scaly, especially when it is cold! The patient was born at 36 weeks' gestation and has generally been healthy since! His father has psoriasis! The patient appears comfortable! Examination shows several erythematous patches on the scalp, forehead, and along the hairline! Some patches are covered by greasy yellow scales! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Seborrheic dermatitis",
+        "vignette_frq": "Seborrheic dermatitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a red and scaly rash on my scalp and forehead that sometimes appears, especially when it is cold."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "The rash has been present for several weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you feel any itchiness or pain associated with the rash?"
+            },
+            {
+                "role": "user",
+                "content": "The description provided does not specify if there's any itchiness or pain associated with the rash."
+            },
+            {
+                "role": "assistant",
+                "content": "Is the rash confined to your scalp and forehead, or have you noticed it on any other parts of your body?"
+            },
+            {
+                "role": "user",
+                "content": "The rash is on my scalp, forehead, and along the hairline."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any skin conditions, or has anyone in your family had similar symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "My father has psoriasis."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Psoriasis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Psoriasis",
+        "multiturn_frq": "**Final Diagnosis:** Psoriasis",
+        "singleturn_mcq": "Final Diagnosis: Seborrheic dermatitis",
+        "singleturn_frq": "**Final Diagnosis:** Psoriasis",
+        "summarized_conversation": "A patient reports experiencing a red and scaly rash on the scalp and forehead, which particularly appears in cold weather. The rash has persisted for several weeks. There is no indication of whether the rash is itchy or painful. The affected areas include the scalp, forehead, and along the hairline. The patient's father has a history of psoriasis.",
+        "summarized_mcq": "Seborrheic dermatitis",
+        "summarized_frq": "Scalp psoriasis"
+    },
+    "trial_1": {
+        "vignette_mcq": "Seborrheic dermatitis",
+        "vignette_frq": "Seborrheic dermatitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a rash on my scalp and forehead that's red and scaly."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you had this rash?"
+            },
+            {
+                "role": "user",
+                "content": "The rash has been present for several weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any new hair products or chemicals that you have used recently on your scalp or forehead?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not used any new hair products or chemicals recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any joint pains, stiffness or swelling associated with the rash?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any joint pains, stiffness, or swelling associated with the rash."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the rash itch or cause any discomfort?"
+            },
+            {
+                "role": "user",
+                "content": "The case description does not specify that the rash itches or causes discomfort, but I appear comfortable."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of skin diseases or autoimmune disorders?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my father has psoriasis."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Psoriasis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Psoriasis",
+        "multiturn_frq": "**Final Diagnosis:** Psoriasis",
+        "singleturn_mcq": "Seborrheic dermatitis",
+        "singleturn_frq": "**Final Diagnosis:** Seborrheic Dermatitis",
+        "summarized_conversation": "A patient arrived at the clinic with a red, scaly rash on the scalp and forehead, which has been present for several weeks. There has been no use of new hair products or chemicals recently. The patient does not experience any joint pains, stiffness, or swelling in association with the rash. The case description does not specify that the rash itches or causes discomfort, but the patient appears comfortable. The patient mentioned that their father has psoriasis.",
+        "summarized_mcq": "Psoriasis",
+        "summarized_frq": "Psoriasis"
+    },
+    "trial_2": {
+        "vignette_mcq": "Seborrheic dermatitis",
+        "vignette_frq": "Seborrheic dermatitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a rash on my scalp and forehead that is red and scaly, and it gets worse when it's cold."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you had this rash?"
+            },
+            {
+                "role": "user",
+                "content": "The rash has been present for several weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any hair loss or changes in your scalp, like dandruff or sores in these areas?"
+            },
+            {
+                "role": "user",
+                "content": "Some patches are covered by greasy yellow scales."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of skin disorders?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my father has psoriasis."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have similar rashes on other parts of your body, such as elbows or knees?"
+            },
+            {
+                "role": "user",
+                "content": "The examination shows rashes only on my scalp, forehead, and along the hairline."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Seborrheic Dermatitis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Seborrheic dermatitis",
+        "multiturn_frq": "**Final Diagnosis:** Scalp Psoriasis",
+        "singleturn_mcq": "Final Diagnosis: Seborrheic dermatitis",
+        "singleturn_frq": "Final Diagnosis: Psoriasis",
+        "summarized_conversation": "A patient presents with a rash on the scalp and forehead, described as red and scaly, worsening with cold weather. The condition has persisted for several weeks, featuring patches covered by greasy yellow scales. The patient's father has a history of psoriasis. Clinical examination reveals the rash localized to the scalp, forehead, and along the hairline.",
+        "summarized_mcq": "Seborrheic dermatitis",
+        "summarized_frq": "Seborrheic dermatitis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Seborrheic dermatitis",
+        "vignette_frq": "Seborrheic dermatitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a rash on my scalp and forehead that is red and scaly, especially when it's cold."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you had this rash?"
+            },
+            {
+                "role": "user",
+                "content": "The rash has been present for several weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the rash itch or cause any pain?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not mention any itching or pain from the rash."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed similar rashes elsewhere on your body?"
+            },
+            {
+                "role": "user",
+                "content": "The rash is on my scalp, forehead, and along the hairline."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of skin conditions such as eczema, psoriasis, or allergies?"
+            },
+            {
+                "role": "user",
+                "content": "My father has psoriasis."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Psoriasis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Psoriasis",
+        "multiturn_frq": "**Final Diagnosis:** Psoriasis",
+        "singleturn_mcq": "Final Diagnosis: Seborrheic dermatitis",
+        "singleturn_frq": "Final Diagnosis: Psoriasis",
+        "summarized_conversation": "A patient presents with a persistent rash on the scalp and forehead that appears red and scaly, especially in cold conditions. The rash has been present for several weeks and affects the scalp, forehead, and along the hairline. There is no mention of itching or pain associated with the rash. The patient also reports a family history of psoriasis, as their father suffers from the condition.",
+        "summarized_mcq": "Psoriasis",
+        "summarized_frq": "Scalp psoriasis"
+    },
+    "trial_4": {
+        "vignette_mcq": "Seborrheic dermatitis",
+        "vignette_frq": "Seborrheic dermatitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a rash on my scalp and forehead that is red and scaly sometimes."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you had these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "The rash has been present for several weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any itching or burning sensation associated with the rash?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't experience any itching or burning sensation with the rash."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if the rash worsens with sunlight exposure?"
+            },
+            {
+                "role": "user",
+                "content": "The rash gets worse when it is cold."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started using any new hair products or skincare products before the symptoms began?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not started using any new hair or skincare products before the symptoms began."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I have generally been healthy since birth and am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have skin problems or similar symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my father has psoriasis."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Psoriasis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Psoriasis",
+        "multiturn_frq": "**Final Diagnosis:** Psoriasis",
+        "singleturn_mcq": "Final Diagnosis: Seborrheic dermatitis",
+        "singleturn_frq": "Final Diagnosis: Psoriasis",
+        "summarized_conversation": "A patient reports having a red and scaly rash on their scalp and forehead that has persisted for several weeks. The patient indicates that the rash is not accompanied by itching or burning sensations. They also mention that the symptoms worsen in cold conditions. The patient has not used any new hair or skin care products before the onset of the symptoms. They have been generally healthy since birth and are not on any medications. Furthermore, the patient reports a family history of psoriasis, as their father has the condition.",
+        "summarized_mcq": "Psoriasis",
+        "summarized_frq": "Psoriasis"
+    }
+}

@@ -1,0 +1,333 @@
+{
+    "case_vignette": "A 13-month-old boy is brought to the physician for the evaluation of rectal bleeding that occurred earlier that morning! The patient has also had several itchy and red skin lesions that started on his scalp and spread downwards! The parents report that their son has had six episodes of bilateral otitis media since birth! His immunizations are up-to-date! He is at the 3rd percentile for height and weight! His vital signs are within normal limits! Examination shows several eczematous lesions over the scalp, neck, and upper and lower extremities, as well as multiple red spots that do not blanch on pressure! The remainder of the physical examination shows no abnormalities! Laboratory studies show:\nHemoglobin 9!4 g/dL\nLeukocyte count 11,500/mm3\nPlatelet count 30,000/mm3\nProthrombin time 14 sec\nPartial thromboplastin time 33 sec\n",
+    "question": "Which  is the most likely diagnosis?\"",
+    "trial_0": {
+        "vignette_mcq": "Wiskott-Aldrich syndrome",
+        "vignette_frq": "Wiskott-Aldrich syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing rectal bleeding and have itchy and red skin lesions that started on my scalp and are spreading downwards."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in bowel habits or abdominal pain recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in bowel habits or abdominal pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any autoimmune diseases or allergies in yourself or in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any autoimmune diseases or allergies in myself or my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently started any new medications or been exposed to any new substances?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't started any new medications or been exposed to any new substances recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any joint pains or muscle aches along with these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been experiencing any joint pains or muscle aches."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you, and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 13-month-old boy."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Langerhans Cell Histiocytosis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Wiskott-Aldrich syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Langerhans Cell Histiocytosis",
+        "singleturn_mcq": "Final Diagnosis: Wiskott-Aldrich syndrome",
+        "singleturn_frq": "Final Diagnosis: Langerhans Cell Histiocytosis",
+        "summarized_conversation": "A patient, a 13-month-old boy, presents with symptoms of rectal bleeding and itchy red skin lesions. The lesions started on the scalp and are spreading downwards. The patient has not observed any changes in bowel habits or experienced abdominal pain. There is no known history of autoimmune diseases or allergies in the patient or his family. Additionally, the patient hasn't started any new medications or been exposed to any new substances recently. The patient does not report any joint pains or muscle aches.",
+        "summarized_mcq": "Wiskott-Aldrich syndrome",
+        "summarized_frq": "Psoriasis."
+    },
+    "trial_1": {
+        "vignette_mcq": "Wiskott-Aldrich syndrome",
+        "vignette_frq": "Wiskott-Aldrich syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I had an episode of rectal bleeding this morning and I have been experiencing itchy and red skin lesions that started from my scalp and spread downward."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 13 months old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or allergic reactions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "No specific allergies have been mentioned, but I have experienced several episodes of itchy and red skin lesions."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent changes in your diet or introduction of new foods?"
+            },
+            {
+                "role": "user",
+                "content": "No changes in my diet or introduction of new foods have been mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of autoimmune diseases or skin disorders?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information provided about my family's medical history regarding autoimmune diseases or skin disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing any abdominal pain or changes in your bowel movements?"
+            },
+            {
+                "role": "user",
+                "content": "No abdominal pain or changes in bowel movements have been mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you observed any correlation between the skin lesions and certain activities or exposures to specific environments?"
+            },
+            {
+                "role": "user",
+                "content": "No correlation between the skin lesions and specific activities or environments has been mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Langerhans Cell Histiocytosis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Wiskott-Aldrich syndrome",
+        "multiturn_frq": "Final Diagnosis: Langerhans Cell Histiocytosis",
+        "singleturn_mcq": "Final Diagnosis: Wiskott-Aldrich syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Langerhans Cell Histiocytosis",
+        "summarized_conversation": "A patient, aged 13 months, had an episode of rectal bleeding earlier today and has been experiencing itchy and red skin lesions. These lesions initiated on the scalp and have progressively spread downward. The child does not have any known allergies, and there have been no changes in diet or introduction of new foods. No abdominal pain or changes in bowel movements have been reported. Additionally, there is no provided information about the family's medical history concerning autoimmune diseases or skin disorders, and no link between the lesions and specific activities or environments has been established.",
+        "summarized_mcq": "Wiskott-Aldrich syndrome",
+        "summarized_frq": "Atopic dermatitis (eczema) with possible food allergy causing rectal bleeding."
+    },
+    "trial_2": {
+        "vignette_mcq": "Wiskott-Aldrich syndrome",
+        "vignette_frq": "Wiskott-Aldrich syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have rectal bleeding that happened earlier today and several itchy and red skin lesions that started on my scalp and spread downwards."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I am 13 months old and there is no mention of being on any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any issues with growth, development, or frequent infections?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am small for my age, being at the 3rd percentile for height and weight, and I have had six episodes of ear infections on both sides since birth."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of genetic or immune disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The provided information does not mention any family history of genetic or immune disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Wiskott-Aldrich Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Wiskott-Aldrich syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Wiskott-Aldrich Syndrome",
+        "singleturn_mcq": "Wiskott-Aldrich syndrome",
+        "singleturn_frq": "Final Diagnosis: Henoch-Sch\u00f6nlein purpura",
+        "summarized_conversation": "A 13-month-old child presents with rectal bleeding that occurred earlier in the day and has developed multiple itchy and red skin lesions that initially appeared on the scalp and have spread downwards. The child is small for his age, being at the 3rd percentile for both height and weight. The child has experienced six episodes of ear infections on both sides since birth. There is no mention of any medications being administered, nor is there a family history of genetic or immune disorders reported.",
+        "summarized_mcq": "Wiskott-Aldrich syndrome",
+        "summarized_frq": "Atopic dermatitis with secondary infection"
+    },
+    "trial_3": {
+        "vignette_mcq": "Wiskott-Aldrich syndrome",
+        "vignette_frq": "Wiskott-Aldrich syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I had rectal bleeding this morning and I also have several itchy and red skin rashes that started on my scalp and spread downwards."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 13 months old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent changes in your diet or any new foods introduced?"
+            },
+            {
+                "role": "user",
+                "content": "No, there haven't been any recent changes in my diet or new foods introduced."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of allergies or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the rash seem to worsen with scratching or exposure to certain environments?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the rash gets itchier when I scratch it."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any fever, joint pain, or abdominal pain along with the rash and rectal bleeding?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any fever, joint pain, or abdominal pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Henoch-Schonlein Purpura (HSP)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Wiskott-Aldrich syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein purpura",
+        "singleturn_mcq": "Final Diagnosis: Wiskott-Aldrich syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein purpura",
+        "summarized_conversation": "A 13-month-old patient presented with rectal bleeding and several itchy, red skin rashes. These rashes began on the scalp and spread downwards. There have been no recent changes in the patient's diet, nor any new foods introduced. The patient's family medical history is unknown. The rash has been reported to become itchier upon scratching. There are no reported symptoms of fever, joint pain, or abdominal pain.",
+        "summarized_mcq": "Wiskott-Aldrich syndrome",
+        "summarized_frq": "Atopic dermatitis (eczema)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Wiskott-Aldrich syndrome",
+        "vignette_frq": "Wiskott-Aldrich syndrome",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I came in because of rectal bleeding that happened this morning and I've also been having several itchy and red skin lesions that started on my scalp and have spread downwards."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 13 months old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent illnesses or infections?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have had six episodes of ear infections on both sides since I was born."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of immune system problems or genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have information about my family's medical history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any delay in development or growth?"
+            },
+            {
+                "role": "user",
+                "content": "I am at the 3rd percentile for both height and weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Wiskott-Aldrich Syndrome"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Wiskott-Aldrich syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Wiskott-Aldrich Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Wiskott-Aldrich syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein purpura",
+        "summarized_conversation": "A patient, who is 13 months old, came in due to experiencing rectal bleeding that occurred this morning. Additionally, the patient has developed several itchy and red skin lesions that began on the scalp and have since spread downwards. The patient has also had six episodes of ear infections affecting both ears since birth. The patient does not have information about their family's medical history. This patient ranks at the 3rd percentile for both height and weight.",
+        "summarized_mcq": "Wiskott-Aldrich syndrome",
+        "summarized_frq": "Wiskott-Aldrich Syndrome"
+    }
+}

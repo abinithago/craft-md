@@ -1,0 +1,405 @@
+{
+    "case_vignette": "An 81-year-old man comes to the physician because of increased exertional dyspnea and dizziness over the past 8 weeks. He has hypertension for which he takes lisinopril. He has smoked one pack of cigarettes daily for the past 50 years. Physical examination shows weak peripheral pulses. Cardiac examination is shown. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Aortic stenosis",
+        "vignette_frq": "Aortic stenosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increased difficulty breathing when exerting myself and feeling dizzy for the past 8 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart disease or other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I only have hypertension for which I take lisinopril."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am an 81-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these symptoms improve with rest?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the symptoms improve with rest."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any chest pain or palpitations along with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced chest pain or palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of lung disease or smoking?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have a history of smoking one pack of cigarettes daily for the past 50 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Aortic stenosis",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Obstructive Pulmonary Disease (COPD)",
+        "singleturn_mcq": "Aortic stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Congestive Heart Failure",
+        "summarized_conversation": "An 81-year-old man has been experiencing increased difficulty breathing upon exertion and dizziness for the past 8 weeks. He reports that his symptoms improve with rest. He has no history of chest pain or palpitations. His medical history includes hypertension, for which he is taking lisinopril. Additionally, he has a history of smoking one pack of cigarettes daily for the past 50 years.",
+        "summarized_mcq": "Aortic stenosis",
+        "summarized_frq": "Chronic obstructive pulmonary disease (COPD)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Aortic stenosis.",
+        "vignette_frq": "Aortic stenosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increased difficulty breathing during physical activities and feeling dizzy over the past 8 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chest pain or discomfort, especially during activities or exercises?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any chest pain or discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any episodes of fainting or near fainting?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any episodes of fainting or near fainting."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of heart disease or any other chronic health conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I have hypertension and I've been a smoker for the past 50 years."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications for your hypertension or any other conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking lisinopril for my hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am an 81-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Aortic stenosis",
+        "multiturn_frq": "**Final Diagnosis:** Chronic Obstructive Pulmonary Disease (COPD)",
+        "singleturn_mcq": "Aortic stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Heart failure",
+        "summarized_conversation": "A patient presents with difficulties in breathing during physical activities and experiencing dizziness for the past 8 weeks. The patient reports no swelling in legs or feet, no chest pain or discomfort, and no history of fainting or near fainting episodes. The patient has a history of hypertension and has been a chronic smoker for the past 50 years. The patient, an 81-year-old man, is currently taking lisinopril for hypertension management.",
+        "summarized_mcq": "Aortic stenosis",
+        "summarized_frq": "Chronic obstructive pulmonary disease (COPD) or ischemic heart disease."
+    },
+    "trial_2": {
+        "vignette_mcq": "Aortic stenosis",
+        "vignette_frq": "Aortic stenosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increased shortness of breath and dizziness when I exert myself for the past 8 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any chest pain or discomfort along with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any chest pain or discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of heart or lung diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I only have a history of hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications for your hypertension or any other conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking lisinopril for my hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any swelling in your legs or ankles?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any swelling in my legs or ankles."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with heart-related problems?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have information about family history related to similar symptoms or heart-related problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your dizziness or shortness of breath improve when you rest?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my dizziness and shortness of breath improve when I rest."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Heart Failure"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Aortic stenosis",
+        "multiturn_frq": "**Final Diagnosis:** Heart failure",
+        "singleturn_mcq": "Final Diagnosis: Aortic stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Heart failure",
+        "summarized_conversation": "A patient has been experiencing increased shortness of breath and dizziness upon exertion for the past 8 weeks. The patient denies any chest pain or discomfort associated with these symptoms. The patient has a history of hypertension and is currently taking lisinopril for the condition. There is no noted swelling in the patient's legs or ankles. Additionally, the patient lacks information regarding family history of similar symptoms or heart-related problems. The patient reports that the dizziness and shortness of breath improve with rest.",
+        "summarized_mcq": "Aortic stenosis",
+        "summarized_frq": "Heart failure with preserved ejection fraction (HFpEF)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Aortic stenosis",
+        "vignette_frq": "Aortic stenosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increased shortness of breath with activities and feeling dizzy, especially over the past 8 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am an 81-year-old man."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chest pain or discomfort?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any chest pain or discomfort."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any similar symptoms in the past or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "I have hypertension for which I take medication, but I haven't experienced these specific symptoms in the past."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have swelling in your legs or feet?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have swelling in my legs or feet."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any irregular heartbeats or palpitations?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any irregular heartbeats or palpitations."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a history of heart disease or other cardiovascular problems in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have information about my family history of heart disease or other cardiovascular problems to provide."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you felt light-headed or actually fainted when you feel dizzy?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have felt light-headed when I feel dizzy."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Heart failure."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Aortic stenosis",
+        "multiturn_frq": "**Final Diagnosis:** Heart failure",
+        "singleturn_mcq": "Aortic stenosis",
+        "singleturn_frq": "Final Diagnosis: Heart failure",
+        "summarized_conversation": "A patient reports experiencing increased shortness of breath with activities and feeling dizzy, particularly in the past 8 weeks. The patient is an 81-year-old man who has a history of hypertension, for which he is medicated, but has not experienced these specific symptoms previously. He does not have chest pain or discomfort, and there is no swelling in his legs or feet. He has not noticed any irregular heartbeats or palpitations. Additionally, the patient mentions feeling light-headed when dizzy. Unfortunately, he does not have information about his family history of heart disease or other cardiovascular problems.",
+        "summarized_mcq": "Aortic stenosis",
+        "summarized_frq": "Orthostatic hypotension"
+    },
+    "trial_4": {
+        "vignette_mcq": "Aortic stenosis",
+        "vignette_frq": "Aortic stenosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Cardiovascular System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing increased shortness of breath with activity and dizziness for the past 8 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing heart or lung conditions, or have you been diagnosed with any other chronic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I have hypertension for which I take lisinopril."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling in your legs or feet, or weight gain?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any swelling in my legs or feet, nor have I gained weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chest pain or tightness along with your symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any chest pain or tightness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you feel more tired than usual or have difficulties lying flat without feeling breathless?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't feel more tired than usual, and I haven't had difficulties lying flat without feeling breathless."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of heart disease or other cardiovascular conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know of any family history of heart disease or other cardiovascular conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if your heart rate feels irregular or unusually rapid during these episodes of shortness of breath and dizziness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed if my heart rate feels irregular or unusually rapid during these episodes."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any recent change in your medication or their dosages?"
+            },
+            {
+                "role": "user",
+                "content": "No, there hasn't been any recent change in my medication or their dosages."
+            },
+            {
+                "role": "assistant",
+                "content": "Have your symptoms of shortness of breath and dizziness occurred only during physical activity or also at rest?"
+            },
+            {
+                "role": "user",
+                "content": "My symptoms of shortness of breath and dizziness have occurred during physical activity."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Exercise-induced asthma."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Aortic stenosis",
+        "multiturn_frq": "**Final Diagnosis:** Exercise-induced asthma",
+        "singleturn_mcq": "Mitral regurgitation",
+        "singleturn_frq": "Final Diagnosis: Heart Failure",
+        "summarized_conversation": "A patient has been experiencing increased shortness of breath with activity and dizziness for the past 8 weeks. The patient has hypertension for which they are prescribed lisinopril. The patient reports no swelling in their legs or feet, nor have they gained weight. There is no chest pain or tightness, and the patient doesn't feel more tired than usual or have difficulties lying flat without feeling breathless. The patient is unaware of any family history of heart disease or other cardiovascular conditions. They also haven't noticed if their heart rate feels irregular or unusually rapid during these episodes. There have not been any recent changes in their medication or their dosages. The symptoms of shortness of breath and dizziness have been specifically noted during physical activity.",
+        "summarized_mcq": "Aortic stenosis",
+        "summarized_frq": "Exercise-induced asthma or anemia."
+    }
+}

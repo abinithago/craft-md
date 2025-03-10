@@ -1,0 +1,357 @@
+{
+    "case_vignette": "six hours after delivery, a 3050-g (6-lb 12-oz) male newborn is noted to have feeding intolerance and several episodes of bilious vomiting. he was born at term to a healthy 35-year-old woman following a normal vaginal delivery. the pregnancy was uncomplicated, but the patient's mother had missed several of her prenatal checkups. the patient's older brother underwent surgery for pyloric stenosis as an infant. vital signs are within normal limits. physical examination shows epicanthus, upward slanting of the eyelids, low-set ears, and a single transverse palmar crease. the lungs are clear to auscultation. a grade 2/6 holosystolic murmur is heard at the left mid to lower sternal border. abdominal examination shows a distended upper abdomen and a concave-shaped lower abdomen. there is no organomegaly. an x-ray of the abdomen is shown. ",
+    "question": "which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Duodenal atresia.",
+        "vignette_frq": "Duodenal atresia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been having feeding intolerance and several episodes of bilious vomiting."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am a newborn, just six hours old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any abdominal distension or swelling?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my upper abdomen is distended."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any discoloration or bluish appearance of the skin?"
+            },
+            {
+                "role": "user",
+                "content": "No, there hasn't been any discoloration or bluish appearance of the skin."
+            },
+            {
+                "role": "assistant",
+                "content": "Has an X-ray or abdominal ultrasound been performed, and if so, what were the results?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, an X-ray of the abdomen has been done, but the results were not specified in the details I know."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of congenital disorders, particularly involving the digestive system?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my older brother underwent surgery for pyloric stenosis as an infant."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pyloric stenosis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Duodenal atresia",
+        "multiturn_frq": "**Final Diagnosis:** Malrotation with midgut volvulus.",
+        "singleturn_mcq": "Duodenal atresia",
+        "singleturn_frq": "**Final Diagnosis:** Malrotation with midgut volvulus",
+        "summarized_conversation": "A newborn, aged just six hours, is experiencing feeding intolerance and multiple episodes of bilious vomiting. The newborn's upper abdomen is distended. There is no discoloration or bluish appearance of the skin reported. An abdominal X-ray has been conducted, although the results have not yet been specified. The newborn has an older brother who underwent surgery for pyloric stenosis as an infant.",
+        "summarized_mcq": "Duodenal atresia",
+        "summarized_frq": "Intestinal Malrotation with Volvulus"
+    },
+    "trial_1": {
+        "vignette_mcq": "Duodenal atresia",
+        "vignette_frq": "Duodenal atresia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing feeding intolerance and several episodes of bilious vomiting."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "The patient is a newborn, just six hours old."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the baby have any abdominal swelling or discoloration?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the baby's upper abdomen is distended."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the baby passed meconium since birth?"
+            },
+            {
+                "role": "user",
+                "content": "The provided information doesn't specify whether the baby has passed meconium since birth."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the baby have any other noticeable abnormalities or discolorations, particularly around the anus or limbs?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no abnormalities or discolorations mentioned around the anus or limbs."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Malrotation with volvulus"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Duodenal atresia",
+        "multiturn_frq": "**Final Diagnosis:** Malrotation with Volvulus.",
+        "singleturn_mcq": "Duodenal atresia",
+        "singleturn_frq": "Final Diagnosis: Intestinal Malrotation with Volvulus.",
+        "summarized_conversation": "A patient reports experiencing feeding intolerance and multiple episodes of bilious vomiting. The patient is a newborn, only six hours old. Examination reveals distension in the baby's upper abdomen. It is not specified whether the baby has passed meconium since birth. No abnormalities or discolorations are noted around the anus or limbs of the baby.",
+        "summarized_mcq": "Duodenal atresia",
+        "summarized_frq": "Malrotation with midgut volvulus."
+    },
+    "trial_2": {
+        "vignette_mcq": "Duodenal atresia",
+        "vignette_frq": "Duodenal atresia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing feeding intolerance and several episodes of bilious vomiting."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient?"
+            },
+            {
+                "role": "user",
+                "content": "The patient is a newborn, just six hours old."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the newborn have any abdominal distension or discoloration?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the newborn has a distended upper abdomen."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the newborn passed meconium since birth?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention if the newborn has passed meconium since birth."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the newborn had any imaging studies like an abdominal X-ray or ultrasound?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, an x-ray of the abdomen has been done."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you describe the findings of the abdominal X-ray?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I can't provide specifics on the findings of the abdominal X-ray."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a history of similar symptoms in the family or any genetic disorders known?"
+            },
+            {
+                "role": "user",
+                "content": "The newborn's older brother underwent surgery for pyloric stenosis as an infant."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pyloric Stenosis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Duodenal atresia.",
+        "multiturn_frq": "**Final Diagnosis:** Congenital duodenal obstruction",
+        "singleturn_mcq": "Duodenal atresia",
+        "singleturn_frq": "Final Diagnosis: Intestinal Malrotation",
+        "summarized_conversation": "A patient reports issues with feeding intolerance and has experienced several episodes of bilious vomiting. The patient is a newborn, only six hours old. The newborn also presents with a distended upper abdomen. It is not specified whether the newborn has passed meconium since birth. An X-ray of the abdomen has been conducted, although specifics on the findings cannot be provided. The newborn\u2019s older brother had previously undergone surgery for pyloric stenosis during infancy.",
+        "summarized_mcq": "Duodenal atresia.",
+        "summarized_frq": "Malrotation with volvulus."
+    },
+    "trial_3": {
+        "vignette_mcq": "Duodenal atresia",
+        "vignette_frq": "Duodenal atresia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm experiencing feeding intolerance and have had several episodes of bilious vomiting."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "The patient is a newborn, just six hours old."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the newborn passed meconium since birth?"
+            },
+            {
+                "role": "user",
+                "content": "The provided information does not mention whether the newborn has passed meconium since birth."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the newborn have any abdominal distension or swelling?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the newborn has a distended upper abdomen."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the newborn undergone any imaging studies, like an abdominal x-ray or ultrasound?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, an x-ray of the abdomen has been done."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the x-ray results show any signs of a \u201cdouble bubble\u201d (two large air-filled spaces in the abdomen)?"
+            },
+            {
+                "role": "user",
+                "content": "The provided information does not specify the detailed findings of the x-ray, including whether a \"double bubble\" sign is present."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Duodenal atresia."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Duodenal atresia",
+        "multiturn_frq": "**Final Diagnosis:** Duodenal Atresia",
+        "singleturn_mcq": "Duodenal atresia",
+        "singleturn_frq": "**Final Diagnosis:** Intestinal Malrotation with Volvulus",
+        "summarized_conversation": "A patient, who is a newborn just six hours old, is experiencing feeding intolerance along with several episodes of bilious vomiting. It hasn't been specified whether the newborn has passed meconium since birth. The newborn presents with a distended upper abdomen. An x-ray of the abdomen has been conducted, although the detailed findings, including the presence of a \"double bubble\" sign, have not been specified.",
+        "summarized_mcq": "Duodenal atresia",
+        "summarized_frq": "Duodenal atresia"
+    },
+    "trial_4": {
+        "vignette_mcq": "Duodenal atresia",
+        "vignette_frq": "Duodenal atresia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing feeding intolerance and several episodes of bilious vomiting."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am a newborn, just six hours old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any abdominal swelling or distension?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my upper abdomen is distended."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any discoloration or a bluish appearance of the skin around the belly?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no discoloration or bluish appearance around the belly."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you passed your first stool (meconium) since birth?"
+            },
+            {
+                "role": "user",
+                "content": "The information about whether I have passed my first stool is not provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any imaging studies like an abdominal x-ray or ultrasound?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, an x-ray of the abdomen has been done."
+            },
+            {
+                "role": "assistant",
+                "content": "Was there any abnormal gas pattern or signs on the x-ray suggestive of intestinal obstruction?"
+            },
+            {
+                "role": "user",
+                "content": "The specific details about the findings on the x-ray aren't provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Malrotation with midgut volvulus"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Duodenal atresia.",
+        "multiturn_frq": "**Final Diagnosis:** Malrotation with volvulus",
+        "singleturn_mcq": "Duodenal atresia",
+        "singleturn_frq": "**Final Diagnosis:** Malrotation with volvulus",
+        "summarized_conversation": "A newborn, merely six hours old, is experiencing feeding intolerance and multiple episodes of bilious vomiting. The newborn's upper abdomen is noted to be distended, yet there is an absence of discoloration or a bluish appearance around the belly. Information regarding the passage of the first stool has not been provided. An x-ray of the abdomen has been conducted, although specific findings from the X-ray have not been disclosed.",
+        "summarized_mcq": "Duodenal atresia",
+        "summarized_frq": "Malrotation with midgut volvulus."
+    }
+}

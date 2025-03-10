@@ -1,0 +1,325 @@
+{
+    "case_vignette": "A previously healthy 2-year-old girl is brought to the physician because of a 1-week history of yellow discoloration of her skin, loss of appetite, and 3 episodes of vomiting. Her parents also report darkening of her urine and light stools. During the last 2 days, the girl has been scratching her abdomen and arms and has been crying excessively. She was born at 38 weeks' gestation after an uncomplicated pregnancy and delivery. Her family emigrated from Japan 8 years ago. Immunizations are up-to-date. Her vital signs are within normal limits. Examination shows jaundice of her skin and sclerae. Abdominal examination shows a mass in the right upper abdomen. Serum studies show:\nBilirubin (total) 5 mg/dL\nDirect 4.2 mg/dL\nAspartate aminotransferase (AST) 20 U/L\nAlanine aminotransferase (ALT) 40 U/L\n\u03b3-Glutamyltransferase (GGT) 110 U/L\nAbdominal ultrasonography shows dilation of the gall bladder and a fusiform dilation of the extrahepatic bile duct. ",
+    "question": "Which  is the most likely diagnosis?\"",
+    "trial_0": {
+        "vignette_mcq": "Biliary cyst",
+        "vignette_frq": "Choledochal cyst",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing yellow discoloration of my skin, loss of appetite, and vomiting. I've also been itching my abdomen and arms and crying more than usual."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about a week."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of liver disease, gallstones, or hepatitis?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have been previously healthy with no such history."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine or stool?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my urine has become darker and my stools are lighter in color."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you traveled recently or been exposed to any new foods, environments, or medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not traveled recently or been exposed to any new foods, environments, or medications."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 2-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Biliary atresia."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Alagille syndrome",
+        "multiturn_frq": "Final Diagnosis: Biliary atresia",
+        "singleturn_mcq": "Final Diagnosis: Alagille syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Hepatitis",
+        "summarized_conversation": "A 2-year-old girl has presented with symptoms including yellow discoloration of the skin, loss of appetite, and vomiting, which have persisted for about a week. She has also been experiencing itching on her abdomen and arms and increased episodes of crying. The girl was previously healthy with no similar history. Additionally, her urine has darkened while her stools have become lighter in color. There are no recent travels, exposure to new foods, environments, or medications reported.",
+        "summarized_mcq": "Alagille syndrome",
+        "summarized_frq": "Jaundice (likely pediatric hepatitis)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Biliary cyst",
+        "vignette_frq": "Biliary atresia",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have yellow discoloration of my skin, loss of appetite, and have vomited three times over the past week."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 2-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine or stool?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my urine has become darker and my stools are lighter in color."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known medical conditions or have you been taking any medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any known medical conditions and I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of liver disease or similar symptoms in your family?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided about a family history of liver disease or similar symptoms in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Biliary atresia"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Alagille syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Hepatitis",
+        "singleturn_mcq": "Crigler-Najjar syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Hepatitis",
+        "summarized_conversation": "A patient presents with certain symptoms; she is a 2-year-old girl exhibiting yellow discoloration of her skin, loss of appetite, and has experienced vomiting three times over the past week. The patient's urine has darkened while her stools have become lighter in color. She does not have any known medical conditions and is not on any medications. There is no provided information regarding a family history of liver disease or similar symptoms in her family.",
+        "summarized_mcq": "Alagille syndrome",
+        "summarized_frq": "Hepatitis"
+    },
+    "trial_2": {
+        "vignette_mcq": "Biliary cyst",
+        "vignette_frq": "Choledochal cyst",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've had yellow discoloration of my skin, loss of appetite, and I've vomited three times over the past week."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 2-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you or your family noticed any change in the color of your urine or stool?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my urine has gotten darker and my stools are light in color."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known medical conditions or have you been taking any medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have been previously healthy and am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any history of liver disease, blood disorders, or other related conditions in your family?"
+            },
+            {
+                "role": "user",
+                "content": "There is no family history of liver disease, blood disorders, or other related conditions mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Biliary atresia."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Alagille syndrome",
+        "multiturn_frq": "Final Diagnosis: Biliary atresia",
+        "singleturn_mcq": "Alagille syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Hepatitis",
+        "summarized_conversation": "The patient is a 2-year-old girl who presents with yellow discoloration of the skin, loss of appetite, and has vomited three times over the last week. She also reports that her urine has darkened, and her stools are light in color. She has no prior health issues and is not on any medications. Additionally, there is no family history of liver disease, blood disorders, or other related conditions.",
+        "summarized_mcq": "Alagille syndrome",
+        "summarized_frq": "Hepatitis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Biliary cyst",
+        "vignette_frq": "Choledochal cyst",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing yellow discoloration of my skin, loss of appetite, and I've vomited a few times. I've also noticed that my urine is darker and my stools are lighter than usual. Additionally, I've been feeling itchy on my abdomen and arms and have been crying more than usual."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about a week."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known liver disease or history of alcohol consumption?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any known liver disease and I do not consume alcohol."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent abdominal pain or have you been exposed to any potential toxins or infections?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't experienced any recent abdominal pain, and there's no mention of exposure to potential toxins or infections."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of liver or gallbladder diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "There's no information provided about any family history of liver or gallbladder diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hepatitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Alagille syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Hepatitis",
+        "singleturn_mcq": "Final Diagnosis: Alagille syndrome",
+        "singleturn_frq": "Final Diagnosis: Hepatitis",
+        "summarized_conversation": "A patient presents with symptoms including yellow discoloration of their skin, loss of appetite, and episodes of vomiting. They report that their urine has darkened while stools appear lighter than usual. They also describe feeling itchy on their abdomen and arms, and note an increase in crying episodes. These symptoms have persisted for approximately one week. The patient denies having any known liver disease, does not consume alcohol, and reports no recent abdominal pain. There has been no exposure to potential toxins or infections and there is no provided information regarding a family history of liver or gallbladder diseases.",
+        "summarized_mcq": "Alagille syndrome",
+        "summarized_frq": "Jaundice due to bile duct obstruction."
+    },
+    "trial_4": {
+        "vignette_mcq": "Biliary cyst",
+        "vignette_frq": "Choledochal cyst",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Gastrointestinal System. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing yellow discoloration of my skin, loss of appetite, and I've vomited a few times. Recently, I've also been feeling itchy on my abdomen and arms and have been crying more than usual."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about a week."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical conditions or have you been diagnosed with any liver diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have been previously healthy with no diagnosed liver diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine or stool recently? "
+            },
+            {
+                "role": "user",
+                "content": "Yes, my urine has gotten darker and my stools are lighter in color."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been in contact with any toxins, or consumed alcohol excessively, or taken any new medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been in contact with any toxins, consumed alcohol, or taken any new medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of liver disease or any other related medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "There is no mention of a family history of liver disease or other related medical conditions in my background."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Hepatitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Alagille syndrome",
+        "multiturn_frq": "**Final Diagnosis:** Hepatitis",
+        "singleturn_mcq": "Final Diagnosis: Alagille syndrome",
+        "singleturn_frq": "**Final Diagnosis:** Hepatitis",
+        "summarized_conversation": "A patient has been experiencing yellow discoloration of the skin, loss of appetite, and episodes of vomiting for about a week. Additionally, the patient reports feeling itchy on the abdomen and arms and an increased frequency of crying. The patient has previously been healthy with no known liver diseases and mentions no recent contact with toxins, alcohol consumption, or new medications. The patient's urine has darkened and stools are lighter in color. There is no family history of liver disease or related medical conditions reported.",
+        "summarized_mcq": "Alagille syndrome",
+        "summarized_frq": "Hepatitis"
+    }
+}

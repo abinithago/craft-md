@@ -1,0 +1,317 @@
+{
+    "case_vignette": "A 62-year-old man comes to the physician because of a 5-day history of swelling in his left arm. Two months ago, he was diagnosed with a deep venous thrombosis in the left calf. He has had a 7-kg (15-lb) weight loss in the last 3 months. He has smoked 1 pack of cigarettes daily for the past 25 years. His only medication is warfarin. Physical examination shows warm edema of the left forearm with overlying erythema and a tender, palpable cord-like structure along the medial arm. His lungs are clear to auscultation bilaterally. Duplex sonography shows thrombosis of the left basilic and external jugular veins. ",
+    "question": "Which  is the most appropriate next step to confirm the underlying diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "CT scan of the abdomen",
+        "vignette_frq": "CT scan of the chest with intravenous contrast.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have swelling in my left arm, it feels warm and there is some redness. Also, there's a tender area along the inside of my arm that feels like a cord."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of recent IV injections or catheter placements in that arm?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of recent IV injections or catheter placements in that arm."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in sensation or movement in your arm, or any fever?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in sensation or movement in my arm, nor do I have a fever."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of blood clotting disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I have a personal history of a deep venous thrombosis in my left calf."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Superficial thrombophlebitis"
+            }
+        ],
+        "multiturn_mcq": "Serum D-dimer level",
+        "multiturn_frq": "Final Diagnosis: Superficial Thrombophlebitis",
+        "singleturn_mcq": "Serum D-dimer level",
+        "singleturn_frq": "Ultrasound of the arm",
+        "summarized_conversation": "The patient presents with swelling in the left arm, which is warm to touch and shows some redness. There is a tender area along the inside of the arm that the patient describes as feeling like a cord. The patient denies any recent intravenous injections or catheter placements in that arm. No changes in sensation or movement in the arm have been noticed by the patient, and there is no fever present. The patient has a personal history of deep venous thrombosis in the left calf.",
+        "summarized_mcq": "Serum D-dimer level",
+        "summarized_frq": "Perform an ultrasound of the left arm to check for deep vein thrombosis."
+    },
+    "trial_1": {
+        "vignette_mcq": "CT scan of the abdomen",
+        "vignette_frq": "CT scan of the chest with intravenous contrast",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing swelling in my left arm for the past five days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any redness, warmth, or pain in the swollen area?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the swollen area on my left forearm is warm and red, and there is a tender area along the inner side of my arm that feels like a cord."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries to your arm or done activities that might strain the arm?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries or done activities that might strain my arm."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent surgeries or been immobile for a prolonged period?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent surgeries or been immobile for a prolonged period."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer or clotting disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I was diagnosed with a deep venous thrombosis in my left calf two months ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Upper extremity deep vein thrombosis (DVT)"
+            }
+        ],
+        "multiturn_mcq": "Serum D-dimer level",
+        "multiturn_frq": "Final Diagnosis: Upper Extremity Deep Vein Thrombosis",
+        "singleturn_mcq": "Serum D-dimer level",
+        "singleturn_frq": "Ultrasound of the left arm",
+        "summarized_conversation": "A patient reports experiencing swelling in the left arm for the past five days. The swollen area on the patient's left forearm is described as warm and red, with a tender area along the inner side of the arm that feels like a cord. The patient denies any recent injuries or activities that might strain the arm. Additionally, there have been no recent surgeries or periods of immobility. Two months ago, the patient was diagnosed with deep venous thrombosis in the left calf.",
+        "summarized_mcq": "Serum D-dimer level",
+        "summarized_frq": "Perform duplex ultrasonography of the left arm."
+    },
+    "trial_2": {
+        "vignette_mcq": "CT scan of the abdomen",
+        "vignette_frq": "CT scan of the chest with contrast",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing swelling in my left arm for the past 5 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any redness, warmth, or pain in the swollen area?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the swollen area is warm, red, and there's a tender cord-like structure that's painful to touch along the inside of my arm."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries, surgeries, or procedures involving that arm?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent injuries, surgeries, or procedures involving that arm."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of cancer or are you currently undergoing any cancer treatments?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any history of cancer or current cancer treatments."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been on any long trips recently where you were immobile for extended periods?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been on any long trips recently where I was immobile for extended periods."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of blood clotting disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of blood clotting disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Superficial thrombophlebitis"
+            }
+        ],
+        "multiturn_mcq": "Serum D-dimer level",
+        "multiturn_frq": "Final Diagnosis: Superficial Thrombophlebitis",
+        "singleturn_mcq": "Serum D-dimer level",
+        "singleturn_frq": "Perform an ultrasound of the left arm.",
+        "summarized_conversation": "A patient has been experiencing swelling in their left arm for the past 5 days. The swollen area is reported to be warm, red, and contains a tender cord-like structure that is painful to touch along the inside of the arm. The patient has not had any recent injuries, surgeries, or procedures on that arm. There is no history of cancer or current cancer treatments, and no recent long-distance travel where the patient was immobile for extended periods. No personal or family history of blood clotting disorders has been reported.",
+        "summarized_mcq": "Serum D-dimer level",
+        "summarized_frq": "Ultrasound of the affected arm."
+    },
+    "trial_3": {
+        "vignette_mcq": "CT scan of the abdomen",
+        "vignette_frq": "CT scan of the chest",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing swelling in my left arm for the past five days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any color change or temperature difference in the swollen arm compared to the other arm?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the swollen area on my left forearm is warm and reddish."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent trauma or injury to the arm, or have you had any recent medical procedures like an IV insertion or blood draw in that arm?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any recent trauma or had any medical procedures like an IV insertion or blood draw in that arm."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any underlying health conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I was diagnosed with deep venous thrombosis two months ago and I am currently taking warfarin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you missed any doses of your medication recently, or have you had any recent changes in your diet that could affect the medication's effectiveness?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't missed any doses of my medication or made any recent changes in my diet that could affect the medication's effectiveness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of cancer or any clotting disorders in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about a history of cancer or clotting disorders in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Superficial thrombophlebitis"
+            }
+        ],
+        "multiturn_mcq": "Serum D-dimer level",
+        "multiturn_frq": "Final Diagnosis: Superficial thrombophlebitis",
+        "singleturn_mcq": "Serum D-dimer level",
+        "singleturn_frq": "Ultrasound of the left arm",
+        "summarized_conversation": "The patient has been experiencing swelling in their left arm for the past five days. The swollen area on the forearm is warm and reddish. The patient reports no recent trauma or any medical procedures like an IV insertion or blood draw in that arm. They were diagnosed with deep venous thrombosis two months ago and are currently taking warfarin. The patient confirms they have not missed any doses of their medication and have not made any recent changes in their diet that could affect the medication's effectiveness. They do not have any information about a history of cancer or clotting disorders in their family.",
+        "summarized_mcq": "Serum D-dimer level",
+        "summarized_frq": "Ultrasound of the affected arm."
+    },
+    "trial_4": {
+        "vignette_mcq": "CT scan of the abdomen",
+        "vignette_frq": "CT scan of the chest with contrast.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing swelling in my left arm for the past 5 days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any redness, warmth, or pain along with the swelling?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my left forearm is warm and red, and there's a painful, cord-like structure that I can feel along the inside of my arm."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent surgeries or injuries to that arm, or has there been a recent period where the arm was immobilized?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any recent surgeries, injuries, or periods where my arm was immobilized."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of blood clotting disorders?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any personal or family history of blood clotting disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any new medications or supplements recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, the only medication I am taking is warfarin."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Superficial thrombophlebitis."
+            }
+        ],
+        "multiturn_mcq": "Serum D-dimer level",
+        "multiturn_frq": "Final Diagnosis: Superficial thrombophlebitis",
+        "singleturn_mcq": "Serum D-dimer level",
+        "singleturn_frq": "Ultrasound of the left arm",
+        "summarized_conversation": "A patient reports swelling in the left arm, which has persisted for the past 5 days. The patient notes that the left forearm is warm and red, and describes a painful, cord-like structure palpable along the inside of the arm. The patient denies any recent surgeries, injuries, or periods of immobilization affecting the arm. Additionally, there is no personal or family history of blood clotting disorders reported. The patient confirms that the only medication currently being taken is warfarin.",
+        "summarized_mcq": "Serum D-dimer level",
+        "summarized_frq": "The most appropriate next step to confirm the underlying diagnosis is to perform a duplex ultrasound of the left arm."
+    }
+}

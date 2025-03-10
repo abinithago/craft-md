@@ -1,0 +1,2 @@
+cpu-bind=MASK - matcha, task  0  0 [935713]: mask 0xff00000000000000000ff00000000000000000 set
+slurmstepd: error: *** JOB 762806 ON matcha CANCELLED AT 2025-02-19T18:53:36 ***

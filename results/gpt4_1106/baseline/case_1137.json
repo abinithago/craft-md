@@ -1,0 +1,397 @@
+{
+    "case_vignette": "A 66-year-old man comes to the physician with a 4-month history of recurrent crusty lesions on the dorsal surface of his hands. When he scrapes off the crusts, they reappear after a few days. The lesions are mildly pruritic and occasionally burn. He works as a landscaper. A photograph of his right hand is shown. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Actinic keratosis",
+        "vignette_frq": "Actinic keratosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have recurrent crusty lesions on the back of my hands that are slightly itchy and sometimes burn."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you had these lesions?"
+            },
+            {
+                "role": "user",
+                "content": "I've had these lesions for about 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these lesions get worse with sun exposure?"
+            },
+            {
+                "role": "user",
+                "content": "The information about whether the lesions worsen with sun exposure was not provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you please confirm if the lesions worsen with sun exposure?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure; I haven't noticed if they get worse with sun exposure."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the lesions heal with scarring or any color change in the skin?"
+            },
+            {
+                "role": "user",
+                "content": "The information about whether the lesions heal with scarring or changes in skin color was not provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you tell me if the lesions heal with scarring or any changes in skin color?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't noticed any scarring or changes in skin color when they heal."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any blistering or open sores associated with these lesions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any blistering or open sores with these lesions."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar skin issues or any other chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of similar skin issues or other chronic illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your close family members had similar skin issues?"
+            },
+            {
+                "role": "user",
+                "content": "The information about my family's medical history regarding similar skin issues was not provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you please let me know if any of your close family members have had similar skin issues?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any close family members having similar skin issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or have you recently started any new medications?"
+            },
+            {
+                "role": "user",
+                "content": "No, I am not taking any medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Actinic Keratosis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Actinic keratosis",
+        "multiturn_frq": "**Final Diagnosis:** Actinic Keratosis",
+        "singleturn_mcq": "Final Diagnosis: Actinic keratosis",
+        "singleturn_frq": "**Final Diagnosis:** Actinic Keratosis",
+        "summarized_conversation": "A patient reports recurrent crusty lesions on the back of their hands which have persisted for about 4 months. These lesions are described as slightly itchy and sometimes cause a burning sensation. The patient has not observed whether the lesions worsen with sun exposure and has not noticed any scarring or changes in skin color upon healing. Furthermore, the patient confirms that there have been no occurrences of blistering or open sores associated with these lesions. There is no personal or familial history of similar skin issues or other chronic illnesses, and the patient is not currently taking any medications.",
+        "summarized_mcq": "Actinic keratosis",
+        "summarized_frq": "Actinic keratosis"
+    },
+    "trial_1": {
+        "vignette_mcq": "Actinic keratosis",
+        "vignette_frq": "Actinic keratosis.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have recurrent crusty lesions on the back of my hands that are a bit itchy and sometimes burn."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of eczema, allergies, or other skin conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have a history of eczema, allergies, or other skin conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if exposure to sunlight worsens or triggers the lesions?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't specifically noticed if exposure to sunlight worsens or triggers the lesions."
+            },
+            {
+                "role": "assistant",
+                "content": "Are the lesions only on the back of your hands or have they appeared on other parts of your body as well?"
+            },
+            {
+                "role": "user",
+                "content": "The lesions are only on the back of my hands."
+            },
+            {
+                "role": "assistant",
+                "content": "Do any of your family members have similar skin issues or any other known skin conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, my family members do not have similar skin issues or any other known skin conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been using any new skincare products, soaps, or been in contact with chemicals that might cause irritation?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't been using any new skincare products, soaps, or been in contact with any chemicals that might cause irritation."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Actinic Keratosis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Actinic keratosis",
+        "multiturn_frq": "**Final Diagnosis:** Actinic Keratosis",
+        "singleturn_mcq": "Final Diagnosis: Actinic keratosis",
+        "singleturn_frq": "**Final Diagnosis:** Actinic Keratosis",
+        "summarized_conversation": "A patient reports recurrent crusty lesions on the backs of the hands, which have been present for about four months. These lesions are described as slightly itchy and occasionally produce a burning sensation. The patient denies any history of eczema, allergies, or other skin conditions and states that there is no known trigger related to sunlight exposure, as it has not been specifically observed. The lesions are localized exclusively to the backs of the hands. There are no similar issues reported among family members, nor do they have other known skin conditions. Additionally, the patient mentions not using any new skincare products, soaps, or having contact with chemicals that could contribute to skin irritation.",
+        "summarized_mcq": "Actinic keratosis",
+        "summarized_frq": "Actinic keratosis"
+    },
+    "trial_2": {
+        "vignette_mcq": "Actinic keratosis",
+        "vignette_frq": "Actinic keratosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having these crusty patches on the backs of my hands that keep coming back even after I scrape them off. They are a bit itchy and sometimes they burn."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these patches appear anywhere else on your body besides the backs of your hands?"
+            },
+            {
+                "role": "user",
+                "content": "No, the patches only appear on the backs of my hands."
+            },
+            {
+                "role": "assistant",
+                "content": "Are these patches red or inflamed around the crusty area?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not mention any redness or inflammation around the crusty areas."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been in contact with any harsh chemicals or experienced increased exposure to sunlight recently?"
+            },
+            {
+                "role": "user",
+                "content": "As a landscaper, I work outdoors, so I have been exposed to sunlight."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of skin conditions like eczema, psoriasis, or other dermatological disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not include any details about a personal or family history of skin conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Actinic Keratosis."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Actinic keratosis",
+        "multiturn_frq": "**Final Diagnosis:** Actinic keratosis.",
+        "singleturn_mcq": "Final Diagnosis: Actinic keratosis",
+        "singleturn_frq": "**Final Diagnosis:** Actinic Keratosis",
+        "summarized_conversation": "A patient, who works as a landscaper, has been experiencing crusty patches on the backs of his hands for approximately four months. These patches are recurrent, itchy, and sometimes produce a burning sensation. They are only found on the backs of his hands, with no redness or inflammation described around the crusty areas. The patient frequently works outdoors, exposing him to sunlight. There is no personal or family history of skin conditions mentioned in the patient's account.",
+        "summarized_mcq": "Actinic keratosis",
+        "summarized_frq": "Actinic keratosis"
+    },
+    "trial_3": {
+        "vignette_mcq": "Actinic keratosis",
+        "vignette_frq": "Actinic keratosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have these crusty spots on the backs of my hands that keep coming back every few days after I scrape them off, and they are a bit itchy and sometimes burn."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed these crusty spots appear anywhere else on your body or just on the backs of your hands?"
+            },
+            {
+                "role": "user",
+                "content": "Just on the backs of my hands."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any existing medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any existing medical conditions or medications."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or any known skin diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned anything about my family having similar symptoms or any known skin diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the crusty spots resolve completely when you scrape them off or do you see any changes in the skin underneath?"
+            },
+            {
+                "role": "user",
+                "content": "When I scrape off the crusts, they just reappear after a few days; I didn't mention any changes in the skin underneath."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Actinic Keratosis."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Actinic keratosis",
+        "multiturn_frq": "**Final Diagnosis:** Actinic keratosis.",
+        "singleturn_mcq": "Final Diagnosis: Actinic keratosis",
+        "singleturn_frq": "**Final Diagnosis:** Actinic keratosis.",
+        "summarized_conversation": "A patient reports experiencing crusty spots on the backs of their hands that consistently reappear every few days after being scraped off. The crusty spots have been present for about 4 months, and are described as itchy and sometimes burning. The condition is localized just on the backs of the hands. The patient has not reported any existing medical conditions or medication use. There is no mention of similar symptoms in the family or known skin diseases. When the crusts are scraped off, the patient reports that they reappear after a few days, with no changes noted in the skin underneath.",
+        "summarized_mcq": "Actinic keratosis",
+        "summarized_frq": "Actinic keratosis"
+    },
+    "trial_4": {
+        "vignette_mcq": "Actinic keratosis",
+        "vignette_frq": "Actinic keratosis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have recurrent crusty lesions on the back of my hands that keep coming back even after I scrape them off, and they are mildly itchy and sometimes burn."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if these lesions get worse with exposure to sunlight?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed if they get worse with sunlight.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of skin cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any personal or family history of skin cancers."
+            },
+            {
+                "role": "assistant",
+                "content": "Do these lesions bleed when you scrape them off?"
+            },
+            {
+                "role": "user",
+                "content": "No, they do not bleed when I scrape them off."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been taking any new medications or been diagnosed with any other medical conditions recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't started any new medications or been diagnosed with any other medical conditions recently."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for 4 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Actinic Keratosis"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Actinic keratosis",
+        "multiturn_frq": "Final Diagnosis: Actinic Keratosis",
+        "singleturn_mcq": "Final Diagnosis: Actinic keratosis",
+        "singleturn_frq": "**Final Diagnosis:** Actinic keratosis",
+        "summarized_conversation": "A patient has been experiencing recurrent crusty lesions on the back of their hands for four months. The lesions are mildly itchy and sometimes burn, they also reoccur even after being scraped off. The patient denies any worsening of the lesions with sun exposure. They have no personal or family history of skin cancers and the lesions do not bleed when scraped off. Additionally, the patient has not started any new medications nor been diagnosed with any new medical conditions recently.",
+        "summarized_mcq": "Actinic keratosis",
+        "summarized_frq": "Actinic keratosis"
+    }
+}

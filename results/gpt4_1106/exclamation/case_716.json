@@ -1,0 +1,381 @@
+{
+    "case_vignette": "A 56-year-old woman comes to the physician because of a 2-week history of fatigue and painless bruising over her arms and trunk! She has also had several episodes of nosebleeds that resolved with compression after a few minutes! She recently completed treatment for a urinary tract infection! She has had no changes in her weight! She has type 2 diabetes mellitus and hypertension! Her last menstrual cycle was 5 years ago! She does not smoke or drink alcohol! Home medications include metformin, amlodipine, and enalapril! Her vital signs are within normal limits! Physical examination shows pale conjunctivae! There are ecchymoses and petechiae over the upper extremities, chest, and back! There is no lymphadenopathy! The remainder of the physical examination is unremarkable! Laboratory studies show:\nHemoglobin 8!7 mg/dL\nLeukocyte count 1100/mm3\nPlatelet count 54,000/mm3\nReticulocyte count 0!1%\nMean corpuscular volume 93 \u03bcm3\nSerum\nTotal bilirubin 1!1 mg/dL\nLDH 80 U/L\n",
+    "question": "Which  is most likely to confirm the diagnosis?\"",
+    "trial_0": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "Hi! I've been experiencing fatigue, painless bruising over my arms and trunk, and several episodes of nosebleeds that stop after a few minutes when I press on them."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 2 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history or any chronic conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus and hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started any new medications or changed your existing medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not started any new medications or changed my existing ones recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of blood disorders or cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not sure about my family history regarding blood disorders or cancers."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other abnormal bleeding like in your gums, or blood in your urine or stool?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any other abnormal bleeding like in my gums, or blood in my urine or stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently had any infections or illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently completed treatment for a urinary tract infection."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Idiopathic Thrombocytopenic Purpura (ITP)"
+            }
+        ],
+        "multiturn_mcq": "Bone marrow biopsy",
+        "multiturn_frq": "Final Diagnosis: Immune Thrombocytopenic Purpura (ITP)",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "Final Diagnosis: Acute Myeloid Leukemia (AML)",
+        "summarized_conversation": "A patient reports experiencing fatigue, painless bruising over the arms and trunk, as well as several episodes of nosebleeds that cease within a few minutes of pressure. These symptoms have persisted for approximately two weeks. The patient has a medical history of type 2 diabetes mellitus and hypertension. They have not undertaken any recent changes to their medication regime or started any new medications. The patient does not have knowledge of any family history related to blood disorders or cancers. Moreover, there are no noticeable symptoms of abnormal bleeding such as bleeding gums, or blood in the urine or stool. However, the patient recently completed treatment for a urinary tract infection.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Complete blood count (CBC) with platelet count and peripheral blood smear."
+    },
+    "trial_1": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue and noticing painless bruising over my arms and trunk. I've also had a few nosebleeds recently."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 2 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as fever, weight loss, or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any fever, weight loss, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous medical illnesses or have you been on any medication recently?"
+            },
+            {
+                "role": "user",
+                "content": "I have type 2 diabetes and hypertension, and I recently completed treatment for a urinary tract infection. My medications include metformin, amlodipine, and enalapril."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of bleeding disorders, cancer, or hematological diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have any information about my family history regarding bleeding disorders, cancer, or hematological diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently had any blood tests or investigations done for your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have had some laboratory tests done recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Could you please share the results of those laboratory tests?"
+            },
+            {
+                "role": "user",
+                "content": "My hemoglobin is 8.7 mg/dL, leukocyte count is 1100/mm3, platelet count is 54,000/mm3, and reticulocyte count is 0.1%."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Aplastic Anemia."
+            }
+        ],
+        "multiturn_mcq": "Bone marrow biopsy",
+        "multiturn_frq": "**Final Diagnosis:** Aplastic Anemia",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "Final Diagnosis: Acute Lymphoblastic Leukemia (ALL)",
+        "summarized_conversation": "A patient has been experiencing fatigue along with painless bruising on their arms and trunk for about 2 weeks. The patient has also suffered a few recent nosebleeds but has had no episodes of fever, weight loss, or night sweats. The patient has a medical history of type 2 diabetes and hypertension and recently completed a treatment course for a urinary tract infection. The medications prescribed include metformin, amlodipine, and enalapril. The patient does not have access to family medical history information concerning bleeding disorders, cancer, or hematological diseases. Some recent laboratory tests reveal the patient's hemoglobin level at 8.7 mg/dL, leukocyte count at 1100/mm3, platelet count at 54,000/mm3, and reticulocyte count at 0.1%.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Bone marrow biopsy"
+    },
+    "trial_2": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing fatigue, painless bruising over my arms and trunk, and several episodes of nosebleeds that resolved with compression after a few minutes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your weight recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in my weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of blood disorders or cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, I can't provide any information about my family history of blood disorders or cancers."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous medical conditions or surgeries?"
+            },
+            {
+                "role": "user",
+                "content": "I have type 2 diabetes mellitus and hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications for your diabetes and hypertension, or any other medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking metformin for diabetes and amlodipine and enalapril for hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or fevers?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently completed treatment for a urinary tract infection."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any blood tests or investigations done recently for your current symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've had some laboratory studies done recently."
+            },
+            {
+                "role": "assistant",
+                "content": "What were the findings from your laboratory studies, if you're aware?"
+            },
+            {
+                "role": "user",
+                "content": "My hemoglobin was 8.7 mg/dL, leukocyte count was 1100/mm3, platelet count was 54,000/mm3, and reticulocyte count was 0.1%."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Aplastic Anemia"
+            }
+        ],
+        "multiturn_mcq": "Bone marrow biopsy",
+        "multiturn_frq": "Final Diagnosis: Aplastic Anemia",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "**Final Diagnosis:** Acute Myeloid Leukemia (AML)",
+        "summarized_conversation": "A patient presents with complaints of fatigue, painless bruising across the arms and trunk, and several episodes of nosebleeds that stopped with compression after a few minutes. The patient denies any recent changes in weight and is unable to provide a family history of blood disorders or cancers due to a lack of information. The patient has a medical history of type 2 diabetes mellitus and hypertension, and is currently taking metformin for diabetes, along with amlodipine and enalapril for hypertension. Furthermore, the patient has recently completed treatment for a urinary tract infection. Recent laboratory studies for this patient indicate a hemoglobin level of 8.7 mg/dL, leukocyte count of 1100/mm3, platelet count of 54,000/mm3, and a reticulocyte count of 0.1%.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Bone marrow biopsy"
+    },
+    "trial_3": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been feeling very tired lately and have noticed some painless bruising over my arms and trunk, along with a few episodes of nosebleeds."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for 2 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of previous medical illnesses or are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus and hypertension. I take metformin, amlodipine, and enalapril for my conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar symptoms or been diagnosed with blood disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about my family members having similar symptoms or blood disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any other symptoms such as fever, weight loss, or night sweats?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had any changes in my weight, fever, or night sweats."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Idiopathic Thrombocytopenic Purpura (ITP)"
+            }
+        ],
+        "multiturn_mcq": "Bone marrow biopsy",
+        "multiturn_frq": "Final Diagnosis: Acute leukemia",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "Final Diagnosis: Acute Lymphoblastic Leukemia (ALL)",
+        "summarized_conversation": "A patient reports feeling very tired and has noticed painless bruising over the arms and trunk, along with a few episodes of nosebleeds. These symptoms have been present for two weeks. The patient has a medical history of type 2 diabetes mellitus and hypertension and is currently taking metformin, amlodipine, and enalapril. The patient does not have any known family history of similar symptoms or blood disorders. Additionally, there have been no changes in weight, presence of fever, or night sweats reported.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Complete blood count (CBC) with differential"
+    },
+    "trial_4": {
+        "vignette_mcq": "Bone marrow biopsy",
+        "vignette_frq": "Bone marrow biopsy",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Hematology and Oncology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fatigue, painless bruising over my arms and trunk, and several episodes of nosebleeds."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for about 2 weeks."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history or chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have type 2 diabetes mellitus and hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications for your diabetes or hypertension?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I am taking metformin for diabetes and amlodipine and enalapril for hypertension."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or fevers?"
+            },
+            {
+                "role": "user",
+                "content": "I recently completed treatment for a urinary tract infection, but I have had no fevers."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of any blood disorders or cancers?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but I don't have any information about my family history of blood disorders or cancers to share."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swollen glands or unexplained weight loss recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any swollen glands or changes in my weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Acute Myeloid Leukemia (AML)"
+            }
+        ],
+        "multiturn_mcq": "Bone marrow biopsy",
+        "multiturn_frq": "**Final Diagnosis:** Acute leukemia",
+        "singleturn_mcq": "Bone marrow biopsy",
+        "singleturn_frq": "Complete blood count (CBC) with differential.",
+        "summarized_conversation": "A patient has reported experiencing fatigue, painless bruising over the arms and trunk, and several episodes of nosebleeds, persisting for about 2 weeks. The patient has a medical history of type 2 diabetes mellitus and hypertension, for which they are taking metformin, amlodipine, and enalapril. Additionally, the patient recently completed treatment for a urinary tract infection but has not had any fevers. The patient has no knowledge to provide regarding a family history of blood disorders or cancers. There have been no observations of swollen glands or changes in weight.",
+        "summarized_mcq": "Bone marrow biopsy",
+        "summarized_frq": "Complete blood count (CBC) and coagulation studies"
+    }
+}

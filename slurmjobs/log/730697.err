@@ -1,0 +1,22 @@
+cpu-bind=MASK - frappe, task  0  0 [2725986]: mask 0xff00000000fe00100000 set
+  0%|          | 0/1333 [00:00<?, ?it/s]  0%|          | 0/1333 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 37, in <module>
+    execute_script(dataset, args)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 22, in execute_script
+    craftmd_gpt(case, path_dir, model_name)
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/craftmd.py", line 29, in craftmd_gpt
+    stats = json.load(f)
+            ^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/healthy-ml/scratch/abinitha/miniconda3/envs/detect/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

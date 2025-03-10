@@ -1,0 +1,203 @@
+{
+    "case_vignette": "A 16-year-old boy is brought to the physician by his mother because of a 4-day history of painful lesions in his mouth. During the past year, he has twice had similar lesions that resolved without treatment after approximately 10 days. He has never had any genital or anal lesions. His mother reports that he has been very stressed over the past month because he is approaching his senior year at high school. He is otherwise healthy and takes no medications. He appears thin. His temperature is 37.6\u00b0C (99.7\u00b0F). A photograph of his oral cavity is shown. The remainder of the examination shows no abnormalities. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Aphthous stomatitis",
+        "vignette_frq": "Recurrent aphthous stomatitis (canker sores)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have painful lesions in my mouth that have been there for four days."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any similar lesions or rashes on other parts of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any lesions on my genitals or anus."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blisters or ulcers elsewhere on your skin, like on your hands or face?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have only noticed the lesions in my mouth."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms such as fever, joint pain, or eye irritation?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any other symptoms like fever, joint pain, or eye irritation."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent stress or illness before these symptoms appeared?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have been very stressed over the past month because I am approaching my senior year at high school."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar mouth lesions in the past?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have had similar lesions in my mouth twice in the past year."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Recurrent Aphthous Stomatitis (Canker Sores)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Aphthous stomatitis",
+        "multiturn_frq": "**Final Diagnosis:** Recurrent Aphthous Stomatitis (Canker Sores)",
+        "singleturn_mcq": "Aphthous stomatitis",
+        "singleturn_frq": "Final Diagnosis: Aphthous ulcers",
+        "summarized_conversation": "A patient reports having painful lesions in their mouth, which have persisted for four days. The patient confirms that there are no lesions on their genitals or anus. The only location of the lesions is in their mouth. The patient does not exhibit any symptoms such as fever, joint pain, or eye irritation. It is noted that the patient has been under significant stress over the past month due to their upcoming senior year in high school. The patient also mentions having experienced similar lesions in their mouth twice in the past year.",
+        "summarized_mcq": "Aphthous stomatitis",
+        "summarized_frq": "Recurrent aphthous stomatitis (canker sores)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Aphthous stomatitis",
+        "vignette_frq": "Recurrent aphthous stomatitis (canker sores)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been dealing with painful sores in my mouth for the past four days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any sores on other parts of your body, such as your skin or genitals?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any sores on other parts of my body, including my genitals."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any other symptoms like fever, joint pain, or eye issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have any other symptoms like fever, joint pain, or eye issues. My temperature is slightly elevated at 99.7\u00b0F."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced similar symptoms in the past or is this the first time?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have experienced similar symptoms twice in the past year, and they resolved on their own after about 10 days each time."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any known autoimmune diseases in your family?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any autoimmune diseases in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Recurrent Aphthous Stomatitis (Canker Sores)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Aphthous stomatitis",
+        "multiturn_frq": "Final Diagnosis: Recurrent Aphthous Stomatitis (Canker Sores)",
+        "singleturn_mcq": "Aphthous stomatitis",
+        "singleturn_frq": "Final Diagnosis: Aphthous ulcers",
+        "summarized_conversation": "A patient has been experiencing painful sores in their mouth for the past four days. The patient notes no presence of sores on other parts of their body, including the genitals, and does not have symptoms such as fever, joint pain, or eye issues. The patient's temperature is slightly elevated at 99.7\u00b0F. The patient has experienced similar symptoms twice in the past year, with each episode resolving on its own after about 10 days. The patient reports no known autoimmune diseases in the family history.",
+        "summarized_mcq": "Aphthous stomatitis",
+        "summarized_frq": "Recurrent aphthous stomatitis (canker sores)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Aphthous stomatitis",
+        "vignette_frq": "Recurrent aphthous stomatitis (canker sores)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have painful sores in my mouth that started four days ago."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 16-year-old boy."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any skin rashes or lesions on other parts of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have never had any genital or anal lesions."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any fever, joint pains, or eye issues recently?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have joint pains or eye issues, but my temperature is slightly elevated at 37.6\u00b0C (99.7\u00b0F)."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar symptoms in the past, or is this the first occurrence?"
+            },
+            {
+                "role": "user",
+                "content": "I have had similar mouth sores twice in the past year, which resolved on their own after about 10 days each time."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of similar symptoms or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any family history of similar symptoms or autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Recurrent Aphthous Stomatitis (Canker Sores)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Aphthous stomatitis",
+        "multiturn_frq": "**Final Diagnosis:** Recurrent Aphthous Stomatitis",
+        "singleturn_mcq": "Final Diagnosis: Aphthous stomatitis",
+        "singleturn_frq": "**Final Diagnosis:** Aphthous ulcers",
+        "summarized_conversation": "A 16-year-old boy presents with painful oral sores that developed four days ago. He reports no history of genital or anal lesions and has no joint pains or eye issues, although he notes a slight fever with a temperature at 37.6\u00b0C (99.7\u00b0F). The boy has experienced similar episodes of mouth sores twice in the past year, each resolving on its own after about 10 days. There is no mentioned family history of similar symptoms or autoimmune diseases in his case.",
+        "summarized_mcq": "Aphthous stomatitis",
+        "summarized_frq": "Recurrent aphthous stomatitis (canker sores)"
+    }
+}

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH --job-name="ll"
+#SBATCH --output=slurmjobs/log/%j.out
+#SBATCH --error=slurmjobs/log/%j.err
+#SBATCH -p healthyml
+#SBATCH -q healthyml-main 
+#SBATCH --cpus-per-task=16
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=50gb
+#SBATCH --gres=gpu:1
+#SBATCH --nodes=1
+#SBATCH --time=2-00:00 
+
+echo "#!/bin/bash"
+mkdir -p slurmjobs/log
+python response.py --attribute="baseline" --input_file='/data/healthy-ml/scratch/abinitha/craft-md/craft-md/data_augmented/baseline.csv'

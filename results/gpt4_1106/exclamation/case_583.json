@@ -1,0 +1,333 @@
+{
+    "case_vignette": "A 16-day-old male newborn is brought to the emergency department because of fever and poor feeding for 2 days! He became very fussy the previous evening and cried for most of the night! He was born at 36 weeks' gestation and weighed 2430 g (5 lb 3 oz)! The pregnancy and delivery were uncomplicated! The mother does not recall any sick contacts at home! He currently weighs 2776 g (6 lb 2 oz)! He appears irritable! His temperature is 38!6\u00b0C (101!5\u00b0F), pulse is 180/min, and blood pressure is 82/51 mm Hg! Examination shows scleral icterus! He becomes more agitated when picked up! There is full range of motion of his neck and extremities! The anterior fontanelle feels soft and flat! Neurologic examination shows no abnormalities! Blood cultures are drawn and fluid resuscitation is initiated! A urinalysis obtained by catheterization shows no abnormalities! ",
+    "question": "Which  is the most appropriate next step in diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Lumbar puncture",
+        "vignette_frq": "Lumbar puncture",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having a fever and poor feeding for the past two days."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient?"
+            },
+            {
+                "role": "user",
+                "content": "I am 16 days old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any difficulty in breathing or changes in cry patterns?"
+            },
+            {
+                "role": "user",
+                "content": "I became very fussy and cried for most of the night yesterday."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any vomiting, diarrhea, or rash?"
+            },
+            {
+                "role": "user",
+                "content": "No, there has been no vomiting, diarrhea, or rash."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the patient have any known medical conditions or had any recent medical interventions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have any known medical conditions and there have been no recent medical interventions."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of immunodeficiency or infectious diseases?"
+            },
+            {
+                "role": "user",
+                "content": "My mother does not recall any sick contacts at home."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Sepsis"
+            }
+        ],
+        "multiturn_mcq": "Lumbar puncture",
+        "multiturn_frq": "**Final Diagnosis:** Neonatal Sepsis",
+        "singleturn_mcq": "Lumbar puncture",
+        "singleturn_frq": "How old is the patient?",
+        "summarized_conversation": "A 16-day-old infant has been experiencing a fever and poor feeding for the past two days. The infant has become very fussy and cried for most of last night. There have been no occurrences of vomiting, diarrhea, or rash. The infant has no known medical conditions and there have been no recent medical interventions. The mother does not recall any sick contacts at home.",
+        "summarized_mcq": "Lumbar puncture",
+        "summarized_frq": "Urinalysis and urine culture."
+    },
+    "trial_1": {
+        "vignette_mcq": "Lumbar puncture",
+        "vignette_frq": "Lumbar puncture",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having a fever and poor feeding for the last two days."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient?"
+            },
+            {
+                "role": "user",
+                "content": "The patient is a 16-day-old newborn."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the baby have any rash, jaundice, or difficulty breathing?"
+            },
+            {
+                "role": "user",
+                "content": "There is no mention of rash or difficulty breathing, but the baby does have scleral icterus, which indicates jaundice."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the baby had any vomiting, diarrhea, or changes in activity level?"
+            },
+            {
+                "role": "user",
+                "content": "The baby has not had any vomiting or diarrhea, but he appears irritable and has been crying a lot."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the baby been tested for any infections or seen a doctor since these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, blood cultures have been drawn and fluid resuscitation has been initiated in the emergency department."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Sepsis"
+            }
+        ],
+        "multiturn_mcq": "Lumbar puncture",
+        "multiturn_frq": "Final Diagnosis: Neonatal sepsis.",
+        "singleturn_mcq": "Lumbar puncture",
+        "singleturn_frq": "How old is the patient?",
+        "summarized_conversation": "The patient, a 16-day-old newborn, has been experiencing a fever and poor feeding for the past two days. Currently, there are no indications of a rash or difficulty in breathing; however, the newborn does present with scleral icterus, suggesting jaundice. Although there has been no vomiting or diarrhea, the baby appears irritable and has been crying frequently. Blood cultures have been drawn, and fluid resuscitation has begun in the emergency department.",
+        "summarized_mcq": "Lumbar puncture",
+        "summarized_frq": "Perform a lumbar puncture to evaluate for possible neonatal sepsis or meningitis."
+    },
+    "trial_2": {
+        "vignette_mcq": "Lumbar puncture",
+        "vignette_frq": "Lumbar puncture",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever and poor feeding for the last two days."
+            },
+            {
+                "role": "assistant",
+                "content": "What is the age of the patient?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 16-day-old newborn."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the baby experienced any vomiting, diarrhea, or changes in activity level?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any vomiting or diarrhea, but I have been very fussy and irritable, especially last night."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the baby been jaundiced or noticed any changes in skin color?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there are signs of jaundice, as indicated by the yellowing of the whites of my eyes."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any issues during pregnancy or at birth, especially infections or complications?"
+            },
+            {
+                "role": "user",
+                "content": "No, the pregnancy and delivery were uncomplicated."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Sepsis"
+            }
+        ],
+        "multiturn_mcq": "Lumbar puncture",
+        "multiturn_frq": "Final Diagnosis: Neonatal Sepsis",
+        "singleturn_mcq": "Lumbar puncture",
+        "singleturn_frq": "How old is the patient?",
+        "summarized_conversation": "A patient, a 16-day-old newborn, has been experiencing fever and poor feeding for the last two days. The newborn has not had any vomiting or diarrhea but has been very fussy and irritable, particularly during the previous night. There are signs of jaundice, as evident from the yellowing of the whites of the eyes. The pregnancy and delivery were reported to be uncomplicated.",
+        "summarized_mcq": "Lumbar puncture",
+        "summarized_frq": "Perform a sepsis workup including blood culture, urinalysis, and lumbar puncture, and start empirical antibiotic therapy. Also, check total and direct bilirubin levels."
+    },
+    "trial_3": {
+        "vignette_mcq": "Lumbar puncture",
+        "vignette_frq": "Lumbar puncture",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever and poor feeding for the past 2 days, and I've been very fussy and crying a lot, especially last night."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 16 days old."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any change in bowel movements or urine output?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there was no mention of any changes in my bowel movements or urine output."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any signs of a rash or skin changes?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no signs of a rash or skin changes."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of genetic or hereditary diseases?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no family history of genetic or hereditary diseases mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed if the soft spot on the baby's head appears sunken or bulging?"
+            },
+            {
+                "role": "user",
+                "content": "The soft spot on the head, or anterior fontanelle, feels soft and flat."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Sepsis"
+            }
+        ],
+        "multiturn_mcq": "Lumbar puncture",
+        "multiturn_frq": "Final Diagnosis: Neonatal sepsis",
+        "singleturn_mcq": "Lumbar puncture",
+        "singleturn_frq": "Final Diagnosis: Neonatal sepsis",
+        "summarized_conversation": "A patient, aged 16 days, has been experiencing fever and poor feeding for the past two days, becoming highly fussy and crying frequently, particularly last night. There is no mention of any changes in bowel movements or urine output. Additionally, there are no signs of a rash or skin changes. There is no family history of genetic or hereditary diseases. The anterior fontanelle feels soft and flat.",
+        "summarized_mcq": "Lumbar puncture",
+        "summarized_frq": "Perform a sepsis workup including blood, urine, and cerebrospinal fluid cultures."
+    },
+    "trial_4": {
+        "vignette_mcq": "Lumbar puncture",
+        "vignette_frq": "Lumbar puncture",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing fever and poor feeding for the past 2 days."
+            },
+            {
+                "role": "assistant",
+                "content": "How old is the patient?"
+            },
+            {
+                "role": "user",
+                "content": "I am 16 days old."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the baby been vomiting or showing signs of irritability?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I appear irritable and I become more agitated when picked up."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any rashes or changes to the skin that you've noticed?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no rashes or changes to my skin mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any exposure to sick contacts or family members with recent illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, my mother does not recall any sick contacts at home."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the baby had any seizures or unusual movements?"
+            },
+            {
+                "role": "user",
+                "content": "No, there are no abnormalities on my neurological examination."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Sepsis"
+            }
+        ],
+        "multiturn_mcq": "Lumbar puncture",
+        "multiturn_frq": "Final Diagnosis: Neonatal Sepsis",
+        "singleturn_mcq": "Lumbar puncture",
+        "singleturn_frq": "How old is the patient?",
+        "summarized_conversation": "The patient, a 16-day-old infant, has been experiencing fever and poor feeding for the past 2 days. The infant appears irritable and becomes more agitated when picked up. There are no rashes or changes to the skin reported. The mother does not recall any sick contacts at home, and there are no abnormalities noted on the infant's neurological examination.",
+        "summarized_mcq": "Lumbar puncture",
+        "summarized_frq": "Obtain blood, urine, and cerebrospinal fluid cultures and start empirical antibiotic therapy."
+    }
+}

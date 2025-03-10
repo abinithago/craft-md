@@ -1,0 +1,197 @@
+{
+    "case_vignette": "A group of investigators is evaluating the diagnostic properties of a new blood test that uses two serum biomarkers, dityrosine and N\u03b5-carboxymethyl-lysine, for the clinical diagnosis of autism spectrum disorder (ASD) in children. The test is considered positive only if both markers are found in the serum. 50 children who have been diagnosed with ASD based on established clinical criteria and 50 children without the disorder undergo testing. The results show:\nDiagnosis of ASD No diagnosis of ASD\nTest positive 45 15\nTest negative 5 35\n",
+    "question": "Which  is the specificity of this new test?\"",
+    "trial_0": {
+        "vignette_mcq": "70%",
+        "vignette_frq": "70%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am not experiencing any symptoms myself; rather, I am discussing a situation involving children diagnosed with autism spectrum disorder and their participation in a study for a blood test."
+            },
+            {
+                "role": "assistant",
+                "content": "What specific symptoms or behaviors related to autism spectrum disorder are observed in these children?"
+            },
+            {
+                "role": "user",
+                "content": "I do not have specific details on the individual symptoms or behaviors of the children involved in the study."
+            },
+            {
+                "role": "assistant",
+                "content": "Since the children are already diagnosed, and there are no new symptoms mentioned, can you confirm if you are looking for an evaluation based on their existing condition of autism spectrum disorder, or is there another aspect of their health you are concerned about?"
+            },
+            {
+                "role": "user",
+                "content": "The evaluation is based on their existing condition of autism spectrum disorder using a new blood test that detects specific biomarkers."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: 88%",
+        "multiturn_frq": "Final Diagnosis: Autism Spectrum Disorder",
+        "singleturn_mcq": "88%",
+        "singleturn_frq": "What age are the children participating in this study?",
+        "summarized_conversation": "The query concerns children diagnosed with autism spectrum disorder who are participating in a study involving a blood test. The person making the inquiry does not report any symptoms themselves but focuses on the children's condition. The study does not specify individual symptoms or behaviors of the children; rather, it evaluates their diagnosis of autism spectrum disorder using a new blood test that detects specific biomarkers.",
+        "summarized_mcq": "88%",
+        "summarized_frq": "The specificity of the test refers to its ability to correctly identify those without the condition; however, without specific data or results provided in the query, the specificity of this new blood test cannot be determined."
+    },
+    "trial_1": {
+        "vignette_mcq": "70%",
+        "vignette_frq": "70%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am not personally experiencing any symptoms; I am here to discuss the results of a recent test related to autism spectrum disorder."
+            },
+            {
+                "role": "assistant",
+                "content": "What were the specific findings or results of the autism spectrum disorder test?"
+            },
+            {
+                "role": "user",
+                "content": "The test was positive for 45 children diagnosed with autism spectrum disorder and for 15 children without the diagnosis. It was negative for 5 children diagnosed with ASD and 35 children without the disorder."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have concerns about the accuracy or interpretation of this test for autism spectrum disorder?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there are concerns about the accuracy because there are both false positives and false negatives in the test results."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: 88%",
+        "multiturn_frq": "Final Diagnosis: Autism Spectrum Disorder",
+        "singleturn_mcq": "88%",
+        "singleturn_frq": "What is the age of the patient related to the autism spectrum disorder test results?",
+        "summarized_conversation": "The individual is not personally experiencing any symptoms; the concern today revolves around the results of a recent test related to autism spectrum disorder. The test yielded positive results for 45 children diagnosed with autism spectrum disorder and for 15 children without the diagnosis. However, it was negative for 5 children diagnosed with ASD and 35 children without the disorder. There are concerns about the accuracy because the test results included both false positives and false negatives.",
+        "summarized_mcq": "70%",
+        "summarized_frq": "Specificity = 70%"
+    },
+    "trial_2": {
+        "vignette_mcq": "70%",
+        "vignette_frq": "70%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not experiencing any symptoms myself; I'm just discussing a case study about autism spectrum disorder."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a specific aspect or characteristic of autism spectrum disorder you are studying in this case?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the case study is focusing on evaluating a new blood test that measures specific biomarkers for diagnosing autism spectrum disorder in children."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Autism Spectrum Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Autism Spectrum Disorder",
+        "multiturn_frq": "Final Diagnosis: Autism Spectrum Disorder",
+        "singleturn_mcq": "Final Diagnosis: Autism Spectrum Disorder",
+        "singleturn_frq": "Final Diagnosis: Autism Spectrum Disorder",
+        "summarized_conversation": "The individual is not experiencing any symptoms; they are discussing a case study about autism spectrum disorder. Specifically, the case study focuses on evaluating a new blood test that measures specific biomarkers for diagnosing autism spectrum disorder in children.",
+        "summarized_mcq": "88%",
+        "summarized_frq": "The specificity of the test refers to its ability to correctly identify those who do not have the condition."
+    },
+    "trial_3": {
+        "vignette_mcq": "70%",
+        "vignette_frq": "70%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not facing any symptoms today; I am here because I have been diagnosed with autism spectrum disorder (ASD) based on established clinical criteria."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Autism Spectrum Disorder (ASD)",
+        "multiturn_frq": "Final Diagnosis: Autism Spectrum Disorder (ASD)",
+        "singleturn_mcq": "Final Diagnosis: Autism Spectrum Disorder (ASD)",
+        "singleturn_frq": "Final Diagnosis: Autism Spectrum Disorder (ASD)",
+        "summarized_conversation": "The patient presents with no symptoms today; the visit is due to a diagnosis of autism spectrum disorder (ASD), which was based on established clinical criteria.",
+        "summarized_mcq": "88%",
+        "summarized_frq": "The specificity of the test is not specified in the provided information."
+    },
+    "trial_4": {
+        "vignette_mcq": "70%",
+        "vignette_frq": "70%",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I am not experiencing symptoms myself; I'm here to discuss a study related to the diagnosis of autism spectrum disorder using a new blood test."
+            },
+            {
+                "role": "assistant",
+                "content": "What age group does the study focus on for diagnosing autism spectrum disorder?"
+            },
+            {
+                "role": "user",
+                "content": "The study focuses on children."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Autism Spectrum Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Autism Spectrum Disorder",
+        "multiturn_frq": "Final Diagnosis: Autism Spectrum Disorder",
+        "singleturn_mcq": "88%",
+        "singleturn_frq": "As an AI developed for diagnosis and consultation, I focus on direct patient care and symptoms, and I don't have access to latest research trials or their specific results. Would you like to share more details about the study you're discussing?",
+        "summarized_conversation": "The individual here is not experiencing any symptoms; rather, they are addressing a new research study concentrating on the diagnosis of autism spectrum disorder in children through an innovative blood test.",
+        "summarized_mcq": "88%",
+        "summarized_frq": "The specificity of this new test is not provided in the provided information."
+    }
+}

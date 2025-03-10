@@ -1,0 +1,317 @@
+{
+    "case_vignette": "A 5-week-old infant born at 36 weeks' gestation is brought to the physician for a well-child examination. Her mother reports that she previously breastfed her for 15 minutes every 2 hours but now feeds her for 40 minutes every 4 hours. The infant has six wet diapers and two stools daily. She currently weighs 3500 g (7.7 lb) and is 52 cm (20.4 in) in length. Vital signs are with normal limits. Cardiopulmonary examination shows a grade 4/6 continuous murmur heard best at the left infraclavicular area. ",
+    "question": "After confirming the diagnosis via echocardiography, which  is the most appropriate next step in management of this patient?",
+    "trial_0": {
+        "vignette_mcq": "Indomethacin infusion",
+        "vignette_frq": "Begin treatment with indomethacin or ibuprofen to close the patent ductus arteriosus.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a loud heart murmur that can be heard continuously."
+            },
+            {
+                "role": "assistant",
+                "content": "Has this murmur been diagnosed recently or have you had it for a while?"
+            },
+            {
+                "role": "user",
+                "content": "It was identified during my recent well-child examination."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience any shortness of breath, fatigue, or difficulty in feeding?"
+            },
+            {
+                "role": "user",
+                "content": "I do not experience any difficulty in feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 weeks old."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of congenital heart defects or other genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of congenital heart defects or other genetic disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Patent Ductus Arteriosus"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Patent Ductus Arteriosus",
+        "multiturn_frq": "**Final Diagnosis:** Patent Ductus Arteriosus",
+        "singleturn_mcq": "Surgical ligation",
+        "singleturn_frq": "Has the heart murmur been evaluated with an echocardiogram yet?",
+        "summarized_conversation": "A 5-week-old patient was found to have a loud heart murmur that is continuously heard. This finding was made during a recent well-child examination. The patient does not experience any difficulty in feeding. There is no known family history of congenital heart defects or other genetic disorders in the patient's family.",
+        "summarized_mcq": "Indomethacin infusion",
+        "summarized_frq": "Refer to a pediatric cardiologist."
+    },
+    "trial_1": {
+        "vignette_mcq": "Indomethacin infusion",
+        "vignette_frq": "Initiate prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a very loud heart murmur that can be heard continuously."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the murmur been present since birth or did it develop later?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette doesn't specify when the murmur started, whether it was since birth or developed later."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any history of bluish discoloration of the skin, lips, or nails?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no mention of bluish discoloration of the skin, lips, or nails."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the child tire easily or have difficulty feeding?"
+            },
+            {
+                "role": "user",
+                "content": "The infant feeds for 40 minutes every 4 hours, which is longer than before, but there's no specific mention of tiring easily or difficulty feeding."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the child have a history of frequent respiratory infections or wheezing?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no mention of frequent respiratory infections or wheezing."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there a history of heart problems in the family?"
+            },
+            {
+                "role": "user",
+                "content": "The vignette does not provide information about any family history of heart problems."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Patent Ductus Arteriosus"
+            }
+        ],
+        "multiturn_mcq": "Surgical ligation",
+        "multiturn_frq": "Final Diagnosis: Patent Ductus Arteriosus",
+        "singleturn_mcq": "Surgical ligation",
+        "singleturn_frq": "Final Diagnosis: Patent Ductus Arteriosus (PDA)",
+        "summarized_conversation": "A patient reports a very loud heart murmur that is audible continuously. It is not specified in the vignette when the murmur began, whether it has been present since birth or developed later. The patient doesn't exhibit any bluish discoloration of the skin, lips, or nails. The infant, related to the patient, now feeds for 40 minutes every 4 hours, which is longer than previously noted; however, there's no specific mention of the infant tiring easily or having difficulty feeding. The vignette also does not report frequent respiratory infections or wheezing in the infant. Additionally, there is no information provided regarding any family history of heart problems in the patient's case.",
+        "summarized_mcq": "Surgical ligation",
+        "summarized_frq": "Begin treatment with indomethacin or ibuprofen to promote closure of the patent ductus arteriosus."
+    },
+    "trial_2": {
+        "vignette_mcq": "Indomethacin infusion",
+        "vignette_frq": "Initiate prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a continuous loud heart murmur heard best at the left lower part of my collarbone area."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 5-week-old infant."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your child seem to tire more easily or have difficulty feeding?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I used to breastfeed every 2 hours, but now I feed every 4 hours and for a longer duration of 40 minutes each time."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any bluish discoloration of the skin, particularly around the lips or fingertips?"
+            },
+            {
+                "role": "user",
+                "content": "No, there hasn't been any bluish discoloration of the skin mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your child have any difficulty in breathing or any sweating during feeds?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of difficulty in breathing or sweating during feeds."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Patent Ductus Arteriosus"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Patent Ductus Arteriosus",
+        "multiturn_frq": "Final Diagnosis: Patent Ductus Arteriosus",
+        "singleturn_mcq": "Surgical ligation",
+        "singleturn_frq": "Does the murmur change with body position or breathing?",
+        "summarized_conversation": "The patient, a 5-week-old infant, displays a continuous loud heart murmur, best heard at the left lower part of the collarbone area. Initially, the infant was breastfeeding every 2 hours, but the routine has changed to feeding every 4 hours, with each session lasting approximately 40 minutes. There are no reports of bluish skin discoloration. Additionally, there is no mention of the infant experiencing difficulty breathing or excessive sweating during feeds.",
+        "summarized_mcq": "Indomethacin infusion",
+        "summarized_frq": "Refer to a pediatric cardiologist for evaluation and potential intervention."
+    },
+    "trial_3": {
+        "vignette_mcq": "Indomethacin infusion",
+        "vignette_frq": "Initiate prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a noticeable heart murmur, described as a continuous sound rated at 4 out of 6 in intensity, that is most apparent above my left lower collarbone area."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any episodes of rapid breathing, feeding difficulty, or failure to gain weight?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced rapid breathing, feeding difficulty, or failure to gain weight."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of infections, such as endocarditis, or any other medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of infections like endocarditis or any other medical conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family been diagnosed with congenital heart disease or other heart-related issues?"
+            },
+            {
+                "role": "user",
+                "content": "The information about family history of congenital heart disease or other heart-related issues is not provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Patent Ductus Arteriosus (PDA)"
+            }
+        ],
+        "multiturn_mcq": "Surgical ligation",
+        "multiturn_frq": "Final Diagnosis: Patent Ductus Arteriosus",
+        "singleturn_mcq": "Surgical ligation",
+        "singleturn_frq": "Has the child had any issues with sweating, poor feeding, or failure to thrive?",
+        "summarized_conversation": "A patient presents with a noticeable heart murmur, described as a continuous sound with an intensity rated at 4 out of 6. The murmur is most apparent above the patient's left lower collarbone area. The patient has not experienced rapid breathing, feeding difficulty, or failure to gain weight. The patient does not have a history of infections like endocarditis or any other medical conditions. There is no information provided on the family history of congenital heart disease or other heart-related issues.",
+        "summarized_mcq": "Surgical ligation",
+        "summarized_frq": "Refer to a pediatric cardiologist."
+    },
+    "trial_4": {
+        "vignette_mcq": "Indomethacin infusion",
+        "vignette_frq": "Begin prostaglandin E1 infusion.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have a heart murmur that can be heard quite loudly."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 5 weeks old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any difficulty feeding or show signs of fatigue or excessive sweating during feeding?"
+            },
+            {
+                "role": "user",
+                "content": "My mother mentioned that I now feed for a longer period than before."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any instance of bluish discoloration of the skin, particularly on the lips and fingers?"
+            },
+            {
+                "role": "user",
+                "content": "No, there has been no bluish discoloration of the skin."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any tests like an echocardiogram performed to assess your heart?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't had any tests like an echocardiogram performed."
+            },
+            {
+                "role": "assistant",
+                "content": "Does anyone in your family have a history of heart problems or genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of heart problems or genetic disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Ventricular Septal Defect (VSD)"
+            }
+        ],
+        "multiturn_mcq": "Prostaglandin E1 infusion",
+        "multiturn_frq": "Final Diagnosis: Ventricular Septal Defect",
+        "singleturn_mcq": "Indomethacin infusion",
+        "singleturn_frq": "What is your age and sex?",
+        "summarized_conversation": "A patient, who is 5 weeks old, presents with a heart murmur that is quite audible. The mother of the patient has noted that the child now feeds for longer periods than previously. There has been no bluish discoloration of the skin observed. The patient has not undergone any diagnostic tests such as an echocardiogram. Additionally, there is no known family history of heart problems or genetic disorders reported.",
+        "summarized_mcq": "Indomethacin infusion",
+        "summarized_frq": "Refer the patient to a pediatric cardiologist for further evaluation and management."
+    }
+}

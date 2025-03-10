@@ -1,0 +1,10 @@
+cpu-bind=MASK - cortado, task  0  0 [2286742]: mask 0xff00000000ff00000000 set
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/script.py", line 2, in <module>
+    from src.utils import get_choices
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/utils.py", line 2, in <module>
+    from .models import call_gpt3_api, call_gpt4_api
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/src/models.py", line 8, in <module>
+    azure_endpoint=openai.api_base)
+                   ^^^^^^^^^^^^^^^
+AttributeError: module 'openai' has no attribute 'api_base'. Did you mean: 'api_type'?

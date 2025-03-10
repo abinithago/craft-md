@@ -1,0 +1,2 @@
+cpu-bind=MASK - boba, task  0  0 [2995203]: mask 0xff00000000000001fe000000 set
+  0%|          | 0/250 [00:00<?, ?it/s]slurmstepd: error: *** JOB 734545 ON boba CANCELLED AT 2025-02-11T15:33:40 ***

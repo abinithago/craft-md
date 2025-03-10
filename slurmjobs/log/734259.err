@@ -1,0 +1,4 @@
+cpu-bind=MASK - frappe, task  0  0 [3952221]: mask 0xc03f000100c03e set
+usage: runscript.py [-h]
+                    [--attribute {exclamation,gender,lowercase,no_gender,typo,uppercase,whitespace}]
+runscript.py: error: argument --attribute: invalid choice: 'baseline' (choose from 'exclamation', 'gender', 'lowercase', 'no_gender', 'typo', 'uppercase', 'whitespace')

@@ -1,0 +1,325 @@
+{
+    "case_vignette": "An 8-year-old girl is brought to the emergency department because of a 2-day history of an intermittent, diffuse abdominal pain. She has also had a nonpruritic rash on her legs and swelling of her ankles for 1 week. Two weeks ago, she had a sore throat, which was treated with oral amoxicillin. Examination of the lower extremities shows non-blanching, raised erythematous papules. The ankle joints are swollen and warm, and their range of motion is limited by pain. Laboratory studies show a platelet count of 450,000/mm3. Test of the stool for occult blood is positive. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Leukocytoclastic vasculitis",
+        "vignette_frq": "Henoch-Sch\u00f6nlein purpura (HSP)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent and diffuse abdominal pain for the past two days, a rash on my legs, and swelling in my ankles for the past week."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of similar symptoms in the past or any chronic illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "No, I don't have a history of similar symptoms or any chronic illnesses."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your urine, such as blood or dark color?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't noticed any changes in my urine."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of autoimmune diseases or kidney issues?"
+            },
+            {
+                "role": "user",
+                "content": "I'm not aware of any family history of autoimmune diseases or kidney issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Are the symptoms you are experiencing associated with any specific activities or do they occur randomly?"
+            },
+            {
+                "role": "user",
+                "content": "The symptoms occur randomly."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Henoch-Sch\u00f6nlein Purpura (HSP)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Leukocytoclastic vasculitis",
+        "multiturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein purpura",
+        "singleturn_mcq": "Leukocytoclastic vasculitis",
+        "singleturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein purpura",
+        "summarized_conversation": "The patient has been experiencing intermittent and diffuse abdominal pain over the past two days, accompanied by a rash on their legs and swelling in their ankles that has persisted for a week. The patient reports no history of similar symptoms or chronic illnesses, and has not observed any changes in their urine. Furthermore, there is no known family history of autoimmune diseases or kidney issues. The symptoms appear randomly.",
+        "summarized_mcq": "Leukocytoclastic vasculitis",
+        "summarized_frq": "Henoch-Sch\u00f6nlein purpura (HSP)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Leukocytoclastic vasculitis",
+        "vignette_frq": "Henoch-Sch\u00f6nlein purpura (HSP)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing intermittent stomach pain for 2 days, a rash on my legs, and swelling in my ankles for a week."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any recent changes in your urine, like foaminess or blood?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes like that in my urine."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any joint pain or stiffness, and if so, which joints are affected?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my ankle joints are swollen, warm, and painful, and it hurts to move them."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or illnesses?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a sore throat two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of autoimmune or rheumatologic diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know about my family history of autoimmune or rheumatologic diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your skin, such as new rashes, apart from your legs?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any new rashes apart from the ones on my legs."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Henoch-Sch\u00f6nlein Purpura (HSP)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Leukocytoclastic vasculitis",
+        "multiturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein purpura (HSP)",
+        "singleturn_mcq": "Leukocytoclastic vasculitis",
+        "singleturn_frq": "Final Diagnosis: Henoch-Sch\u00f6nlein Purpura",
+        "summarized_conversation": "A patient reports having intermittent stomach pain for 2 days, a rash on their legs, and swelling in their ankles for a week. The patient has not noticed any changes in their urine. They confirm that their ankle joints are swollen, warm, and painful, and it hurts to move them. The patient experienced a sore throat two weeks ago. They are unaware of any family history of autoimmune or rheumatologic diseases. The patient has not noted any new rashes apart from those on their legs.",
+        "summarized_mcq": "Leukocytoclastic vasculitis",
+        "summarized_frq": "Henoch-Sch\u00f6nlein purpura (HSP)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Leukocytoclastic vasculitis",
+        "vignette_frq": "Henoch-Sch\u00f6nlein purpura (HSP)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing intermittent abdominal pain for the past 2 days, a rash on my legs, and swelling of my ankles for a week."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any joint pain or stiffness, especially in the morning?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my ankle joints are swollen, warm, and moving them is painful."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any recent changes in your urine, like blood or foaminess?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any changes in my urine."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any fevers or weight loss recently?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned having fevers or weight loss recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a personal or family history of autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently started any new medications or experienced changes in existing medication regimes?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently took oral amoxicillin for a sore throat I had two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Henoch-Sch\u00f6nlein purpura (HSP)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Leukocytoclastic vasculitis",
+        "multiturn_frq": "**Final Diagnosis:** Serum sickness-like reaction",
+        "singleturn_mcq": "Final Diagnosis: Leukocytoclastic vasculitis",
+        "singleturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein purpura",
+        "summarized_conversation": "A patient reports experiencing intermittent abdominal pain for the past 2 days, along with a rash on the legs and swelling of the ankles that has persisted for a week. The patient confirms that the ankle joints are swollen, warm, and that moving them is painful. The patient has not noted any changes in urine, nor has there been mention of recent fevers or weight loss. Additionally, there is no personal or family history of autoimmune diseases mentioned. The patient recently took oral amoxicillin for a sore throat approximately two weeks ago.",
+        "summarized_mcq": "Leukocytoclastic vasculitis",
+        "summarized_frq": "Henoch-Sch\u00f6nlein purpura (HSP)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Leukocytoclastic vasculitis",
+        "vignette_frq": "Henoch-Sch\u00f6nlein purpura (HSP)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing intermittent abdominal pain for the past two days, a rash on my legs, and swelling of my ankles for a week."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your gender?"
+            },
+            {
+                "role": "user",
+                "content": "I am an 8-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of recent upper respiratory infection or sore throat in the past few weeks?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a sore throat two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with a chronic illness?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there's no information provided about my family's health history or similar symptoms in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Henoch-Sch\u00f6nlein Purpura (HSP)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Leukocytoclastic vasculitis",
+        "multiturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein Purpura (HSP)",
+        "singleturn_mcq": "Final Diagnosis: Leukocytoclastic vasculitis",
+        "singleturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein Purpura",
+        "summarized_conversation": "A patient reports experiencing intermittent abdominal pain over the past two days, presenting with a rash on the legs and swelling of the ankles ongoing for a week. The patient is an 8-year-old girl who recalls having a sore throat two weeks prior. There is no information provided regarding the family's health history or any similar symptoms noted amongst family members.",
+        "summarized_mcq": "Leukocytoclastic vasculitis",
+        "summarized_frq": "Henoch-Sch\u00f6nlein purpura (HSP)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Leukocytoclastic vasculitis",
+        "vignette_frq": "Henoch-Sch\u00f6nlein purpura (HSP)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Rheumatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing intermittent, diffuse abdominal pain for the past 2 days and a rash on my legs along with swelling of my ankles for 1 week."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am an 8-year-old girl."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any recent changes in your urine, such as a darker color or blood?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't noticed any changes in my urine."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of joint pain or arthritis?"
+            },
+            {
+                "role": "user",
+                "content": "No, I do not have a history of joint pain or arthritis."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent infections or been ill before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I had a sore throat two weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with any autoimmune or connective tissue diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know of any family members with similar symptoms or diagnosed with autoimmune or connective tissue diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Henoch-Sch\u00f6nlein purpura (HSP)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Leukocytoclastic vasculitis",
+        "multiturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein purpura (HSP)",
+        "singleturn_mcq": "Leukocytoclastic vasculitis",
+        "singleturn_frq": "**Final Diagnosis:** Henoch-Sch\u00f6nlein Purpura (HSP)",
+        "summarized_conversation": "A patient presents with symptoms including intermittent, diffuse abdominal pain for the past two days and a rash on her legs accompanied by ankle swelling for one week. The patient is an 8-year-old girl. There have been no noticeable changes in her urine. The patient does not have a history of joint pain or arthritis. Two weeks prior, she experienced a sore throat. There is no known family history of similar symptoms or diagnoses related to autoimmune or connective tissue diseases.",
+        "summarized_mcq": "Leukocytoclastic vasculitis",
+        "summarized_frq": "Henoch-Sch\u00f6nlein purpura (HSP)"
+    }
+}

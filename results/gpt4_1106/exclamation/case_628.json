@@ -1,0 +1,349 @@
+{
+    "case_vignette": "A 50-year-old woman comes to the physician because of blisters on her forearm that appeared 3 days ago! She also reports pain in her left cheek when eating and pain during sexual intercourse for the past week! She has not been sick for the past 6 months! She has started hiking in the woods on the weekends with her son a couple months ago but has been careful to avoid poison ivy! She has a history of hypertension and osteoarthritis! She recently started taking captopril and stopped taking meloxicam 2 weeks ago! She has a family history of pernicious anemia and Graves' disease! The patient's vital signs are within normal limits! Examination reveals multiple, flaccid blisters on the volar surface of the forearm and ulcers on the buccal, gingival, and vulvar mucosa! The epidermis on the forearm separates when the skin is lightly stroked! The total body surface area involvement of the blisters is estimated to be 10%! The remainder of the examination shows no abnormalities! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Pemphigus vulgaris",
+        "vignette_frq": "Pemphigus vulgaris",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have blisters on my forearm, pain in my left cheek when eating, and pain during sexual intercourse."
+            },
+            {
+                "role": "assistant",
+                "content": "When did these symptoms start appearing?"
+            },
+            {
+                "role": "user",
+                "content": "The blisters on my forearm appeared 3 days ago, and the pain in my left cheek and during sexual intercourse started a week ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent illness or fever?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been sick for the past 6 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and osteoarthritis."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently on any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently started taking captopril and stopped taking meloxicam 2 weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any recent injury or trauma to your forearm where the blisters appeared?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have been careful to avoid things like poison ivy while hiking in the woods."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a family history of any skin or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I have a family history of pernicious anemia and Graves' disease, but no specific skin or autoimmune diseases mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Bullous pemphigoid."
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Behcet disease",
+        "multiturn_frq": "**Final Diagnosis:** Pemphigus Vulgaris",
+        "singleturn_mcq": "Final Diagnosis: Behcet disease.",
+        "singleturn_frq": "**Final Diagnosis:** Beh\u00e7et's disease",
+        "summarized_conversation": "The patient presented with blisters on the forearm, which appeared 3 days ago, and has been experiencing pain in the left cheek during eating and pain during sexual intercourse, which both started a week ago. The patient reported having neither been sick in the past 6 months nor having any recent contacts with irritants such as poison ivy during woodland hikes. The patient has a medical history of hypertension and osteoarthritis. Recently, the patient started on captopril and discontinued meloxicam 2 weeks prior. There is a family history of pernicious anemia and Graves' disease, but no family records of specific skin or autoimmune diseases.",
+        "summarized_mcq": "Pemphigus vulgaris",
+        "summarized_frq": "Stevens-Johnson Syndrome"
+    },
+    "trial_1": {
+        "vignette_mcq": "Pemphigus vulgaris",
+        "vignette_frq": "Pemphigus vulgaris",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have blisters on my forearm and I'm experiencing pain in my left cheek when I eat and pain during sexual intercourse."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you had these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have had these symptoms for about 3 days now."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been in contact with any new substances or exposed to any new products before the symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been in contact with any new substances or exposed to new products; I've just started hiking in the woods recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous medical history that might be related to these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of hypertension and osteoarthritis, but nothing directly related to these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any other family members experienced similar symptoms or is there any relevant family medical history you're aware of?"
+            },
+            {
+                "role": "user",
+                "content": "My family has a history of pernicious anemia and Graves' disease, but no one has had similar symptoms to what I'm experiencing."
+            },
+            {
+                "role": "assistant",
+                "content": "Do the blisters on your forearm appear in a cluster and is the pain on your cheek associated with any rash or blisters?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, the blisters on my forearm appear in a cluster, and there are ulcers on my cheek's mucosa which might be associated with the pain."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Herpes Simplex Virus (HSV) infection"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Behcet disease",
+        "multiturn_frq": "**Final Diagnosis:** Beh\u00e7et's disease.",
+        "singleturn_mcq": "Final Diagnosis: Behcet disease",
+        "singleturn_frq": "Final Diagnosis: Herpes Simplex Virus",
+        "summarized_conversation": "A patient presents reporting blisters on their forearm and experiencing pain in the left cheek while eating, as well as pain during sexual intercourse. These symptoms have been present for approximately three days. The patient denies contact with any new substances or exposure to new products; however, they have recently started hiking in the woods. The patient has a medical history of hypertension and osteoarthritis, though there appears to be no direct connection to the current symptoms. The family history includes pernicious anemia and Graves' disease, but no similar symptoms have been reported by family members. Upon closer examination, the blisters on the forearm appear in a cluster, and there are ulcers present on the mucosa of the cheek, which may be associated with the pain described.",
+        "summarized_mcq": "Behcet disease",
+        "summarized_frq": "Herpes simplex virus (HSV) infection."
+    },
+    "trial_2": {
+        "vignette_mcq": "Pemphigus vulgaris",
+        "vignette_frq": "Pemphigus vulgaris",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have blisters on my forearm, pain in my left cheek when eating, and pain during sexual intercourse."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about 3 days to a week."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any triggers that worsen your symptoms or any relationship between your symptoms and consuming specific foods or activities?"
+            },
+            {
+                "role": "user",
+                "content": "No specific triggers related to food or activities have been noticed, although I started hiking in the woods recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any past medical history or allergies we should be aware of?"
+            },
+            {
+                "role": "user",
+                "content": "I have hypertension and osteoarthritis, and I recently changed my medications."
+            },
+            {
+                "role": "assistant",
+                "content": "What medications have you recently started taking?"
+            },
+            {
+                "role": "user",
+                "content": "I recently started taking captopril."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent fever, joint pain, or changes in urine output or color?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not experienced any fever, joint pain, or changes in urine output or color."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Captopril-induced pemphigus foliaceus."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pemphigus vulgaris",
+        "multiturn_frq": "**Final Diagnosis:** Fixed drug eruption",
+        "singleturn_mcq": "Final Diagnosis: Behcet disease",
+        "singleturn_frq": "Final Diagnosis: Herpes Simplex Virus",
+        "summarized_conversation": "A patient reports blisters on their forearm, pain in the left cheek when eating, and pain during sexual intercourse. These symptoms have been present for approximately 3 days to a week. The patient has observed no specific triggers related to food or activities, although they mentioned they started hiking in the woods recently. The patient has a medical history of hypertension and osteoarthritis and has recently changed medications. The patient started taking captopril. The patient does not report any fever, joint pain, or changes in urine output or color.",
+        "summarized_mcq": "Behcet disease",
+        "summarized_frq": "Bullous Pemphigoid"
+    },
+    "trial_3": {
+        "vignette_mcq": "Pemphigus vulgaris",
+        "vignette_frq": "Pemphigus vulgaris",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have blisters on my forearm, pain in my left cheek when eating, and pain during sexual intercourse."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently started taking any new medications or undergone any treatments?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I recently started taking captopril and stopped taking meloxicam 2 weeks ago."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you had the blisters, and are there any other skin changes you\u2019ve noticed?"
+            },
+            {
+                "role": "user",
+                "content": "The blisters on my forearm appeared 3 days ago and the skin separates when lightly stroked."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or existing medical conditions?"
+            },
+            {
+                "role": "user",
+                "content": "I have a history of hypertension and osteoarthritis."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms or been diagnosed with skin-related or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "My family has a history of pernicious anemia and Graves' disease, but no specific mention of skin-related or autoimmune diseases in my family history."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Pemphigus Vulgaris"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pemphigus vulgaris",
+        "multiturn_frq": "Final Diagnosis: Pemphigus",
+        "singleturn_mcq": "Final Diagnosis: Behcet disease",
+        "singleturn_frq": "Final Diagnosis: Behcet's Disease",
+        "summarized_conversation": "A patient reports having blisters on their forearm, experiencing pain in their left cheek while eating, and pain during sexual intercourse. The patient has recently started taking captopril and discontinued meloxicam two weeks prior. The blisters on the forearm first appeared three days ago and the skin separates when lightly stroked. The patient has a known medical history of hypertension and osteoarthritis. There is a family history of pernicious anemia and Graves' disease, but no mention of any skin-related or autoimmune diseases in the family history.",
+        "summarized_mcq": "Pemphigus vulgaris.",
+        "summarized_frq": "Pemphigus"
+    },
+    "trial_4": {
+        "vignette_mcq": "Pemphigus vulgaris",
+        "vignette_frq": "Pemphigus vulgaris",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Dermatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have blisters on my forearm, pain in my left cheek when eating, and pain during sexual intercourse."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these symptoms for about a week."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent illnesses or infections, like flu or cold, before these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not been sick for the past 6 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any chronic medical conditions or are you currently taking any medications?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I have hypertension and osteoarthritis, and I recently started taking captopril."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any of your family members had similar symptoms or been diagnosed with a skin condition?"
+            },
+            {
+                "role": "user",
+                "content": "No, my family members have not had similar symptoms or been diagnosed with a skin condition, but there is a history of pernicious anemia and Graves' disease in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in the color of your urine or experienced any joint pains or swelling?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not noticed any changes in the color of my urine or experienced any joint pains or swelling recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Fixed drug eruption"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Pemphigus vulgaris",
+        "multiturn_frq": "**Final Diagnosis:** Stevens-Johnson Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Behcet disease",
+        "singleturn_frq": "Final Diagnosis: Herpes Simplex Virus",
+        "summarized_conversation": "A patient reports having blisters on their forearm, experiencing pain in the left cheek area when eating, and discomfort during sexual intercourse, with these symptoms persisting for approximately a week. The patient confirms not having been ill in the last six months. The patient has a medical history of hypertension and osteoarthritis and has recently commenced the use of captopril. There are no reports of similar symptoms or skin conditions among the patient's family members, although there is a family history of pernicious anemia and Graves' disease. The patient has not observed any changes in urine color or experienced any recent joint pains or swelling.",
+        "summarized_mcq": "Pemphigus vulgaris",
+        "summarized_frq": "Stevens-Johnson syndrome"
+    }
+}

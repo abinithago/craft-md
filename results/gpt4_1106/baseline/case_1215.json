@@ -1,0 +1,341 @@
+{
+    "case_vignette": "A 21-year-old man comes to the military base physician for evaluation of progressive discomfort in his right shoulder for the past 4 months. He joined the military 6 months ago and is part of a drill team. In anticipation of an upcoming competition, he has been practicing rifle drills and firing exercises 8 hours a day. Physical examination shows tenderness to palpation and a firm mass in the superior part of the right deltopectoral groove. Range of motion is limited by pain and stiffness. ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Myositis ossificans",
+        "vignette_frq": "Osteosarcoma of the proximal humerus.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing progressive discomfort in my right shoulder for the past 4 months, along with pain and stiffness that limit my range of motion."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you recently engaged in any activities or suffered from injuries that might have affected your shoulder?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been practicing rifle drills and firing exercises for about 8 hours a day in preparation for a competition."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you find the pain and stiffness to increase specifically after these drills, or is it constant regardless of activity?"
+            },
+            {
+                "role": "user",
+                "content": "The pain and stiffness increase specifically after these drills."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you used any treatments or medications to help alleviate these symptoms? If so, what were they and how effective did you find them?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't used any treatments or medications to alleviate these symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any previous history of joint or muscle-related issues, or is this the first time you have experienced such symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "This is the first time I have experienced such symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Rotator Cuff Tendinitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Acromioclavicular joint separation",
+        "multiturn_frq": "**Final Diagnosis:** Shoulder Impingement Syndrome",
+        "singleturn_mcq": "Final Diagnosis: Acromioclavicular joint separation",
+        "singleturn_frq": "Final Diagnosis: Frozen shoulder (Adhesive capsulitis)",
+        "summarized_conversation": "A patient has been experiencing progressive discomfort in their right shoulder for the past 4 months, accompanied by pain and stiffness that limit their range of motion. The patient reports practicing rifle drills and firing exercises for about 8 hours a day in preparation for a competition, and mentions that the pain and stiffness intensify specifically after these drills. The patient has not used any treatments or medications to alleviate these symptoms. This is the first time the patient has experienced such symptoms.",
+        "summarized_mcq": "Clavicle stress fracture",
+        "summarized_frq": "Rotator cuff tendinitis"
+    },
+    "trial_1": {
+        "vignette_mcq": "Myositis ossificans",
+        "vignette_frq": "Repetitive strain injury (RSI) of the shoulder",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having progressive discomfort in my right shoulder for the past 4 months, and it feels tender when touched. There's also a firm lump in the upper part of the shoulder, and my shoulder movement is limited because it's painful and stiff."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any previous injuries or surgeries to your shoulder?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any previous injuries or surgeries to my shoulder."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced these symptoms in any other parts of your body?"
+            },
+            {
+                "role": "user",
+                "content": "No, I've only experienced these symptoms in my right shoulder."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any family history of cancer or genetic disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about a family history of cancer or genetic disorders."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in weight, fever, or night sweats along with the shoulder issues?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced any changes in weight, fever, or night sweats along with the shoulder issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Has the lump in your shoulder changed in size since you first noticed it?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not provide information about changes in the size of the lump since I first noticed it."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Soft tissue sarcoma"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Myositis ossificans",
+        "multiturn_frq": "Final Diagnosis: Soft tissue sarcoma",
+        "singleturn_mcq": "Final Diagnosis: Myositis ossificans",
+        "singleturn_frq": "Final Diagnosis: Frozen Shoulder",
+        "summarized_conversation": "A patient reports experiencing progressive discomfort in their right shoulder for the past 4 months, accompanied by tenderness upon touch. Furthermore, there is a firm lump in the upper part of the shoulder, contributing to limited shoulder movement due to pain and stiffness. The patient denies any previous injuries or surgeries to their shoulder and has only experienced these symptoms in the right shoulder. The patient has no information on a family history of cancer or genetic disorders, and there have been no changes in weight, fever, or night sweats associated with the shoulder issues. Additionally, no details are provided about any changes in the size of the lump since its initial notice.",
+        "summarized_mcq": "Lipoma",
+        "summarized_frq": "Soft tissue sarcoma"
+    },
+    "trial_2": {
+        "vignette_mcq": "Myositis ossificans",
+        "vignette_frq": "Repetitive strain injury (RSI) or overuse injury",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having progressive discomfort in my right shoulder for the past 4 months, and it's painful and stiff when I try to move it."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you recall any injury to your shoulder or performing any repetitive activities that might have affected it?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I've been practicing rifle drills and firing exercises for 8 hours a day in preparation for an upcoming competition."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the affected shoulder?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't noticed any swelling, redness, or warmth, but there is a firm mass in the upper part of the right shoulder area where the shoulder meets the chest."
+            },
+            {
+                "role": "assistant",
+                "content": "Does this mass seem to change in size or does it cause any other symptoms besides discomfort and stiffness?"
+            },
+            {
+                "role": "user",
+                "content": "The mass does not change in size, and it primarily causes discomfort and limits my shoulder movement due to pain and stiffness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you ever had similar symptoms or masses in any other part of your body before?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have not had similar symptoms or masses in any other part of my body before."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Rotator cuff tendinopathy"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Myositis ossificans",
+        "multiturn_frq": "Final Diagnosis: Rotator cuff tendinopathy",
+        "singleturn_mcq": "Myositis ossificans",
+        "singleturn_frq": "Final Diagnosis: Frozen Shoulder (Adhesive Capsulitis)",
+        "summarized_conversation": "A patient reports experiencing progressive discomfort in their right shoulder for the past four months, describing it as painful and stiff when attempting to move it. The patient has been engaging in rifle drills and firing exercises for 8 hours a day as preparation for an upcoming competition. The patient has not observed any swelling, redness, or warmth in the affected area, but mentions a firm mass in the upper part of the right shoulder where it meets the chest. This mass does not fluctuate in size and primarily causes discomfort, pain, and contributes to limited movement of the shoulder. In relation to past health conditions, the patient confirms no similar symptoms or masses have been experienced in any other parts of the body previously.",
+        "summarized_mcq": "Myositis ossificans",
+        "summarized_frq": "Rotator cuff injury or tendonitis."
+    },
+    "trial_3": {
+        "vignette_mcq": "Myositis ossificans",
+        "vignette_frq": "Repetitive use injury leading to biceps tendonitis.",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having progressive discomfort in my right shoulder for the past 4 months, and it's painful and stiff when I try to move it."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any recent injuries or trauma to your shoulder?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had any injuries or trauma to my shoulder recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience pain or stiffness in any other joints, or is it isolated to your right shoulder?"
+            },
+            {
+                "role": "user",
+                "content": "It's isolated to my right shoulder."
+            },
+            {
+                "role": "assistant",
+                "content": "Do certain motions increase your shoulder pain, like lifting your arm overhead or reaching behind your back?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, certain motions increase the pain, and my range of motion is limited due to pain and stiffness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar issues in the past, or have you been diagnosed with any rheumatologic or orthopedic conditions?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of similar issues or any diagnosed rheumatologic or orthopedic conditions."
+            },
+            {
+                "role": "assistant",
+                "content": "What is your age and do you have any other medical conditions or medications that you're currently taking?"
+            },
+            {
+                "role": "user",
+                "content": "I am 21 years old and I do not have any other medical conditions or medications that I'm taking."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any swelling or visible changes in the appearance of your shoulder joint?"
+            },
+            {
+                "role": "user",
+                "content": "There's a firm mass in the superior part of my right shoulder area, but no other visible changes."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Frozen Shoulder (Adhesive Capsulitis)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Myositis ossificans",
+        "multiturn_frq": "**Final Diagnosis:** Synovial Sarcoma",
+        "singleturn_mcq": "Acromioclavicular joint separation",
+        "singleturn_frq": "Final Diagnosis: Frozen Shoulder (Adhesive Capsulitis)",
+        "summarized_conversation": "A patient reports experiencing progressive discomfort in their right shoulder for the past four months, describing the pain and stiffness as worsening when moving the shoulder. The patient has no recent injuries or trauma to the area, and the discomfort is isolated to the right shoulder. Certain movements exacerbate the patient's pain, and the pain and stiffness limit the patient\u2019s range of motion. The patient has no history of similar issues, nor any diagnosed rheumatologic or orthopedic conditions. The patient is 21 years old and reports no other medical conditions or medications. There is a firm mass in the superior part of the patient's right shoulder area, though no other visible changes are noted.",
+        "summarized_mcq": "Lipoma",
+        "summarized_frq": "Soft tissue sarcoma"
+    },
+    "trial_4": {
+        "vignette_mcq": "Myositis ossificans",
+        "vignette_frq": "Repetitive strain injury (RSI) or muscle strain",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing discomfort in my right shoulder for the past 4 months, it's tender to touch, and I feel pain and stiffness when I try to move it."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you had any injuries to your shoulder or engaged in activities that might have put strain on it before the symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I joined the military 6 months ago and have been practicing rifle drills and firing exercises for about 8 hours a day."
+            },
+            {
+                "role": "assistant",
+                "content": "Does the pain or stiffness get worse at any particular time of day or after certain activities?"
+            },
+            {
+                "role": "user",
+                "content": "The pain and stiffness worsen when I engage in rifle drills and firing exercises."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any swelling, redness, or warmth in the shoulder area?"
+            },
+            {
+                "role": "user",
+                "content": "There's a firm mass in the upper part of my right shoulder area, but no mention of swelling, redness, or warmth."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your shoulder pain or stiffness respond to any pain medications or therapies you may have tried?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned trying any pain medications or therapies for my shoulder pain or stiffness."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any personal or family history of joint problems or autoimmune diseases?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't mentioned any personal or family history of joint problems or autoimmune diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Repetitive Strain Injury"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Myositis ossificans",
+        "multiturn_frq": "**Final Diagnosis:** Repetitive strain injury (RSI)",
+        "singleturn_mcq": "Final Diagnosis: Acromioclavicular joint separation",
+        "singleturn_frq": "**Final Diagnosis:** Rotator cuff tendinitis",
+        "summarized_conversation": "The patient has been experiencing discomfort in their right shoulder for the past four months, characterized by tenderness to touch, and pain and stiffness during movement. The patient enlisted in the military six months ago and has been engaged in rifle drills and firing exercises for approximately 8 hours a day. The symptoms of pain and stiffness exacerbate during these activities. They have noticed a firm mass in the upper part of their right shoulder area, but there is no swelling, redness, or warmth reported. The patient has not tried any pain medications or therapies for this issue. Additionally, there is no mention of any personal or family history of joint problems or autoimmune diseases.",
+        "summarized_mcq": "Myositis ossificans",
+        "summarized_frq": "Repetitive strain injury with possible muscle hypertrophy or myositis."
+    }
+}

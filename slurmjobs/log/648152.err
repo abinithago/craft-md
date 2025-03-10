@@ -1,0 +1,17 @@
+cpu-bind=MASK - frappe, task  0  0 [2305907]: mask 0x1ff00000001ee0000 set
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 36, in <module>
+    execute_script(dataset)
+TypeError: execute_script() missing 1 required positional argument: 'args'
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 36, in <module>
+    execute_script(dataset)
+TypeError: execute_script() missing 1 required positional argument: 'args'
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 36, in <module>
+    execute_script(dataset)
+TypeError: execute_script() missing 1 required positional argument: 'args'
+Traceback (most recent call last):
+  File "/data/healthy-ml/scratch/abinitha/craft-md/craft-md/runscript.py", line 36, in <module>
+    execute_script(dataset)
+TypeError: execute_script() missing 1 required positional argument: 'args'

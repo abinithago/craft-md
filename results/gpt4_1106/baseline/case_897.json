@@ -1,0 +1,397 @@
+{
+    "case_vignette": "A 16-year-old female high school student is brought to the physician by her parents for her repeated behavioral problems at home and school during the past 10 months. Her teachers describe her behavior as uncooperative and disruptive as she persistently refuses to answer questions, insults her teachers, and annoys her classmates on a daily basis. At home, her parents try to address her frequent violations of curfew, but attempts at discussing the issue often result in their daughter losing her temper and screaming at her parents. Her grades have deteriorated over the past year. She has no history of psychiatric illness. On questioning, the patient refuses to answer and frequently disrupts the physician\u2019s conversation with the parents. ",
+    "question": "Which  is the most likely diagnosis in this patient?",
+    "trial_0": {
+        "vignette_mcq": "Oppositional defiant disorder",
+        "vignette_frq": "Oppositional defiant disorder (ODD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having trouble with my temper and I've been uncooperative at school and home."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 16 years old."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleep patterns or changes in your energy levels recently?"
+            },
+            {
+                "role": "user",
+                "content": "The information about my sleep patterns or energy levels isn't mentioned, so I can't provide details on that."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience times of elevated mood or increased activity, followed by periods of depression or low energy?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't experienced those symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been experiencing these behavioral changes for more than 6 months?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, these behavioral changes have been happening for the past 10 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of similar issues in your family?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of psychiatric illness in my family."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Oppositional Defiant Disorder (ODD)"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Oppositional defiant disorder",
+        "multiturn_frq": "**Final Diagnosis:** Oppositional Defiant Disorder",
+        "singleturn_mcq": "Final Diagnosis: Oppositional defiant disorder",
+        "singleturn_frq": "Final Diagnosis: Oppositional Defiant Disorder",
+        "summarized_conversation": "A 16-year-old has been experiencing issues with anger management and has been acting uncooperatively both at school and at home. The individual did not provide details regarding sleep patterns or energy levels and mentioned not having experienced those symptoms. These behavioral changes have been ongoing for the past 10 months. The patient has no family history of psychiatric illness.",
+        "summarized_mcq": "Oppositional defiant disorder",
+        "summarized_frq": "Oppositional defiant disorder (ODD)"
+    },
+    "trial_1": {
+        "vignette_mcq": "Oppositional defiant disorder",
+        "vignette_frq": "Oppositional defiant disorder (ODD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been losing my temper and screaming at my parents when they talk to me about breaking curfew."
+            },
+            {
+                "role": "assistant",
+                "content": "Have any other changes in your mood or behavior been noticed recently?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, my teachers say I've been uncooperative and disruptive in school, not answering questions and insulting teachers."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these changes in mood and behavior?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these changes for the past 10 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any history of mental health issues, or is there a family history of mental health disorders?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of psychiatric illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you started using any new medications or substances, including alcohol or recreational drugs, in the last year?"
+            },
+            {
+                "role": "user",
+                "content": "I haven't started using any new medications or substances."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience changes in your sleep patterns or appetite?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any changes in my sleep patterns or appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any recent major stressors or traumatic events?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any recent major stressors or traumatic events."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Conduct Disorder"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Oppositional defiant disorder",
+        "multiturn_frq": "**Final Diagnosis:** Conduct Disorder",
+        "singleturn_mcq": "Oppositional defiant disorder",
+        "singleturn_frq": "Final Diagnosis: Behavioral issue related to oppositional defiant disorder (ODD)",
+        "summarized_conversation": "The patient has been experiencing increased irritability, resulting in losing their temper and screaming at their parents when discussions about breaking curfew arise. According to the patient's teachers, there has been a noticeable decline in cooperation at school, with the patient being disruptive, not answering questions, and insulting teachers. These behavioral changes have been ongoing for approximately 10 months. The patient reports no history of psychiatric illness nor has there been the introduction of any new medications or substances. Furthermore, there is no mention of changes in the patient's sleep patterns or appetite, nor any recent major stressors or traumatic events.",
+        "summarized_mcq": "Oppositional defiant disorder",
+        "summarized_frq": "Oppositional defiant disorder (ODD)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Oppositional defiant disorder",
+        "vignette_frq": "Oppositional defiant disorder (ODD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having behavioral issues such as uncooperativeness, frequently losing my temper, and being disruptive at home and at school."
+            },
+            {
+                "role": "assistant",
+                "content": "Can you tell me your age and how long you have been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I am 16 years old, and I have been experiencing these symptoms for the past 10 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have there been any recent changes or stressful events in your life when these symptoms started?"
+            },
+            {
+                "role": "user",
+                "content": "No, there have been no recent changes or stressful events mentioned when these symptoms started."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of any mental health issues, or have you been diagnosed with any psychological disorders before these symptoms began?"
+            },
+            {
+                "role": "user",
+                "content": "No, I have no history of psychiatric illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of mental health issues, like mood disorders, anxiety, or behavioral disorders?"
+            },
+            {
+                "role": "user",
+                "content": "The information about my family's history of mental health issues isn't provided."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been using any substances like alcohol, drugs, or medications recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of me using alcohol, drugs, or medications recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any history of a head injury, concussion, or other neurological events recently?"
+            },
+            {
+                "role": "user",
+                "content": "No, there is no mention of a head injury, concussion, or other neurological events recently."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Oppositional Defiant Disorder (ODD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Oppositional defiant disorder",
+        "multiturn_frq": "**Final Diagnosis:** Conduct Disorder",
+        "singleturn_mcq": "Oppositional defiant disorder",
+        "singleturn_frq": "Final Diagnosis: Oppositional Defiant Disorder",
+        "summarized_conversation": "A 16-year-old patient has been experiencing behavioral issues, including uncooperativeness, frequent temper loss, and disruptiveness both at home and at school for the past 10 months. No recent changes or stressful events have been reported that correlate with the onset of these symptoms. There is no personal history of psychiatric illness mentioned, and no information provided about the family's history of mental health issues. The patient has not used alcohol, drugs, or medications recently. There are no recent occurrences of head injury, concussion, or other neurological events reported.",
+        "summarized_mcq": "Oppositional defiant disorder",
+        "summarized_frq": "Oppositional defiant disorder (ODD)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Oppositional defiant disorder",
+        "vignette_frq": "Oppositional defiant disorder (ODD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been uncooperative and disruptive at school, frequently arguing and losing my temper at home, and my grades have gone down."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these changes in behavior and academic performance?"
+            },
+            {
+                "role": "user",
+                "content": "I've been experiencing these issues for the past 10 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have difficulty concentrating or staying focused on tasks either at home or school?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not specify about my concentration or focus issues."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleep patterns or appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any changes in my sleep patterns or appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Are there any known mental health issues in your family history, such as depression, bipolar disorder, or ADHD?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of psychiatric illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant life changes or stressful events in the past year?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided does not mention any significant life changes or stressful events."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you and what is your sex?"
+            },
+            {
+                "role": "user",
+                "content": "I am a 16-year-old female."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Oppositional Defiant Disorder (ODD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Oppositional defiant disorder",
+        "multiturn_frq": "**Final Diagnosis:** Oppositional Defiant Disorder (ODD)",
+        "singleturn_mcq": "Final Diagnosis: Oppositional defiant disorder",
+        "singleturn_frq": "**Final Diagnosis:** Oppositional Defiant Disorder",
+        "summarized_conversation": "A 16-year-old female has been uncooperative and disruptive at school, frequently arguing and losing her temper at home, while her grades have declined. These issues have been persistent for the past 10 months. The information provided does not specify any issues concerning her concentration or focus, nor does it mention any changes in her sleep patterns or appetite. She has no history of psychiatric illness and there have been no significant life changes or stressful events mentioned.",
+        "summarized_mcq": "Oppositional defiant disorder",
+        "summarized_frq": "Oppositional defiant disorder (ODD)"
+    },
+    "trial_4": {
+        "vignette_mcq": "Oppositional defiant disorder",
+        "vignette_frq": "Oppositional defiant disorder (ODD)",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been losing my temper easily and screaming at my parents."
+            },
+            {
+                "role": "assistant",
+                "content": "How long have you been experiencing these symptoms?"
+            },
+            {
+                "role": "user",
+                "content": "I have been experiencing these symptoms for the past 10 months."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any changes in your sleeping patterns or appetite recently?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette doesn't mention any changes in my sleeping patterns or appetite."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a history of mental health issues, or does anyone in your family have similar issues?"
+            },
+            {
+                "role": "user",
+                "content": "I have no history of psychiatric illness."
+            },
+            {
+                "role": "assistant",
+                "content": "Are you currently taking any medications or substances that could affect your mood?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention me taking any medications or substances."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any significant life changes or stressors in the past year?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention any significant life changes or stressors in the past year."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you been feeling sad, hopeless, or losing interest in activities you usually enjoy?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention feelings of sadness, hopelessness, or a loss of interest in activities I usually enjoy."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any periods of feeling extremely happy or energetic that last for several days?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention any periods of feeling extremely happy or energetic that last for several days."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you experienced any episodes where you felt paranoid or believed things that others do not?"
+            },
+            {
+                "role": "user",
+                "content": "The case vignette does not mention experiencing paranoia or having beliefs that others do not share."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Intermittent Explosive Disorder"
+            }
+        ],
+        "multiturn_mcq": "Final Diagnosis: Oppositional defiant disorder",
+        "multiturn_frq": "**Final Diagnosis:** Intermittent Explosive Disorder",
+        "singleturn_mcq": "Oppositional defiant disorder",
+        "singleturn_frq": "Final Diagnosis: Intermittent Explosive Disorder",
+        "summarized_conversation": "A patient reports frequent episodes of losing temper and screaming at parents, having experienced these symptoms for the past 10 months. There are no reported changes in the patient's sleeping patterns or appetite. The patient has no history of psychiatric illness, nor is there any mention of the patient taking medications or substances. There are no significant life changes or stressors noted in the past year. Furthermore, the patient has not reported feelings of sadness, hopelessness, or a loss of interest in usually enjoyable activities. Additionally, there are no periods of feeling extremely happy or energetic lasting several days, nor experiences of paranoia or beliefs that others do not share.",
+        "summarized_mcq": "Oppositional defiant disorder",
+        "summarized_frq": "Intermittent explosive disorder"
+    }
+}

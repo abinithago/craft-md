@@ -1,0 +1,333 @@
+{
+    "case_vignette": "An 18-day-old newborn has difficulty feeding and diarrhea for 2 days! During this period he has vomited after each of his feeds! He was born at 28 weeks' gestation and weighed 1100-g (2-lb 7-oz)! His feeds consist of breast milk and cow milk based-formula! He appears lethargic! His temperature is 36!4\u00b0C (97!5\u00b0F), pulse is 120/min, respirations are 67/min and blood pressure is 70/35 mm Hg! Examination shows diffuse abdominal tenderness; rigidity and guarding are present! Bowel sounds are absent! Test of the stool for occult blood is positive! His hemoglobin concentration is 12!8 g/dL, leukocyte count is 18,000/mm3 and platelet count is 78,000/mm3! An x-ray of the abdomen is shown! ",
+    "question": "Which  is the most likely diagnosis?",
+    "trial_0": {
+        "vignette_mcq": "Necrotizing enterocolitis",
+        "vignette_frq": "Necrotizing enterocolitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have difficulty feeding and diarrhea, and I vomit after each feed. I also feel very tired."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 18 days old."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you experience excessive crying or irritability, especially after feeding?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, I vomit after each of my feeds."
+            },
+            {
+                "role": "assistant",
+                "content": "Is there any family history of gastrointestinal diseases or allergies?"
+            },
+            {
+                "role": "user",
+                "content": "I don't know about any family history of gastrointestinal diseases or allergies."
+            },
+            {
+                "role": "assistant",
+                "content": "Have you noticed any blood in the vomit or stools?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there is blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Allergic colitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Necrotizing enterocolitis",
+        "multiturn_frq": "**Final Diagnosis:** Necrotizing Enterocolitis",
+        "singleturn_mcq": "Final Diagnosis: Hypertrophic pyloric stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Gastroesophageal reflux disease (GERD)",
+        "summarized_conversation": "The patient, an 18-day-old infant, presents with several concerning symptoms: difficulty feeding, diarrhea, and vomiting after each feeding. Additionally, the patient experiences severe fatigue. There is also a presence of blood in the stool. There is no known family history of gastrointestinal diseases or allergies as reported by the guardians.",
+        "summarized_mcq": "Necrotizing enterocolitis",
+        "summarized_frq": "Cow's milk protein allergy."
+    },
+    "trial_1": {
+        "vignette_mcq": "Necrotizing enterocolitis",
+        "vignette_frq": "Necrotizing enterocolitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I have difficulty feeding and diarrhea, and I have been vomiting after each feed. I also feel very tired."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 18 days old."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any fever or change in the color of your stool?"
+            },
+            {
+                "role": "user",
+                "content": "No fever, but there has been blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have any known allergies or have there been any recent changes in your diet or formula?"
+            },
+            {
+                "role": "user",
+                "content": "My feeds consist of breast milk and cow milk-based formula."
+            },
+            {
+                "role": "assistant",
+                "content": "Has anyone in your family had similar symptoms, or is there any family history of digestive problems?"
+            },
+            {
+                "role": "user",
+                "content": "I don't have any information about family history or if anyone else has similar symptoms."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Allergic Colitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cow milk protein allergy",
+        "multiturn_frq": "**Final Diagnosis:** Cow's milk protein allergy",
+        "singleturn_mcq": "Final Diagnosis: Necrotizing enterocolitis",
+        "singleturn_frq": "Final Diagnosis: Gastroenteritis",
+        "summarized_conversation": "A patient presents with several symptoms including difficulty feeding, diarrhea, and vomiting after each feed. The patient, an 18-day-old infant, also experiences significant fatigue. They have no fever, but there has been the presence of blood in their stool. The infant's diet consists of breast milk and cow milk-based formula. There is no available information about the family history or whether anyone else in the family has similar symptoms.",
+        "summarized_mcq": "Cow milk protein allergy",
+        "summarized_frq": "Cow's milk protein allergy (CMPA)"
+    },
+    "trial_2": {
+        "vignette_mcq": "Necrotizing enterocolitis",
+        "vignette_frq": "Necrotizing enterocolitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm having difficulty feeding and diarrhea for 2 days, and I've been vomiting after each feed. I also feel very tired."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 18 days old."
+            },
+            {
+                "role": "assistant",
+                "content": "Were you born full-term or premature?"
+            },
+            {
+                "role": "user",
+                "content": "I was born premature at 28 weeks' gestation."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any fever or change in body temperature?"
+            },
+            {
+                "role": "user",
+                "content": "My temperature is 36.4\u00b0C (97.5\u00b0F), which is normal."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your vomit contain bile (greenish substance)?"
+            },
+            {
+                "role": "user",
+                "content": "The information provided doesn't specify the color of the vomit."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your abdomen been swollen or distended?"
+            },
+            {
+                "role": "user",
+                "content": "The description does not specify if my abdomen is swollen or distended, just that there's tenderness, rigidity, and guarding."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any blood in your stool?"
+            },
+            {
+                "role": "user",
+                "content": "Yes, there has been blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Necrotizing Enterocolitis"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Necrotizing enterocolitis",
+        "multiturn_frq": "**Final Diagnosis:** Necrotizing Enterocolitis",
+        "singleturn_mcq": "Final Diagnosis: Necrotizing enterocolitis",
+        "singleturn_frq": "Final Diagnosis: Gastroenteritis",
+        "summarized_conversation": "A patient presents with several symptoms including difficulty feeding, diarrhea for the past 2 days, and vomiting following each feed. The patient is 18 days old and was born premature at 28 weeks' gestation. The patient reports feeling very tired and having a normal body temperature of 36.4\u00b0C (97.5\u00b0F). The color of the vomit is not specified. There is no mention of the abdomen being swollen or distended, however, there are reports of tenderness, rigidity, and guarding. Additionally, the patient has noticed blood in their stool.",
+        "summarized_mcq": "Necrotizing enterocolitis",
+        "summarized_frq": "Necrotizing Enterocolitis (NEC)"
+    },
+    "trial_3": {
+        "vignette_mcq": "Necrotizing enterocolitis",
+        "vignette_frq": "Necrotizing enterocolitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I've been having difficulty feeding and diarrhea for the past 2 days, and I vomit after each feeding. I also feel very tired."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 18 days old."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your baby been experiencing any fever or changes in stool color or consistency?"
+            },
+            {
+                "role": "user",
+                "content": "No, I haven't had a fever and the color or consistency of my stool wasn't mentioned, but there is blood in my stool."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your baby have any known allergies or have there been any recent changes in diet, such as formula brand or introduction of new foods?"
+            },
+            {
+                "role": "user",
+                "content": "My feeds consist of breast milk and cow milk-based formula, and there have been no recent changes mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your baby have a family history of allergies, immune system disorders, or gastrointestinal diseases?"
+            },
+            {
+                "role": "user",
+                "content": "There is no information provided about a family history of allergies, immune system disorders, or gastrointestinal diseases."
+            },
+            {
+                "role": "assistant",
+                "content": "**Final Diagnosis:** Cow's milk protein allergy."
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Cow milk protein allergy",
+        "multiturn_frq": "**Final Diagnosis:** Cow's milk protein allergy",
+        "singleturn_mcq": "Final Diagnosis: Necrotizing enterocolitis",
+        "singleturn_frq": "Final Diagnosis: Gastroenteritis",
+        "summarized_conversation": "A patient, aged 18 days, has been experiencing difficulty feeding, diarrhea for two days, and vomiting after each feeding. Additionally, the patient feels very tired. There has been no fever reported and no specifics provided regarding the color or consistency of the stool, though blood has been found in the stool. The patient's diet includes breast milk and cow milk-based formula, with no recent changes to this reported. There is no provided information about a family history of allergies, immune system disorders, or gastrointestinal diseases.",
+        "summarized_mcq": "Cow milk protein allergy",
+        "summarized_frq": "Cow's milk protein allergy"
+    },
+    "trial_4": {
+        "vignette_mcq": "Necrotizing enterocolitis",
+        "vignette_frq": "Necrotizing enterocolitis",
+        "multiturn_conversation": [
+            {
+                "role": "system",
+                "content": "You are an AI doctor specializing in Pediatrics and Neonatology. Arrive at a diagnosis of a patient's medical condition. Ask only one question at a time, and it should not be more than 1 line. Continue asking questions until you're 100% confident of the diagnosis. Do not ask the same question multiple times. Ask different questions to cover more information. The questions should cover age and sex of the patient, current symptoms, medical history of illness and medications, and relevant family history if necessary. Keep your questions short and brief to not confuse the patient.  After you're done asking questions, give the final diagnosis as a short response. Do not explain, only give the diagnosis name. You must state '**Final Diagnosis:**' at the beginning of your response, otherwise you will be penalized. You must give only 1 diagnosis otherwise you will be penalized."
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! What symptoms are you facing today?"
+            },
+            {
+                "role": "user",
+                "content": "I'm having difficulty feeding and diarrhea, and I vomit after each feed. I've also been very tired lately."
+            },
+            {
+                "role": "assistant",
+                "content": "How old are you?"
+            },
+            {
+                "role": "user",
+                "content": "I am 18 days old."
+            },
+            {
+                "role": "assistant",
+                "content": "Has there been any presence of blood or bile (greenish substance) in your vomit?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no mention of blood or bile in my vomit."
+            },
+            {
+                "role": "assistant",
+                "content": "Do you have a fever or any signs of dehydration like fewer wet diapers?"
+            },
+            {
+                "role": "user",
+                "content": "My temperature is 97.5\u00b0F, which is not a fever, and there's no specific mention of fewer wet diapers."
+            },
+            {
+                "role": "assistant",
+                "content": "Does your family have a history of any genetic disorders or allergies?"
+            },
+            {
+                "role": "user",
+                "content": "I'm sorry, but there's no information provided about my family history of genetic disorders or allergies."
+            },
+            {
+                "role": "assistant",
+                "content": "Has your stool been unusually smelly, greasy, or floating?"
+            },
+            {
+                "role": "user",
+                "content": "No, there's no mention of my stool being smelly, greasy, or floating."
+            },
+            {
+                "role": "assistant",
+                "content": "Final Diagnosis: Neonatal Gastroesophageal Reflux Disease (GERD)"
+            }
+        ],
+        "multiturn_mcq": "**Final Diagnosis:** Hypertrophic pyloric stenosis",
+        "multiturn_frq": "**Final Diagnosis:** Congenital Heart Disease",
+        "singleturn_mcq": "Final Diagnosis: Hypertrophic pyloric stenosis",
+        "singleturn_frq": "**Final Diagnosis:** Congenital Lactase Deficiency",
+        "summarized_conversation": "A patient, aged 18 days, is experiencing difficulties with feeding and diarrhea, and is vomiting after each feed. The infant has also been feeling very tired lately. The patient reports no blood or bile in the vomit, and the current temperature is 97.5\u00b0F, which is not indicative of a fever. There's no specific mention of a decrease in wet diapers. Additionally, there is no information provided regarding a family history of genetic disorders or allergies, nor any mention of the stool being smelly, greasy, or floating.",
+        "summarized_mcq": "Hypertrophic pyloric stenosis",
+        "summarized_frq": "The most likely diagnosis is pyloric stenosis."
+    }
+}
